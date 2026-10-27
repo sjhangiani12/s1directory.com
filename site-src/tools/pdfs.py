@@ -67,9 +67,12 @@ def make(f):
     with tempfile.TemporaryDirectory() as tmp:
         page = os.path.join(tmp, "p.html")
         open(page, "w").write(page_html(f, doc))
-        r = subprocess.run([CHROME, "--headless=new", f"--user-data-dir={tmp}/c", "--no-pdf-header-footer",
-                            "--allow-file-access-from-files", "--virtual-time-budget=20000",
-                            f"--print-to-pdf={out}", f"file://{page}"], capture_output=True, timeout=600)
+        try:
+            r = subprocess.run([CHROME, "--headless=new", f"--user-data-dir={tmp}/c", "--no-pdf-header-footer",
+                                "--allow-file-access-from-files", "--virtual-time-budget=20000",
+                                f"--print-to-pdf={out}", f"file://{page}"], capture_output=True, timeout=300)
+        except subprocess.TimeoutExpired:
+            return f["slug"], "chrome timed out"
     return f["slug"], None if os.path.exists(out) else f"chrome exit {r.returncode}"
 
 

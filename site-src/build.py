@@ -157,6 +157,7 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap" rel="stylesheet">
 <link rel="preload" href="/assets/PaperMono.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css?v={VERSION}">
+<script defer data-website-id="dfid_NfJaf6nMUivzxFObolXPp" data-domain="s1directory.com" src="https://datafa.st/js/script.js"></script>
 </head>
 <body class="{body_cls}" {body_attrs}>
 <nav class="nav">
@@ -300,8 +301,11 @@ def pdf_url(b):
     """files.s1directory.com/<slug>.pdf, once tools/pdfs.py --upload has put it there."""
     global _PDFS
     if _PDFS is None:
-        path = os.path.join(SRC, ".pdf-cache", "uploaded.txt")
-        _PDFS = set(open(path).read().split()) if os.path.exists(path) else set()
+        _PDFS = set()
+        for name in ("uploaded.txt", "live.txt"):  # live.txt: PDFs already on R2 from an earlier print
+            path = os.path.join(SRC, ".pdf-cache", name)
+            if os.path.exists(path):
+                _PDFS |= set(open(path).read().split())
     return f"https://files.s1directory.com/{b['slug']}.pdf" if b["slug"] in _PDFS else None
 
 
