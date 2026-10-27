@@ -160,7 +160,7 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
   <div class="right"><a class="gh" href="https://github.com/sjhangiani12/s1directory.com">GitHub</a><button class="theme" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"/></svg></button></div>
 </nav>
 {body}
-<footer><span>S1 Directory &middot; A library of tech S-1s.</span><span>Filings from <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. Cover art from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> (CC0).</span></footer>
+<footer><span>Made by <a class="by" href="https://sharanjhangiani.com">Sharan Jhangiani</a> &middot; <a href="https://x.com/sjhangiani12" rel="me">X</a> &middot; <a href="https://linkedin.com/in/sharanjhangiani" rel="me">LinkedIn</a></span><span>Filings from <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. Cover art from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> (CC0). Design inspired by <a href="https://chapterone.com">Chapter One</a>.</span></footer>
 <script src="/assets/app.js?v={VERSION}" defer></script>
 </body>
 </html>

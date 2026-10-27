@@ -83,7 +83,9 @@ index.html, directory/, about/, s1/<company>/, covers/   generated output
 
 ## Credits
 
+- Made by [Sharan Jhangiani](https://sharanjhangiani.com) ([X](https://x.com/sjhangiani12), [LinkedIn](https://linkedin.com/in/sharanjhangiani)).
 - Filings: [SEC EDGAR](https://www.sec.gov/edgar).
 - Cover art: [Art Institute of Chicago](https://www.artic.edu/open-access), public domain (CC0). Each page credits its artwork.
 - Fonts: Newsreader and Paper Mono, both under the SIL Open Font License.
+- Design: inspired by [Chapter One](https://chapterone.com), whose library of founder stories set the look for this one.
 - The essays are short summaries, not investment advice. If you spot an error, [open an issue](https://github.com/sjhangiani12/s1directory.com/issues).

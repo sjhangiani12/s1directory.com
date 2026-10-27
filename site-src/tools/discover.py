@@ -18,6 +18,9 @@ import sys
 import time
 from datetime import date, datetime, timedelta
 
+import threading
+from concurrent.futures import ThreadPoolExecutor
+
 import requests
 
 SRC = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -40,16 +43,27 @@ REGISTRATION = ("S-1", "F-1", "SB-2", "S-1/A", "F-1/A")
 
 
 CACHE = os.path.join(SRC, ".edgar-cache")
+_lock, _last = threading.Lock(), [0.0]
+
+
+def throttle(gap=0.12):
+    with _lock:
+        wait = _last[0] + gap - time.time()
+        if wait > 0:
+            time.sleep(wait)
+        _last[0] = time.time()
 
 
 def get(url, **kw):
     err = None
     for i in range(6):
         try:
+            throttle()
             r = requests.get(url, headers=UA, timeout=30, **kw)
             if r.status_code == 200:
-                time.sleep(0.15)  # SEC asks for at most 10 requests a second
                 return r
+            if r.status_code == 404:
+                break
             err = f"HTTP {r.status_code}"
         except requests.RequestException as ex:
             err = ex
@@ -101,12 +115,30 @@ def all_filings(cik):
     return sub, rows
 
 
+def head_text(url, limit=250_000):
+    """First part of a document only. Prospectuses run 5-15 MB; the price is on the cover page."""
+    for i in range(4):
+        try:
+            throttle()
+            with requests.get(url, headers=UA, timeout=30, stream=True) as r:
+                if r.status_code == 404:
+                    return ""
+                if r.status_code != 200:
+                    raise requests.RequestException(f"HTTP {r.status_code}")
+                buf = b""
+                for chunk in r.iter_content(32_768):
+                    buf += chunk
+                    if len(buf) >= limit:
+                        break
+            return buf.decode("utf-8", "ignore")
+        except requests.RequestException:
+            time.sleep(2 + i * 3)
+    return ""
+
+
 def offer_price(cik, acc, doc):
     url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"
-    try:
-        head = get(url).text[:120000]
-    except Exception:
-        return None
+    head = head_text(url)
     text = re.sub(r"<[^>]+>|&nbsp;|&#160;", " ", head)
     m = re.search(r"(?:initial public offering price|public offering price)[^$]{0,200}\$\s?(\d{1,4}\.\d{2})", text, re.I)
     return float(m.group(1)) if m else None
@@ -127,33 +159,33 @@ def main():
     since = a.since or (datetime.strptime(max(f["date"] for f in known), "%Y%m%d") + timedelta(days=1)).date().isoformat()
     print(f"searching 424B4 filings {since} .. {a.until}", file=sys.stderr)
 
-    seen, out = set(), []
-    hits = sorted(search_424b4(since, a.until), key=lambda h: h["_source"]["file_date"])
-    for h in hits:
-        s = h["_source"]
-        cik = s["ciks"][0]
-        sic = (s.get("sics") or [""])[0]
+    # first 424B4 per company, tech sector codes only
+    seen, todo = set(), []
+    for h in sorted(search_424b4(since, a.until), key=lambda h: h["_source"]["file_date"]):
+        cik = h["_source"]["ciks"][0]
+        sic = (h["_source"].get("sics") or [""])[0]
         if cik in seen or sic not in TECH_SIC:
             continue
         seen.add(cik)
-        if str(int(cik)) in known_ciks:
-            continue
+        if str(int(cik)) not in known_ciks:
+            todo.append(h)
+    print(f"checking {len(todo)} companies", file=sys.stderr, flush=True)
+
+    def check(h):
+        s = h["_source"]
+        cik, sic, fdate = s["ciks"][0], (s.get("sics") or [""])[0], s["file_date"]
         sub, rows = all_filings(cik)
-        fdate = s["file_date"]
         if any(f in ANNUAL and d < fdate for f, d, _ in rows):
-            continue  # already public before this prospectus: a follow-on, not an IPO
+            return None  # already public before this prospectus: a follow-on, not an IPO
         regs = sorted((d, acc) for f, d, acc in rows if f in REGISTRATION[:3] and d <= fdate)
         if not regs:
-            continue
+            return None
         acc, doc = h["_id"].split(":")
         name = clean_name(sub.get("name") or s["display_names"][0])
-        slug = slugify(name)
-        if slug in known_slugs:
-            continue
         reg_acc = regs[0][1]
-        out.append({
+        return {
             "name": name,
-            "slug": slug,
+            "slug": slugify(name),
             "date": fdate.replace("-", ""),
             "sic": sic,
             "ticker": (sub.get("tickers") or [None])[0],
@@ -162,8 +194,17 @@ def main():
             "cik": str(int(cik)),
             "sic_description": sub.get("sicDescription"),
             "prospectus": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}",
-        })
-        print(f"  + {name} ({out[-1]['ticker']}) {fdate} sic {sic}", file=sys.stderr)
+        }
+
+    out, done = [], 0
+    with ThreadPoolExecutor(6) as pool:
+        for r in pool.map(check, todo):
+            done += 1
+            if r and r["slug"] not in known_slugs:
+                out.append(r)
+                print(f"  + {r['name']} ({r['ticker']}) {r['date']} sic {r['sic']}", file=sys.stderr, flush=True)
+            if done % 25 == 0:
+                print(f"  . {done}/{len(todo)} checked, {len(out)} kept", file=sys.stderr, flush=True)
 
     print(json.dumps(out, indent=2))
     if a.write and out:

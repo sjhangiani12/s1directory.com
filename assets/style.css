@@ -351,6 +351,8 @@ img { display: block; max-width: 100%; }
 .about a { text-decoration: underline; text-underline-offset: 3px; }
 footer { padding: 90px var(--gutter) 40px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; color: var(--ink-3); font-size: 13px; }
 footer a:hover { color: var(--ink); }
+footer a.by { color: var(--ink); font: italic 400 16px/1 var(--serif); letter-spacing: -.005em; }
+footer a { text-underline-offset: 3px; }
 
 /* entrance */
 
