@@ -1,0 +1,1736 @@
+[
+  {
+    "slug": "asiainfo-holdings-inc",
+    "display": "AsiaInfo",
+    "space": "Telecom",
+    "founders": [
+      "Edward Tian",
+      "James Ding"
+    ],
+    "founded": 1993,
+    "hq": "Beijing, China",
+    "fate": "Taken private by a CITIC Capital-led group, 2014 (~$890M, as AsiaInfo-Linkage)",
+    "tagline": "Wiring the Middle Kingdom",
+    "dek": "Built the network systems and billing software that carried China's phone companies onto the internet.",
+    "lede": "AsiaInfo began as a small company started by Chinese students who had studied in the United States. By the late 1990s it had become the firm China's state telecom carriers hired to build their internet backbones and the software that ran them. When it filed to go public in early 2000, China had only a few million people online, and investors were hungry for any way to own a piece of what came next.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The founders bet that China would build its internet the way it built roads: fast, at national scale, and through a few large state carriers. Those carriers had money and mandate but little experience with routers, network design, or customer billing. AsiaInfo set out to be the systems integrator in the middle, turning imported hardware into working networks and later writing the operations and billing software that kept them running."
+      },
+      {
+        "heading": "A Bridge Between Markets",
+        "body": "AsiaInfo priced at $24 a share in March 2000 and more than tripled on its first day, one of the last great openings before the dot-com peak broke. The company shifted over the next decade from building networks to selling telecom software. It merged with Linkage Technologies in 2010 to form AsiaInfo-Linkage, and a consortium led by CITIC Capital, including co-founder Edward Tian, took it private in 2014."
+      }
+    ],
+    "cover": {
+      "theme": "a Chinese mountain landscape scroll (a vast country, slowly connected)",
+      "image_id": "ef334713-4300-07e6-3bfa-522290594226",
+      "artwork": "Landscape after Huang Gongwang",
+      "artist": "Wang Yuanqi",
+      "aic_id": 75538,
+      "ink": "#1f2a44",
+      "paper": "#ecdcae",
+      "accent": "#c8102e"
+    }
+  },
+  {
+    "slug": "register-com-inc",
+    "display": "Register.com",
+    "space": "Web Services",
+    "founders": [
+      "Richard Forman",
+      "Peter Forman"
+    ],
+    "founded": 1994,
+    "hq": "New York, NY",
+    "fate": "Acquired by Vector Capital, 2005 (~$200M)",
+    "tagline": "Every Address Has an Owner",
+    "dek": "Sold domain names and the simple web services that came with them to people claiming their place online.",
+    "lede": "In 1999, owning a .com felt like owning land in a city still being drawn. Register.com was one of the first companies allowed to compete with Network Solutions in registering those names, and it moved quickly to make the process friendly for small businesses and ordinary people. It filed to go public in early 2000, when millions of new names were being claimed every year and the land rush looked like it might never end.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The Forman brothers started out running an internet service business in New York and saw that the hardest part for most customers was the first step: getting a name. When the domain registry opened to competition, they bet that a clean, fast storefront for names could become the front door to everything else a small business needed online, from email to hosting to a basic website."
+      },
+      {
+        "heading": "After the Land Rush",
+        "body": "Register.com priced at $24 a share in March 2000. Competition among registrars soon drove name prices down, and the company spent the following years leaning on add-on services to hold its customers. Richard Forman stepped down as chief executive in 2003. In 2005, Vector Capital agreed to buy the company for $7.81 a share in cash, a deal valued at about $200 million."
+      }
+    ],
+    "cover": {
+      "theme": "a city street of addresses (domain names)",
+      "image_id": "8ed7e389-dbe7-ed35-ade2-fe7743943479",
+      "artwork": "New York Street",
+      "artist": "Childe Hassam",
+      "aic_id": 60294,
+      "ink": "#2a2f45",
+      "paper": "#e6d8b8",
+      "accent": "#b5523b"
+    }
+  },
+  {
+    "slug": "onvia-com-inc",
+    "display": "Onvia",
+    "space": "Gov Tech",
+    "founders": [
+      "Glenn Ballman"
+    ],
+    "founded": 1996,
+    "hq": "Seattle, WA",
+    "fate": "Acquired by Deltek, 2017 (~$70M)",
+    "tagline": "The Small Firm at City Hall",
+    "dek": "Started as an online marketplace for small businesses and became a service tracking government contract opportunities.",
+    "lede": "Onvia started in Seattle as a one-stop online shop for small businesses, selling supplies and services to firms too small for a purchasing department. By the time it filed to go public in early 2000, it was also pointing those businesses toward a large and confusing customer: government. Local, state and federal agencies spent huge sums every year, and finding the right bid was mostly a matter of luck and paperwork.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Glenn Ballman, a young Canadian entrepreneur, founded the company in 1996. The bet was that small businesses were badly served online and would gather in one place if someone made buying and selling easier. Over time the most valuable part of that idea proved to be information: knowing which agencies were buying what, and when, so a small firm could compete for public contracts."
+      },
+      {
+        "heading": "From Store to Signal",
+        "body": "Onvia priced at $21 a share in March 2000, just before the dot-com market turned. The broad small-business marketplace did not survive the downturn, and the company narrowed its focus to government procurement data. It spent nearly two decades as a smaller public company selling that intelligence. In 2017 Deltek bought Onvia for $9 a share, about $70 million, and folded it into its GovWin service."
+      }
+    ],
+    "cover": {
+      "theme": "a county courthouse (small business meets government)",
+      "image_id": "5fab9451-c6fe-aa92-8154-0744f71b3eb0",
+      "artwork": "Fairfax Court House, Virginia, with Union Soldiers in Front and on the Roof",
+      "artist": "Mathew Brady",
+      "aic_id": 250313,
+      "ink": "#2e2a24",
+      "paper": "#e6d5b8",
+      "accent": "#2f6690"
+    }
+  },
+  {
+    "slug": "niku-corp",
+    "display": "Niku",
+    "space": "Enterprise Software",
+    "founders": [
+      "Farzad Dibachi"
+    ],
+    "founded": 1998,
+    "hq": "Redwood City, CA",
+    "fate": "Acquired by Computer Associates, 2005 (~$350M)",
+    "tagline": "Scaffolding for Knowledge Work",
+    "dek": "Made software that helped consulting firms and IT departments plan projects, track people, and bill for their time.",
+    "lede": "Niku sold software for a kind of work that factories had long measured and offices mostly had not: projects. Consulting firms, IT departments and service businesses ran on people's hours, but most tracked them in spreadsheets. When Niku filed to go public in early 2000, enterprise software was booming, and the idea of a single system to plan, staff and bill knowledge work sounded like the next big category.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Farzad Dibachi co-founded Niku in 1998 after selling his earlier company, Diba, to Sun Microsystems. The bet was that service organizations needed their own version of the resource-planning systems that manufacturers already used. If a firm could see every project, every person and every hour in one place, it could price work better, staff it faster, and stop losing money on jobs it had already won."
+      },
+      {
+        "heading": "Building Through the Bust",
+        "body": "Niku priced at $24 a share in February 2000 and traded far higher in its first months. The crash that followed hit the company hard, and it spent several years cutting costs and narrowing its focus to IT governance and project portfolio software. The narrower product found steady buyers. In 2005 Computer Associates agreed to buy Niku for $21 a share in cash, about $350 million."
+      }
+    ],
+    "cover": {
+      "theme": "scaffolding around a building (projects under construction)",
+      "image_id": "499a6a87-3523-217c-a8dd-fc6db1363540",
+      "artwork": "Savoy Scaffolding",
+      "artist": "James McNeill Whistler",
+      "aic_id": 29620,
+      "ink": "#3a2e4f",
+      "paper": "#e8dff2",
+      "accent": "#f2a541"
+    }
+  },
+  {
+    "slug": "varsitybooks-com-inc",
+    "display": "VarsityBooks",
+    "space": "Education",
+    "founders": [
+      "Eric Kuhn"
+    ],
+    "founded": 1997,
+    "hq": "Washington, DC",
+    "fate": "Acquired by Follett, 2008",
+    "tagline": "Textbooks Without the Line",
+    "dek": "Sold new college textbooks online at a discount, aiming to beat the campus bookstore on price and convenience.",
+    "lede": "Every semester, college students stood in long lines at the campus bookstore and paid full price for books they would use for four months. VarsityBooks.com set out to fix that from a laptop. When it filed to go public at the start of 2000, online retail was the hottest story in business, and selling textbooks to a captive, wired audience of students looked like an easy win.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The company bet that students would gladly order textbooks online if the price was lower and the books arrived before class. It promised discounts off list price and fast shipping, and it spent heavily on campus marketing to build the brand. The deeper idea was that the campus bookstore, protected for decades by convenience, would lose its hold once ordering online became just as easy."
+      },
+      {
+        "heading": "A Different Kind of Campus",
+        "body": "VarsityBooks priced at $10 a share in February 2000. Deep discounts proved hard to sustain, and the company soon changed course, renamed itself Varsity Group, and began running online bookstores for schools rather than competing with them. It built a modest business serving private high schools and colleges. In 2008 Follett, the large bookstore operator, bought the company for a fraction of its offering price."
+      }
+    ],
+    "cover": {
+      "theme": "a reader with a book (study without the campus line)",
+      "image_id": "46b83440-2d1d-aa12-6e58-5f28e9e755b2",
+      "artwork": "Une Lecture",
+      "artist": "Pierre Paul Prud'hon",
+      "aic_id": 103891,
+      "ink": "#1d3557",
+      "paper": "#f1e4c8",
+      "accent": "#b5651d"
+    }
+  },
+  {
+    "slug": "lendingtree-inc",
+    "display": "LendingTree",
+    "space": "Fintech",
+    "founders": [
+      "Doug Lebda"
+    ],
+    "founded": 1996,
+    "hq": "Charlotte, NC",
+    "fate": "Still public (NASDAQ: TREE)",
+    "tagline": "When Banks Compete for You",
+    "dek": "Let borrowers fill out one loan request online and receive competing offers from several lenders.",
+    "lede": "Getting a mortgage in the 1990s meant visiting banks one by one and hoping the first offer was fair. LendingTree turned that around. A borrower filled out one form, and lenders bid for the loan. When the company filed to go public in early 2000, the idea of a consumer shopping lenders from a kitchen table was new, and the slogan that came to define it was already taking shape.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Doug Lebda founded the company in 1996 in Charlotte, a banking city. His bet was that the internet could flip the loan process so that lenders competed for borrowers instead of the other way around. LendingTree did not lend money itself. It earned fees from lenders for qualified requests, which let it grow without holding loans on its own balance sheet."
+      },
+      {
+        "heading": "Branches of the Tree",
+        "body": "LendingTree priced at $12 a share in February 2000. It grew through the housing boom, and in 2003 IAC bought the company. IAC spun it back out as a separate public company in 2008, during the financial crisis, and Lebda returned to lead it. The business expanded from mortgages into credit cards, personal loans and insurance, and it still trades on Nasdaq under its original ticker."
+      }
+    ],
+    "cover": {
+      "theme": "an apple tree (the lending tree)",
+      "image_id": "7496d859-8c3d-0c3b-350d-1564adbd507b",
+      "artwork": "The Apple Tree",
+      "artist": "Willem Witsen",
+      "aic_id": 160081,
+      "ink": "#1f3a26",
+      "paper": "#bfe6b4",
+      "accent": "#c8553d"
+    }
+  },
+  {
+    "slug": "savvis-communications-corp",
+    "display": "Savvis",
+    "space": "Cloud Infrastructure",
+    "founders": [],
+    "founded": 1995,
+    "hq": "St. Louis, MO",
+    "fate": "Acquired by CenturyLink, 2011 (~$3.2B including debt)",
+    "tagline": "The Plumbing Behind the Screen",
+    "dek": "Ran private networks and data centers for businesses that needed fast, reliable internet connections and hosting.",
+    "lede": "Savvis sold something most people never saw: the private networks and data centers that carried business traffic. Banks, trading firms and large companies needed connections faster and more reliable than the public internet. When Savvis filed to go public in early 2000, it was closely tied to Bridge Information Systems, a financial data company, and infrastructure was where many investors thought the safest internet money lay.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that businesses would pay a premium for a managed network that avoided the congested public exchange points. Savvis routed traffic over its own backbone and ran the data centers where customers placed their servers. It was a capital-heavy business, built on the assumption that demand for bandwidth and hosting would keep rising fast enough to fill the capacity."
+      },
+      {
+        "heading": "Out of the Wreckage",
+        "body": "Savvis priced at $24 a share in February 2000. The telecom bust that followed nearly broke it, and the bankruptcy of Bridge in 2001 added more strain. Savvis survived, bought assets from failed rivals, and grew into a major hosting and early cloud provider. In 2011 CenturyLink bought the company in a deal valued at about $3.2 billion, including debt."
+      }
+    ],
+    "cover": {
+      "theme": "a factory chimney under construction (industrial infrastructure)",
+      "image_id": "ccd8235f-43e8-75e5-8aba-83a7a2b5f104",
+      "artwork": "Factory Building with Chimney Construction",
+      "artist": "Unknown",
+      "aic_id": 33542,
+      "ink": "#2b2b2b",
+      "paper": "#d9d4c7",
+      "accent": "#d1495b"
+    }
+  },
+  {
+    "slug": "via-net-works-inc",
+    "display": "VIA NET.WORKS",
+    "space": "Telecom",
+    "founders": [],
+    "founded": 1997,
+    "hq": "Reston, VA",
+    "fate": "Sold its businesses to Claranet and Interoute, 2005",
+    "tagline": "All Roads Lead Online",
+    "dek": "Bought small internet service providers across Europe and Latin America and combined them into one business provider.",
+    "lede": "In the late 1990s, much of Europe's business internet access was sold by small local providers, each with a few thousand customers. VIA NET.WORKS set out to buy many of them and join them under one name. When it filed to go public in early 2000, the plan seemed simple: buy cheaply, share costs, and sell more services to small and mid-sized firms across many countries.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was a roll-up. Local providers had loyal customers and local knowledge but little scale. By buying them and combining their back offices, VIA hoped to offer hosting, connectivity and other services more cheaply than any single provider could. The company bought firms in several European countries and in Latin America, aiming to become the default internet partner for small businesses."
+      },
+      {
+        "heading": "A Turn in the Road",
+        "body": "VIA priced at $21 a share in February 2000. Integrating so many small companies proved hard, and the market for internet stocks collapsed soon after the offering. The company spent the next years selling units, cutting costs and searching for a buyer. In 2005 it sold most of its operations, with parts going to Claranet and the remainder to Interoute."
+      }
+    ],
+    "cover": {
+      "theme": "travelers on the road (all roads lead online)",
+      "image_id": "e0d8a305-15b0-bdcd-1e83-06d8594a2f7e",
+      "artwork": "On the Road",
+      "artist": "Jules Dupré",
+      "aic_id": 890,
+      "ink": "#2e3320",
+      "paper": "#dfe0b0",
+      "accent": "#9a4f2a"
+    }
+  },
+  {
+    "slug": "emerge-interactive-inc",
+    "display": "eMerge Interactive",
+    "space": "Agtech",
+    "founders": [],
+    "founded": 1994,
+    "hq": "Sebastian, FL",
+    "fate": null,
+    "tagline": "Cattle on the Wire",
+    "dek": "Tried to bring the cattle trade online, then turned to tracking and food-safety technology for the beef industry.",
+    "lede": "Cattle have been bought and sold the same way for generations: at sale barns, through brokers, and on a handshake. eMerge Interactive, a spinout of the incubator XL Vision, set out to put that trade on the internet. When it filed to go public in early 2000, business-to-business marketplaces were the newest craze, and few markets looked as large or as old-fashioned as American beef.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "eMerge began as an imaging technology company before turning to agriculture. The bet was that an online marketplace and better data could make the cattle trade more efficient for ranchers, feedlots and packers. The company bought cattle brokers to bring volume onto its system, and it developed tools to track animals and verify how beef was raised and handled. It was an ambitious plan for an industry built on trust and long relationships."
+      },
+      {
+        "heading": "From Trading to Tracking",
+        "body": "eMerge priced at $15 a share in February 2000. Buying brokerage firms pushed revenue past a billion dollars in 2001, but the trading business lost large sums, and in 2002 the company decided to exit cattle operations. It focused instead on CattleLog, a verification program, and VerifEYE, a meat inspection technology. Weak beef markets after the 2003 mad cow scare made that path difficult too."
+      }
+    ],
+    "cover": {
+      "theme": "a bull (the cattle trade)",
+      "image_id": "ded2fc0d-564a-670a-178e-5acc0af5d823",
+      "artwork": "The Bull",
+      "artist": "Paulus Potter",
+      "aic_id": 72,
+      "ink": "#4a2c17",
+      "paper": "#efd9b4",
+      "accent": "#a4161a"
+    }
+  },
+  {
+    "slug": "firepond-inc",
+    "display": "FirePond",
+    "space": "Enterprise Software",
+    "founders": [],
+    "founded": null,
+    "hq": "Waltham, MA",
+    "fate": "Acquired by Jaguar Technology Holdings, 2003 (~$11.7M)",
+    "tagline": "Sparks Over Still Water",
+    "dek": "Made software that helped manufacturers configure complex products, price them, and generate quotes for buyers.",
+    "lede": "Selling a truck, a tractor or an industrial machine meant choosing from thousands of options, many of which did not work together. FirePond made the software that kept those choices straight, so a salesperson or a buyer on the web could configure a product, see a price, and get a valid quote. When it filed to go public in early 2000, companies were rushing to move their sales online.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "FirePond grew out of an older company in Minnesota that had built configuration tools for manufacturers. The bet was that the web would turn this back-office tool into a front-door one. If customers could configure and price their own orders online, manufacturers could sell more, make fewer mistakes, and spend less on the long back-and-forth of complex sales. It was a practical problem, and FirePond already had paying customers when it filed."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "FirePond priced at $22 a share in February 2000, weeks before the Nasdaq peaked. Spending on e-business software fell steeply the next year, and the company cut staff and faced shareholder lawsuits from the offering period. In 2003 an affiliate of Jaguar Technology Holdings bought FirePond for $3.16 a share in cash, about $11.7 million. The deal ended its run as a public company less than four years after the offering."
+      }
+    ],
+    "cover": {
+      "theme": "fireworks over dark water (fire on a pond)",
+      "image_id": "309bd588-5b4b-8a57-b26c-76d408347567",
+      "artwork": "Fire Works on the Night of the Fourth of July",
+      "artist": "Winslow Homer",
+      "aic_id": 158271,
+      "ink": "#141b33",
+      "paper": "#ffb26b",
+      "accent": "#ff4f1f"
+    }
+  },
+  {
+    "slug": "centra-software-inc",
+    "display": "Centra",
+    "space": "Education",
+    "founders": [
+      "Leon Navickas"
+    ],
+    "founded": 1995,
+    "hq": "Lexington, MA",
+    "fate": "Acquired by Saba, 2006 (~$60M)",
+    "tagline": "A Classroom With No Walls",
+    "dek": "Built virtual classroom software that let companies run live training and meetings over the internet.",
+    "lede": "Corporate training in the 1990s usually meant flying employees to a hotel ballroom. Centra offered another way: a virtual classroom where an instructor could speak, show slides, and take questions from people at their own desks. When it filed to go public in early 2000, e-learning was a hot category, and the idea of live teaching over ordinary internet connections felt almost futuristic.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Leon Navickas founded Centra in 1995 near Boston. The bet was that live, interactive learning could work over the internet if the software handled voice, slides and participation well on slow connections. Companies spent large sums on travel for training, and Centra argued it could cut those costs while reaching more employees, more often, wherever they were. Its customers were mostly large companies with workforces spread across many offices."
+      },
+      {
+        "heading": "Ahead of Its Time",
+        "body": "Centra priced at $14 a share in February 2000. The company kept building its virtual classroom and meeting tools through the downturn, but it faced growing competition from web conferencing firms with simpler products. In 2006 the learning software company Saba acquired Centra in a deal valued at about $60 million. Years later, live online classes became an everyday part of work and school."
+      }
+    ],
+    "cover": {
+      "theme": "a lecture in progress (the classroom, moved online)",
+      "image_id": "c7d83997-7f33-1b89-b17a-7298d66ea789",
+      "artwork": "A Lecture!",
+      "artist": "Hablot Knight Browne",
+      "aic_id": 39235,
+      "ink": "#283618",
+      "paper": "#fefae0",
+      "accent": "#dda15e"
+    }
+  },
+  {
+    "slug": "turnstone-systems-inc",
+    "display": "Turnstone",
+    "space": "Networking",
+    "founders": [],
+    "founded": 1998,
+    "hq": "Santa Clara, CA",
+    "fate": "Liquidated, 2003",
+    "tagline": "A Shorebird on the Copper Line",
+    "dek": "Made equipment that helped phone carriers connect, test and manage DSL broadband lines in central offices.",
+    "lede": "In the late 1990s, phone companies and their new competitors raced to sell DSL, broadband delivered over old copper phone lines. Every line had to be tested and connected by hand in crowded central offices. Turnstone Systems built equipment that automated that work. When it filed to go public at the start of 2000, DSL was spreading fast and its customers were raising money at a remarkable pace.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that the DSL boom would create a bottleneck in the central office, where technicians had to connect and test each copper line. Turnstone's equipment let carriers switch and test lines remotely, saving truck rolls and time. Many of its biggest customers were the competitive local carriers that had sprung up after the Telecommunications Act of 1996. Its fortunes were tied closely to how fast those customers could grow."
+      },
+      {
+        "heading": "When the Tide Went Out",
+        "body": "Turnstone priced at $29 a share in February 2000 and was richly valued at first. Within a year many of the young DSL carriers it served ran out of money and failed, taking much of Turnstone's demand with them. The company decided to wind down rather than chase a shrinking market. Shareholders approved a liquidation, and the company returned its remaining cash in a series of distributions."
+      }
+    ],
+    "cover": {
+      "theme": "shorebirds over moonlit waves (the turnstone)",
+      "image_id": "08d5e18f-00b6-2eac-5b56-707d7ba9272a",
+      "artwork": "Plovers, full moon, and waves",
+      "artist": "Utagawa Hiroshige",
+      "aic_id": 47765,
+      "ink": "#0b2545",
+      "paper": "#a9d6e5",
+      "accent": "#ee964b"
+    }
+  },
+  {
+    "slug": "neoforma-com-inc",
+    "display": "Neoforma",
+    "space": "Health",
+    "founders": [
+      "Wayne McVicker"
+    ],
+    "founded": 1996,
+    "hq": "Santa Clara, CA",
+    "fate": "Acquired by Global Healthcare Exchange, 2006 (~$200M)",
+    "tagline": "Supplies for the Ward",
+    "dek": "Ran an online marketplace and supply chain software for hospitals buying medical products and equipment.",
+    "lede": "Hospitals buy an enormous range of things, from gauze to imaging machines, mostly through paper orders, phone calls and group contracts. Neoforma set out to move that purchasing online. When it filed to go public in early 2000, health care was one of the largest markets the internet had not yet touched, and business-to-business exchanges were promising to strip cost out of entire industries.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Neoforma began in 1996 as a way to help hospitals find medical equipment. The bet grew into something larger: that hospitals, suppliers and distributors would all meet on one electronic exchange. The company signed long agreements with VHA and University HealthSystem Consortium, two large hospital purchasing groups, which gave it volume and also made them major shareholders. Those partnerships brought hospitals onto the system, but they also tied the company closely to two customers."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Neoforma priced at $13 a share in January 2000 and soared in its first months. The broad exchange vision faded with the market, and the company settled into supplying purchasing software and data services to its partner hospitals. In 2006 Global Healthcare Exchange, an industry-backed rival, completed its acquisition of Neoforma in a deal valued at about $200 million. Its software lived on inside the larger exchange."
+      }
+    ],
+    "cover": {
+      "theme": "a field hospital (medical supply at scale)",
+      "image_id": "0771759e-c3c7-b7b5-4d05-5dd369f7e940",
+      "artwork": "Field Hospital, Second Army Corps, Brandy Station",
+      "artist": "James Gardner",
+      "aic_id": 196300,
+      "ink": "#13315c",
+      "paper": "#dcecf2",
+      "accent": "#e63946"
+    }
+  },
+  {
+    "slug": "ondisplay-inc",
+    "display": "OnDisplay",
+    "space": "Enterprise Software",
+    "founders": [],
+    "founded": null,
+    "hq": "San Ramon, CA",
+    "fate": "Acquired by Vignette, 2000 (~$1.7B in stock)",
+    "tagline": "Everything in the Window",
+    "dek": "Made software that pulled product data from many sources so online stores and marketplaces could display it.",
+    "lede": "Online stores in 1999 had a basic problem: the product information they needed lived in dozens of places, in different formats, owned by different suppliers. OnDisplay made software that gathered that content and put it in shape for the web. When it filed to go public in late 1999, e-commerce sites were multiplying, and every one of them needed something in the window.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that content integration would become a core layer of online commerce. A retailer or marketplace could not sell what it could not describe, and suppliers kept their catalogs in databases, spreadsheets and paper. OnDisplay's software pulled that information together, cleaned it, and kept it current, so sites could show accurate products and prices without rebuilding their systems."
+      },
+      {
+        "heading": "A Quick Sale",
+        "body": "OnDisplay priced at $28 a share in December 1999 and rose quickly in the final rush of the dot-com market. It did not stay independent for long. In 2000 Vignette, the content management company, agreed to buy OnDisplay in an all-stock deal valued at roughly $1.7 billion at announcement. The value of that stock fell sharply as the market collapsed later that year."
+      }
+    ],
+    "cover": {
+      "theme": "a print-shop window (goods on display)",
+      "image_id": "f7b53101-1e25-c5d1-6fa9-81ec15495ca4",
+      "artwork": "Cadart's Shop Window",
+      "artist": "Pierre-Georges Jeanniot",
+      "aic_id": 140686,
+      "ink": "#3d1f3d",
+      "paper": "#f6d6e8",
+      "accent": "#00a6a6"
+    }
+  },
+  {
+    "slug": "gric-communications-inc",
+    "display": "GRIC",
+    "space": "Telecom",
+    "founders": [],
+    "founded": 1994,
+    "hq": "Milpitas, CA",
+    "fate": "Acquired by iPass, 2006 (~$76.5M, as GoRemote)",
+    "tagline": "Dial In From Anywhere",
+    "dek": "Ran a global roaming alliance that let travelers dial into the internet through local providers around the world.",
+    "lede": "Before Wi-Fi was everywhere, a business traveler who wanted email abroad had to find a local dial-up number and pay for an expensive call home. GRIC built an alliance of internet providers around the world so their customers could connect through one another. When it filed to go public in late 1999, mobile workers were multiplying and laptops were becoming standard business equipment.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that the internet needed roaming the way mobile phones did. GRIC signed up providers in many countries and handled the settlement between them, so a customer of one provider could log on through another and be billed at home. The model let small providers offer global reach without building networks abroad, and GRIC earned a share of each connection."
+      },
+      {
+        "heading": "From Roaming to Remote",
+        "body": "GRIC priced at $14 a share in December 1999. As corporate laptops spread, the company shifted from serving internet providers to selling remote access directly to enterprises. It renamed itself GoRemote Internet Communications in 2004. In 2006 its larger rival iPass completed an all-cash acquisition of GoRemote valued at about $76.5 million. Its customers were mostly large companies with traveling staff. The two companies had long competed for the same business travelers, and the deal joined them."
+      }
+    ],
+    "cover": {
+      "theme": "a map of the world and its tradewinds (dial in from anywhere)",
+      "image_id": "08167716-6ac1-df8c-b9df-b5572f7b30af",
+      "artwork": "Map of the World: Tradewinds",
+      "artist": "Bernardi Sylvani",
+      "aic_id": 31867,
+      "ink": "#2f2a1e",
+      "paper": "#e7d9b0",
+      "accent": "#2f6a7a"
+    }
+  },
+  {
+    "slug": "ecollege-com",
+    "display": "eCollege",
+    "space": "Education",
+    "founders": [],
+    "founded": 1996,
+    "hq": "Denver, CO",
+    "fate": "Acquired by Pearson, 2007 ($538M)",
+    "tagline": "The Campus in a Browser",
+    "dek": "Built and hosted online degree programs for colleges, providing the platform and support behind their internet courses.",
+    "lede": "In the late 1990s, a few colleges began to offer whole courses over the internet, but most had no idea how to build or run them. eCollege, founded in Denver as Real Education, offered to do it for them. When it filed to go public at the end of 1999, online learning was a promising experiment, and the idea of earning a degree without stepping on campus still struck many people as strange.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that colleges would want to reach students online but would not want to build the technology themselves. eCollege supplied the course platform, hosting and support, and in many cases shared in the tuition revenue from online programs. It aimed to be the quiet partner behind a school's brand, letting the college focus on teaching while eCollege kept the systems running."
+      },
+      {
+        "heading": "Growing With Online Degrees",
+        "body": "eCollege priced at $11 a share in December 1999. Its shares fell with the market, but its business grew steadily as online degree programs spread, especially at for-profit and continuing education schools. The company also bought Datamark, a marketing services firm. In 2007 Pearson agreed to buy eCollege for $22.45 a share, about $538 million, to build its digital education business."
+      }
+    ],
+    "cover": {
+      "theme": "a college library (the campus, moved online)",
+      "image_id": "c171e2ca-01eb-fd40-f4c9-479c682d75d1",
+      "artwork": "Library, Yale University",
+      "artist": "Peck Brothers",
+      "aic_id": 33476,
+      "ink": "#24305e",
+      "paper": "#f8e9a1",
+      "accent": "#f76c6c"
+    }
+  },
+  {
+    "slug": "netratings-inc",
+    "display": "NetRatings",
+    "space": "Ad Tech",
+    "founders": [],
+    "founded": 1997,
+    "hq": "Milpitas, CA",
+    "fate": "Acquired by Nielsen, 2007 (~$327M)",
+    "tagline": "Counting the Crowd",
+    "dek": "Measured internet audiences with panels of tracked users, publishing the web's version of television ratings.",
+    "lede": "Television had Nielsen ratings. The web, by 1999, had a flood of claims about traffic and very few trusted numbers. NetRatings built a panel of internet users whose browsing was measured, then sold the results to publishers and advertisers. When it filed to go public in late 1999, online ad spending was soaring, and buyers badly wanted to know who was actually watching.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that the internet would need an independent ratings service, just as broadcasting had. Advertisers would not move large budgets online without credible audience numbers, and NetRatings offered them. It formed a partnership with Nielsen Media Research early on, which lent its data the name that advertisers already trusted, and the service became known as Nielsen//NetRatings. That trust helped its numbers become a common currency in the online ad market."
+      },
+      {
+        "heading": "Back to Nielsen",
+        "body": "NetRatings priced at $17 a share in December 1999. It bought several rivals and research firms as the market consolidated after the crash, and it remained one of the standard sources for web audience data. Nielsen held a large stake throughout. In 2007 Nielsen bought the shares it did not already own for $21 each, valuing the deal at about $327 million."
+      }
+    ],
+    "cover": {
+      "theme": "a theatre audience (counting who is watching)",
+      "image_id": "203088c6-eb9f-29ea-6dbb-916ed894a9a5",
+      "artwork": "Audience at a Parisian Theatre I",
+      "artist": "Giovanni Boldini",
+      "aic_id": 203321,
+      "ink": "#352f44",
+      "paper": "#f1e6d2",
+      "accent": "#5c8001"
+    }
+  },
+  {
+    "slug": "agency-com-ltd",
+    "display": "Agency.com",
+    "space": "Agency",
+    "founders": [
+      "Chan Suh",
+      "Kyle Shannon"
+    ],
+    "founded": 1995,
+    "hq": "New York, NY",
+    "fate": "Taken private by Omnicom-backed Seneca Investments, 2001",
+    "tagline": "The Poster Goes Digital",
+    "dek": "An interactive agency that designed websites and online campaigns for large brands in the early web era.",
+    "lede": "In 1995, few big companies had a website, and fewer knew what one should do. Agency.com was one of the New York shops that stepped in, building sites and online campaigns for major brands. When it filed to go public in late 1999, interactive agencies were among the hottest stocks on the market, valued less like ad firms and more like the internet itself.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Chan Suh and Kyle Shannon founded Agency.com in 1995. Their bet was that the web would need its own kind of agency, one that mixed design, technology and marketing in a way traditional ad firms could not. Omnicom, the advertising giant, invested early, and the agency grew quickly by winning large corporate clients and buying smaller interactive shops in the United States and Europe."
+      },
+      {
+        "heading": "Back Into the Fold",
+        "body": "Agency.com priced at $26 a share in December 1999, at the height of the interactive agency craze. When the dot-com market fell, corporate budgets for websites fell with it. In 2001, Seneca Investments, a vehicle formed by Omnicom and Pegasus Partners, took the agency private for $3.35 a share. It continued for years inside the Omnicom family before merging into TBWA."
+      }
+    ],
+    "cover": {
+      "theme": "a Paris cabaret poster (advertising as art)",
+      "image_id": "1d82da66-d99e-f4f6-d5fc-56b22b6678ba",
+      "artwork": "Moulin Rouge, La Goulue",
+      "artist": "Henri de Toulouse-Lautrec",
+      "aic_id": 82287,
+      "ink": "#1a1a1a",
+      "paper": "#f7d774",
+      "accent": "#d62828"
+    }
+  },
+  {
+    "slug": "harris-interactive-inc",
+    "display": "Harris Interactive",
+    "space": "Market Research",
+    "founders": [
+      "Gordon Black"
+    ],
+    "founded": 1975,
+    "hq": "Rochester, NY",
+    "fate": "Acquired by Nielsen, 2014 (~$117M)",
+    "tagline": "Asking the Crowd Online",
+    "dek": "The company behind the Harris Poll, which moved survey and opinion research from the telephone to the internet.",
+    "lede": "For decades, polling meant calling people at home during dinner. Harris Interactive, owner of the famous Harris Poll, bet that the internet could do it better, faster and at far larger scale. When it filed to go public in late 1999, it had built a panel of millions of people willing to answer surveys online, and the polling industry was watching to see if the method would hold up.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Gordon Black founded his research firm in Rochester in 1975 and later bought Louis Harris and Associates, the pollster behind the Harris Poll. The bet was that online panels could replace telephone surveys for much of market research. Online surveys were cheaper, could include images and video, and could reach thousands of people in days rather than weeks. It was a bold move for a firm with a well-known brand to protect."
+      },
+      {
+        "heading": "Proof and Pressure",
+        "body": "Harris Interactive priced at $14 a share in December 1999. Its online polls drew skepticism at first, but they performed well in several elections and helped make internet research mainstream. Over time, cheaper online survey tools put pressure on prices, and the company lost money for several years. In 2014 Nielsen completed its acquisition of Harris Interactive for $2 a share, about $117 million."
+      }
+    ],
+    "cover": {
+      "theme": "a holiday crowd at a temple fair (public opinion)",
+      "image_id": "1a94ec97-dc61-4308-e7c3-01785bf01156",
+      "artwork": "Crowds at the Year-end Fair at Kinryuzan Temple in Asakusa (Asakusa Kinryuzan toshi no ichi gunshu), from the series \"Famous Places in the Eastern Capital (Toto meisho)\"",
+      "artist": "Utagawa Hiroshige",
+      "aic_id": 25393,
+      "ink": "#3c1642",
+      "paper": "#f4c8d2",
+      "accent": "#086375"
+    }
+  },
+  {
+    "slug": "pfsweb-inc",
+    "display": "PFSweb",
+    "space": "E-commerce",
+    "founders": [],
+    "founded": null,
+    "hq": "Plano, TX",
+    "fate": "Acquired by GXO Logistics, 2023",
+    "tagline": "The Dock Behind the Store",
+    "dek": "Handled order processing, warehousing, shipping and customer service for brands selling online.",
+    "lede": "Selling online is the easy part to see. Behind it sit warehouses, pick lists, shipping labels, returns and call centers. PFSweb, spun out of the computer supply distributor Daisytek, offered to run all of that for brands that wanted to sell directly on the web. When it filed to go public in late 1999, retailers and manufacturers were rushing online without knowing how they would deliver.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that many companies would want to sell online but would not want to build their own fulfillment operations. PFSweb took over the work after the click: processing orders, storing goods, packing and shipping, handling payments, and answering customer calls. It brought the logistics experience of its parent to brands that had never shipped single orders to consumers."
+      },
+      {
+        "heading": "Two Decades of Fulfillment",
+        "body": "PFSweb priced at $17 a share in December 1999. Its shares fell with the market, but the business it chose proved durable as e-commerce kept growing. It served brands across fashion, health and consumer goods, and for a time it also ran an e-commerce agency. In 2023 the logistics company GXO acquired PFSweb, adding its fulfillment network to GXO's own."
+      }
+    ],
+    "cover": {
+      "theme": "a harbor dock (goods shipped out)",
+      "image_id": "3744f20a-1209-c813-812e-f5741850e474",
+      "artwork": "The New Dock at la Rochelle",
+      "artist": "Gustave Leheutre",
+      "aic_id": 46273,
+      "ink": "#1b4332",
+      "paper": "#d8f3dc",
+      "accent": "#f77f00"
+    }
+  },
+  {
+    "slug": "digital-impact-inc",
+    "display": "Digital Impact",
+    "space": "Marketing Tech",
+    "founders": [],
+    "founded": null,
+    "hq": "San Mateo, CA",
+    "fate": "Acquired by Acxiom, 2005 (~$140M)",
+    "tagline": "A Letter for Every Reader",
+    "dek": "Ran large email marketing programs for major retailers and brands, sending personalized messages to millions of customers.",
+    "lede": "In 1999, email was becoming the most direct way a company could reach its customers, and the most abused. Digital Impact offered large brands a professional way to do it: personalized messages, sent at scale, with tracking to see what worked. When it filed to go public in late 1999, online retailers were building customer lists fast and wanted a way to bring shoppers back.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that email would become a core marketing channel for large companies, and that they would hire specialists to run it. Digital Impact built the systems to send millions of personalized messages, measure opens and clicks, and tune campaigns. It sold mainly to big retailers and consumer brands, positioning itself as a full-service partner rather than a simple sending tool."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Digital Impact priced at $15 a share in November 1999. Its shares fell with the internet market, and the email business grew more crowded and cheaper over time. The company kept its large-brand focus and expanded into broader marketing services. In 2005, after an unsolicited bid from InfoUSA, the data company Acxiom agreed to buy Digital Impact for about $140 million."
+      }
+    ],
+    "cover": {
+      "theme": "a beauty reading a letter (email)",
+      "image_id": "44bbfac9-5df7-9135-88c0-1e7da327bd44",
+      "artwork": "Beauty Reading a Letter",
+      "artist": "Ishikawa Toyonobu",
+      "aic_id": 19777,
+      "ink": "#2a2338",
+      "paper": "#dcd2ee",
+      "accent": "#c4573a"
+    }
+  },
+  {
+    "slug": "deltathree-com-inc",
+    "display": "deltathree",
+    "space": "Telecom",
+    "founders": [],
+    "founded": 1996,
+    "hq": "New York, NY",
+    "fate": "Control sold to D4 Holdings, 2009",
+    "tagline": "Calls That Ride the River",
+    "dek": "An early internet telephony provider that carried voice calls over the internet at prices far below traditional long distance.",
+    "lede": "In the late 1990s, an international phone call could cost dollars a minute. deltathree was one of the early companies to carry those calls over the internet instead, slashing the price. Controlled at the time by RSL Communications, it filed to go public in late 1999, when internet telephony was still crackly and new, and long distance carriers were only starting to worry.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that voice would become just another kind of internet traffic. By turning calls into data packets and routing them over its own network, deltathree could undercut traditional carriers, especially on international routes. It sold services both to consumers, through a PC-to-phone product, and to other carriers and businesses that wanted cheap capacity. The company built its own network for carrying calls rather than relying only on the public internet."
+      },
+      {
+        "heading": "A Long, Quiet Decline",
+        "body": "deltathree priced at $15 a share in November 1999. Internet calling did take off, but prices fell to almost nothing and larger players such as Skype changed the market. deltathree shrank over the decade that followed. In 2009 D4 Holdings, an investment fund linked to the owners of ACN, bought a majority stake for about $1.2 million. By then it was a small company carrying heavy losses."
+      }
+    ],
+    "cover": {
+      "theme": "water carriers on the Nile (traffic flowing down a river delta)",
+      "image_id": "ffcef98d-6d38-dc75-65e6-cdff009f883c",
+      "artwork": "Water Carriers on the Nile",
+      "artist": "John Singer Sargent",
+      "aic_id": 22153,
+      "ink": "#264653",
+      "paper": "#e9c46a",
+      "accent": "#2a9d8f"
+    }
+  },
+  {
+    "slug": "mediaplex-inc",
+    "display": "Mediaplex",
+    "space": "Ad Tech",
+    "founders": [
+      "Gregory Raifman"
+    ],
+    "founded": 1996,
+    "hq": "San Francisco, CA",
+    "fate": "Acquired by ValueClick, 2001",
+    "tagline": "Billboards That Think",
+    "dek": "Built technology to serve, target and track online ads, helping marketers run campaigns across many websites.",
+    "lede": "Early web advertising was mostly banners bought by hand and measured loosely. Mediaplex, based in San Francisco, set out to give advertisers real machinery: technology to decide which ad to show, when and to whom, and to measure the result. When it filed to go public in late 1999, internet ad spending was rising fast, and marketers wanted proof that the money worked.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Gregory Raifman founded Mediaplex in San Francisco in 1996. The bet was that online advertising would become driven by data and software, with messages that changed based on what was known about the viewer and the moment. Mediaplex combined the services of an agency with its own ad-serving technology, called MOJO, so clients could run complex campaigns across many sites."
+      },
+      {
+        "heading": "Swept Into a Merger",
+        "body": "Mediaplex priced at $12 a share in November 1999 and reached a market value in the billions within months. The online ad market collapsed in 2000 and 2001, and many of its dot-com clients disappeared. In 2001 ValueClick acquired Mediaplex in a stock deal. The Mediaplex ad-serving technology lived on inside ValueClick for years. Raifman stayed on the ValueClick board for about a year after the merger."
+      }
+    ],
+    "cover": {
+      "theme": "street advertising posters (the ad, placed where people look)",
+      "image_id": "153bf4cb-f42d-6854-dde7-671b65949338",
+      "artwork": "Street Advertising",
+      "artist": "John Thomson",
+      "aic_id": 215528,
+      "ink": "#3d2c1e",
+      "paper": "#f2e2c4",
+      "accent": "#ff6b35"
+    }
+  },
+  {
+    "slug": "sonicwall-inc",
+    "display": "SonicWALL",
+    "space": "Security",
+    "founders": [
+      "Sreekanth Ravi",
+      "Sudhakar Ravi"
+    ],
+    "founded": 1991,
+    "hq": "Sunnyvale, CA",
+    "fate": "Taken private by Thoma Bravo, 2010; acquired by Dell, 2012; independent again since 2016",
+    "tagline": "A Wall for Every Small Office",
+    "dek": "Sold simple, affordable firewall appliances that protected small businesses and branch offices connected to the internet.",
+    "lede": "In 1999, big companies had security teams and expensive firewalls. Small offices, newly connected by DSL and cable modems, had almost nothing. SonicWALL sold them a small box that sat between their network and the internet and kept intruders out. When it filed to go public in late 1999, always-on broadband was spreading fast and so were the attacks that came with it.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The brothers Sreekanth and Sudhakar Ravi started the company in 1991 as Sonic Systems, making networking products for Apple computers. The bet that defined SonicWALL was that small businesses would pay for real security if it came as a simple appliance at an affordable price. The company sold through resellers who installed and supported the boxes for local customers. That reseller network became one of its biggest strengths."
+      },
+      {
+        "heading": "Many Owners, One Wall",
+        "body": "SonicWALL priced at $14 a share in November 1999. It survived the downturn and remained a public company for a decade. In 2010 Thoma Bravo took it private, and in 2012 Dell bought it. When Dell sold its software businesses in 2016, SonicWALL became independent again under private equity ownership. Through all those changes, the brand and its focus on smaller customers stayed largely the same."
+      }
+    ],
+    "cover": {
+      "theme": "a fortress above a walled town (a wall that keeps intruders out)",
+      "image_id": "ddd364dd-f791-ed27-4297-ea47fde36f12",
+      "artwork": "View of Pirna with the Fortress of Sonnenstein",
+      "artist": "Bernardo Bellotto",
+      "aic_id": 12895,
+      "ink": "#1c2541",
+      "paper": "#cfd8e8",
+      "accent": "#ff9f1c"
+    }
+  },
+  {
+    "slug": "tickets-com",
+    "display": "Tickets.com",
+    "space": "Ticketing",
+    "founders": [],
+    "founded": null,
+    "hq": "Costa Mesa, CA",
+    "fate": "Acquired by MLB Advanced Media, 2005 (~$66M)",
+    "tagline": "A Seat in the Loge",
+    "dek": "Sold event tickets online and licensed ticketing software to venues, teams and arts organizations.",
+    "lede": "In 1999, buying a concert or ball game ticket usually meant a phone line, a box office or an outlet in a record store. Tickets.com set out to challenge Ticketmaster by putting the sale online and giving venues their own ticketing systems. When it filed to go public in late 1999, it promised fans an easier way to buy and venues a choice beyond the dominant player.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that the internet could break the hold of a single ticketing giant. Tickets.com combined several ticketing software companies and offered venues technology they could run themselves, along with online sales. It worked with theaters, arts centers and sports teams, many of which wanted more control over their customers and their fees. It was a hard fight, because the market leader held long exclusive contracts with many large venues."
+      },
+      {
+        "heading": "Into the Ballpark",
+        "body": "Tickets.com priced at $12.50 a share in November 1999. It lost money for years as it fought a much larger rival, and its share price fell far below the offering. Its strongest ties proved to be with baseball teams. In 2005 Major League Baseball Advanced Media bought the company for $1.10 a share, about $66 million. The league used it to build its own ticketing for clubs across baseball."
+      }
+    ],
+    "cover": {
+      "theme": "a theatre box (a ticket to the show)",
+      "image_id": "050f069f-0ca2-0c26-54e1-10ec27498c5e",
+      "artwork": "The Loge with the Gilded Mask",
+      "artist": "Henri de Toulouse-Lautrec",
+      "aic_id": 61854,
+      "ink": "#4a0e2e",
+      "paper": "#f6cfa8",
+      "accent": "#e0a100"
+    }
+  },
+  {
+    "slug": "akamai-technologies-inc",
+    "display": "Akamai",
+    "space": "Networking",
+    "founders": [
+      "Tom Leighton",
+      "Danny Lewin"
+    ],
+    "founded": 1998,
+    "hq": "Cambridge, MA",
+    "fate": "Still public (NASDAQ: AKAM)",
+    "tagline": "Riding the Edge of the Wave",
+    "dek": "Built a global network of servers that delivered web content from locations close to users, making the internet faster.",
+    "lede": "In the late 1990s, popular websites often slowed to a crawl or crashed under heavy traffic. Akamai, named for the Hawaiian word for smart, offered a fix born at MIT: copy content to thousands of servers around the world and serve each visitor from the nearest one. When it filed to go public in late 1999, the World Wide Wait was a real complaint, and Akamai had a mathematical answer.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "MIT professor Tom Leighton and graduate student Danny Lewin bet that clever algorithms could solve internet congestion without rebuilding the internet. Their system decided, in real time, which server should answer each request. Instead of one origin straining under demand, the load spread across a global network placed inside many internet providers, close to the people asking for content. It was an academic idea turned into a business."
+      },
+      {
+        "heading": "The Wave and After",
+        "body": "Akamai priced at $26 a share in October 1999 and closed its first day above $145, one of the great debuts of the era. The crash cut its value sharply, and Danny Lewin was killed aboard American Airlines Flight 11 on September 11, 2001. The company survived, grew into a core part of the internet's infrastructure and security, and still trades on Nasdaq."
+      }
+    ],
+    "cover": {
+      "theme": "a great Pacific wave (Akamai, Hawaiian for smart; traffic surging at the edge)",
+      "image_id": "b3974542-b9b4-7568-fc4b-966738f61d78",
+      "artwork": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\"",
+      "artist": "Katsushika Hokusai",
+      "aic_id": 24645,
+      "ink": "#0a2463",
+      "paper": "#d6ecf3",
+      "accent": "#fb8b24"
+    }
+  },
+  {
+    "slug": "gaiam-inc",
+    "display": "Gaiam",
+    "space": "Consumer",
+    "founders": [
+      "Jirka Rysavy"
+    ],
+    "founded": 1988,
+    "hq": "Broomfield, CO",
+    "fate": "Still public as Gaia, Inc. (NASDAQ: GAIA) after selling its consumer brands",
+    "tagline": "Goods for a Gentler Life",
+    "dek": "Sold yoga gear, eco-friendly goods and wellness media to customers seeking a healthy, sustainable lifestyle.",
+    "lede": "Gaiam took its name from Gaia, the Earth personified, and sold to a group marketers had begun to call cultural creatives: people who cared about health, the environment and personal growth. Through catalogs, the web and stores, it offered yoga mats, organic goods and wellness videos. When it filed to go public in late 1999, it was one of the few lifestyle brands built around a set of values.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Jirka Rysavy, who also founded the office supply company Corporate Express, started Gaiam in 1988. His bet was that a meaningful number of shoppers wanted products matching their values, and that one company could serve them across many categories. Gaiam combined direct sales with media, producing fitness and yoga videos that also drew customers to its products. The name itself signaled the mission, borrowed from the Greek goddess of the Earth."
+      },
+      {
+        "heading": "From Goods to Streaming",
+        "body": "Gaiam priced at $5 a share in October 1999, a modest offering in a frothy year. It grew into a well-known yoga and fitness brand sold in large retail chains. Over time the company split its paths: it sold the Gaiam consumer brand business in 2016 and kept its streaming video service, renaming itself Gaia. Gaia still trades on Nasdaq."
+      }
+    ],
+    "cover": {
+      "theme": "a quiet forest interior (Gaia, the living earth)",
+      "image_id": "04ccec33-caf6-617d-d9af-f8234e9292b9",
+      "artwork": "A Forest Interior, with a Seated Figure",
+      "artist": "Herman Saftleven",
+      "aic_id": 210894,
+      "ink": "#2d4a22",
+      "paper": "#e8f0c8",
+      "accent": "#c97b2a"
+    }
+  },
+  {
+    "slug": "sycamore-networks-inc",
+    "display": "Sycamore",
+    "space": "Networking",
+    "founders": [
+      "Desh Deshpande",
+      "Daniel Smith"
+    ],
+    "founded": 1998,
+    "hq": "Chelmsford, MA",
+    "fate": "Sold its business and dissolved, 2013",
+    "tagline": "The Tallest Tree in the Forest",
+    "dek": "Made intelligent optical switches for carriers building high-capacity fiber networks during the telecom boom.",
+    "lede": "In 1999, carriers were laying fiber as fast as they could, convinced internet traffic would double every few months. Sycamore Networks promised to make that fiber smarter, with optical switches that could set up and change high-speed connections through software instead of by hand. When it filed to go public in the fall of 1999, few companies captured the fiber-optic dream so completely.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Desh Deshpande and Daniel Smith, who had built Cascade Communications together, founded Sycamore in 1998. Their bet was that optical networks needed intelligence. Instead of fixed connections configured over weeks, carriers could provision bandwidth in minutes with Sycamore's switches. That promised to turn raw fiber into a flexible service and to save carriers large sums in equipment and labor. Carriers lined up to try it."
+      },
+      {
+        "heading": "Peak and Fall",
+        "body": "Sycamore priced at $38 a share in October 1999 and closed its first day above $184, giving a year-old company a market value in the tens of billions. When the telecom bubble burst, carrier spending collapsed and so did Sycamore's sales. The company held large cash reserves for years. In 2013 it sold its remaining business and began to dissolve, returning cash to shareholders."
+      }
+    ],
+    "cover": {
+      "theme": "a single sycamore tree",
+      "image_id": "06abbe64-302d-9788-d735-36685ba95bf1",
+      "artwork": "The Sycamore",
+      "artist": "David Young Cameron",
+      "aic_id": 28177,
+      "ink": "#2f3a1f",
+      "paper": "#e3e8b0",
+      "accent": "#8a5a44"
+    }
+  },
+  {
+    "slug": "navisite-inc",
+    "display": "NaviSite",
+    "space": "Cloud Infrastructure",
+    "founders": [],
+    "founded": 1996,
+    "hq": "Andover, MA",
+    "fate": "Acquired by Time Warner Cable, 2011 (~$230M)",
+    "tagline": "Steering the Servers",
+    "dek": "Hosted and managed websites and applications for businesses from its own data centers.",
+    "lede": "By 1999, every company wanted a website, and few wanted to run the servers behind it. NaviSite, born inside the internet holding company CMGI, offered to host and manage those sites in its own data centers. When it filed to go public in the fall of 1999, outsourced hosting looked like a sure way to profit from the web without betting on any single website.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "NaviSite began as the in-house hosting operation for CMGI's family of internet companies. The bet was that this skill could become a business of its own, serving outside customers who needed reliable, managed hosting. Customers would rent space, bandwidth and expertise instead of building data centers, and NaviSite would earn steady monthly fees. It was a way to profit from the web without betting on any single website's success."
+      },
+      {
+        "heading": "Steady Through Rough Water",
+        "body": "NaviSite priced at $14 a share in October 1999. Its dot-com customers vanished in the crash, and the company went through years of losses, restructuring and acquisitions. It gradually shifted toward managed services and application hosting for larger businesses. In 2011 Time Warner Cable bought NaviSite for about $230 million to expand its business services. For a company born in the dot-com boom, it was a long and steady survival."
+      }
+    ],
+    "cover": {
+      "theme": "a sailing ship (navigation)",
+      "image_id": "fb9a861a-f8db-e84e-390f-0667dcad2baf",
+      "artwork": "British Sail Ship, from the set of eight Pictures of Foreign Ships",
+      "artist": "Unknown Artist",
+      "aic_id": 14937,
+      "ink": "#1b263b",
+      "paper": "#e0e1dd",
+      "accent": "#c1121f"
+    }
+  },
+  {
+    "slug": "interwoven-inc",
+    "display": "Interwoven",
+    "space": "Enterprise Software",
+    "founders": [
+      "Peng Ong"
+    ],
+    "founded": 1995,
+    "hq": "Sunnyvale, CA",
+    "fate": "Acquired by Autonomy, 2009 (~$775M)",
+    "tagline": "Many Hands, One Fabric",
+    "dek": "Made content management software that let large teams create, review and publish websites and documents together.",
+    "lede": "As corporate websites grew from a few pages to thousands, they became impossible to manage by hand. Many people needed to write, edit and approve content without breaking the site. Interwoven built software to let them work together on it. When it filed to go public in the fall of 1999, every large company was struggling with the same problem, and content management became one of the era's key categories.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Peng Ong founded Interwoven in 1995. The bet was that websites would need the same kind of disciplined workflow that software teams used for code: versions, reviews, approvals and controlled releases. Interwoven's TeamSite product let writers, designers and developers work in parallel and publish safely, weaving many contributions into one coherent site. The product became a standard choice for large corporate websites in the late 1990s, and it drew big customers in media, finance and technology."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Interwoven priced at $17 a share in October 1999 and became a high-flying stock during the boom. It survived the crash, merged with iManage in 2003, and found a strong niche selling document management to law firms and professional services companies. In 2009 the British software company Autonomy bought Interwoven for about $775 million. Its software lived on inside the larger company's products."
+      }
+    ],
+    "cover": {
+      "theme": "women weaving on a loom (many threads, one fabric)",
+      "image_id": "646f03bd-93ea-9ce6-2e87-33f9552e4fd1",
+      "artwork": "Women weaving on a loom",
+      "artist": "Katsushika Hokusai",
+      "aic_id": 24837,
+      "ink": "#3b1f2b",
+      "paper": "#f3d9c0",
+      "accent": "#2a7f62"
+    }
+  },
+  {
+    "slug": "dsl-net-inc",
+    "display": "DSL.net",
+    "space": "Telecom",
+    "founders": [],
+    "founded": null,
+    "hq": "New Haven, CT",
+    "fate": "Acquired by MegaPath, 2007",
+    "tagline": "Fast Lines on Old Wires",
+    "dek": "Sold DSL broadband service to small businesses, building its own equipment into phone company central offices.",
+    "lede": "In 1999, most small businesses still connected to the internet by dial-up, or paid dearly for a dedicated line. DSL promised fast, always-on access over the copper phone lines they already had. DSL.net was one of the young carriers racing to sell it. When it filed to go public in the fall of 1999, the market was wide open and investors were eager to fund the buildout.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that new rules from the Telecommunications Act of 1996 would let small carriers compete with the regional phone giants. DSL.net placed its own equipment in phone company central offices and leased the copper lines to reach customers. It focused on small businesses in smaller cities and towns, where it hoped to face less competition. It was a capital-hungry plan that depended on cheap money."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "DSL.net priced at $7.50 a share in October 1999. The DSL boom turned to bust within two years, as capital dried up and many competitive carriers went bankrupt. DSL.net cut back, survived on fresh financing, and kept serving business customers. In 2007 it merged into a subsidiary of MegaPath, an internet provider that already controlled it, and its public shares stopped trading."
+      }
+    ],
+    "cover": {
+      "theme": "a suspension bridge strung with cables (fast lines)",
+      "image_id": "882d2826-d828-e0db-9666-896e142b0c10",
+      "artwork": "Railway Suspension Bridge, Niagara Falls",
+      "artist": "S. Barnett",
+      "aic_id": 33523,
+      "ink": "#1f3340",
+      "paper": "#a9dbe0",
+      "accent": "#c2572f"
+    }
+  },
+  {
+    "slug": "calico-commerce-inc",
+    "display": "Calico Commerce",
+    "space": "Enterprise Software",
+    "founders": [],
+    "founded": null,
+    "hq": "San Jose, CA",
+    "fate": "Chapter 11; assets sold to PeopleSoft, 2002",
+    "tagline": "Every Option, Correctly Chosen",
+    "dek": "Made software that helped companies configure, price and sell complex products to buyers over the web.",
+    "lede": "Buying a computer server or a phone system meant choosing among many options that had to fit together. Calico Commerce sold software that guided customers and sales teams through those choices online, producing a correct configuration and price. When it filed to go public in the fall of 1999, companies were rushing to sell complex products on the web and needed tools to do it without errors.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that interactive selling would move to the web, and that configuration would be its hardest part. Calico's software captured the rules behind a product line so that a buyer could not order a combination that would not work. It sold mainly to technology and telecom companies with large, complex catalogs and long sales cycles. Many of its customers were Silicon Valley hardware firms."
+      },
+      {
+        "heading": "A Short Run",
+        "body": "Calico priced at $14 a share in October 1999. The fall of e-business spending in 2000 and 2001 hit it hard, and it restated earnings and was delisted from Nasdaq in 2001. That year it sold its trading exchange unit to Digital River. Calico then filed for Chapter 11, and PeopleSoft bought its software and intellectual property in 2002. Its offering came and went in barely two years."
+      }
+    ],
+    "cover": {
+      "theme": "a cat on a balustrade (the calico)",
+      "image_id": "c7a1688c-8a21-8eab-086d-3537b1506705",
+      "artwork": "Summer: Cat on a Balustrade",
+      "artist": "Théophile-Alexandre Pierre Steinlen",
+      "aic_id": 51724,
+      "ink": "#40291b",
+      "paper": "#ffe1b3",
+      "accent": "#e85d04"
+    }
+  },
+  {
+    "slug": "digital-insight-corp",
+    "display": "Digital Insight",
+    "space": "Fintech",
+    "founders": [],
+    "founded": null,
+    "hq": "Calabasas, CA",
+    "fate": "Acquired by Intuit, 2007 ($1.35B)",
+    "tagline": "The Bank Behind the Bank",
+    "dek": "Provided online banking software and hosting to community banks and credit unions so they could compete on the web.",
+    "lede": "In 1999, big banks were building online banking for their customers. Thousands of community banks and credit unions could not afford to. Digital Insight offered them a hosted service, branded with their own names, that gave their members online banking and bill payment. When it filed to go public in the fall of 1999, small institutions feared losing customers to larger banks with better websites.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that smaller financial institutions would rather rent online banking than build it. Digital Insight ran the systems in its own data centers and presented them under each client's brand, so customers saw their local credit union, not a vendor. The company earned recurring fees that grew as more account holders logged in. It was a steady, subscription-like business in a market full of uncertain bets."
+      },
+      {
+        "heading": "A Steady Climb",
+        "body": "Digital Insight priced at $15 a share in September 1999. Unlike many peers, its business kept growing after the crash, because online banking became a basic expectation. It bought competitors and became one of the leading providers to community banks and credit unions. In 2007 Intuit completed its purchase of Digital Insight for about $1.35 billion. NCR later bought the business from Intuit in 2014."
+      }
+    ],
+    "cover": {
+      "theme": "an old man in spectacles (insight, careful reckoning)",
+      "image_id": "f12171ce-5f51-1133-849b-9093513c47a6",
+      "artwork": "Old Man with Spectacles, from Life-Sized Heads",
+      "artist": "Thomas Frye",
+      "aic_id": 117601,
+      "ink": "#2c2c54",
+      "paper": "#e3e3f5",
+      "accent": "#40916c"
+    }
+  },
+  {
+    "slug": "internap-network-services",
+    "display": "InterNAP",
+    "space": "Networking",
+    "founders": [
+      "Anthony Naughtin",
+      "Chris Wheeler"
+    ],
+    "founded": 1996,
+    "hq": "Seattle, WA",
+    "fate": "Chapter 11, 2020; later emerged as a private company",
+    "tagline": "Switching Yards of the Internet",
+    "dek": "Sold premium internet connectivity that routed business traffic around congested public exchange points.",
+    "lede": "The internet of the late 1990s was a patchwork of networks that handed traffic to one another at crowded exchange points, where data often slowed or got lost. InterNAP built private access points connected to many major backbones and used software to pick the best path for each packet. When it filed to go public in the fall of 1999, businesses wanted the internet to behave as reliably as a private line.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Anthony Naughtin and Chris Wheeler founded InterNAP in Seattle in 1996. The bet was that businesses would pay more for internet traffic that avoided congestion. InterNAP bought capacity from many backbone providers and steered each customer's traffic over the route performing best at that moment, much like a dispatcher sending trains down the clearest track. Customers paid a premium for that performance, and many were content and media businesses."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "InterNAP priced at $20 a share in September 1999 and rose fast with the boom. The crash left it with heavy debt and falling prices, but it survived and added data center, hosting and cloud services over the following years. Debt remained a burden. The company filed for Chapter 11 in 2020 and came out of the process as a private company."
+      }
+    ],
+    "cover": {
+      "theme": "a winter railroad yard (routing traffic down the best track)",
+      "image_id": "82ea1070-4f4c-3057-510d-d94cd13e0a4c",
+      "artwork": "The Railroad Yard, Winter",
+      "artist": "Alfred Stieglitz",
+      "aic_id": 66721,
+      "ink": "#1e2a2f",
+      "paper": "#cfe3e8",
+      "accent": "#ef476f"
+    }
+  },
+  {
+    "slug": "foundry-networks-inc",
+    "display": "Foundry Networks",
+    "space": "Networking",
+    "founders": [
+      "Bobby Johnson"
+    ],
+    "founded": 1996,
+    "hq": null,
+    "fate": "Acquired by Brocade, 2008 (~$2.6B)",
+    "tagline": "Forged for Speed",
+    "dek": "Made high-performance Ethernet switches and routers for corporate networks, data centers and internet providers.",
+    "lede": "By the late 1990s, networks were moving from megabits to gigabits, and the companies building them needed faster switches. Foundry Networks made high-performance Ethernet gear that competed directly with Cisco on speed and price. When it filed to go public in the fall of 1999, networking stocks were among the market's favorites, and Foundry arrived with something rare for the time: real profits.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Bobby Johnson founded Foundry in 1996. The bet was that gigabit Ethernet would spread from the backbone to the data center and the enterprise, and that a focused company could build faster switches than the incumbents. Foundry designed its own chips, brought products to market quickly, and sold heavily to internet providers and hosting companies that needed raw speed. It grew quickly."
+      },
+      {
+        "heading": "From Spark to Steel",
+        "body": "Foundry priced at $25 a share in September 1999 and closed its first day above $156, a gain of more than 500 percent. The crash cut its value sharply, but the company stayed profitable and independent for nearly a decade. In 2008 Brocade bought Foundry for about $2.6 billion, after lowering its original offer during the financial crisis. It became part of Brocade's data center networking line."
+      }
+    ],
+    "cover": {
+      "theme": "a blacksmith at the forge (the foundry)",
+      "image_id": "e6068e4f-64fb-e10c-9347-84cf4d7b4fbb",
+      "artwork": "Blacksmith",
+      "artist": "Eugène Delacroix",
+      "aic_id": 29133,
+      "ink": "#2b0f0e",
+      "paper": "#f4a259",
+      "accent": "#bc4b51"
+    }
+  },
+  {
+    "slug": "keynote-systems-inc",
+    "display": "Keynote",
+    "space": "Cloud Software",
+    "founders": [],
+    "founded": 1995,
+    "hq": "San Mateo, CA",
+    "fate": "Taken private by Thoma Bravo, 2013 (~$395M)",
+    "tagline": "Keeping the Web in Tune",
+    "dek": "Measured how fast and reliably websites performed by testing them from computers placed around the internet.",
+    "lede": "In 1999, a company could spend millions on a website and still have no idea how fast it loaded for real customers. Keynote Systems answered that by placing measurement computers across the internet and testing sites around the clock. When it filed to go public in the fall of 1999, slow pages were costing online businesses sales, and Keynote's speed rankings were starting to matter.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that web performance would need an outside referee. Keynote measured download times and availability from many locations, the way a customer would experience them, and sold the results as a subscription service. Its public index of major sites' speed gave it visibility, and it turned performance into something executives could track and compare. It was a simple idea that gave online businesses a clear number to improve."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Keynote priced at $14 a share in September 1999, under longtime chief executive Umang Gupta. It raised a large amount of cash during the boom and kept much of it through the downturn, using some to buy related businesses, including mobile testing. In 2013 Thoma Bravo took Keynote private for $20 a share, about $395 million. Gupta retired as chief executive after the sale closed."
+      }
+    ],
+    "cover": {
+      "theme": "a woman at the piano (the keynote, finding the right pitch)",
+      "image_id": "8f06717c-9ede-f22b-d13b-327a50c22f9c",
+      "artwork": "Woman at the Piano",
+      "artist": "Pierre-Auguste Renoir",
+      "aic_id": 25825,
+      "ink": "#22223b",
+      "paper": "#f2e9e4",
+      "accent": "#9a8c98"
+    }
+  },
+  {
+    "slug": "egain-communications",
+    "display": "eGain",
+    "space": "Customer Service",
+    "founders": [
+      "Ashu Roy",
+      "Gunjan Sinha"
+    ],
+    "founded": 1997,
+    "hq": "Sunnyvale, CA",
+    "fate": "Still public (NASDAQ: EGAN)",
+    "tagline": "A Harvest of Answers",
+    "dek": "Makes customer service software that helps companies answer email, chat and web questions and manage service knowledge.",
+    "lede": "As customers moved online in the late 1990s, they began emailing companies in huge numbers, and most companies had no way to answer. eGain built software to sort, route and respond to that flood. When it filed to go public in the fall of 1999, customer service over the web was a new problem, and the companies selling online were discovering that every sale brought questions.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Ashu Roy and Gunjan Sinha founded eGain in 1997. The bet was that customer service would move from the phone to digital channels, and that companies would need tools to handle it at scale. eGain's software read incoming messages, sent them to the right agent, and suggested answers from a shared knowledge base, so service teams could answer more questions faster."
+      },
+      {
+        "heading": "Still Answering",
+        "body": "eGain priced at $12 a share in September 1999 and rose sharply during the boom before falling hard in the crash. Unlike most peers from its class, it stayed independent and kept its founder in charge. It moved toward cloud software and knowledge management for customer service. More than two decades after its offering, eGain still trades on Nasdaq. That makes it a rare survivor."
+      }
+    ],
+    "cover": {
+      "theme": "wheat stacks at harvest (gain, gathered in)",
+      "image_id": "4c364c64-2108-4e19-5fc5-1ab26ba924a7",
+      "artwork": "Stacks of Wheat (End of Day, Autumn)",
+      "artist": "Claude Monet",
+      "aic_id": 14624,
+      "ink": "#5a2a27",
+      "paper": "#fbd38d",
+      "accent": "#2b59c3"
+    }
+  },
+  {
+    "slug": "vitria-technology-inc",
+    "display": "Vitria",
+    "space": "Enterprise Software",
+    "founders": [
+      "JoMei Chang",
+      "Dale Skeen"
+    ],
+    "founded": 1994,
+    "hq": "Sunnyvale, CA",
+    "fate": "Taken private by its founders, 2007",
+    "tagline": "Light Through Many Panes",
+    "dek": "Made integration software that connected a company's separate systems so business processes could flow between them.",
+    "lede": "Large companies in the 1990s ran dozens of separate systems for orders, billing, inventory and customers, and those systems rarely talked to one another. Vitria made software to connect them and coordinate the work moving between them. When it filed to go public in the fall of 1999, integration was becoming urgent as companies tried to link their old systems to the web.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "JoMei Chang and Dale Skeen founded Vitria in 1994, drawing on Skeen's work in messaging systems. The bet was that a company's processes, not just its data, needed to flow across systems. Vitria's BusinessWare platform passed events between applications and modeled the steps of a business process, so an order could move from website to warehouse to invoice automatically. Telecom and finance were early markets."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Vitria priced at $16 a share in September 1999 and became one of the most valuable software stocks of the boom. Its sales fell as integration spending dropped after 2000, and larger vendors moved into its market. The founders remained in charge throughout. In 2007 they took Vitria private through a company they controlled, ending its run as a public company."
+      }
+    ],
+    "cover": {
+      "theme": "a stained glass window (vitrum, glass; many panes joined into one)",
+      "image_id": "8cead5e1-0e73-405f-4e50-8088bd336c61",
+      "artwork": "Lilies (Corey Memorial Window)",
+      "artist": "Louis Comfort Tiffany",
+      "aic_id": 192781,
+      "ink": "#123c3a",
+      "paper": "#c9f2e7",
+      "accent": "#7b2cbf"
+    }
+  },
+  {
+    "slug": "lionbridge-technologies",
+    "display": "Lionbridge",
+    "space": "Localization",
+    "founders": [
+      "Rory Cowan"
+    ],
+    "founded": 1996,
+    "hq": "Waltham, MA",
+    "fate": "Taken private by H.I.G. Capital, 2017 (~$360M)",
+    "tagline": "Crossing Every Language",
+    "dek": "Translated and adapted software, websites and documents so companies could sell their products in many languages.",
+    "lede": "Software companies of the 1990s wanted to sell everywhere, but every market needed its own language, date formats and manuals. Lionbridge did that work for them, translating and testing products for global release. When it filed to go public in the summer of 1999, the web was making every company international overnight, and someone had to make their products speak to the world.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Rory Cowan founded Lionbridge in 1996, building it partly by acquiring translation businesses around the world. The bet was that localization would grow from a small cottage industry into a core service for global companies. Lionbridge offered one partner for translation, engineering and testing across many languages, with teams spread across lower-cost locations. As the web spread, the volume of content needing translation grew quickly, and websites joined software as a core part of the work."
+      },
+      {
+        "heading": "A Long Bridge",
+        "body": "Lionbridge priced at $10 a share in August 1999. It survived the downturn and grew by acquisition, most notably buying Bowne Global Solutions in 2005, which made it one of the largest companies in its field. It added testing and data services for technology companies. In 2017 H.I.G. Capital took Lionbridge private in a deal worth about $360 million. It remains a large localization company."
+      }
+    ],
+    "cover": {
+      "theme": "a lion in the mountains (the lion of Lionbridge)",
+      "image_id": "9b9ec959-fbdc-9eae-cdfd-be8befe169ab",
+      "artwork": "Lion of the Atlas Mountains",
+      "artist": "Eugène Delacroix",
+      "aic_id": 41098,
+      "ink": "#4b2e05",
+      "paper": "#f6d7a7",
+      "accent": "#1f7a8c"
+    }
+  },
+  {
+    "slug": "agile-software-corp",
+    "display": "Agile Software",
+    "space": "Enterprise Software",
+    "founders": [
+      "Bryan Stolle"
+    ],
+    "founded": 1995,
+    "hq": "San Jose, CA",
+    "fate": "Acquired by Oracle, 2007 (~$495M)",
+    "tagline": "Quick on Its Feet",
+    "dek": "Made product lifecycle software that let manufacturers and their suppliers share designs, parts lists and engineering changes.",
+    "lede": "By the late 1990s, electronics makers relied on long chains of contract manufacturers and suppliers spread around the world. Keeping all of them working from the same parts list and the latest design changes was a constant struggle. Agile Software built tools to share that product information over the internet. When it filed to go public in the summer of 1999, outsourced manufacturing was booming.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Bryan Stolle founded Agile in 1995. The bet was that product information, such as bills of materials and engineering change orders, should live in one shared system that every partner could reach. If a design changed, every supplier would know at once. That promised fewer errors, faster product launches and less scrap for companies that no longer built everything themselves."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Agile priced at $21 a share in August 1999 and climbed steeply during the boom. Its sales fell when the technology industry cut spending after 2000, but it kept growing its product lifecycle management business across more industries. In 2007 Oracle bought Agile for about $495 million, adding its software to Oracle's applications for manufacturers. Agile's products lived on inside Oracle's lineup for years afterward."
+      }
+    ],
+    "cover": {
+      "theme": "a leaping frog (agility and persistence)",
+      "image_id": "fcd11049-84cb-e13b-21bd-555a707d0431",
+      "artwork": "Ono no Tofu Watching a Leaping Frog",
+      "artist": "Kitao Shigemasa",
+      "aic_id": 7580,
+      "ink": "#14342b",
+      "paper": "#b7e4c7",
+      "accent": "#f4a261"
+    }
+  },
+  {
+    "slug": "quest-software-inc",
+    "display": "Quest Software",
+    "space": "Enterprise Software",
+    "founders": [
+      "David Doyle",
+      "Doran Machin"
+    ],
+    "founded": 1987,
+    "hq": "Irvine, CA",
+    "fate": "Acquired by Dell, 2012 (~$2.4B)",
+    "tagline": "A Knight for the Database",
+    "dek": "Made tools that helped IT teams monitor, tune and manage databases and business applications, starting with Oracle.",
+    "lede": "Behind every large business application sat a database, and keeping it fast and healthy was a full-time job. Quest Software made tools for the people who did that job, beginning with Oracle databases. When it filed to go public in the summer of 1999, companies were running more critical systems than ever, and the administrators keeping them alive were stretched thin.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Quest was founded in 1987 in Southern California. The bet that shaped it was simple: database and application administrators needed better tools than the vendors supplied. Quest sold practical utilities, such as its TOAD tool for Oracle developers, that solved daily problems. Many of its products spread inside companies from the ground up, one administrator at a time. It later moved its headquarters within Orange County."
+      },
+      {
+        "heading": "Growth by Acquisition",
+        "body": "Quest priced at $14 a share in August 1999. Unlike many peers, it kept growing after the crash, buying dozens of smaller software companies and expanding into Windows management, security and data protection. It became a large, profitable software company. In 2012, after a bidding contest with private equity firms, Dell bought Quest for about $2.4 billion. Quest's name later returned as an independent software company after Dell sold the business."
+      }
+    ],
+    "cover": {
+      "theme": "a knight on horseback (the quest)",
+      "image_id": "068363dd-2103-82b5-6c4a-7d95edcffb76",
+      "artwork": "St. George on Horseback",
+      "artist": "Albrecht Dürer",
+      "aic_id": 59832,
+      "ink": "#2a1e3f",
+      "paper": "#dcd3ea",
+      "accent": "#e09f3e"
+    }
+  },
+  {
+    "slug": "interactive-pictures-corp",
+    "display": "IPIX",
+    "space": "Imaging",
+    "founders": [
+      "H. Lee Martin"
+    ],
+    "founded": 1986,
+    "hq": "Oak Ridge, TN",
+    "fate": "Bankrupt, 2006",
+    "tagline": "The Room All Around You",
+    "dek": "Made immersive 360-degree photography that let viewers look around a scene, used widely in online real estate listings.",
+    "lede": "In 1999, a photo on a website was a flat rectangle. IPIX offered something new: a spherical image you could drag to look in every direction, as if standing in the room. It grew from robotics work done near Oak Ridge National Laboratory. When it filed to go public in the summer of 1999, real estate sites and online travel were looking for ways to show places, not just pictures.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The company began as TeleRobotics International, founded by H. Lee Martin to build camera systems for remote work in hazardous places. Its fisheye imaging technology could turn two wide photos into a full sphere. The bet was that this immersive view would become a standard way to show homes, hotels and products online, with IPIX earning a fee each time an image was used."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "IPIX priced at $18 a share in August 1999 and soon merged with bamboo.com, a rival in virtual tours for real estate. The combined company did well on real estate listings during the boom, but losses mounted as the market fell and pricing for virtual tours dropped. After years of restructuring and new products, IPIX went bankrupt in 2006. Its name lived on in later licensing."
+      }
+    ],
+    "cover": {
+      "theme": "a round rotunda room (a view in every direction)",
+      "image_id": "77287e6e-61e5-3640-b223-d8c4c90f3cfe",
+      "artwork": "Rotunda and New Rooms - Dublin",
+      "artist": "James Malton",
+      "aic_id": 127948,
+      "ink": "#283d3b",
+      "paper": "#edddd4",
+      "accent": "#c44536"
+    }
+  },
+  {
+    "slug": "tumbleweed-communications-corp",
+    "display": "Tumbleweed",
+    "space": "Security",
+    "founders": [
+      "Jeffrey Smith",
+      "Jean-Christophe Bandini"
+    ],
+    "founded": 1993,
+    "hq": "Redwood City, CA",
+    "fate": "Acquired by Axway, 2008",
+    "tagline": "Messages on the Wind",
+    "dek": "Made secure messaging and file delivery software that let businesses send sensitive documents safely over the internet.",
+    "lede": "By the late 1990s, businesses wanted to send contracts, statements and records over the internet instead of by courier, but plain email was far from safe. Tumbleweed made software to deliver those messages and files securely, with proof of receipt. When it filed to go public in the summer of 1999, banks and other regulated companies were looking for a way to trust the web with sensitive documents.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Jeffrey Smith and Jean-Christophe Bandini started Tumbleweed in the early 1990s. The bet was that the internet would replace overnight couriers for important business documents, if someone could make delivery secure and traceable. Tumbleweed's software encrypted messages, tracked delivery, and gave both sides a record, which mattered in finance, health care and government. Its customers needed to prove that a message arrived intact, and to whom, which plain email could not do."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Tumbleweed priced at $12 a share in August 1999 and soared during the boom before falling sharply in the crash. It shifted toward email security and secure file transfer, selling widely to banks and government agencies, and bought several rivals. In 2008 the French software company Axway, part of Sopra Group, acquired Tumbleweed. Its products became part of Axway's secure file transfer and email security lines."
+      }
+    ],
+    "cover": {
+      "theme": "wind-swept sands (a tumbleweed carried by the wind)",
+      "image_id": "ff5e49d3-448f-2aba-4461-6e36c1dc7dfa",
+      "artwork": "Wind-Swept Sands",
+      "artist": "William Merritt Chase",
+      "aic_id": 120296,
+      "ink": "#5c3d2e",
+      "paper": "#f6e7cb",
+      "accent": "#4d908e"
+    }
+  },
+  {
+    "slug": "quotesmith-com-inc",
+    "display": "Quotesmith",
+    "space": "Insurance",
+    "founders": [
+      "Robert Bland"
+    ],
+    "founded": 1984,
+    "hq": "Darien, IL",
+    "fate": "Renamed Life Quotes and taken private, 2010",
+    "tagline": "Shelter, Compared Side by Side",
+    "dek": "Let consumers compare insurance quotes from many companies online and buy coverage directly.",
+    "lede": "Shopping for life or health insurance once meant meeting an agent who showed you a few policies, chosen by them. Quotesmith.com let people compare prices from many insurers on their own, then buy. When it filed to go public in the summer of 1999, consumers were starting to research big purchases online, and insurance looked ripe for the same price comparison that was reshaping travel and books.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Robert Bland founded the company in 1984, long before the web, as an insurance price comparison service. The bet that came with the internet was that consumers would buy insurance directly once they could see the market for themselves. Quotesmith showed quotes from many insurers and earned commissions as a licensed broker, with its own staff completing the sale. It was early."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Quotesmith priced at $11 a share in August 1999. Its shares fell quickly as investors soured on internet companies, and growth proved slower than hoped. It bought the Insure.com website in 2001 and later renamed itself after it. In 2009 the company sold the Insure.com and Quotesmith names, became Life Quotes, Inc., and went private in 2010. Bland led the company through every stage."
+      }
+    ],
+    "cover": {
+      "theme": "a blacksmith at the anvil (Quotesmith)",
+      "image_id": "f65207b8-b310-b519-cd68-a08493cb309e",
+      "artwork": "The Blacksmith",
+      "artist": "Eugène Delacroix",
+      "aic_id": 228044,
+      "ink": "#2b2420",
+      "paper": "#e0c8a8",
+      "accent": "#b8442c"
+    }
+  },
+  {
+    "slug": "1-800-flowers-com-inc",
+    "display": "1-800-Flowers",
+    "space": "E-commerce",
+    "founders": [
+      "Jim McCann"
+    ],
+    "founded": 1976,
+    "hq": "Carle Place, NY",
+    "fate": "Still public (NASDAQ: FLWS)",
+    "tagline": "A Bouquet by Wire",
+    "dek": "Sells flowers and gifts by phone and online, delivered through its own shops and a network of local florists.",
+    "lede": "Jim McCann bought a single flower shop in New York in 1976 and later built it into a national brand around an easy phone number. By the late 1990s, 1-800-Flowers was adding the web to the phone, and it became one of the early merchants to sell seriously online. When it filed to go public in the summer of 1999, it was a real business with real customers in a market crowded with promises.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "McCann's bet was that people sending flowers wanted one trusted brand they could reach anywhere. The phone number did that first, and the company used a network of local florists to deliver nationwide. When the web arrived, he moved early, partnering with online services and portals so that 1-800-Flowers was a familiar name before most shoppers had bought anything online."
+      },
+      {
+        "heading": "Still Blooming",
+        "body": "1-800-Flowers priced at $21 a share in August 1999. Its stock fell with the market, but the business kept selling through the downturn. Over the years it bought many gift brands, including Harry & David and Shari's Berries, and became a broad gifting company. It still trades on Nasdaq under the ticker FLWS. Few retailers from the 1999 class can say the same, and it remains one of the best-known gift brands in the United States."
+      }
+    ],
+    "cover": {
+      "theme": "a bouquet of flowers",
+      "image_id": "599e0546-ed58-0224-a623-39a8e3b51ef8",
+      "artwork": "Bouquet of Flowers in an Earthenware Vase",
+      "artist": "Jan Brueghel, the elder",
+      "aic_id": 64029,
+      "ink": "#4a1942",
+      "paper": "#ffd6e0",
+      "accent": "#2d6a4f"
+    }
+  },
+  {
+    "slug": "watchguard-technologies-inc",
+    "display": "WatchGuard",
+    "space": "Security",
+    "founders": [],
+    "founded": 1996,
+    "hq": "Seattle, WA",
+    "fate": "Taken private by Vector Capital and Francisco Partners, 2006 (~$151M)",
+    "tagline": "The Sentinel at the Gate",
+    "dek": "Makes firewall and network security appliances for small and mid-sized businesses, sold through resellers.",
+    "lede": "As small businesses connected to the internet full time in the late 1990s, they became easy targets. WatchGuard, which started in Seattle as Seattle Software Labs, sold them a bright red security appliance called the Firebox that stood guard between their network and the outside world. When it filed to go public in the summer of 1999, network security was moving from the big enterprise into every office.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that small and mid-sized companies needed serious network security but could not afford complex systems or expert staff. WatchGuard built firewalls into simple appliances that resellers could install and manage. It also sold subscriptions for updates and services, so each box brought recurring revenue as long as the customer kept it. The red Firebox became a familiar sight in small server closets."
+      },
+      {
+        "heading": "Standing Guard",
+        "body": "WatchGuard priced at $13 a share in July 1999. It survived the crash but struggled to grow profitably as competition increased. In 2006 Vector Capital and Francisco Partners took it private for about $151 million. As a private company it kept growing, expanding into wireless, endpoint and identity security, and it remains in business today under Vector Capital's ownership. It is still based in Seattle."
+      }
+    ],
+    "cover": {
+      "theme": "an old watchtower (on guard)",
+      "image_id": "13c116df-e5a6-9e6c-0896-507529224415",
+      "artwork": "Old Tower at Avignon",
+      "artist": "Samuel Colman",
+      "aic_id": 16659,
+      "ink": "#40261c",
+      "paper": "#efb98c",
+      "accent": "#2e5a6b"
+    }
+  },
+  {
+    "slug": "net2phone-inc",
+    "display": "Net2Phone",
+    "space": "Telecom",
+    "founders": [
+      "Howard Jonas"
+    ],
+    "founded": null,
+    "hq": null,
+    "fate": "Reacquired by parent IDT, 2006",
+    "tagline": "A Conversation Across the Sea",
+    "dek": "Offered cheap phone calls over the internet, from computers and later from ordinary phones and devices.",
+    "lede": "In the late 1990s, a call from New York to India could cost more than a dollar a minute. Net2Phone, spun out of the discount long distance carrier IDT, let people make those calls over the internet for a fraction of the price. When it filed to go public in the summer of 1999, internet telephony was a young idea and Net2Phone was one of its best-known names.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Howard Jonas built IDT by selling cheap international calling, and Net2Phone extended the same idea to the internet. The bet was that voice would move onto data networks, where calls could be carried far more cheaply. Net2Phone started with calls from a PC to a regular phone, then sold its service through partners, devices and businesses around the world. It was an early mover."
+      },
+      {
+        "heading": "Home Again",
+        "body": "Net2Phone priced at $15 a share in July 1999 and rose sharply in the months after. In 2000 AT&T took a large stake in the company. As internet calling became common and prices fell, Net2Phone struggled to make money from it. In 2006 IDT bought back the shares it did not already own, bringing Net2Phone home. The service continued under IDT's ownership for years after the deal."
+      }
+    ],
+    "cover": {
+      "theme": "a steamship crossing the sea (calls across the ocean)",
+      "image_id": "e4cfdd9e-5f42-0262-c187-157e9b5e8cb7",
+      "artwork": "Arrival and Departure of an American Steamship (Amerikakoku jokisha orai)",
+      "artist": "Utagawa Yoshikazu",
+      "aic_id": 32516,
+      "ink": "#16304a",
+      "paper": "#b4d6ea",
+      "accent": "#d9542f"
+    }
+  },
+  {
+    "slug": "drugstore-com-inc",
+    "display": "drugstore.com",
+    "space": "E-commerce",
+    "founders": [],
+    "founded": 1998,
+    "hq": "Bellevue, WA",
+    "fate": "Acquired by Walgreens, 2011 (~$409M)",
+    "tagline": "The Apothecary Online",
+    "dek": "Sold health, beauty and household products and prescriptions online with home delivery.",
+    "lede": "drugstore.com set out to move the corner pharmacy online: vitamins, shampoo, cold medicine and prescriptions delivered to the door. It was backed by famous investors, including Amazon, and led by former Microsoft executive Peter Neupert. When it filed to go public in the summer of 1999, online retail was the market's favorite story, and drugstore products seemed like the perfect thing to buy again and again.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that the drugstore, with its frequent, routine purchases, would move online once ordering became easy. Customers would save trips and gain privacy, and drugstore.com would win loyal repeat buyers. The company formed a partnership with Rite Aid to handle prescriptions and spent heavily on marketing to build its brand quickly. Amazon was an early investor and a close partner in its first years."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "drugstore.com priced at $18 a share in July 1999. It lost large sums for years as shipping low-priced goods proved costly. Over time it focused on beauty and health products, bought Beauty.com, and reached hundreds of millions in annual sales. In 2011 Walgreens bought the company for about $409 million, and it later shut the site in 2016. It was a long run for a site once seen as a pure dot-com bet."
+      }
+    ],
+    "cover": {
+      "theme": "an old apothecary storefront",
+      "image_id": "d1361a38-5d66-970a-3c9e-f36e318558be",
+      "artwork": "S. P. Peck Apothecary",
+      "artist": "Unknown",
+      "aic_id": 33537,
+      "ink": "#2e3440",
+      "paper": "#d8f0ea",
+      "accent": "#5e60ce"
+    }
+  },
+  {
+    "slug": "liberate-technologies",
+    "display": "Liberate",
+    "space": "Media",
+    "founders": [],
+    "founded": null,
+    "hq": "San Carlos, CA",
+    "fate": "Sold its businesses to a Comcast-led venture and SeaChange, 2005",
+    "tagline": "Cranes Waiting to Fly",
+    "dek": "Made software to bring internet features and interactive services to television set-top boxes for cable operators.",
+    "lede": "In the late 1990s, many believed the future of the internet would arrive through the television, not the computer. Liberate Technologies, which grew out of Oracle's network computer effort, made software for cable set-top boxes that would bring email, shopping and interactive programs to the living room. When it filed to go public in the summer of 1999, cable companies were promising interactive TV everywhere.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that cable operators would need a standard software platform for interactive television, and that they would want one not controlled by Microsoft. Liberate offered that platform and signed deals with major cable and telecom companies around the world, often granting them warrants in return. If interactive TV took off, Liberate would sit inside millions of homes. It was a long bet."
+      },
+      {
+        "heading": "Waiting for the Living Room",
+        "body": "Liberate priced at $16 a share in July 1999 and became one of the most valuable software companies of the boom. Interactive TV arrived far more slowly than promised, and the company later restated revenue. In 2005 it sold its North American business to a Comcast-led venture and its international business to SeaChange, then paid its remaining cash to shareholders."
+      }
+    ],
+    "cover": {
+      "theme": "cranes on a snowy pine (poised for flight, liberation)",
+      "image_id": "cc5fce96-3635-35da-e7fd-a68f4b2a26c3",
+      "artwork": "Cranes on snow-covered pine",
+      "artist": "Katsushika Hokusai",
+      "aic_id": 21720,
+      "ink": "#132a13",
+      "paper": "#ecf39e",
+      "accent": "#d62246"
+    }
+  },
+  {
+    "slug": "engage-technologies-inc",
+    "display": "Engage",
+    "space": "Ad Tech",
+    "founders": [],
+    "founded": null,
+    "hq": "Andover, MA",
+    "fate": "Chapter 11, 2003; assets sold",
+    "tagline": "Aiming at the Audience",
+    "dek": "Used anonymous profiles of web users to target online ads, and sold ad-serving and marketing software.",
+    "lede": "Engage was one of the companies in CMGI's sprawling internet empire, and it promised advertisers a sharper aim. By building anonymous profiles of what people did online, it could show each visitor ads more likely to match their interests. When it filed to go public in the summer of 1999, online advertising was growing fast, and targeting was the idea everyone wanted to own.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "The bet was that the web could make advertising far more precise than print or television. Engage collected anonymous behavior data across many sites and used it to sort visitors into interest groups. It combined that with ad networks and ad-serving software, including AdKnowledge and Flycast, which CMGI folded into it, aiming to be a full system for online marketing."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Engage priced at $15 a share in July 1999 and became a high-flying CMGI stock. When the online ad market collapsed in 2000 and 2001, revenue fell hard and losses mounted. CMGI gave up its stake in 2002. In 2003 Engage filed for Chapter 11, and its remaining software assets were sold in the bankruptcy process. Its ad-serving unit had already been sold to its managers the year before."
+      }
+    ],
+    "cover": {
+      "theme": "a fan raised as a target (aiming at the audience)",
+      "image_id": "24bcba71-583a-ece5-270b-fe0f7b4844a1",
+      "artwork": "Lady Tamamushi raising a fan target",
+      "artist": "Sugimura Jihei",
+      "aic_id": 13693,
+      "ink": "#3a1c14",
+      "paper": "#f5c8a0",
+      "accent": "#2e5f73"
+    }
+  },
+  {
+    "slug": "art-technology-group-inc",
+    "display": "ATG",
+    "space": "E-commerce",
+    "founders": [
+      "Jeet Singh",
+      "Joe Chung"
+    ],
+    "founded": 1991,
+    "hq": "Cambridge, MA",
+    "fate": "Acquired by Oracle, 2011 (~$1B)",
+    "tagline": "The Art of the Storefront",
+    "dek": "Made e-commerce and personalization software that powered the online stores of many large retailers and brands.",
+    "lede": "Art Technology Group began in Cambridge as a small technology consulting firm with an artful name. By the late 1990s, it sold software that large companies used to build online stores that remembered customers and tailored what they saw. When it filed to go public in the summer of 1999, big brands were racing to sell on the web, and ATG offered them a serious platform for doing it.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "Jeet Singh and Joe Chung, both with roots at MIT, founded ATG in 1991. The bet was that large online businesses would need a powerful platform built for personalization, not just a catalog and a cart. ATG's Dynamo software let sites show each visitor different products and offers based on their behavior, which made it popular with big retailers and media companies."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "ATG priced at $12 a share in July 1999 and became one of the hottest software stocks of the boom. The crash hit it hard and forced deep cuts. The company recovered as large retailers kept investing in online sales, and its commerce platform became a common choice for major brands. In 2011 Oracle bought ATG for about $1 billion."
+      }
+    ],
+    "cover": {
+      "theme": "an artist in his studio (the art in Art Technology Group)",
+      "image_id": "e01a4f76-d089-8e22-8431-3488db37a293",
+      "artwork": "The Artist in His Studio",
+      "artist": "James McNeill Whistler",
+      "aic_id": 65709,
+      "ink": "#2d3142",
+      "paper": "#ead7c3",
+      "accent": "#ef8354"
+    }
+  },
+  {
+    "slug": "paradyne-networks-inc",
+    "display": "Paradyne",
+    "space": "Networking",
+    "founders": [],
+    "founded": null,
+    "hq": "Largo, FL",
+    "fate": "Acquired by Zhone Technologies, 2005 (~$180M)",
+    "tagline": "Lightning in the Copper",
+    "dek": "Made modems and DSL access equipment that let phone companies deliver fast data over existing copper lines.",
+    "lede": "Paradyne had made data communications equipment for decades, first as an independent company and later as part of AT&T and Lucent. By the late 1990s it was an early leader in DSL, the technology for sending broadband over ordinary copper phone lines. When it filed to go public in the summer of 1999, phone companies were rushing to sell DSL, and Paradyne's equipment sat at the heart of many deployments.",
+    "sections": [
+      {
+        "heading": "The Original Bet",
+        "body": "After Texas Pacific Group bought Paradyne from Lucent in 1996, the bet was that a focused company could move faster than a giant parent. Paradyne pushed its broadband access products, which let carriers reuse the copper already running into homes and offices. Fast data over old wires promised to turn the phone network into a broadband network without digging new lines."
+      },
+      {
+        "heading": "After the Offering",
+        "body": "Paradyne priced at $17 a share in July 1999 and soared during the DSL boom. When many young DSL carriers failed in 2000 and 2001, demand for its equipment fell sharply. The company cut costs and kept selling broadband access gear to carriers. In 2005 Zhone Technologies bought Paradyne in an all-stock deal valued at about $180 million. Its equipment lived on in Zhone's broadband access line."
+      }
+    ],
+    "cover": {
+      "theme": "a storm over the land (lightning in the copper)",
+      "image_id": "ff7cae53-a6f6-9965-70e9-7e264ead9265",
+      "artwork": "The Storm",
+      "artist": "Georges Michel",
+      "aic_id": 21914,
+      "ink": "#1d2733",
+      "paper": "#c6cfd8",
+      "accent": "#e2a33b"
+    }
+  }
+]
