@@ -235,13 +235,18 @@ def html_to_clean(raw, base_url):
 
     # the filing's own table of contents, when it links to anchors in the document, is the best map
     doc_toc, ids = [], {}
+    targets = {}
+    for el in body.find_all(attrs={"id": True}):
+        targets.setdefault(el["id"], el)
+    for el in body.find_all(attrs={"name": True}):
+        targets.setdefault(el["name"], el)
     for a in body.find_all("a", href=True):
         h = a["href"]
         t = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
         if not h.startswith("#") or h[1:] in ids or not t or len(t) > 120 or PAGE_NO.match(t) \
                 or not re.search(r"[A-Za-z]{3}", t):
             continue
-        tgt = body.find(id=h[1:]) or body.find(attrs={"name": h[1:]})
+        tgt = targets.get(h[1:])
         if tgt is None:
             continue
         hid = f"t{len(doc_toc) + 1}"

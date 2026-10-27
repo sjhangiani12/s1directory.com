@@ -86,10 +86,15 @@ def book_html(b, size="sm", lazy=True):
     return f'<div class="bk">{leaf_html(b)}<div class="hinge">{cover_html(b, size=size, lazy=lazy)}</div></div>'
 
 
+def shelf_meta(b):
+    d = f"{b['dt']:%b} {b['dt'].day}, {b['dt'].year}"
+    return f"IPO {d} · ${b['price']:.2f}" if b.get("price") else f"S-1 filed {d}"
+
+
 def book3d_html(b):
     c = b["cover"]
     return (
-        f'<a class="book3d" href="/s1/{b["slug"]}/" aria-label="{e(b["display"])}">'
+        f'<a class="book3d" href="/s1/{b["slug"]}/" aria-label="{e(b["display"])}" data-name="{e(b["display"])}" data-meta="{e(shelf_meta(b))}">'
         f'<div class="rot"><div class="lift">'
         f'<div class="face top"></div>'
         f'<div class="face spine" style="background:{c["accent"]}"><span class="t">{e(b["display"])}<small>{e(b["ticker"])}</small></span><span class="yr">{b["dt"].year}</span></div>'
@@ -195,6 +200,7 @@ def build_home(books):
   <p class="rise d1">Before the bell rings, a tech company has to tell the world everything. These are the S-1s they filed.</p>
 </header>
 <section class="shelf rise d2" aria-label="Featured S-1s">
+  <div class="shelf-cap" aria-hidden="true"><b></b><span></span></div>
   <div class="shelf-track">{"".join(book3d_html(b) for b in shelf)}</div>
 </section>
 <section class="wrap" id="library">
@@ -212,7 +218,7 @@ def build_directory(books):
     rows = "".join(
         f'<div class="row" data-filter-item data-q="{qstr(b)}">'
         f'<div class="nm"><img src="/covers/sm/{b["slug"]}.jpg" alt="" loading="lazy" width="38" height="51">'
-        f'<span><a href="/s1/{b["slug"]}/">{e(b["display"])}</a> <small>({e(b["ticker"])})</small></span></div>'
+        f'<span><a href="/s1/{b["slug"]}/">{e(b["display"])}</a>{f' <small>({e(b["ticker"])})</small>' if b["ticker"] else ""}</span></div>'
         f'<div class="dk">{e(b["dek"])}</div>'
         f'<div class="rt"><a href="{read_url(b)}"{ext(b)}>Read the S-1 &rarr;</a><span>{b["dt"]:%B} {b["dt"].day}, {b["dt"].year}</span></div>'
         f"</div>"
@@ -246,7 +252,8 @@ def build_article(b, prev, nxt):
     if b.get("fate"):
         ms.append(e(b["fate"]))
     dl.append(("Milestones", "<br>".join(ms)))
-    dl.append(("Ticker", e(b["ticker"])))
+    if b["ticker"]:
+        dl.append(("Ticker", e(b["ticker"])))
     if b.get("hq"):
         dl.append(("Headquarters", e(b["hq"])))
     dl.append(("Links", (f'<a href="/s1/{b["slug"]}/read/">Read the S-1</a>' if has_reader(b) else "") +
@@ -395,7 +402,8 @@ VERSION = datetime.now().strftime("%Y%m%d%H%M")
 if __name__ == "__main__":
     books = load()
     print(len(books), "books")
-    render_covers(books)
+    if "--html" not in sys.argv:  # --html: pages only, for quick previews while covers render
+        render_covers(books)
     books = [b for b in books if os.path.exists(os.path.join(ROOT, "covers", f"{b['slug']}.jpg"))]
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
     for f in ("style.css", "app.js", "PaperMono.woff2", "PaperMono-OFL.txt"):

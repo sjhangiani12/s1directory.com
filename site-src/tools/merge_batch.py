@@ -40,9 +40,11 @@ def main(in_dir, out_name):
                 if x.get(k):
                     f[k] = x.pop(k)
             f["slug"] = x["slug"]
-            if not f.get("s1") and src.get("cik"):
-                f["s1"] = f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={src['cik']}"
-            missing = [k for k in FIELDS if not f.get(k)]
+            cik = src.get("cik") or (x.get("cik") if isinstance(x.get("cik"), (str, int)) else None)
+            if not f.get("s1") and cik:
+                f["s1"] = f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}"
+            f["ticker"] = f.get("ticker") or ""  # long-gone companies may have no ticker on EDGAR
+            missing = [k for k in FIELDS if k != "ticker" and not f.get(k)]
             if missing:
                 problems.append(f"{x['slug']}: filing missing {missing}")
                 continue

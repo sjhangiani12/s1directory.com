@@ -47,12 +47,40 @@
         b.style.zIndex = Math.round(x + total);
       });
     };
+    // hover label: name and IPO above the book under the pointer, following it as the shelf drifts
+    const cap = track.closest(".shelf").querySelector(".shelf-cap");
+    let hovered = null;
+    const showCap = (b) => {
+      hovered = b;
+      if (!b) { cap.classList.remove("on"); return; }
+      cap.querySelector("b").textContent = b.dataset.name;
+      cap.querySelector("span").textContent = b.dataset.meta;
+      cap.classList.add("on");
+      placeCap();
+    };
+    const placeCap = () => {
+      if (!hovered) return;
+      const s = track.closest(".shelf").getBoundingClientRect(), r = hovered.getBoundingClientRect();
+      cap.style.left = `${r.left + r.width * 0.52 - s.left}px`;
+      cap.style.top = `${r.top - s.top - 4}px`;
+    };
+    if (matchMedia("(hover: hover)").matches) {
+      books.forEach((b) => {
+        b.addEventListener("pointerenter", () => showCap(b));
+        b.addEventListener("pointerleave", () => { if (hovered === b) showCap(null); });
+      });
+    }
+    books.forEach((b) => {
+      b.addEventListener("focus", () => showCap(b));
+      b.addEventListener("blur", () => showCap(null));
+    });
     const tick = (t) => {
       const dt = last ? Math.min(t - last, 50) : 16;
       last = t;
       speed += (target - speed) * 0.06;
       offset += speed * dt * 0.06;
       place();
+      placeCap();
       requestAnimationFrame(tick);
     };
     const shelf = track.closest(".shelf");

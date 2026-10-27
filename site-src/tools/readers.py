@@ -8,15 +8,13 @@ Downloads are cached in site-src/.s1-cache, so a rerun only converts again.
 import json
 import os
 import sys
-import threading
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import s1doc  # noqa: E402
 
 SRC = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROOT = os.path.dirname(SRC)
-lock = threading.Lock()
 
 
 def convert(f):
@@ -40,8 +38,9 @@ def main(only):
             not os.path.exists(os.path.join(ROOT, "s1", f["slug"], "s1.json.gz")))]
     print(f"converting {len(todo)} filings", flush=True)
     done, failed = 0, []
-    with ThreadPoolExecutor(2) as pool:
-        for slug, err in pool.map(convert, todo):
+    # parsing is CPU-bound: one process per core (downloads are cached after the first run)
+    with ProcessPoolExecutor(max(2, (os.cpu_count() or 4) - 2)) as pool:
+        for slug, err in pool.map(convert, todo, chunksize=2):
             done += 1
             if err:
                 failed.append(f"{slug}: {err}")
