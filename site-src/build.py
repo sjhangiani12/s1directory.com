@@ -220,7 +220,7 @@ def build_directory(books):
         f'<div class="nm"><img src="/covers/sm/{b["slug"]}.jpg" alt="" loading="lazy" width="38" height="51">'
         f'<span><a href="/s1/{b["slug"]}/">{e(b["display"])}</a>{f' <small>({e(b["ticker"])})</small>' if b["ticker"] else ""}</span></div>'
         f'<div class="dk">{e(b["dek"])}</div>'
-        f'<div class="rt"><a href="{read_url(b)}"{ext(b)}>Read the S-1 &rarr;</a><span>{b["dt"]:%B} {b["dt"].day}, {b["dt"].year}</span></div>'
+        f'<div class="rt"><a href="{read_url(b)}"{ext(b)}>{read_label(b)} &rarr;</a><span>{b["dt"]:%B} {b["dt"].day}, {b["dt"].year}</span></div>'
         f"</div>"
         for b in books
     )
@@ -257,7 +257,7 @@ def build_article(b, prev, nxt):
     if b.get("hq"):
         dl.append(("Headquarters", e(b["hq"])))
     dl.append(("Links", (f'<a href="/s1/{b["slug"]}/read/">Read the S-1</a>' if has_reader(b) else "") +
-                        f'<a href="{e(b["s1"])}" target="_blank" rel="noopener">S-1 on SEC EDGAR</a>'
+                        f'<a href="{e(b["s1"])}" target="_blank" rel="noopener">{"S-1 on SEC EDGAR" if "browse-edgar" not in b["s1"] else "Filings on SEC EDGAR"}</a>'
                         f'<a href="https://www.artic.edu/artworks/{c.get("aic_id")}" target="_blank" rel="noopener">Cover artwork</a>'))
     dl_html = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in dl)
 
@@ -286,7 +286,7 @@ def build_article(b, prev, nxt):
     <nav class="pager">{pager}</nav>
   </main>
   <aside class="r"><div class="sticky">{book_html(b, size="lg", lazy=False)}
-    <a class="cta" href="{read_url(b)}"{ext(b)}>Read the S-1 &rarr;</a>{f'<a class="cta pdf" href="{pdf_url(b)}" download>Download PDF &darr;</a>' if pdf_url(b) else ""}</div></aside>
+    <a class="cta" href="{read_url(b)}"{ext(b)}>{read_label(b)} &rarr;</a>{f'<a class="cta pdf" href="{pdf_url(b)}" download>Download PDF &darr;</a>' if pdf_url(b) else ""}</div></aside>
 </div>
 """
     return page(f"{b['display']} S-1 ({b['dt'].year}) — S1 Directory", body, b["dek"], body_cls="article",
@@ -312,6 +312,13 @@ def file_version(path):
 
 def has_reader(b):
     return os.path.exists(os.path.join(ROOT, "s1", b["slug"], "s1.json.gz"))
+
+
+def read_label(b):
+    """Pre-1996 filings were on paper: the link goes to the company's EDGAR page, so say that."""
+    if has_reader(b):
+        return "Read the S-1"
+    return "EDGAR filings" if "browse-edgar" in b["s1"] else "Read the S-1"
 
 
 def read_url(b):
