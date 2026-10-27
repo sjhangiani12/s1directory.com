@@ -94,6 +94,64 @@
     if (e.persisted) document.querySelectorAll(".open").forEach((el) => el.classList.remove("open"));
   });
 
+  // ---------- S-1 reader: unpack the filing, contents, progress ----------
+  const reader = document.querySelector(".reader");
+  if (reader) {
+    const doc = reader.querySelector(".rdoc"), list = reader.querySelector(".rtoc-list");
+    const toc = reader.querySelector(".rtoc"), tocBtn = reader.querySelector(".rtoc-btn");
+    const prog = reader.querySelector(".rprog"), top = reader.querySelector(".rtop");
+    const key = "pos:" + location.pathname;
+    const unpack = async (res) => {
+      const buf = new Uint8Array(await res.arrayBuffer());
+      if (buf[0] !== 0x1f || buf[1] !== 0x8b) return JSON.parse(new TextDecoder().decode(buf));  // server already unzipped it
+      const stream = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
+      return JSON.parse(await new Response(stream).text());
+    };
+    const NUM = /^[\s$()\u2014\u2013\-.,%\d]+$/;
+    fetch(reader.dataset.src).then(unpack).then((d) => {
+      doc.innerHTML = d.html;
+      doc.querySelectorAll("table").forEach((t) => {
+        const w = document.createElement("div"); w.className = "tw";
+        t.replaceWith(w); w.appendChild(t);
+        t.querySelectorAll("td").forEach((td) => { const x = td.textContent.trim(); if (x && NUM.test(x)) td.classList.add("num"); });
+      });
+      doc.querySelectorAll('a[href^="/"]').forEach((a) => { a.href = "https://www.sec.gov" + a.getAttribute("href"); a.target = "_blank"; });
+      const heads = (d.toc && d.toc.length ? d.toc.map(([id]) => document.getElementById(id)) : [...doc.querySelectorAll("h2")]).filter(Boolean);
+      heads.forEach((h, i) => { if (!h.id) h.id = "s" + (i + 1); });
+      list.innerHTML = heads.map((h) => `<a href="#${h.id}">${h.textContent}</a>`).join("") || "<span>No sections found</span>";
+      const links = new Map([...list.querySelectorAll("a")].map((a) => [a.hash.slice(1), a]));
+      let current;
+      const spy = new IntersectionObserver((es) => {
+        for (const en of es) if (en.isIntersecting) {
+          current?.removeAttribute("aria-current");
+          current = links.get(en.target.id);
+          current?.setAttribute("aria-current", "true");
+          if (current && !toc.classList.contains("open")) current.scrollIntoView({ block: "nearest" });
+        }
+      }, { rootMargin: "0px 0px -75% 0px" });
+      heads.forEach((h) => spy.observe(h));
+      list.addEventListener("click", (e) => { if (e.target.closest("a")) toc.classList.remove("open"); });
+      try { const y = Number(localStorage.getItem(key)); if (y > 400 && !location.hash) scrollTo(0, y); } catch (e) {}
+      if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+    }).catch(() => {
+      doc.innerHTML = `<p>This filing could not be opened here. <a href="${reader.querySelector(".rmeta a").href}">Read it on SEC EDGAR</a>.</p>`;
+    });
+    let ticking = false, saveT;
+    addEventListener("scroll", () => {
+      if (ticking) return; ticking = true;
+      requestAnimationFrame(() => {
+        const h = document.documentElement.scrollHeight - innerHeight;
+        prog.style.transform = `scaleX(${h > 0 ? scrollY / h : 0})`;
+        top.classList.toggle("on", scrollY > 1200);
+        ticking = false;
+      });
+      clearTimeout(saveT); saveT = setTimeout(() => { try { localStorage.setItem(key, String(Math.round(scrollY))); } catch (e) {} }, 400);
+    }, { passive: true });
+    tocBtn.addEventListener("click", () => toc.classList.toggle("open"));
+    top.addEventListener("click", () => scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" }));
+    addEventListener("keydown", (e) => { if (e.key === "Escape") toc.classList.remove("open"); });
+  }
+
   // ---------- search for grid and list ----------
   // Every word in the query must appear in the item's index (data-q), in any order.
   const items = [...document.querySelectorAll("[data-filter-item]")];

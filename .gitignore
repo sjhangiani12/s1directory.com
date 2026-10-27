@@ -3,3 +3,5 @@ site-src/.art-cache/
 __pycache__/
 .DS_Store
 site-src/.edgar-cache/
+site-src/.s1-cache/
+site-src/.pdf-cache/

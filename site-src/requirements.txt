@@ -1,3 +1,5 @@
-pillow
+beautifulsoup4
+lxml
 numpy
+pillow
 requests

@@ -1,5 +1,1949 @@
 [
  {
+  "name": "SK hynix Inc",
+  "slug": "sk-hynix-inc",
+  "date": "20260710",
+  "sic": "3674",
+  "ticker": "SKHY",
+  "price": 149.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526280172/0001193125-26-280172-index.htm"
+ },
+ {
+  "name": "Neutron Holdings Inc",
+  "slug": "neutron-holdings-inc",
+  "date": "20260702",
+  "sic": "7372",
+  "ticker": "LIME",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1699963/000162828026032523/0001628280-26-032523-index.htm"
+ },
+ {
+  "name": "Bending Spoons SpA",
+  "slug": "bending-spoons-spa",
+  "date": "20260701",
+  "sic": "7370",
+  "ticker": "BSP",
+  "price": 29.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2004711/000110465926071170/0001104659-26-071170-index.htm"
+ },
+ {
+  "name": "Space Exploration Technologies Corp",
+  "slug": "space-exploration-technologies-corp",
+  "date": "20260612",
+  "sic": "7370",
+  "ticker": "SPCX",
+  "price": 135.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/0001628280-26-036936-index.htm"
+ },
+ {
+  "name": "Quantinuum Inc",
+  "slug": "quantinuum-inc",
+  "date": "20260605",
+  "sic": "7373",
+  "ticker": "QNT",
+  "price": 60.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2110105/000162828026032836/0001628280-26-032836-index.htm"
+ },
+ {
+  "name": "Liftoff Mobile Inc",
+  "slug": "liftoff-mobile-inc",
+  "date": "20260604",
+  "sic": "7374",
+  "ticker": "LFTO",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1850351/000119312526011825/0001193125-26-011825-index.htm"
+ },
+ {
+  "name": "Cerebras Systems Inc",
+  "slug": "cerebras-systems-inc",
+  "date": "20260514",
+  "sic": "3674",
+  "ticker": "CBRS",
+  "price": 185.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2021728/000162828024041596/0001628280-24-041596-index.htm"
+ },
+ {
+  "name": "HawkEye 360 Inc",
+  "slug": "hawkeye-360-inc",
+  "date": "20260507",
+  "sic": "7374",
+  "ticker": "HAWK",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1750704/000162828026024593/0001628280-26-024593-index.htm"
+ },
+ {
+  "name": "PayPay Corp",
+  "slug": "paypay-corp",
+  "date": "20260312",
+  "sic": "7389",
+  "ticker": "PAYP",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2080845/000119312526047933/0001193125-26-047933-index.htm"
+ },
+ {
+  "name": "Bitgo Holdings Inc",
+  "slug": "bitgo-holdings-inc",
+  "date": "20260123",
+  "sic": "6199",
+  "ticker": "BTGO",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1740604/000162828025042203/0001628280-25-042203-index.htm"
+ },
+ {
+  "name": "Wealthfront Corp",
+  "slug": "wealthfront-corp",
+  "date": "20251212",
+  "sic": "6199",
+  "ticker": "WLTH",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1524566/000162828025043113/0001628280-25-043113-index.htm"
+ },
+ {
+  "name": "Navan Inc",
+  "slug": "navan-inc",
+  "date": "20251031",
+  "sic": "7372",
+  "ticker": "NAVN",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1639723/000162828025042130/0001628280-25-042130-index.htm"
+ },
+ {
+  "name": "Netskope Inc",
+  "slug": "netskope-inc",
+  "date": "20250918",
+  "sic": "7372",
+  "ticker": "NTSK",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2063196/000095017025110855/0000950170-25-110855-index.htm"
+ },
+ {
+  "name": "StubHub Holdings, Inc.",
+  "slug": "stubhub-holdings-inc",
+  "date": "20250916",
+  "sic": "7990",
+  "ticker": "STUB",
+  "price": 23.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1337634/000119312525060140/0001193125-25-060140-index.htm"
+ },
+ {
+  "name": "Via Transportation Inc",
+  "slug": "via-transportation-inc",
+  "date": "20250915",
+  "sic": "7372",
+  "ticker": "VIA",
+  "price": 46.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1603015/000162828025040484/0001628280-25-040484-index.htm"
+ },
+ {
+  "name": "Gemini Space Station, Inc.",
+  "slug": "gemini-space-station-inc",
+  "date": "20250911",
+  "sic": "6199",
+  "ticker": "GEMI",
+  "price": 28.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2055592/000110465925079323/0001104659-25-079323-index.htm"
+ },
+ {
+  "name": "Klarna Group plc",
+  "slug": "klarna-group-plc",
+  "date": "20250910",
+  "sic": "6199",
+  "ticker": "KLAR",
+  "price": 40.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2003292/000162828025012824/0001628280-25-012824-index.htm"
+ },
+ {
+  "name": "Miami International Holdings Inc",
+  "slug": "miami-international-holdings-inc",
+  "date": "20250814",
+  "sic": "6211",
+  "ticker": "MIAX",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1438472/000162828025035343/0001628280-25-035343-index.htm"
+ },
+ {
+  "name": "Bullish",
+  "slug": "bullish",
+  "date": "20250813",
+  "sic": "6199",
+  "ticker": "BLSH",
+  "price": 37.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1872195/000110465925069070/0001104659-25-069070-index.htm"
+ },
+ {
+  "name": "Figma Inc",
+  "slug": "figma-inc",
+  "date": "20250731",
+  "sic": "7372",
+  "ticker": "FIG",
+  "price": 33.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/0001628280-25-033742-index.htm"
+ },
+ {
+  "name": "Ambiq Micro Inc",
+  "slug": "ambiq-micro-inc",
+  "date": "20250731",
+  "sic": "3674",
+  "ticker": "AMBQ",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1500412/000119312525155270/0001193125-25-155270-index.htm"
+ },
+ {
+  "name": "NIQ Global Intelligence plc",
+  "slug": "niq-global-intelligence-plc",
+  "date": "20250724",
+  "sic": "7370",
+  "ticker": "NIQ",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2054696/000119312525151230/0001193125-25-151230-index.htm"
+ },
+ {
+  "name": "Chime Financial Inc",
+  "slug": "chime-financial-inc",
+  "date": "20250612",
+  "sic": "6199",
+  "ticker": "CHYM",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1795586/000162828025025059/0001628280-25-025059-index.htm"
+ },
+ {
+  "name": "Circle Internet Group Inc",
+  "slug": "circle-internet-group-inc",
+  "date": "20250605",
+  "sic": "6199",
+  "ticker": "CRCL",
+  "price": 31.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525070481/0001193125-25-070481-index.htm"
+ },
+ {
+  "name": "Hinge Health Inc",
+  "slug": "hinge-health-inc",
+  "date": "20250523",
+  "sic": "7374",
+  "ticker": "HNGE",
+  "price": 32.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1673743/000119312525051004/0001193125-25-051004-index.htm"
+ },
+ {
+  "name": "eToro Group Ltd",
+  "slug": "etoro-group-ltd",
+  "date": "20250515",
+  "sic": "6211",
+  "ticker": "ETOR",
+  "price": 52.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1493318/000101376225001589/0001013762-25-001589-index.htm"
+ },
+ {
+  "name": "CoreWeave Inc",
+  "slug": "coreweave-inc",
+  "date": "20250331",
+  "sic": "7372",
+  "ticker": "CRWV",
+  "price": 40.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/0001193125-25-044231-index.htm"
+ },
+ {
+  "name": "SailPoint Inc",
+  "slug": "sailpoint-inc",
+  "date": "20250214",
+  "sic": "7372",
+  "ticker": "SAIL",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2030781/000119312525008417/0001193125-25-008417-index.htm"
+ },
+ {
+  "name": "ServiceTitan Inc",
+  "slug": "servicetitan-inc",
+  "date": "20241212",
+  "sic": "7372",
+  "ticker": "TTAN",
+  "price": 71.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1638826/000119312524260611/0001193125-24-260611-index.htm"
+ },
+ {
+  "name": "Pony AI Inc",
+  "slug": "pony-ai-inc",
+  "date": "20241127",
+  "sic": "7373",
+  "ticker": "PONY",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1969302/000110465924109475/0001104659-24-109475-index.htm"
+ },
+ {
+  "name": "WeRide Inc",
+  "slug": "weride-inc",
+  "date": "20241025",
+  "sic": "7373",
+  "ticker": "WRD",
+  "price": 15.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1867729/000119312524186293/0001193125-24-186293-index.htm"
+ },
+ {
+  "name": "Ingram Micro Holding Corp",
+  "slug": "ingram-micro-holding-corp",
+  "date": "20241024",
+  "sic": "5045",
+  "ticker": "INGM",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1897762/000119312524228597/0001193125-24-228597-index.htm"
+ },
+ {
+  "name": "OneStream Inc",
+  "slug": "onestream-inc",
+  "date": "20240724",
+  "sic": "7372",
+  "ticker": "OS",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1889956/000095017024079050/0000950170-24-079050-index.htm"
+ },
+ {
+  "name": "Tempus AI Inc",
+  "slug": "tempus-ai-inc",
+  "date": "20240617",
+  "sic": "7370",
+  "ticker": "TEM",
+  "price": 37.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1717115/000119312524142956/0001193125-24-142956-index.htm"
+ },
+ {
+  "name": "Waystar Holding Corp",
+  "slug": "waystar-holding-corp",
+  "date": "20240607",
+  "sic": "7373",
+  "ticker": "WAY",
+  "price": 21.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1990354/000110465923109397/0001104659-23-109397-index.htm"
+ },
+ {
+  "name": "Silvaco Group Inc",
+  "slug": "silvaco-group-inc",
+  "date": "20240510",
+  "sic": "7372",
+  "ticker": "SVCO",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1943289/000162828024016108/0001628280-24-016108-index.htm"
+ },
+ {
+  "name": "Rubrik Inc",
+  "slug": "rubrik-inc",
+  "date": "20240426",
+  "sic": "7372",
+  "ticker": "RBRK",
+  "price": 32.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1943896/000119312524083525/0001193125-24-083525-index.htm"
+ },
+ {
+  "name": "Astera Labs Inc",
+  "slug": "astera-labs-inc",
+  "date": "20240321",
+  "sic": "3674",
+  "ticker": "ALAB",
+  "price": 36.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1736297/000119312524040419/0001193125-24-040419-index.htm"
+ },
+ {
+  "name": "Reddit Inc",
+  "slug": "reddit-inc",
+  "date": "20240321",
+  "sic": "7374",
+  "ticker": "RDDT",
+  "price": 34.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1713445/000162828024006294/0001628280-24-006294-index.htm"
+ },
+ {
+  "name": "Joint Stock Co Kaspikz",
+  "slug": "joint-stock-co-kaspikz",
+  "date": "20240119",
+  "sic": "7374",
+  "ticker": "KSPI",
+  "price": 92.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1985487/000119312523304764/0001193125-23-304764-index.htm"
+ },
+ {
+  "name": "Klaviyo Inc",
+  "slug": "klaviyo-inc",
+  "date": "20230920",
+  "sic": "7372",
+  "ticker": "KVYO",
+  "price": 30.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1835830/000162828023030618/0001628280-23-030618-index.htm"
+ },
+ {
+  "name": "Maplebear Inc",
+  "slug": "maplebear-inc",
+  "date": "20230920",
+  "sic": "7389",
+  "ticker": "CART",
+  "price": 30.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1579091/000119312523221345/0001193125-23-221345-index.htm"
+ },
+ {
+  "name": "ARM Holdings PLC /UK",
+  "slug": "arm-holdings-plc-uk",
+  "date": "20230914",
+  "sic": "3674",
+  "ticker": "ARM",
+  "price": 51.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1973239/000119312523216983/0001193125-23-216983-index.htm"
+ },
+ {
+  "name": "Mobileye Global Inc",
+  "slug": "mobileye-global-inc",
+  "date": "20221027",
+  "sic": "7372",
+  "ticker": "MBLY",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1910139/000110465922104640/0001104659-22-104640-index.htm"
+ },
+ {
+  "name": "Applied Digital Corp",
+  "slug": "applied-digital-corp",
+  "date": "20220413",
+  "sic": "7370",
+  "ticker": "APLD",
+  "price": 5.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1144879/000113709101500252/0001137091-01-500252-index.htm"
+ },
+ {
+  "name": "Credo Technology Group Holding Ltd",
+  "slug": "credo-technology-group-holding-ltd",
+  "date": "20220127",
+  "sic": "3674",
+  "ticker": "CRDO",
+  "price": 10.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1807794/000162828022000095/0001628280-22-000095-index.htm"
+ },
+ {
+  "name": "Samsara Inc",
+  "slug": "samsara-inc",
+  "date": "20211215",
+  "sic": "7373",
+  "ticker": "IOT",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1642896/000119312521334578/0001193125-21-334578-index.htm"
+ },
+ {
+  "name": "HashiCorp Inc",
+  "slug": "hashicorp-inc",
+  "date": "20211209",
+  "sic": "7371",
+  "ticker": "HCP",
+  "price": 80.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1720671/000119312521319849/0001193125-21-319849-index.htm"
+ },
+ {
+  "name": "Braze Inc",
+  "slug": "braze-inc",
+  "date": "20211118",
+  "sic": "7372",
+  "ticker": "BRZE",
+  "price": 65.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1676238/000119312521304909/0001193125-21-304909-index.htm"
+ },
+ {
+  "name": "IREN Ltd",
+  "slug": "iren-ltd",
+  "date": "20211118",
+  "sic": "7374",
+  "ticker": "IREN",
+  "price": 28.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1878848/000114036121035328/0001140361-21-035328-index.htm"
+ },
+ {
+  "name": "UserTesting Inc",
+  "slug": "usertesting-inc",
+  "date": "20211117",
+  "sic": "7372",
+  "ticker": "USER",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1557127/000162828021020026/0001628280-21-020026-index.htm"
+ },
+ {
+  "name": "Weave Communications Inc",
+  "slug": "weave-communications-inc",
+  "date": "20211112",
+  "sic": "7372",
+  "ticker": "WEAV",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1609151/000162828021020169/0001628280-21-020169-index.htm"
+ },
+ {
+  "name": "Expensify Inc",
+  "slug": "expensify-inc",
+  "date": "20211112",
+  "sic": "7372",
+  "ticker": "EXFY",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1476840/000162828021020115/0001628280-21-020115-index.htm"
+ },
+ {
+  "name": "Backblaze Inc",
+  "slug": "backblaze-inc",
+  "date": "20211112",
+  "sic": "7372",
+  "ticker": "BLZE",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1462056/000119312521301141/0001193125-21-301141-index.htm"
+ },
+ {
+  "name": "Cian PLC",
+  "slug": "cian-plc",
+  "date": "20211108",
+  "sic": "7374",
+  "ticker": "CIAN",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1867752/000110465921125821/0001104659-21-125821-index.htm"
+ },
+ {
+  "name": "Nerdwallet Inc",
+  "slug": "nerdwallet-inc",
+  "date": "20211105",
+  "sic": "7374",
+  "ticker": "NRDS",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1625278/000162828021019876/0001628280-21-019876-index.htm"
+ },
+ {
+  "name": "GLOBALFOUNDRIES Inc",
+  "slug": "globalfoundries-inc",
+  "date": "20211029",
+  "sic": "3674",
+  "ticker": "GFS",
+  "price": 47.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1709048/000119312521290644/0001193125-21-290644-index.htm"
+ },
+ {
+  "name": "Arteris Inc",
+  "slug": "arteris-inc",
+  "date": "20211028",
+  "sic": "3674",
+  "ticker": "AIP",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1667011/000119312521289866/0001193125-21-289866-index.htm"
+ },
+ {
+  "name": "Informatica Inc",
+  "slug": "informatica-inc",
+  "date": "20211027",
+  "sic": "7372",
+  "ticker": "INFA",
+  "price": 29.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1868778/000119312521289749/0001193125-21-289749-index.htm"
+ },
+ {
+  "name": "Enfusion Inc",
+  "slug": "enfusion-inc",
+  "date": "20211022",
+  "sic": "7372",
+  "ticker": "ENFN",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1868912/000155837021012603/0001558370-21-012603-index.htm"
+ },
+ {
+  "name": "IHS Holding Ltd",
+  "slug": "ihs-holding-ltd",
+  "date": "20211015",
+  "sic": "3669",
+  "ticker": "IHS",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1876183/000110465921116579/0001104659-21-116579-index.htm"
+ },
+ {
+  "name": "Gitlab Inc",
+  "slug": "gitlab-inc",
+  "date": "20211014",
+  "sic": "7372",
+  "ticker": "GTLB",
+  "price": 77.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1653482/000162828021018818/0001628280-21-018818-index.htm"
+ },
+ {
+  "name": "AvidXchange Holdings Inc",
+  "slug": "avidxchange-holdings-inc",
+  "date": "20211014",
+  "sic": "7372",
+  "ticker": "AVDX",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1858257/000119312521276254/0001193125-21-276254-index.htm"
+ },
+ {
+  "name": "Amplitude Inc",
+  "slug": "amplitude-inc",
+  "date": "20210928",
+  "sic": "7372",
+  "ticker": "AMPL",
+  "price": 35.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1866692/000119312521260696/0001193125-21-260696-index.htm"
+ },
+ {
+  "name": "Clearwater Analytics Holdings Inc",
+  "slug": "clearwater-analytics-holdings-inc",
+  "date": "20210927",
+  "sic": "7372",
+  "ticker": "CWAN",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1866368/000119312521260325/0001193125-21-260325-index.htm"
+ },
+ {
+  "name": "Remitly Global Inc",
+  "slug": "remitly-global-inc",
+  "date": "20210924",
+  "sic": "7389",
+  "ticker": "RELY",
+  "price": 43.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1782170/000162828021017788/0001628280-21-017788-index.htm"
+ },
+ {
+  "name": "EngageSmart Inc",
+  "slug": "engagesmart-inc",
+  "date": "20210924",
+  "sic": "7372",
+  "ticker": "ESMT",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1863105/000119312521258069/0001193125-21-258069-index.htm"
+ },
+ {
+  "name": "Toast Inc",
+  "slug": "toast-inc",
+  "date": "20210922",
+  "sic": "7374",
+  "ticker": "TOST",
+  "price": 40.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1650164/000119312521258447/0001193125-21-258447-index.htm"
+ },
+ {
+  "name": "Freshworks Inc",
+  "slug": "freshworks-inc",
+  "date": "20210922",
+  "sic": "7372",
+  "ticker": "FRSH",
+  "price": 36.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1544522/000162828021017717/0001628280-21-017717-index.htm"
+ },
+ {
+  "name": "ForgeRock Inc",
+  "slug": "forgerock-inc",
+  "date": "20210917",
+  "sic": "7372",
+  "ticker": "FORG",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1543916/000119312521254144/0001193125-21-254144-index.htm"
+ },
+ {
+  "name": "Definitive Healthcare Corp",
+  "slug": "definitive-healthcare-corp",
+  "date": "20210916",
+  "sic": "7372",
+  "ticker": "DH",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1861795/000119312521252899/0001193125-21-252899-index.htm"
+ },
+ {
+  "name": "Thoughtworks Holding Inc",
+  "slug": "thoughtworks-holding-inc",
+  "date": "20210916",
+  "sic": "7371",
+  "ticker": "TWKS",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1866550/000119312521252856/0001193125-21-252856-index.htm"
+ },
+ {
+  "name": "Sportradar Group AG",
+  "slug": "sportradar-group-ag",
+  "date": "20210915",
+  "sic": "7370",
+  "ticker": "SRAD",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1836470/000119312521249269/0001193125-21-249269-index.htm"
+ },
+ {
+  "name": "Robinhood Markets Inc",
+  "slug": "robinhood-markets-inc",
+  "date": "20210730",
+  "sic": "6211",
+  "ticker": "HOOD",
+  "price": 38.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1783879/000162828021013318/0001628280-21-013318-index.htm"
+ },
+ {
+  "name": "Riskified Ltd",
+  "slug": "riskified-ltd",
+  "date": "20210730",
+  "sic": "7389",
+  "ticker": "RSKD",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1851112/000162828021013329/0001628280-21-013329-index.htm"
+ },
+ {
+  "name": "Powerschool Holdings Inc",
+  "slug": "powerschool-holdings-inc",
+  "date": "20210729",
+  "sic": "7372",
+  "ticker": "PWSC",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1835681/000119312521107673/0001193125-21-107673-index.htm"
+ },
+ {
+  "name": "Duolingo Inc",
+  "slug": "duolingo-inc",
+  "date": "20210728",
+  "sic": "7372",
+  "ticker": "DUOL",
+  "price": 102.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1562088/000162828021013065/0001628280-21-013065-index.htm"
+ },
+ {
+  "name": "MeridianLink Inc",
+  "slug": "meridianlink-inc",
+  "date": "20210728",
+  "sic": "7372",
+  "ticker": "MLNK",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1834494/000119312521145352/0001193125-21-145352-index.htm"
+ },
+ {
+  "name": "Instructure Holdings Inc",
+  "slug": "instructure-holdings-inc",
+  "date": "20210723",
+  "sic": "7372",
+  "ticker": "INST",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1841804/000119312521201923/0001193125-21-201923-index.htm"
+ },
+ {
+  "name": "Zenvia Inc",
+  "slug": "zenvia-inc",
+  "date": "20210723",
+  "sic": "7372",
+  "ticker": "ZENV",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1836934/000110465921050974/0001104659-21-050974-index.htm"
+ },
+ {
+  "name": "Teads Holding Co",
+  "slug": "teads-holding-co",
+  "date": "20210723",
+  "sic": "7370",
+  "ticker": "TEAD",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1454938/000110465921086945/0001104659-21-086945-index.htm"
+ },
+ {
+  "name": "Kaltura Inc",
+  "slug": "kaltura-inc",
+  "date": "20210722",
+  "sic": "7372",
+  "ticker": "KLTR",
+  "price": 10.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1432133/000162828021003617/0001628280-21-003617-index.htm"
+ },
+ {
+  "name": "Paycor Hcm Inc",
+  "slug": "paycor-hcm-inc",
+  "date": "20210722",
+  "sic": "7372",
+  "ticker": "PYCR",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1839439/000119312521129839/0001193125-21-129839-index.htm"
+ },
+ {
+  "name": "Couchbase Inc",
+  "slug": "couchbase-inc",
+  "date": "20210722",
+  "sic": "7372",
+  "ticker": "BASE",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1845022/000119312521194292/0001193125-21-194292-index.htm"
+ },
+ {
+  "name": "Vtex",
+  "slug": "vtex",
+  "date": "20210722",
+  "sic": "7372",
+  "ticker": "VTEX",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1793663/000119312521200250/0001193125-21-200250-index.htm"
+ },
+ {
+  "name": "CS Disco Inc",
+  "slug": "cs-disco-inc",
+  "date": "20210722",
+  "sic": "7372",
+  "ticker": "LAW",
+  "price": 32.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1625641/000119312521200525/0001193125-21-200525-index.htm"
+ },
+ {
+  "name": "Blend Labs Inc",
+  "slug": "blend-labs-inc",
+  "date": "20210716",
+  "sic": "7370",
+  "ticker": "BLND",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1855747/000119312521194971/0001193125-21-194971-index.htm"
+ },
+ {
+  "name": "EverCommerce Inc",
+  "slug": "evercommerce-inc",
+  "date": "20210706",
+  "sic": "7372",
+  "ticker": "EVCM",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1853145/000114036121019260/0001140361-21-019260-index.htm"
+ },
+ {
+  "name": "Xometry Inc",
+  "slug": "xometry-inc",
+  "date": "20210701",
+  "sic": "7389",
+  "ticker": "XMTR",
+  "price": 44.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1657573/000119312521181945/0001193125-21-181945-index.htm"
+ },
+ {
+  "name": "Integral AD Science Holding Corp",
+  "slug": "integral-ad-science-holding-corp",
+  "date": "20210701",
+  "sic": "7370",
+  "ticker": "IAS",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1842718/000119312521181985/0001193125-21-181985-index.htm"
+ },
+ {
+  "name": "Intapp Inc",
+  "slug": "intapp-inc",
+  "date": "20210701",
+  "sic": "7372",
+  "ticker": "INTA",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1565687/000119312521183026/0001193125-21-183026-index.htm"
+ },
+ {
+  "name": "Clear Secure Inc",
+  "slug": "clear-secure-inc",
+  "date": "20210701",
+  "sic": "7372",
+  "ticker": "YOU",
+  "price": 31.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1856314/000110465921077600/0001104659-21-077600-index.htm"
+ },
+ {
+  "name": "D-MARKET Electronic Services & Trading",
+  "slug": "d-market-electronic-services-trading",
+  "date": "20210701",
+  "sic": "5961",
+  "ticker": "HEPS",
+  "price": 12.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1850235/000104746921001156/0001047469-21-001156-index.htm"
+ },
+ {
+  "name": "SentinelOne Inc",
+  "slug": "sentinelone-inc",
+  "date": "20210630",
+  "sic": "7372",
+  "ticker": "S",
+  "price": 35.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1583708/000162828021011624/0001628280-21-011624-index.htm"
+ },
+ {
+  "name": "LegalzoomCom Inc",
+  "slug": "legalzoomcom-inc",
+  "date": "20210630",
+  "sic": "7374",
+  "ticker": "LZ",
+  "price": 28.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1286139/000104746912005763/0001047469-12-005763-index.htm"
+ },
+ {
+  "name": "Dingdong",
+  "slug": "dingdong",
+  "date": "20210630",
+  "sic": "5961",
+  "ticker": "DDL",
+  "price": 23.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1854545/000119312521185539/0001193125-21-185539-index.htm"
+ },
+ {
+  "name": "DiDi Global Inc",
+  "slug": "didi-global-inc",
+  "date": "20210630",
+  "sic": "7389",
+  "ticker": "DIDIY",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1764757/000104746921001194/0001047469-21-001194-index.htm"
+ },
+ {
+  "name": "Confluent Inc",
+  "slug": "confluent-inc",
+  "date": "20210625",
+  "sic": "7372",
+  "ticker": "CFLT",
+  "price": 36.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1699838/000119312521178773/0001193125-21-178773-index.htm"
+ },
+ {
+  "name": "Doximity Inc",
+  "slug": "doximity-inc",
+  "date": "20210625",
+  "sic": "7371",
+  "ticker": "DOCS",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1516513/000162828021011269/0001628280-21-011269-index.htm"
+ },
+ {
+  "name": "Sprinklr Inc",
+  "slug": "sprinklr-inc",
+  "date": "20210624",
+  "sic": "7372",
+  "ticker": "CXM",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1569345/000119312521177215/0001193125-21-177215-index.htm"
+ },
+ {
+  "name": "Full Truck Alliance Co Ltd",
+  "slug": "full-truck-alliance-co-ltd",
+  "date": "20210623",
+  "sic": "7372",
+  "ticker": "YMM",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1838413/000119312521175480/0001193125-21-175480-index.htm"
+ },
+ {
+  "name": "Nexxen International Ltd",
+  "slug": "nexxen-international-ltd",
+  "date": "20210621",
+  "sic": "7370",
+  "ticker": "NEXN",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1849396/000119312521171330/0001193125-21-171330-index.htm"
+ },
+ {
+  "name": "WalkMe Ltd",
+  "slug": "walkme-ltd",
+  "date": "20210616",
+  "sic": "7372",
+  "ticker": "WKME",
+  "price": 31.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1847584/000119312521163950/0001193125-21-163950-index.htm"
+ },
+ {
+  "name": "Kanzhun Ltd",
+  "slug": "kanzhun-ltd",
+  "date": "20210614",
+  "sic": "7370",
+  "ticker": "BZ",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1842827/000119312521169431/0001193125-21-169431-index.htm"
+ },
+ {
+  "name": "TaskUs Inc",
+  "slug": "taskus-inc",
+  "date": "20210614",
+  "sic": "7374",
+  "ticker": "TASK",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1829864/000119312521113320/0001193125-21-113320-index.htm"
+ },
+ {
+  "name": "Zeta Global Holdings Corp",
+  "slug": "zeta-global-holdings-corp",
+  "date": "20210614",
+  "sic": "7372",
+  "ticker": "ZETA",
+  "price": 10.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1851003/000119312521130521/0001193125-21-130521-index.htm"
+ },
+ {
+  "name": "mondaycom Ltd",
+  "slug": "mondaycom-ltd",
+  "date": "20210611",
+  "sic": "7372",
+  "ticker": "MNDY",
+  "price": 155.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1845338/000110465921067423/0001104659-21-067423-index.htm"
+ },
+ {
+  "name": "Marqeta Inc",
+  "slug": "marqeta-inc",
+  "date": "20210610",
+  "sic": "7372",
+  "ticker": "MQ",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1522540/000119312521162113/0001193125-21-162113-index.htm"
+ },
+ {
+  "name": "1stdibscom Inc",
+  "slug": "1stdibscom-inc",
+  "date": "20210610",
+  "sic": "5961",
+  "ticker": "DIBS",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1600641/000119312521162999/0001193125-21-162999-index.htm"
+ },
+ {
+  "name": "Ziprecruiter Inc",
+  "slug": "ziprecruiter-inc",
+  "date": "20210526",
+  "sic": "7370",
+  "ticker": "ZIP",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1617553/000162828021007473/0001628280-21-007473-index.htm"
+ },
+ {
+  "name": "Paymentus Holdings Inc",
+  "slug": "paymentus-holdings-inc",
+  "date": "20210526",
+  "sic": "7389",
+  "ticker": "PAY",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1841156/000156459021022583/0001564590-21-022583-index.htm"
+ },
+ {
+  "name": "Flywire Corp",
+  "slug": "flywire-corp",
+  "date": "20210526",
+  "sic": "7389",
+  "ticker": "FLYW",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1580560/000119312521146481/0001193125-21-146481-index.htm"
+ },
+ {
+  "name": "Procore Technologies Inc",
+  "slug": "procore-technologies-inc",
+  "date": "20210521",
+  "sic": "7372",
+  "ticker": "PCOR",
+  "price": 67.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1611052/000119312520057081/0001193125-20-057081-index.htm"
+ },
+ {
+  "name": "Squarespace Inc",
+  "slug": "squarespace-inc",
+  "date": "20210519",
+  "sic": "7372",
+  "ticker": "SQSP",
+  "price": 50.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1496963/000110465921051251/0001104659-21-051251-index.htm"
+ },
+ {
+  "name": "Global-E Online Ltd",
+  "slug": "global-e-online-ltd",
+  "date": "20210513",
+  "sic": "7372",
+  "ticker": "GLBE",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1835963/000119312521073395/0001193125-21-073395-index.htm"
+ },
+ {
+  "name": "Similarweb Ltd",
+  "slug": "similarweb-ltd",
+  "date": "20210512",
+  "sic": "7370",
+  "ticker": "SMWB",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1842731/000162828021007036/0001628280-21-007036-index.htm"
+ },
+ {
+  "name": "KnowBe4 Inc",
+  "slug": "knowbe4-inc",
+  "date": "20210423",
+  "sic": "7370",
+  "ticker": "KNBE",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1664998/000162828021005207/0001628280-21-005207-index.htm"
+ },
+ {
+  "name": "SkyWater Technology LLC",
+  "slug": "skywater-technology-llc",
+  "date": "20210422",
+  "sic": "3674",
+  "ticker": "SKYT",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1819974/000119312521089687/0001193125-21-089687-index.htm"
+ },
+ {
+  "name": "DoubleVerify Holdings Inc",
+  "slug": "doubleverify-holdings-inc",
+  "date": "20210422",
+  "sic": "7370",
+  "ticker": "DV",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1819928/000104746921000623/0001047469-21-000623-index.htm"
+ },
+ {
+  "name": "UiPath Inc",
+  "slug": "uipath-inc",
+  "date": "20210421",
+  "sic": "7372",
+  "ticker": "PATH",
+  "price": 56.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1734722/000119312521094920/0001193125-21-094920-index.htm"
+ },
+ {
+  "name": "TuSimple Holdings Inc",
+  "slug": "tusimple-holdings-inc",
+  "date": "20210416",
+  "sic": "7373",
+  "ticker": "TSP",
+  "price": 40.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1823593/000119312521091150/0001193125-21-091150-index.htm"
+ },
+ {
+  "name": "AppLovin Corp",
+  "slug": "applovin-corp",
+  "date": "20210415",
+  "sic": "7370",
+  "ticker": "APP",
+  "price": 80.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1751008/000119312521065782/0001193125-21-065782-index.htm"
+ },
+ {
+  "name": "Alkami Technology Inc",
+  "slug": "alkami-technology-inc",
+  "date": "20210415",
+  "sic": "7372",
+  "ticker": "ALKT",
+  "price": 30.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1529274/000119312521076443/0001193125-21-076443-index.htm"
+ },
+ {
+  "name": "Coinbase Global Inc",
+  "slug": "coinbase-global-inc",
+  "date": "20210414",
+  "sic": "6199",
+  "ticker": "COIN",
+  "price": 250.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1679788/000162828021003168/0001628280-21-003168-index.htm"
+ },
+ {
+  "name": "Karooooo Ltd",
+  "slug": "karooooo-ltd",
+  "date": "20210405",
+  "sic": "7372",
+  "ticker": "KARO",
+  "price": 28.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1828102/000110465921029334/0001104659-21-029334-index.htm"
+ },
+ {
+  "name": "Compass Inc",
+  "slug": "compass-inc",
+  "date": "20210401",
+  "sic": "7371",
+  "ticker": "COMP",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1563190/000119312521063859/0001193125-21-063859-index.htm"
+ },
+ {
+  "name": "Coursera Inc",
+  "slug": "coursera-inc",
+  "date": "20210331",
+  "sic": "7372",
+  "ticker": "COUR",
+  "price": 33.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1651562/000119312521071525/0001193125-21-071525-index.htm"
+ },
+ {
+  "name": "ThredUp Inc",
+  "slug": "thredup-inc",
+  "date": "20210326",
+  "sic": "5961",
+  "ticker": "TDUP",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1484778/000162828021003857/0001628280-21-003857-index.htm"
+ },
+ {
+  "name": "Zhihu Inc",
+  "slug": "zhihu-inc",
+  "date": "20210326",
+  "sic": "7389",
+  "ticker": "ZH",
+  "price": 9.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1835724/000119312521070815/0001193125-21-070815-index.htm"
+ },
+ {
+  "name": "SEMrush Holdings Inc",
+  "slug": "semrush-holdings-inc",
+  "date": "20210325",
+  "sic": "7372",
+  "ticker": "SEMR",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1831840/000162828021003658/0001628280-21-003658-index.htm"
+ },
+ {
+  "name": "ACV Auctions Inc",
+  "slug": "acv-auctions-inc",
+  "date": "20210324",
+  "sic": "7389",
+  "ticker": "ACVA",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1637873/000119312521060598/0001193125-21-060598-index.htm"
+ },
+ {
+  "name": "DigitalOcean Holdings Inc",
+  "slug": "digitalocean-holdings-inc",
+  "date": "20210324",
+  "sic": "7370",
+  "ticker": "DOCN",
+  "price": 47.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1582961/000119312521055798/0001193125-21-055798-index.htm"
+ },
+ {
+  "name": "Tuya Inc",
+  "slug": "tuya-inc",
+  "date": "20210319",
+  "sic": "7372",
+  "ticker": "TUYA",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1829118/000119312521058848/0001193125-21-058848-index.htm"
+ },
+ {
+  "name": "Olo Inc",
+  "slug": "olo-inc",
+  "date": "20210318",
+  "sic": "7389",
+  "ticker": "OLO",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1431695/000119312521049073/0001193125-21-049073-index.htm"
+ },
+ {
+  "name": "Coupang Inc",
+  "slug": "coupang-inc",
+  "date": "20210311",
+  "sic": "5961",
+  "ticker": "CPNG",
+  "price": 35.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1834584/000162828021001984/0001628280-21-001984-index.htm"
+ },
+ {
+  "name": "Roblox Corp",
+  "slug": "roblox-corp",
+  "date": "20210310",
+  "sic": "7372",
+  "ticker": "RBLX",
+  "price": 45.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1315098/000119312520298230/0001193125-20-298230-index.htm"
+ },
+ {
+  "name": "Bumble Inc",
+  "slug": "bumble-inc",
+  "date": "20210212",
+  "sic": "7370",
+  "ticker": "BMBL",
+  "price": 43.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1830043/000119312521009745/0001193125-21-009745-index.htm"
+ },
+ {
+  "name": "Viant Technology Inc",
+  "slug": "viant-technology-inc",
+  "date": "20210211",
+  "sic": "7370",
+  "ticker": "DSP",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1828791/000119312521009504/0001193125-21-009504-index.htm"
+ },
+ {
+  "name": "On24 Inc",
+  "slug": "on24-inc",
+  "date": "20210204",
+  "sic": "7372",
+  "ticker": "ONTF",
+  "price": 50.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1110611/000119312521005184/0001193125-21-005184-index.htm"
+ },
+ {
+  "name": "TELUS International",
+  "slug": "telus-international",
+  "date": "20210204",
+  "sic": "7374",
+  "ticker": "TIXT",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1825155/000104746921000042/0001047469-21-000042-index.htm"
+ },
+ {
+  "name": "Qualtrics International Inc",
+  "slug": "qualtrics-international-inc",
+  "date": "20210129",
+  "sic": "7372",
+  "ticker": "XM",
+  "price": 30.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1747748/000162828018012674/0001628280-18-012674-index.htm"
+ },
+ {
+  "name": "LuxExperience BV",
+  "slug": "luxexperience-bv",
+  "date": "20210122",
+  "sic": "5961",
+  "ticker": "LUXE",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1831907/000110465920139651/0001104659-20-139651-index.htm"
+ },
+ {
+  "name": "Playtika Holding Corp",
+  "slug": "playtika-holding-corp",
+  "date": "20210115",
+  "sic": "7374",
+  "ticker": "PLTK",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1828016/000119312520321440/0001193125-20-321440-index.htm"
+ },
+ {
+  "name": "Poshmark Inc",
+  "slug": "poshmark-inc",
+  "date": "20210114",
+  "sic": "5961",
+  "ticker": "POSH",
+  "price": 42.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1825480/000119312520320132/0001193125-20-320132-index.htm"
+ },
+ {
+  "name": "Affirm Holdings Inc",
+  "slug": "affirm-holdings-inc",
+  "date": "20210114",
+  "sic": "7389",
+  "ticker": "AFRM",
+  "price": 49.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1820953/000110465920126927/0001104659-20-126927-index.htm"
+ },
+ {
+  "name": "ContextLogic Inc",
+  "slug": "contextlogic-inc",
+  "date": "20201217",
+  "sic": "5961",
+  "ticker": "WISH",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1822250/000119312520298630/0001193125-20-298630-index.htm"
+ },
+ {
+  "name": "Upstart Holdings Inc",
+  "slug": "upstart-holdings-inc",
+  "date": "20201216",
+  "sic": "6199",
+  "ticker": "UPST",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1647639/000119312520285895/0001193125-20-285895-index.htm"
+ },
+ {
+  "name": "Certara Inc",
+  "slug": "certara-inc",
+  "date": "20201214",
+  "sic": "7372",
+  "ticker": "CERT",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1827090/000110465920126924/0001104659-20-126924-index.htm"
+ },
+ {
+  "name": "C3ai Inc",
+  "slug": "c3ai-inc",
+  "date": "20201209",
+  "sic": "7372",
+  "ticker": "AI",
+  "price": 42.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1577526/000162828020016443/0001628280-20-016443-index.htm"
+ },
+ {
+  "name": "Airbnb, Inc.",
+  "slug": "airbnb-inc",
+  "date": "20201209",
+  "sic": "7340",
+  "ticker": "ABNB",
+  "price": 68.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520294801/0001193125-20-294801-index.htm"
+ },
+ {
+  "name": "PubMatic Inc",
+  "slug": "pubmatic-inc",
+  "date": "20201209",
+  "sic": "7370",
+  "ticker": "PUBM",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1422930/000162828020016438/0001628280-20-016438-index.htm"
+ },
+ {
+  "name": "DoorDash Inc",
+  "slug": "doordash-inc",
+  "date": "20201209",
+  "sic": "7389",
+  "ticker": "DASH",
+  "price": 102.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1792789/000119312520292381/0001193125-20-292381-index.htm"
+ },
+ {
+  "name": "Ozon Holdings PLC",
+  "slug": "ozon-holdings-plc",
+  "date": "20201124",
+  "sic": "5961",
+  "ticker": "OZON",
+  "price": 30.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1822829/000119312520284083/0001193125-20-284083-index.htm"
+ },
+ {
+  "name": "Allegro Microsystems Inc",
+  "slug": "allegro-microsystems-inc",
+  "date": "20201030",
+  "sic": "3674",
+  "ticker": "ALGM",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/866291/000095012307011093/0000950123-07-011093-index.htm"
+ },
+ {
+  "name": "Lufax Holding Ltd",
+  "slug": "lufax-holding-ltd",
+  "date": "20201030",
+  "sic": "6199",
+  "ticker": "LU",
+  "price": 13.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1816007/000119312520265571/0001193125-20-265571-index.htm"
+ },
+ {
+  "name": "McAfee Corp",
+  "slug": "mcafee-corp",
+  "date": "20201023",
+  "sic": "7372",
+  "ticker": "MCFE",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1783317/000119312520256766/0001193125-20-256766-index.htm"
+ },
+ {
+  "name": "Datto Holding Corp",
+  "slug": "datto-holding-corp",
+  "date": "20201022",
+  "sic": "7372",
+  "ticker": "MSP",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1724570/000119312520257812/0001193125-20-257812-index.htm"
+ },
+ {
+  "name": "Chindata Group Holdings Ltd",
+  "slug": "chindata-group-holdings-ltd",
+  "date": "20200930",
+  "sic": "7370",
+  "ticker": "CD",
+  "price": 13.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1807192/000119312520241010/0001193125-20-241010-index.htm"
+ },
+ {
+  "name": "Palantir Technologies Inc",
+  "slug": "palantir-technologies-inc",
+  "date": "20200930",
+  "sic": "7372",
+  "ticker": "PLTR",
+  "price": 7.25,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/0001193125-20-230013-index.htm"
+ },
+ {
+  "name": "Asana Inc",
+  "slug": "asana-inc",
+  "date": "20200930",
+  "sic": "7372",
+  "ticker": "ASAN",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1477720/000119312520228462/0001193125-20-228462-index.htm"
+ },
+ {
+  "name": "GoodRx Holdings Inc",
+  "slug": "goodrx-holdings-inc",
+  "date": "20200924",
+  "sic": "7374",
+  "ticker": "GDRX",
+  "price": 33.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1809519/000119312520234662/0001193125-20-234662-index.htm"
+ },
+ {
+  "name": "Corsair Gaming Inc",
+  "slug": "corsair-gaming-inc",
+  "date": "20200924",
+  "sic": "3577",
+  "ticker": "CRSR",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1743759/000119312520227100/0001193125-20-227100-index.htm"
+ },
+ {
+  "name": "Bentley Systems Inc",
+  "slug": "bentley-systems-inc",
+  "date": "20200924",
+  "sic": "7372",
+  "ticker": "BSY",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1031308/000089322002000491/0000893220-02-000491-index.htm"
+ },
+ {
+  "name": "Unity Software Inc",
+  "slug": "unity-software-inc",
+  "date": "20200918",
+  "sic": "7372",
+  "ticker": "U",
+  "price": 52.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1810806/000119312520227862/0001193125-20-227862-index.htm"
+ },
+ {
+  "name": "American Well Corp",
+  "slug": "american-well-corp",
+  "date": "20200918",
+  "sic": "7389",
+  "ticker": "AMWL",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1393584/000119312520228478/0001193125-20-228478-index.htm"
+ },
+ {
+  "name": "Sumo Logic Inc",
+  "slug": "sumo-logic-inc",
+  "date": "20200917",
+  "sic": "7372",
+  "ticker": "SUMO",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1643269/000119312520227201/0001193125-20-227201-index.htm"
+ },
+ {
+  "name": "JFrog Ltd",
+  "slug": "jfrog-ltd",
+  "date": "20200916",
+  "sic": "7372",
+  "ticker": "FROG",
+  "price": 44.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1800667/000119312520228195/0001193125-20-228195-index.htm"
+ },
+ {
+  "name": "Snowflake Inc",
+  "slug": "snowflake-inc",
+  "date": "20200916",
+  "sic": "7372",
+  "ticker": "SNOW",
+  "price": 120.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1640147/000162828020013010/0001628280-20-013010-index.htm"
+ },
+ {
+  "name": "Duck Creek Technologies Inc",
+  "slug": "duck-creek-technologies-inc",
+  "date": "20200817",
+  "sic": "7372",
+  "ticker": "DCT",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1160951/000119312520197844/0001193125-20-197844-index.htm"
+ },
+ {
+  "name": "Commercecom Inc",
+  "slug": "commercecom-inc",
+  "date": "20200805",
+  "sic": "7372",
+  "ticker": "CMRC",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1626450/000119312520191966/0001193125-20-191966-index.htm"
+ },
+ {
+  "name": "Rackspace Technology Inc",
+  "slug": "rackspace-technology-inc",
+  "date": "20200805",
+  "sic": "7370",
+  "ticker": "RXT",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1810019/000119312520190902/0001193125-20-190902-index.htm"
+ },
+ {
+  "name": "Vertex Inc",
+  "slug": "vertex-inc",
+  "date": "20200730",
+  "sic": "7372",
+  "ticker": "VERX",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1806837/000104746920003952/0001047469-20-003952-index.htm"
+ },
+ {
+  "name": "Jamf Holding Corp",
+  "slug": "jamf-holding-corp",
+  "date": "20200723",
+  "sic": "7372",
+  "ticker": "JAMF",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1721947/000104746920003905/0001047469-20-003905-index.htm"
+ },
+ {
+  "name": "nCino OpCo Inc",
+  "slug": "ncino-opco-inc",
+  "date": "20200714",
+  "sic": "7372",
+  "ticker": "NCNO",
+  "price": 31.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1566895/000119312520174870/0001193125-20-174870-index.htm"
+ },
+ {
+  "name": "Accolade Inc",
+  "slug": "accolade-inc",
+  "date": "20200702",
+  "sic": "7389",
+  "ticker": "ACCD",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1481646/000104746920001123/0001047469-20-001123-index.htm"
+ },
+ {
+  "name": "Agora Inc",
+  "slug": "agora-inc",
+  "date": "20200626",
+  "sic": "7372",
+  "ticker": "API",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1802883/000162828020009067/0001628280-20-009067-index.htm"
+ },
+ {
+  "name": "Shift4 Payments Inc",
+  "slug": "shift4-payments-inc",
+  "date": "20200608",
+  "sic": "7389",
+  "ticker": "FOUR",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1794669/000119312520144049/0001193125-20-144049-index.htm"
+ },
+ {
+  "name": "Dada Nexus Ltd",
+  "slug": "dada-nexus-ltd",
+  "date": "20200608",
+  "sic": "7370",
+  "ticker": "DADA",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1793862/000119312520140383/0001193125-20-140383-index.htm"
+ },
+ {
+  "name": "ZoomInfo Technologies Inc",
+  "slug": "zoominfo-technologies-inc",
+  "date": "20200605",
+  "sic": "7372",
+  "ticker": "GTM",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1794515/000162828020002344/0001628280-20-002344-index.htm"
+ },
+ {
+  "name": "Kingsoft Cloud Holdings Ltd",
+  "slug": "kingsoft-cloud-holdings-ltd",
+  "date": "20200511",
+  "sic": "7372",
+  "ticker": "KC",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1795589/000119312520110080/0001193125-20-110080-index.htm"
+ },
+ {
+  "name": "Sprout Social Inc",
+  "slug": "sprout-social-inc",
+  "date": "20191213",
+  "sic": "7372",
+  "ticker": "SPT",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1517375/000162828019012563/0001628280-19-012563-index.htm"
+ },
+ {
+  "name": "Oneconnect Financial Technology Co Ltd",
+  "slug": "oneconnect-financial-technology-co-ltd",
+  "date": "20191213",
+  "sic": "7370",
+  "ticker": "OCFT",
+  "price": 10.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1780531/000104746919006277/0001047469-19-006277-index.htm"
+ },
+ {
+  "name": "Livongo Health Inc",
+  "slug": "livongo-health-inc",
+  "date": "20191212",
+  "sic": "7370",
+  "ticker": "LVGO",
+  "price": 28.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1639225/000119312519185159/0001193125-19-185159-index.htm"
+ },
+ {
+  "name": "BILL Holdings Inc",
+  "slug": "bill-holdings-inc",
+  "date": "20191212",
+  "sic": "7372",
+  "ticker": "BILL",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1786352/000119312519293348/0001193125-19-293348-index.htm"
+ },
+ {
+  "name": "SITIME Corp",
+  "slug": "sitime-corp",
+  "date": "20191121",
+  "sic": "3674",
+  "ticker": "SITM",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1451809/000119312519272678/0001193125-19-272678-index.htm"
+ },
+ {
+  "name": "Canaan Inc",
+  "slug": "canaan-inc",
+  "date": "20191121",
+  "sic": "3674",
+  "ticker": "CAN",
+  "price": 9.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1780652/000119312519276263/0001193125-19-276263-index.htm"
+ },
+ {
+  "name": "Peloton Interactive, Inc.",
+  "slug": "peloton-interactive-inc",
+  "date": "20190925",
+  "sic": "3949",
+  "ticker": "PTON",
+  "price": 29.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1639825/000119312519230923/0001193125-19-230923-index.htm"
+ },
+ {
+  "name": "Ping Identity Holding Corp",
+  "slug": "ping-identity-holding-corp",
+  "date": "20190920",
+  "sic": "7372",
+  "ticker": "PING",
+  "price": 15.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1679826/000104746919004829/0001047469-19-004829-index.htm"
+ },
+ {
+  "name": "Datadog Inc",
+  "slug": "datadog-inc",
+  "date": "20190919",
+  "sic": "7372",
+  "ticker": "DDOG",
+  "price": 27.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1561550/000119312519227783/0001193125-19-227783-index.htm"
+ },
+ {
+  "name": "Cloudflare Inc",
+  "slug": "cloudflare-inc",
+  "date": "20190913",
+  "sic": "7372",
+  "ticker": "NET",
+  "price": 15.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1477333/000119312519222176/0001193125-19-222176-index.htm"
+ },
+ {
+  "name": "Dynatrace Inc",
+  "slug": "dynatrace-inc",
+  "date": "20190801",
+  "sic": "7372",
+  "ticker": "DT",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1773383/000119312519189566/0001193125-19-189566-index.htm"
+ },
+ {
+  "name": "Health Catalyst Inc",
+  "slug": "health-catalyst-inc",
+  "date": "20190725",
+  "sic": "7370",
+  "ticker": "HCAT",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1636422/000162828019008426/0001628280-19-008426-index.htm"
+ },
+ {
+  "name": "Phreesia Inc",
+  "slug": "phreesia-inc",
+  "date": "20190719",
+  "sic": "7389",
+  "ticker": "PHR",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1412408/000119312519178862/0001193125-19-178862-index.htm"
+ },
+ {
+  "name": "Medallia Inc",
+  "slug": "medallia-inc",
+  "date": "20190719",
+  "sic": "7370",
+  "ticker": "MDLA",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1540184/000119312519178931/0001193125-19-178931-index.htm"
+ },
+ {
+  "name": "DouYu International Holdings Ltd",
+  "slug": "douyu-international-holdings-ltd",
+  "date": "20190718",
+  "sic": "7370",
+  "ticker": "DOYU",
+  "price": 11.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1762417/000104746919002447/0001047469-19-002447-index.htm"
+ },
+ {
+  "name": "Change Healthcare Inc",
+  "slug": "change-healthcare-inc",
+  "date": "20190628",
+  "sic": "7374",
+  "ticker": "CHNG",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1756497/000119312519076886/0001193125-19-076886-index.htm"
+ },
+ {
+  "name": "Cambium Networks Corp",
+  "slug": "cambium-networks-corp",
+  "date": "20190626",
+  "sic": "3663",
+  "ticker": "CMBM",
+  "price": 12.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1738177/000119312519159473/0001193125-19-159473-index.htm"
+ },
+ {
+  "name": "Slack Technologies Inc",
+  "slug": "slack-technologies-inc",
+  "date": "20190620",
+  "sic": "7372",
+  "ticker": "WORK",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1764925/000162828019004786/0001628280-19-004786-index.htm"
+ },
+ {
+  "name": "Chewy Inc",
+  "slug": "chewy-inc",
+  "date": "20190617",
+  "sic": "5961",
+  "ticker": "CHWY",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1766502/000119312519124430/0001193125-19-124430-index.htm"
+ },
+ {
+  "name": "Fiverr International Ltd",
+  "slug": "fiverr-international-ltd",
+  "date": "20190614",
+  "sic": "7389",
+  "ticker": "FVRR",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1762301/000104746919003139/0001047469-19-003139-index.htm"
+ },
+ {
+  "name": "CrowdStrike Holdings Inc",
+  "slug": "crowdstrike-holdings-inc",
+  "date": "20190613",
+  "sic": "7372",
+  "ticker": "CRWD",
+  "price": 34.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1535527/000104746919003095/0001047469-19-003095-index.htm"
+ },
+ {
+  "name": "Revolve Group Inc",
+  "slug": "revolve-group-inc",
+  "date": "20190607",
+  "sic": "5961",
+  "ticker": "RVLV",
+  "price": 18.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1746618/000156459018023704/0001564590-18-023704-index.htm"
+ },
+ {
+  "name": "Fastly Inc",
+  "slug": "fastly-inc",
+  "date": "20190517",
+  "sic": "7372",
+  "ticker": "FSLY",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1517413/000119312519111675/0001193125-19-111675-index.htm"
+ },
+ {
+  "name": "Uber Technologies Inc",
+  "slug": "uber-technologies-inc",
+  "date": "20190513",
+  "sic": "7372",
+  "ticker": "UBER",
+  "price": 45.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1543151/000119312519103850/0001193125-19-103850-index.htm"
+ },
+ {
+  "name": "SciPlay Corp",
+  "slug": "sciplay-corp",
+  "date": "20190506",
+  "sic": "7374",
+  "ticker": "SCPL",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1760717/000104746919001994/0001047469-19-001994-index.htm"
+ },
+ {
+  "name": "Pinterest Inc",
+  "slug": "pinterest-inc",
+  "date": "20190418",
+  "sic": "7370",
+  "ticker": "PINS",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1506293/000119312519083544/0001193125-19-083544-index.htm"
+ },
+ {
+  "name": "Zoom Communications Inc",
+  "slug": "zoom-communications-inc",
+  "date": "20190418",
+  "sic": "7370",
+  "ticker": "ZM",
+  "price": 36.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1585521/000119312519083351/0001193125-19-083351-index.htm"
+ },
+ {
+  "name": "Jumia Technologies AG",
+  "slug": "jumia-technologies-ag",
+  "date": "20190415",
+  "sic": "5961",
+  "ticker": "JMIA",
+  "price": 14.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1756708/000119312519071692/0001193125-19-071692-index.htm"
+ },
+ {
+  "name": "PagerDuty Inc",
+  "slug": "pagerduty-inc",
+  "date": "20190411",
+  "sic": "7372",
+  "ticker": "PD",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1568100/000162828019003003/0001628280-19-003003-index.htm"
+ },
+ {
+  "name": "Tufin Software Technologies Ltd",
+  "slug": "tufin-software-technologies-ltd",
+  "date": "20190411",
+  "sic": "7373",
+  "ticker": "TUFN",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1757399/000162828019002556/0001628280-19-002556-index.htm"
+ },
+ {
+  "name": "HUYA Inc",
+  "slug": "huya-inc",
+  "date": "20190410",
+  "sic": "7370",
+  "ticker": "HUYA",
+  "price": 12.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1728190/000119312518111659/0001193125-18-111659-index.htm"
+ },
+ {
+  "name": "Lyft Inc",
+  "slug": "lyft-inc",
+  "date": "20190329",
+  "sic": "7389",
+  "ticker": "LYFT",
+  "price": 72.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1759509/000119312519059849/0001193125-19-059849-index.htm"
+ },
+ {
+  "name": "Futu Holdings Ltd",
+  "slug": "futu-holdings-ltd",
+  "date": "20190308",
+  "sic": "6211",
+  "ticker": "FUTU",
+  "price": 12.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1754581/000119312518361084/0001193125-18-361084-index.htm"
+ },
+ {
+  "name": "PDD Holdings Inc",
+  "slug": "pdd-holdings-inc",
+  "date": "20190208",
+  "sic": "7389",
+  "ticker": "PDD",
+  "price": 19.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1737806/000104746918004833/0001047469-18-004833-index.htm"
+ },
+ {
+  "name": "Qfin Holdings Inc",
+  "slug": "qfin-holdings-inc",
+  "date": "20181214",
+  "sic": "6199",
+  "ticker": "QFIN",
+  "price": 16.5,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1741530/000104746918006897/0001047469-18-006897-index.htm"
+ },
+ {
+  "name": "StoneCo Ltd",
+  "slug": "stoneco-ltd",
+  "date": "20181026",
+  "sic": "7374",
+  "ticker": "STNE",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1745431/000119312518289511/0001193125-18-289511-index.htm"
+ },
+ {
   "name": "Anaplan Inc",
   "slug": "anaplan-inc",
   "date": "20181012",
@@ -72,6 +2016,33 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1725579/0001628280-19-002420-index.htm"
  },
  {
+  "name": "DocuSign, Inc.",
+  "slug": "docusign-inc",
+  "date": "20180426",
+  "sic": "7372",
+  "ticker": "DOCU",
+  "price": 29.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1261333/000119312518099555/0001193125-18-099555-index.htm"
+ },
+ {
+  "name": "Dayforce Inc",
+  "slug": "dayforce-inc",
+  "date": "20180425",
+  "sic": "7372",
+  "ticker": "DAY",
+  "price": 22.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1725057/000119312518094908/0001193125-18-094908-index.htm"
+ },
+ {
+  "name": "Spotify Technology S.A.",
+  "slug": "spotify-technology-sa",
+  "date": "20180403",
+  "sic": "4832",
+  "ticker": "SPOT",
+  "price": 132.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1639920/000119312518063434/0001193125-18-063434-index.htm"
+ },
+ {
   "name": "Dropbox Inc",
   "slug": "dropbox-inc",
   "date": "20180323",
@@ -79,6 +2050,15 @@
   "ticker": "DBX",
   "price": 21.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1467623/0001193125-18-055809-index.htm"
+ },
+ {
+  "name": "Zscaler Inc",
+  "slug": "zscaler-inc",
+  "date": "20180315",
+  "sic": "7371",
+  "ticker": "ZS",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1713683/000119312518048303/0001193125-18-048303-index.htm"
  },
  {
   "name": "Bandwidth.com Inc",
@@ -97,6 +2077,15 @@
   "ticker": "FSCT",
   "price": 22.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1145057/0001628280-18-003319-index.htm"
+ },
+ {
+  "name": "MongoDB, Inc.",
+  "slug": "mongodb-inc",
+  "date": "20171018",
+  "sic": "7372",
+  "ticker": "MDB",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1441816/000104746917006014/0001047469-17-006014-index.htm"
  },
  {
   "name": "Roku Inc",
@@ -144,6 +2133,33 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1690820/0001193125-18-126767-index.htm"
  },
  {
+  "name": "Cloudera, Inc.",
+  "slug": "cloudera-inc",
+  "date": "20170427",
+  "sic": "7372",
+  "ticker": "CLDR",
+  "price": 15.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1535379/000162828017003221/0001628280-17-003221-index.htm"
+ },
+ {
+  "name": "Okta Inc",
+  "slug": "okta-inc",
+  "date": "20170406",
+  "sic": "7372",
+  "ticker": "OKTA",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1660134/000119312517080301/0001193125-17-080301-index.htm"
+ },
+ {
+  "name": "MULESOFT, INC",
+  "slug": "mulesoft-inc",
+  "date": "20170316",
+  "sic": "7372",
+  "ticker": "MULE",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1374684/000119312517047884/0001193125-17-047884-index.htm"
+ },
+ {
   "name": "Presidio Inc",
   "slug": "presidio-inc",
   "date": "20170310",
@@ -171,6 +2187,15 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1370702/0001370702-16-000019-index.htm"
  },
  {
+  "name": "Nutanix, Inc.",
+  "slug": "nutanix-inc",
+  "date": "20160929",
+  "sic": "7372",
+  "ticker": "NTNX",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1618732/000119312515411021/0001193125-15-411021-index.htm"
+ },
+ {
   "name": "The Trade Desk Inc",
   "slug": "the-trade-desk-inc",
   "date": "20160921",
@@ -178,6 +2203,15 @@
   "ticker": "TTD",
   "price": 18.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1671933/0001193125-17-176843-index.htm"
+ },
+ {
+  "name": "Twilio Inc",
+  "slug": "twilio-inc",
+  "date": "20160622",
+  "sic": "7372",
+  "ticker": "TWLO",
+  "price": 15.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1447669/000104746916013448/0001047469-16-013448-index.htm"
  },
  {
   "name": "SecureWorks Corp",
@@ -189,6 +2223,33 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1468666/0001193125-15-406345-index.htm"
  },
  {
+  "name": "Atlassian Corp Plc",
+  "slug": "atlassian-corp",
+  "date": "20151209",
+  "sic": "7372",
+  "ticker": "TEAM",
+  "price": 21.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1650372/000104746915008450/0001047469-15-008450-index.htm"
+ },
+ {
+  "name": "Square, Inc.",
+  "slug": "square-inc",
+  "date": "20151118",
+  "sic": "7372",
+  "ticker": "SQ",
+  "price": 9.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1512673/000119312515343733/0001193125-15-343733-index.htm"
+ },
+ {
+  "name": "Match Group, Inc.",
+  "slug": "match-group-inc",
+  "date": "20151118",
+  "sic": "7370",
+  "ticker": "MTCH",
+  "price": 12.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1575189/000104746915007908/0001047469-15-007908-index.htm"
+ },
+ {
   "name": "Instructure Inc",
   "slug": "instructure-inc",
   "date": "20151113",
@@ -196,6 +2257,15 @@
   "ticker": "INST",
   "price": 16.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1355754/0001193125-15-341090-index.htm"
+ },
+ {
+  "name": "Pure Storage Inc",
+  "slug": "pure-storage-inc",
+  "date": "20151006",
+  "sic": "3572",
+  "ticker": "PSTG",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1474432/000119312515287576/0001193125-15-287576-index.htm"
  },
  {
   "name": "Rapid7 Inc",
@@ -223,6 +2293,24 @@
   "ticker": "TRU",
   "price": 22.5,
   "s1": "https://www.sec.gov/Archives/edgar/data/1552033/0001193125-15-112386-index.htm"
+ },
+ {
+  "name": "Fitbit, Inc.",
+  "slug": "fitbit-inc",
+  "date": "20150617",
+  "sic": "3571",
+  "ticker": "FIT",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1447599/000119312515176980/0001193125-15-176980-index.htm"
+ },
+ {
+  "name": "SHOPIFY INC.",
+  "slug": "shopify-inc",
+  "date": "20150520",
+  "sic": "7372",
+  "ticker": "SHOP",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1594805/000119312515129273/0001193125-15-129273-index.htm"
  },
  {
   "name": "Etsy Inc",
@@ -279,6 +2367,24 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1409970/0001193125-14-323136-index.htm"
  },
  {
+  "name": "New Relic Inc",
+  "slug": "new-relic-inc",
+  "date": "20141211",
+  "sic": "7372",
+  "ticker": "NEWR",
+  "price": 23.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1448056/000119312514406260/0001193125-14-406260-index.htm"
+ },
+ {
+  "name": "HubSpot Inc",
+  "slug": "hubspot-inc",
+  "date": "20141008",
+  "sic": "7372",
+  "ticker": "HUBS",
+  "price": 25.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1404655/000119312514320044/0001193125-14-320044-index.htm"
+ },
+ {
   "name": "Wayfair Inc",
   "slug": "wayfair-inc",
   "date": "20141002",
@@ -286,6 +2392,42 @@
   "ticker": "W",
   "price": 29.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1702780/0001047469-18-000085-index.htm"
+ },
+ {
+  "name": "Alibaba Group Holding Ltd",
+  "slug": "alibaba-group-holding-ltd",
+  "date": "20140918",
+  "sic": "7389",
+  "ticker": "BABA",
+  "price": 68.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1577552/000119312514184994/0001193125-14-184994-index.htm"
+ },
+ {
+  "name": "GoPro, Inc.",
+  "slug": "gopro-inc",
+  "date": "20140625",
+  "sic": "3861",
+  "ticker": "GPRO",
+  "price": 24.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1500435/000119312514204902/0001193125-14-204902-index.htm"
+ },
+ {
+  "name": "Arista Networks, Inc.",
+  "slug": "arista-networks-inc",
+  "date": "20140605",
+  "sic": "3576",
+  "ticker": "ANET",
+  "price": 43.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1596532/000119312514122171/0001193125-14-122171-index.htm"
+ },
+ {
+  "name": "Zendesk, Inc.",
+  "slug": "zendesk-inc",
+  "date": "20140514",
+  "sic": "7374",
+  "ticker": "ZEN",
+  "price": 9.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1463172/000119312514137878/0001193125-14-137878-index.htm"
  },
  {
   "name": "GrubHub Inc",
@@ -313,6 +2455,15 @@
   "ticker": "COUP",
   "price": 16.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1385867/0001193125-17-107598-index.htm"
+ },
+ {
+  "name": "TWITTER, INC.",
+  "slug": "twitter-inc",
+  "date": "20131106",
+  "sic": "7370",
+  "ticker": "TWTR",
+  "price": 26.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1418091/000119312513390321/0001193125-13-390321-index.htm"
  },
  {
   "name": "Veeva Systems",
@@ -360,6 +2511,42 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1537054/0001193125-11-351260-index.htm"
  },
  {
+  "name": "Tableau Software Inc",
+  "slug": "tableau-software-inc",
+  "date": "20130516",
+  "sic": "7372",
+  "ticker": "DATA",
+  "price": 31.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1303652/000119312513138700/0001193125-13-138700-index.htm"
+ },
+ {
+  "name": "Marketo, Inc.",
+  "slug": "marketo-inc",
+  "date": "20130516",
+  "sic": "7372",
+  "ticker": "MKTO",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1490660/000104746913003841/0001047469-13-003841-index.htm"
+ },
+ {
+  "name": "Workday, Inc.",
+  "slug": "workday-inc",
+  "date": "20121011",
+  "sic": "7374",
+  "ticker": "WDAY",
+  "price": 28.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1327811/000119312512375787/0001193125-12-375787-index.htm"
+ },
+ {
+  "name": "TRULIA, INC.",
+  "slug": "trulia-inc",
+  "date": "20120919",
+  "sic": "7374",
+  "ticker": "TRLA",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1349454/000119312512359749/0001193125-12-359749-index.htm"
+ },
+ {
   "name": "KAYAK Software Corp",
   "slug": "kayak-software-corp",
   "date": "20120719",
@@ -367,6 +2554,15 @@
   "ticker": "KYAK",
   "price": 26.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1312928/0001193125-10-262521-index.htm"
+ },
+ {
+  "name": "Palo Alto Networks Inc",
+  "slug": "palo-alto-networks-inc",
+  "date": "20120719",
+  "sic": "3577",
+  "ticker": "PANW",
+  "price": 42.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1327567/000119312512153764/0001193125-12-153764-index.htm"
  },
  {
   "name": "ServiceNow Inc",
@@ -403,6 +2599,15 @@
   "ticker": "PFPT",
   "price": 13.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1212458/0001047469-11-010082-index.htm"
+ },
+ {
+  "name": "Splunk Inc",
+  "slug": "splunk-inc",
+  "date": "20120418",
+  "sic": "7372",
+  "ticker": "SPLK",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1353283/000104746912000155/0001047469-12-000155-index.htm"
  },
  {
   "name": "CafePress Inc",
@@ -468,6 +2673,15 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1439404/0001193125-12-113668-index.htm"
  },
  {
+  "name": "Groupon, Inc.",
+  "slug": "groupon-inc",
+  "date": "20111103",
+  "sic": "7311",
+  "ticker": "GRPN",
+  "price": 20.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1490281/000104746911005613/0001047469-11-005613-index.htm"
+ },
+ {
   "name": "Carbonite Inc",
   "slug": "carbonite-inc",
   "date": "20110810",
@@ -493,6 +2707,15 @@
   "ticker": "AWAY",
   "price": 27.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1366684/0001193125-11-064128-index.htm"
+ },
+ {
+  "name": "Pandora Media, Inc.",
+  "slug": "pandora-media-inc",
+  "date": "20110614",
+  "sic": "4832",
+  "ticker": "P",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1230276/000119312511032963/0001193125-11-032963-index.htm"
  },
  {
   "name": "LinkedIn Corp",
@@ -538,6 +2761,15 @@
   "ticker": "ENV",
   "price": 9.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1337619/0001193125-10-067517-index.htm"
+ },
+ {
+  "name": "Tesla Motors Inc",
+  "slug": "tesla-motors-inc",
+  "date": "20100628",
+  "sic": "3711",
+  "ticker": "TSLA",
+  "price": 17.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/0001193125-10-017054-index.htm"
  },
  {
   "name": "ReachLocal Inc",
@@ -682,6 +2914,15 @@
   "ticker": "CTCT",
   "price": 16.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1405277/0000950135-08-002002-index.htm"
+ },
+ {
+  "name": "VMware, Inc.",
+  "slug": "vmware-inc",
+  "date": "20070813",
+  "sic": "7372",
+  "ticker": "VMW",
+  "price": 29.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1124610/000119312507090409/0001193125-07-090409-index.htm"
  },
  {
   "name": "Mercadolibre Inc",
@@ -1017,6 +3258,15 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1287503/0001193125-04-079368-index.htm"
  },
  {
+  "name": "GOOGLE INC.",
+  "slug": "google-inc",
+  "date": "20040818",
+  "sic": "7370",
+  "ticker": "GOOG",
+  "price": 85.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504073639/0001193125-04-073639-index.htm"
+ },
+ {
   "name": "RightNow Technologies Inc",
   "slug": "rightnow-technologies-inc",
   "date": "20040805",
@@ -1033,6 +3283,15 @@
   "ticker": "SRVY",
   "price": 13.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1108906/0000950123-04-012962-index.htm"
+ },
+ {
+  "name": "salesforce.com, inc.",
+  "slug": "salesforcecom-inc",
+  "date": "20040622",
+  "sic": "7372",
+  "ticker": "CRM",
+  "price": 11.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1108524/000119312503096073/0001193125-03-096073-index.htm"
  },
  {
   "name": "Blue Nile Inc",
@@ -1114,6 +3373,15 @@
   "ticker": "NFLX",
   "price": 15.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1065280/0001012870-02-001044-index.htm"
+ },
+ {
+  "name": "PayPal Inc",
+  "slug": "paypal-inc",
+  "date": "20020214",
+  "sic": "7389",
+  "ticker": "PYPL",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/0000912057-01-533855-index.htm"
  },
  {
   "name": "Bam Entertainment Inc",
@@ -1773,6 +4041,15 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1088033/0000892569-00-000249-index.htm"
  },
  {
+  "name": "Red Hat Inc",
+  "slug": "red-hat-inc",
+  "date": "19990810",
+  "sic": "7370",
+  "ticker": "RHAT",
+  "price": 14.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1087423/000104746999023237/0001047469-99-023237-index.htm"
+ },
+ {
   "name": "Interactive Pictures Corp",
   "slug": "interactive-pictures-corp",
   "date": "19990805",
@@ -2088,6 +4365,15 @@
   "s1": "https://www.sec.gov/Archives/edgar/data/1060801/0001012870-99-001480-index.htm"
  },
  {
+  "name": "priceline.com Inc",
+  "slug": "priceline-com-inc",
+  "date": "19990329",
+  "sic": "4700",
+  "ticker": "PCLN",
+  "price": 16.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1075531/000104746998045002/0001047469-98-045002-index.htm"
+ },
+ {
   "name": "iVillage Inc",
   "slug": "ivillage-inc",
   "date": "19990318",
@@ -2149,6 +4435,15 @@
   "ticker": "COVD",
   "price": 18.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1043769/0001092388-01-000011-index.htm"
+ },
+ {
+  "name": "NVIDIA Corp",
+  "slug": "nvidia-corp",
+  "date": "19990121",
+  "sic": "3674",
+  "ticker": "NVDA",
+  "price": 12.0,
+  "s1": "https://www.sec.gov/Archives/edgar/data/1045810/000101287098000618/0001012870-98-000618-index.htm"
  },
  {
   "name": "Artificial Life Inc",
@@ -2311,6 +4606,15 @@
   "ticker": "CNET",
   "price": 16.0,
   "s1": "https://www.sec.gov/Archives/edgar/data/1376321/0001144204-09-049311-index.htm"
+ },
+ {
+  "name": "Yahoo Inc",
+  "slug": "yahoo-inc",
+  "date": "19960411",
+  "sic": "7373",
+  "ticker": "YHOO",
+  "price": 13.0,
+  "s1": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1011006"
  },
  {
   "name": "ADAM Software",

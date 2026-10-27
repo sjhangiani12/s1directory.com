@@ -1,0 +1,176 @@
+# Tech IPOs a reader expects to find. One name per line; matched loosely against filings.json names.
+# Used as a final coverage check after discovery. "*" marks IPOs that predate electronic filing on EDGAR.
+# 1990s
+Netscape*
+Yahoo
+Excite
+Lycos
+Amazon
+eBay
+Priceline
+Expedia
+DoubleClick
+Inktomi
+Broadcast.com
+GeoCities
+TheGlobe
+eToys
+Webvan
+Pets.com
+drkoop
+Red Hat
+VA Linux
+NVIDIA
+Broadcom
+Juniper
+Akamai
+Siebel
+BEA Systems
+Ariba
+Commerce One
+VeriSign
+RealNetworks
+E*Trade
+Check Point
+Rambus
+Sycamore
+Foundry
+Brocade
+Palm
+TiVo
+Sirius
+Monster
+Travelocity
+MarketWatch
+TheStreet
+iVillage
+EarthLink
+Excite@Home
+Exodus
+Covad
+Ciena
+Extreme Networks
+F5
+Openwave
+Ask Jeeves
+GoTo.com
+LookSmart
+About.com
+Razorfish
+Scient
+Netflix
+Overture
+# 2000s
+PayPal
+Google
+Salesforce
+Shutterfly
+Baidu
+Omniture
+VMware
+Riverbed
+Data Domain
+MetroPCS
+OpenTable
+Rackspace
+Tesla
+Fortinet
+# 2010s
+LinkedIn
+Pandora
+Groupon
+Zynga
+Yelp
+Workday
+Palo Alto Networks
+Splunk
+ServiceNow
+Facebook
+Twitter
+Tableau
+Veeva
+FireEye
+Zillow
+King Digital
+GrubHub
+Arista
+GoPro
+Alibaba
+HubSpot
+Zendesk
+New Relic
+Hortonworks
+Box
+Etsy
+Shopify
+Fitbit
+Square
+Match Group
+Atlassian
+Pure Storage
+Twilio
+Nutanix
+Snap
+MongoDB
+Okta
+Cloudera
+MuleSoft
+Roku
+Stitch Fix
+Spotify
+Dropbox
+DocuSign
+Zscaler
+Pivotal
+Zuora
+Pinduoduo
+Elastic
+Anaplan
+Upwork
+# 2019 onward
+Lyft
+Pinterest
+Zoom
+Uber
+Slack
+CrowdStrike
+Chewy
+Peloton
+Datadog
+Cloudflare
+Snowflake
+Palantir
+Asana
+Unity
+DoorDash
+Airbnb
+Roblox
+Coinbase
+Bumble
+Affirm
+Coupang
+UiPath
+Robinhood
+Duolingo
+Toast
+GitLab
+HashiCorp
+Rivian
+Samsara
+Instacart
+Arm
+Klaviyo
+Reddit
+Rubrik
+Astera Labs
+ServiceTitan
+CoreWeave
+Circle
+Chime
+Figma
+Klarna
+Netskope
+StubHub
+Navan
+Cerebras
+SpaceX

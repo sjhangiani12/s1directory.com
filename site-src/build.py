@@ -18,11 +18,11 @@ FORCE = "--covers" in sys.argv
 
 # Books that lead the 3d shelf on the home page, in order. Missing slugs are skipped.
 SHELF = [
-    "amazon-com-inc", "netflix-com-inc", "ebay-inc", "facebook-inc", "snap-inc", "dropbox-inc",
-    "linkedin-corp", "juniper-networks", "akamai-technologies-inc", "zillow-inc", "etsy-inc",
-    "box-inc", "roku-inc", "yelp-inc", "servicenow-inc", "f5-networks-inc", "verisign-inc",
-    "kayak-software-corp", "wayfair-inc", "grubhub-inc", "elastic-nv", "redfin-corp",
-    "broadcom-corp", "ariba-inc", "opentable-inc", "mercadolibre-inc",
+    "google-inc", "amazon-com-inc", "netflix-com-inc", "space-exploration-technologies-corp", "tesla-motors-inc",
+    "airbnb-inc", "nvidia-corp", "facebook-inc", "figma-inc", "spotify-technology-sa", "uber-technologies-inc",
+    "salesforcecom-inc", "snowflake-inc", "twitter-inc", "shopify-inc", "ebay-inc", "reddit-inc", "coinbase-global-inc",
+    "yahoo-inc", "paypal-inc", "doordash-inc", "palantir-technologies-inc", "snap-inc", "dropbox-inc",
+    "arm-holdings-plc-uk", "linkedin-corp", "roblox-corp", "cerebras-systems-inc",
 ]
 
 e = html.escape
@@ -214,7 +214,7 @@ def build_directory(books):
         f'<div class="nm"><img src="/covers/sm/{b["slug"]}.jpg" alt="" loading="lazy" width="38" height="51">'
         f'<span><a href="/s1/{b["slug"]}/">{e(b["display"])}</a> <small>({e(b["ticker"])})</small></span></div>'
         f'<div class="dk">{e(b["dek"])}</div>'
-        f'<div class="rt"><a href="{e(b["s1"])}" target="_blank" rel="noopener">Read the S-1 &rarr;</a><span>{b["dt"]:%B} {b["dt"].day}, {b["dt"].year}</span></div>'
+        f'<div class="rt"><a href="{read_url(b)}"{ext(b)}>Read the S-1 &rarr;</a><span>{b["dt"]:%B} {b["dt"].day}, {b["dt"].year}</span></div>'
         f"</div>"
         for b in books
     )
@@ -246,7 +246,8 @@ def build_article(b, prev, nxt):
     dl.append(("Ticker", e(b["ticker"])))
     if b.get("hq"):
         dl.append(("Headquarters", e(b["hq"])))
-    dl.append(("Links", f'<a href="{e(b["s1"])}" target="_blank" rel="noopener">S-1 on SEC EDGAR</a>'
+    dl.append(("Links", (f'<a href="/s1/{b["slug"]}/read/">Read the S-1</a>' if has_reader(b) else "") +
+                        f'<a href="{e(b["s1"])}" target="_blank" rel="noopener">S-1 on SEC EDGAR</a>'
                         f'<a href="https://www.artic.edu/artworks/{c.get("aic_id")}" target="_blank" rel="noopener">Cover artwork</a>'))
     dl_html = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in dl)
 
@@ -275,11 +276,62 @@ def build_article(b, prev, nxt):
     <nav class="pager">{pager}</nav>
   </main>
   <aside class="r"><div class="sticky">{book_html(b, size="lg", lazy=False)}
-    <a class="cta" href="{e(b["s1"])}" target="_blank" rel="noopener">Read the original S-1 &rarr;</a></div></aside>
+    <a class="cta" href="{read_url(b)}"{ext(b)}>Read the S-1 &rarr;</a>{f'<a class="cta pdf" href="{pdf_url(b)}" download>Download PDF &darr;</a>' if pdf_url(b) else ""}</div></aside>
 </div>
 """
     return page(f"{b['display']} S-1 ({b['dt'].year}) — S1 Directory", body, b["dek"], body_cls="article",
                 canonical=f"/s1/{b['slug']}/", og_image=f"/covers/{b['slug']}.jpg")
+
+
+_PDFS = None
+
+
+def pdf_url(b):
+    """files.s1directory.com/<slug>.pdf, once tools/pdfs.py --upload has put it there."""
+    global _PDFS
+    if _PDFS is None:
+        path = os.path.join(SRC, ".pdf-cache", "uploaded.txt")
+        _PDFS = set(open(path).read().split()) if os.path.exists(path) else set()
+    return f"https://files.s1directory.com/{b['slug']}.pdf" if b["slug"] in _PDFS else None
+
+
+def has_reader(b):
+    return os.path.exists(os.path.join(ROOT, "s1", b["slug"], "s1.json.gz"))
+
+
+def read_url(b):
+    return f"/s1/{b['slug']}/read/" if has_reader(b) else e(b["s1"])
+
+
+def ext(b):
+    return "" if has_reader(b) else ' target="_blank" rel="noopener"'
+
+
+def build_reader(b):
+    """The S-1 itself, set for reading. The filing text loads from s1.json.gz next to the book page."""
+    body = f"""
+<div class="reader" data-src="/s1/{b['slug']}/s1.json.gz">
+  <div class="rbar"><div class="rprog"></div></div>
+  <aside class="rtoc" aria-label="Sections">
+    <a class="rbook" href="/s1/{b['slug']}/">{book_html(b)}<span><b>{e(b['display'])}</b><small>Back to the book</small></span></a>
+    <div class="rtoc-h">Contents</div>
+    <nav class="rtoc-list"></nav>
+  </aside>
+  <main class="rmain">
+    <header class="rhead">
+      <div class="rkick">Form S-1 &middot; {e(b['name'])}</div>
+      <h1>{e(b['display'])}</h1>
+      <div class="rmeta">Priced {b["dt"]:%B} {b["dt"].day}, {b["dt"].year}{f" &middot; ${b['price']:.2f} a share" if b.get('price') else ""} &middot; <a href="{e(b['s1'])}" target="_blank" rel="noopener">Original on SEC EDGAR</a>{f' &middot; <a href="{pdf_url(b)}" download>PDF</a>' if pdf_url(b) else ""}</div>
+    </header>
+    <article class="rdoc"><div class="rload"><span></span>Unbinding the filing&hellip;</div></article>
+  </main>
+  <button class="rtoc-btn" type="button" aria-label="Contents">Contents</button>
+  <button class="rtop" type="button" aria-label="Back to top">&uarr;</button>
+</div>
+"""
+    return page(f"{b['display']} S-1 — read the filing — S1 Directory", body,
+                f"Read {b['display']}'s S-1, the filing it made before its {b['dt'].year} IPO.",
+                body_cls="read", canonical=f"/s1/{b['slug']}/read/", og_image=f"/covers/{b['slug']}.jpg")
 
 
 def build_about(books):
@@ -345,6 +397,8 @@ if __name__ == "__main__":
     write("about/index.html", build_about(books))
     for i, b in enumerate(books):
         write(f"s1/{b['slug']}/index.html", build_article(b, books[i - 1] if i else None, books[i + 1] if i + 1 < len(books) else None))
+        if has_reader(b):
+            write(f"s1/{b['slug']}/read/index.html", build_reader(b))
     urls = ["/", "/directory/", "/about/"] + [f"/s1/{b['slug']}/" for b in books]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
           + "".join(f"<url><loc>{SITE}{u}</loc></url>" for u in urls) + "</urlset>\n")

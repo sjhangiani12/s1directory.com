@@ -37,6 +37,9 @@ TECH_SIC = {
     "5045", "5961", "6199", "6211",
     "7370", "7371", "7372", "7373", "7374", "7375", "7376", "7377", "7378", "7379",
     "7389", "8742",
+    # internet companies filed under the industry they changed: travel, retail, ads, media, autos, devices
+    "3651", "3711", "3944", "3949", "4700", "4724", "4832", "4833", "4841", "5731", "5900", "5940", "5945",
+    "5990", "6282", "7011", "7310", "7311", "7319", "7320", "7340", "7380", "7812", "7990", "8200", "8299",
 }
 ANNUAL = {"10-K", "10-K405", "20-F", "40-F"}
 REGISTRATION = ("S-1", "F-1", "SB-2", "S-1/A", "F-1/A")
@@ -105,6 +108,39 @@ def search_424b4(since, until):
             return hits
 
 
+def index_hits(since, until):
+    """Pre-2001 IPOs from EDGAR's quarterly form indexes (full-text search starts in 2001).
+    Returns hits shaped like search_424b4() results, with the SIC looked up per company."""
+    rows = {}
+    y0, y1 = int(since[:4]), int(until[:4])
+    for y in range(y0, y1 + 1):
+        for q in range(1, 5):
+            text = get(f"https://www.sec.gov/Archives/edgar/full-index/{y}/QTR{q}/form.idx").text
+            for line in text.splitlines():
+                m = re.match(r"^(424B[14])\s+(.+?)\s{2,}(\d+)\s+(\d{4}-\d{2}-\d{2})\s+(\S+)", line)
+                if not m or not (since <= m.group(4) <= until):
+                    continue
+                cik = m.group(3).zfill(10)
+                if cik not in rows or m.group(4) < rows[cik][1]:  # first prospectus per company
+                    rows[cik] = (m.group(2), m.group(4), m.group(5))
+    print(f"index: {len(rows)} companies filed a 424B1/424B4", file=sys.stderr, flush=True)
+
+    def sic_of(cik):
+        try:
+            return get_json(f"https://data.sec.gov/submissions/CIK{cik}.json").get("sic") or ""
+        except Exception:
+            return ""
+
+    with ThreadPoolExecutor(6) as pool:
+        sics = dict(zip(rows, pool.map(sic_of, rows)))
+    hits = []
+    for cik, (name, d, path) in rows.items():
+        acc = path.rsplit("/", 1)[1].replace(".txt", "")
+        hits.append({"_id": f"{acc}:{acc}.txt",
+                     "_source": {"ciks": [cik], "sics": [sics[cik]], "file_date": d, "display_names": [name]}})
+    return hits
+
+
 def all_filings(cik):
     sub = get_json(f"https://data.sec.gov/submissions/CIK{cik}.json")
     rows = []
@@ -136,8 +172,24 @@ def head_text(url, limit=250_000):
     return ""
 
 
+def offer_terms(cik, acc, doc):
+    """(price per share, shares offered) from the prospectus cover. Either may be None."""
+    if doc.endswith(".txt") and doc.startswith(acc):
+        url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{doc}"
+    else:
+        url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"
+    text = re.sub(r"<[^>]+>|&nbsp;|&#160;", " ", head_text(url))
+    m = re.search(r"(?:initial public offering price|public offering price)[^$]{0,200}\$\s?(\d{1,4}\.\d{2})", text, re.I)
+    n = re.search(r"([\d,]{7,})\s+(?:American Depositary Shares|ADSs|Shares|shares of (?:Class [A-Z] )?(?:common|ordinary))", text[:60000], re.I)
+    shares = int(n.group(1).replace(",", "")) if n else None
+    return (float(m.group(1)) if m else None), shares
+
+
 def offer_price(cik, acc, doc):
-    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"
+    if doc.endswith(".txt") and doc.startswith(acc):
+        url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{doc}"
+    else:
+        url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"
     head = head_text(url)
     text = re.sub(r"<[^>]+>|&nbsp;|&#160;", " ", head)
     m = re.search(r"(?:initial public offering price|public offering price)[^$]{0,200}\$\s?(\d{1,4}\.\d{2})", text, re.I)
@@ -161,7 +213,12 @@ def main():
 
     # first 424B4 per company, tech sector codes only
     seen, todo = set(), []
-    for h in sorted(search_424b4(since, a.until), key=lambda h: h["_source"]["file_date"]):
+    hits = []
+    if since < "2001-01-01":
+        hits += index_hits(since, min(a.until, "2000-12-31"))
+    if a.until >= "2001-01-01":
+        hits += search_424b4(max(since, "2001-01-01"), a.until)
+    for h in sorted(hits, key=lambda h: h["_source"]["file_date"]):
         cik = h["_source"]["ciks"][0]
         sic = (h["_source"].get("sics") or [""])[0]
         if cik in seen or sic not in TECH_SIC:
@@ -189,7 +246,7 @@ def main():
             "date": fdate.replace("-", ""),
             "sic": sic,
             "ticker": (sub.get("tickers") or [None])[0],
-            "price": offer_price(cik, acc, doc),
+            **dict(zip(("price", "shares"), offer_terms(cik, acc, doc))),
             "s1": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{reg_acc.replace('-', '')}/{reg_acc}-index.htm",
             "cik": str(int(cik)),
             "sic_description": sub.get("sicDescription"),

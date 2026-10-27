@@ -36,10 +36,12 @@ def main(in_dir, out_name):
                 continue
             f = {k: src.get(k) for k in FIELDS}
             f.update({k: v for k, v in (x.pop("filing", None) or {}).items() if k in FIELDS and v})
-            for k in ("price", "ticker"):
+            for k in ("price", "ticker", "date"):
                 if x.get(k):
                     f[k] = x.pop(k)
             f["slug"] = x["slug"]
+            if not f.get("s1") and src.get("cik"):
+                f["s1"] = f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={src['cik']}"
             missing = [k for k in FIELDS if not f.get(k)]
             if missing:
                 problems.append(f"{x['slug']}: filing missing {missing}")
