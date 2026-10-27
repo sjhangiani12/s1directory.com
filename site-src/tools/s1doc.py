@@ -210,10 +210,41 @@ def html_to_clean(raw, base_url):
     for t in body.find_all(re.compile(r"^ix:header$", re.I)):
         t.decompose()
 
+    # the filing's own table of contents, when it links to anchors in the document, is the best map
+    doc_toc, ids = [], {}
+    for a in body.find_all("a", href=True):
+        h = a["href"]
+        t = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+        if not h.startswith("#") or h[1:] in ids or not t or len(t) > 120 or PAGE_NO.match(t) \
+                or not re.search(r"[A-Za-z]{3}", t):
+            continue
+        tgt = body.find(id=h[1:]) or body.find(attrs={"name": h[1:]})
+        if tgt is None:
+            continue
+        hid = f"t{len(doc_toc) + 1}"
+        ids[h[1:]] = hid
+        label = title(t) if t.upper() == t else t
+        head = soup.new_tag("h2", id=hid)
+        head.string = label
+        if re.sub(r"\W", "", tgt.get_text()).lower() == re.sub(r"\W", "", t).lower():
+            tgt.replace_with(head)
+        else:
+            tgt.insert_before(head)
+        doc_toc.append([hid, label, 2])
+    order = {h.get("id"): i for i, h in enumerate(body.find_all("h2"))}
+    doc_toc = sorted((t for t in doc_toc if len(t[1]) >= 8 and not re.match(r"^table of", t[1], re.I)),
+                     key=lambda t: order.get(t[0], 1 << 30))
+    if len(doc_toc) >= 5:
+        for a in body.find_all("a", href=True):
+            if a["href"][1:] in ids:
+                a["href"] = "#" + ids[a["href"][1:]]
+    else:
+        doc_toc = []
+
     # headings: short, all-bold blocks
     toc, nh = [], 0
     for el in body.find_all(["p", "div"]):
-        if el.find(["p", "div", "table"]):
+        if el.find(["p", "div", "table", "h2"]):
             continue
         text = re.sub(r"\s+", " ", el.get_text(" ", strip=True))
         if not (3 <= len(text) < 110) or text.endswith((".", ",", ";", ":")) or PAGE_NO.match(text):
@@ -230,12 +261,14 @@ def html_to_clean(raw, base_url):
             if level == 2:
                 toc.append([hid, el.get_text(), 2])
 
-    start = trim_toc(toc)
-    start_id = start[0][0] if start and start is not toc or (start and TOC_START.search(start[0][1])) else None
+    start = doc_toc or trim_toc(toc)
+    start_id = start[0][0] if start and (doc_toc or start is not toc or TOC_START.search(start[0][1])) else None
     if start_id:
         for h in body.find_all(["h2", "h3"]):
             if h.get("id") == start_id:
                 break
+            if h.name == "h2" and h.get("id", "").startswith("t"):
+                continue
             h.name, h.attrs = "p", {"class": "cv"}
     for t in body.find_all(["font", "span", "center", "u", "ix:nonnumeric", "ix:nonfraction", "ix:continuation"]):
         t.unwrap()
@@ -268,7 +301,7 @@ def html_to_clean(raw, base_url):
     html = "".join(str(c) for c in body.contents)
     html = re.sub(r"(?:&nbsp;|\xa0)+", " ", html)
     html = re.sub(r"\n{2,}", "\n", html)
-    return html, trim_toc(toc)
+    return html, (doc_toc or trim_toc(toc))
 
 
 def build(index_url):

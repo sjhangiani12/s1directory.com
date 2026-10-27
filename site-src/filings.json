@@ -1,5 +1,14 @@
 [
  {
+  "name": "Anthropic, PBC",
+  "slug": "anthropic-pbc",
+  "date": "20261026",
+  "sic": "7372",
+  "ticker": "ANT",
+  "price": null,
+  "s1": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm"
+ },
+ {
   "name": "SK hynix Inc",
   "slug": "sk-hynix-inc",
   "date": "20260710",

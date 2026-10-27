@@ -74,7 +74,9 @@
     addEventListener("book-open", () => { target = speed = 0; });
     addEventListener("pageshow", (e) => { if (e.persisted && !reduce) target = 0.35; });
     addEventListener("resize", layout);
-    layout(); place();
+    layout();
+    offset = -spacing * 1.25;  // the first slot sits in the faded edge; start the lead book fully in view
+    place();
     requestAnimationFrame(tick);
   }
 

@@ -18,7 +18,7 @@ FORCE = "--covers" in sys.argv
 
 # Books that lead the 3d shelf on the home page, in order. Missing slugs are skipped.
 SHELF = [
-    "google-inc", "amazon-com-inc", "netflix-com-inc", "space-exploration-technologies-corp", "tesla-motors-inc",
+    "anthropic-pbc", "google-inc", "amazon-com-inc", "netflix-com-inc", "space-exploration-technologies-corp", "tesla-motors-inc",
     "airbnb-inc", "nvidia-corp", "facebook-inc", "figma-inc", "spotify-technology-sa", "uber-technologies-inc",
     "salesforcecom-inc", "snowflake-inc", "twitter-inc", "shopify-inc", "ebay-inc", "reddit-inc", "coinbase-global-inc",
     "yahoo-inc", "paypal-inc", "doordash-inc", "palantir-technologies-inc", "snap-inc", "dropbox-inc",
@@ -67,7 +67,7 @@ def cover_html(b, size="sm", lazy=True, cls="cover"):
         f'<div class="scrim"></div>'
         f'<div class="ct top"><div class="kicker">S-1 &middot; {b["dt"].year}</div></div>'
         f'<div class="ct bot"><div class="{tcls}">{e(b["display"])}</div>'
-        f'<div class="sub"><span>{e(b["ticker"])}</span><span>${b["price"]:.2f}</span></div></div>'
+        f'<div class="sub"><span>{e(b["ticker"])}</span><span>{f"${b['price']:.2f}" if b.get("price") else "Filed"}</span></div></div>'
         f"</div>"
     )
 
@@ -239,7 +239,10 @@ def build_article(b, prev, nxt):
     ms = []
     if b.get("founded"):
         ms.append(f"Founded {b['founded']}")
-    ms.append(f"IPO {b['dt']:%b} {b['dt'].day}, {b['dt'].year} at ${b['price']:.2f}")
+    if b.get("price"):
+        ms.append(f"IPO {b['dt']:%b} {b['dt'].day}, {b['dt'].year} at ${b['price']:.2f}")
+    else:
+        ms.append(f"S-1 filed {b['dt']:%b} {b['dt'].day}, {b['dt'].year}; not yet priced")
     if b.get("fate"):
         ms.append(e(b["fate"]))
     dl.append(("Milestones", "<br>".join(ms)))
@@ -267,7 +270,7 @@ def build_article(b, prev, nxt):
     <div class="ttl"><h2>{e(b["tagline"])}</h2>
       <div class="polaroids" aria-hidden="true"><div style="background-image:url(/covers/art/{b['slug']}.jpg)"></div><div style="background-image:url(/covers/sm/{b['slug']}.jpg)"></div><div style="background-image:url(/covers/crop/{b['slug']}.jpg)"></div></div>
     </div>
-    <div class="date">Priced {b["dt"]:%B} {b["dt"].day:02d}, {b["dt"].year}</div>
+    <div class="date">{"Priced" if b.get("price") else "S-1 filed"} {b["dt"]:%B} {b["dt"].day:02d}, {b["dt"].year}{"" if b.get("price") else " &middot; not yet priced"}</div>
     <article class="prose">
       <p class="lede">{e(b["lede"])}</p>
       {secs}
@@ -321,7 +324,7 @@ def build_reader(b):
     <header class="rhead">
       <div class="rkick">Form S-1 &middot; {e(b['name'])}</div>
       <h1>{e(b['display'])}</h1>
-      <div class="rmeta">Priced {b["dt"]:%B} {b["dt"].day}, {b["dt"].year}{f" &middot; ${b['price']:.2f} a share" if b.get('price') else ""} &middot; <a href="{e(b['s1'])}" target="_blank" rel="noopener">Original on SEC EDGAR</a>{f' &middot; <a href="{pdf_url(b)}" download>PDF</a>' if pdf_url(b) else ""}</div>
+      <div class="rmeta">{"Priced" if b.get("price") else "Filed"} {b["dt"]:%B} {b["dt"].day}, {b["dt"].year}{f" &middot; ${b['price']:.2f} a share" if b.get('price') else ""} &middot; <a href="{e(b['s1'])}" target="_blank" rel="noopener">Original on SEC EDGAR</a>{f' &middot; <a href="{pdf_url(b)}" download>PDF</a>' if pdf_url(b) else ""}</div>
     </header>
     <article class="rdoc"><div class="rload"><span></span>Unbinding the filing&hellip;</div></article>
   </main>
