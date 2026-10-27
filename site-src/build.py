@@ -326,6 +326,7 @@ def build_reader(b):
       <h1>{e(b['display'])}</h1>
       <div class="rmeta">{"Priced" if b.get("price") else "Filed"} {b["dt"]:%B} {b["dt"].day}, {b["dt"].year}{f" &middot; ${b['price']:.2f} a share" if b.get('price') else ""} &middot; <a href="{e(b['s1'])}" target="_blank" rel="noopener">Original on SEC EDGAR</a>{f' &middot; <a href="{pdf_url(b)}" download>PDF</a>' if pdf_url(b) else ""}</div>
     </header>
+    <button class="rlegal" type="button" aria-pressed="true" hidden>Hide legal boilerplate</button>
     <article class="rdoc"><div class="rload"><span></span>Unbinding the filing&hellip;</div></article>
   </main>
   <button class="rtoc-btn" type="button" aria-label="Contents">Contents</button>

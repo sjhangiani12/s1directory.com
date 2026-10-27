@@ -120,7 +120,42 @@
       doc.querySelectorAll('a[href^="/"]').forEach((a) => { a.href = "https://www.sec.gov" + a.getAttribute("href"); a.target = "_blank"; });
       const heads = (d.toc && d.toc.length ? d.toc.map(([id]) => document.getElementById(id)) : [...doc.querySelectorAll("h2")]).filter(Boolean);
       heads.forEach((h, i) => { if (!h.id) h.id = "s" + (i + 1); });
-      list.innerHTML = heads.map((h) => `<a href="#${h.id}">${h.textContent}</a>`).join("") || "<span>No sections found</span>";
+      // group the filing into sections at each contents heading; flag the legal boilerplate
+      const LEGAL = /forward-looking|where you can find|legal matters|^experts|underwriting|plan of distribution|description of (capital stock|share capital|securities)|shares eligible|tax consequences|taxation|enforce|change in (the )?(independent )?account|power of attorney|signatures|exhibit|information not required|indemnification|undertakings|unregistered securities|expenses of issuance|industry,? market|market,? industry|defined terms|notice to investors|about this prospectus|presentation of (financial|information)|basis of presentation|conventions|trademarks|table of contents|dealer prospectus|until .* all dealers/i;
+      const topHeads = heads.filter((h) => h.parentElement === doc);
+      if (topHeads.length) {
+        const wrap = (nodes, legal, title) => {
+          const sec = document.createElement("section");
+          sec.className = "rsec" + (legal ? " legal" : "");
+          if (title) sec.dataset.title = title;
+          nodes[0].before(sec); nodes.forEach((n) => sec.appendChild(n));
+          return sec;
+        };
+        const kids = [...doc.childNodes], starts = new Set(topHeads);
+        let group = [], cur = null;
+        const flush = () => { if (group.length) wrap(group, cur ? LEGAL.test(cur.textContent) : true, cur?.textContent || "Cover page"); group = []; };
+        for (const n of kids) { if (starts.has(n)) { flush(); cur = n; } group.push(n); }
+        flush();
+      }
+      const legalCount = doc.querySelectorAll(".rsec.legal").length;
+      const tog = reader.querySelector(".rlegal");
+      if (legalCount && tog) {
+        tog.hidden = false;
+        const setLegal = (hide) => {
+          reader.classList.toggle("hide-legal", hide);
+          tog.setAttribute("aria-pressed", String(hide));
+          tog.textContent = hide ? `Show legal boilerplate (${legalCount})` : "Hide legal boilerplate";
+          try { localStorage.setItem("hideLegal", hide ? "1" : "0"); } catch (e) {}
+        };
+        let pref = "1"; try { pref = localStorage.getItem("hideLegal") ?? "1"; } catch (e) {}
+        setLegal(pref === "1");
+        tog.addEventListener("click", () => setLegal(!reader.classList.contains("hide-legal")));
+      }
+      list.innerHTML = heads.map((h) => `<a href="#${h.id}"${h.closest(".rsec.legal") ? ' class="legal"' : ""}>${h.textContent}</a>`).join("") || "<span>No sections found</span>";
+      list.addEventListener("click", (e) => {
+        const a = e.target.closest("a.legal");
+        if (a) document.getElementById(a.hash.slice(1))?.closest(".rsec")?.classList.add("open");
+      });
       const links = new Map([...list.querySelectorAll("a")].map((a) => [a.hash.slice(1), a]));
       let current;
       const spy = new IntersectionObserver((es) => {

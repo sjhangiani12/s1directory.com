@@ -197,6 +197,29 @@ def trim_toc(toc):
     return toc
 
 
+ENDS = re.compile(r"[.!?:;\u2014][\"\u201d\u2019)\]]*\s*$|[\u00a3\u2610\u2612\u25a1\u25a0\u2022]\s*$")
+
+
+def join_lines(body):
+    """Some filing tools place every printed line in its own box, so a sentence arrives as several
+    paragraphs. Join a paragraph to the next one while it ends mid-sentence."""
+    for p in body.find_all("p"):
+        if p.parent is None or p.get("class"):
+            continue
+        while True:
+            nxt = p.find_next_sibling()
+            text = p.get_text(" ", strip=True)
+            if nxt is None or nxt.name != "p" or nxt.get("class") or len(text) < 20 or ENDS.search(text):
+                break
+            between = p.next_sibling
+            if between is not nxt and str(between).strip():
+                break
+            p.append(" ")
+            for child in list(nxt.contents):
+                p.append(child)
+            nxt.decompose()
+
+
 def html_to_clean(raw, base_url):
     if isinstance(raw, bytes):
         raw = raw.decode("utf-8", "ignore")
@@ -298,7 +321,20 @@ def html_to_clean(raw, base_url):
         t.attrs = {k: v for k, v in t.attrs.items() if k in allowed}
     for t in body.find_all("div"):
         t.unwrap()
+    # running page headers ("Table of Contents" back-links) and headings repeated under their own title
+    flat = lambda el: re.sub(r"[^a-z0-9]", "", el.get_text().lower())
+    toc_ids = {t[0] for t in (doc_toc or toc)}
+    for el in body.find_all(["h2", "h3", "p"]):
+        if el.parent is not None and flat(el) == "tableofcontents" and el.get("id") not in toc_ids:
+            el.decompose()
+    for h in body.find_all("h2"):
+        nxt = h.find_next_sibling()
+        while nxt is not None and nxt.name in ("h3", "p") and flat(nxt) == flat(h):
+            gone, nxt = nxt, nxt.find_next_sibling()
+            gone.decompose()
+    join_lines(body)
     html = "".join(str(c) for c in body.contents)
+    html = re.sub(r"[ \t]{2,}", " ", html)
     html = re.sub(r"(?:&nbsp;|\xa0)+", " ", html)
     html = re.sub(r"\n{2,}", "\n", html)
     return html, (doc_toc or trim_toc(toc))

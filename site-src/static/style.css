@@ -397,6 +397,12 @@ footer a { text-underline-offset: 3px; }
 .rdoc td.num { text-align: right; white-space: nowrap; }
 .rdoc tr:last-child td { border-bottom: 0; }
 .rdoc pre { font: 400 12px/1.5 var(--sans); overflow-x: auto; padding: 14px 0; color: var(--ink-2); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.rlegal { display: inline-flex; align-items: center; gap: 8px; margin: -10px 0 30px; padding: 9px 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--bg-elev); color: var(--ink-2); font: 400 12.5px var(--sans); cursor: pointer; transition: color .15s ease, border-color .15s ease; }
+.rlegal:hover { color: var(--ink); border-color: var(--ink-3); }
+.rlegal::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); }
+.reader.hide-legal .rlegal::before { background: var(--link); }
+.reader.hide-legal .rsec.legal:not(.open) { display: none; }
+.reader.hide-legal .rtoc-list a.legal { opacity: .4; }
 .rload { display: flex; align-items: center; gap: 14px; color: var(--ink-3); font: 400 14px var(--sans); padding: 40px 0; }
 .rload span { width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--rule); border-top-color: var(--ink); animation: spin .8s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
