@@ -3,7 +3,7 @@
 Run from the repo root:  .venv/bin/python site-src/build.py [--covers]
 --covers re-renders every cover image (otherwise only missing ones are made).
 """
-import glob, html, json, math, os, re, shutil, sys
+import glob, hashlib, html, json, math, os, re, shutil, sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "tools"))
@@ -298,6 +298,11 @@ def pdf_url(b):
     return f"https://files.s1directory.com/{b['slug']}.pdf" if b["slug"] in _PDFS else None
 
 
+def file_version(path):
+    """Short content hash for cache-busting: Cloudflare and browsers keep files for hours."""
+    return hashlib.sha1(open(path, "rb").read()).hexdigest()[:10]
+
+
 def has_reader(b):
     return os.path.exists(os.path.join(ROOT, "s1", b["slug"], "s1.json.gz"))
 
@@ -313,7 +318,7 @@ def ext(b):
 def build_reader(b):
     """The S-1 itself, set for reading. The filing text loads from s1.json.gz next to the book page."""
     body = f"""
-<div class="reader" data-src="/s1/{b['slug']}/s1.json.gz">
+<div class="reader" data-src="/s1/{b['slug']}/s1.json.gz?v={file_version(os.path.join(ROOT, 's1', b['slug'], 's1.json.gz'))}">
   <div class="rbar"><div class="rprog"></div></div>
   <aside class="rtoc" aria-label="Sections">
     <a class="rbook" href="/s1/{b['slug']}/">{book_html(b)}<span><b>{e(b['display'])}</b><small>Back to the book</small></span></a>
