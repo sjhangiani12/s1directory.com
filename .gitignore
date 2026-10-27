@@ -2,3 +2,4 @@
 site-src/.art-cache/
 __pycache__/
 .DS_Store
+site-src/.edgar-cache/

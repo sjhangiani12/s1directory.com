@@ -42,7 +42,7 @@ For each keep: check the data with a web search. Fix the `name`, `ticker`, and `
 
 ## 4. Write the entries
 
-Read `site-src/WRITER_BRIEF.md` and follow it exactly. Write all new entries for this run to a new
+Read `site-src/WRITER_BRIEF.md` (fields and cover rules) and `site-src/COPY_BRIEF.md` (how to write; it overrides the writing rules in the first brief). Follow both exactly. Write all new entries for this run to a new
 file, `site-src/entries-YYYY-MM-DD.json` (today's date).
 
 - Recent IPOs need web research: what the company does, founders, founding year, HQ, IPO price,

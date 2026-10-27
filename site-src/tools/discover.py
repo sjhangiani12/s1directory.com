@@ -39,14 +39,33 @@ ANNUAL = {"10-K", "10-K405", "20-F", "40-F"}
 REGISTRATION = ("S-1", "F-1", "SB-2", "S-1/A", "F-1/A")
 
 
+CACHE = os.path.join(SRC, ".edgar-cache")
+
+
 def get(url, **kw):
-    for i in range(4):
-        r = requests.get(url, headers=UA, timeout=30, **kw)
-        if r.status_code == 200:
-            time.sleep(0.15)  # SEC asks for at most 10 requests a second
-            return r
-        time.sleep(1 + i * 2)
-    r.raise_for_status()
+    err = None
+    for i in range(6):
+        try:
+            r = requests.get(url, headers=UA, timeout=30, **kw)
+            if r.status_code == 200:
+                time.sleep(0.15)  # SEC asks for at most 10 requests a second
+                return r
+            err = f"HTTP {r.status_code}"
+        except requests.RequestException as ex:
+            err = ex
+        time.sleep(2 + i * 3)
+    raise RuntimeError(f"{url}: {err}")
+
+
+def get_json(url):
+    """Fetch JSON, caching it on disk so a rerun after a dropped connection resumes quickly."""
+    os.makedirs(CACHE, exist_ok=True)
+    path = os.path.join(CACHE, re.sub(r"[^A-Za-z0-9.]+", "_", url.split("//", 1)[1]) + ".json")
+    if os.path.exists(path):
+        return json.load(open(path))
+    data = get(url).json()
+    json.dump(data, open(path, "w"))
+    return data
 
 
 def slugify(s):
@@ -73,9 +92,9 @@ def search_424b4(since, until):
 
 
 def all_filings(cik):
-    sub = get(f"https://data.sec.gov/submissions/CIK{cik}.json").json()
+    sub = get_json(f"https://data.sec.gov/submissions/CIK{cik}.json")
     rows = []
-    blocks = [sub["filings"]["recent"]] + [get(f"https://data.sec.gov/submissions/{f['name']}").json()
+    blocks = [sub["filings"]["recent"]] + [get_json(f"https://data.sec.gov/submissions/{f['name']}")
                                            for f in sub["filings"].get("files", [])]
     for b in blocks:
         rows += zip(b["form"], b["filingDate"], b["accessionNumber"])

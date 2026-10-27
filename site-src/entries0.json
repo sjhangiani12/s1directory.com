@@ -10,17 +10,17 @@
     "founded": 2006,
     "hq": "San Francisco, CA",
     "fate": "Taken private by Thoma Bravo, 2022 ($10.4B)",
-    "tagline": "A Plan for Every Desk",
-    "dek": "Cloud planning software that let finance, sales and supply teams model their business together instead of in scattered spreadsheets.",
-    "lede": "Anaplan sold a simple promise to big companies: stop planning the business in a thousand disconnected spreadsheets. Its cloud platform let a finance team, a sales team and a supply chain team work from one live model of the company. When Anaplan filed to go public in 2018, cloud software was the market's favorite category. Investors were paying rich prices for any subscription business that could show steady growth and loyal enterprise customers.",
+    "tagline": "One Live Model, No Spreadsheets",
+    "dek": "Anaplan let big companies plan the whole business in one live model instead of a thousand spreadsheets.",
+    "lede": "Anaplan's engine held a company's entire plan in memory, so one changed assumption flowed through every number in seconds. That speed was the pitch. Big companies planned in thousands of disconnected spreadsheets, and Anaplan let finance, sales and supply chain teams work from one live model. When it filed to go public in 2018, cloud software was the market's favorite category. Investors paid rich prices for any subscription business with steady growth and loyal enterprise customers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "The company began in Yorkshire, England, where Guy Haddleton and Michael Gould built a new calculation engine for business models. Gould had worked on planning software before and believed the older tools were too slow and rigid. Anaplan's engine held huge models in memory, so a change in one assumption could flow through the whole plan in seconds. The company later moved its headquarters to San Francisco to be closer to customers and capital."
+        "heading": "A Calculation Engine from Yorkshire",
+        "body": "Anaplan began in Yorkshire, England, where Guy Haddleton and Michael Gould built a new calculation engine for business models. Gould had worked on planning software before. He thought the older tools were too slow and too rigid. Their engine held huge models in memory, so a change in one assumption could flow through the whole plan in seconds. The company later moved its headquarters to San Francisco to be closer to customers and capital."
       },
       {
-        "heading": "Planning in Public",
-        "body": "Anaplan priced its offering at $17 a share in October 2018, and the stock rose sharply on its first day of trading. Revenue kept climbing over the next few years, though losses remained large. In 2022 Thoma Bravo agreed to buy the company. The price was trimmed to about $10.4 billion after a dispute over employee pay, and Anaplan became a private company again."
+        "heading": "A Fight Over Employee Pay",
+        "body": "Anaplan priced its shares at $17 in October 2018, and the stock jumped on its first day of trading. Revenue kept climbing over the next few years. Losses stayed large. In 2022 Thoma Bravo agreed to buy the company. Then the two sides fought over employee pay, and the price was trimmed to about $10.4 billion. Anaplan became a private company again."
       }
     ],
     "cover": {
@@ -47,17 +47,17 @@
     "founded": 2012,
     "hq": "Amsterdam & Mountain View, CA",
     "fate": "Still public (NYSE: ESTC)",
-    "tagline": "Finding the Needle Fast",
-    "dek": "The company behind Elasticsearch, an open source search engine used for websites, logs, security data and observability.",
-    "lede": "Elastic grew out of a piece of open source software called Elasticsearch. Developers used it to search through huge piles of text, logs and events in near real time. By 2018 it ran inside thousands of companies, often before anyone in purchasing knew it was there. Elastic's business was to sell support, hosted services and extra features on top of the free core. Its public offering tested whether that open source model could carry a large public company.",
+    "tagline": "A Chef's Recipes, Then Everyone's Logs",
+    "dek": "Elastic gave developers a free, fast way to search mountains of text, logs and security data.",
+    "lede": "Elasticsearch started as a way for Shay Banon's wife to search her recipes. By 2018 it ran inside thousands of companies, often before anyone in purchasing knew it was there. Developers used the free, open source engine to search huge piles of text, logs and events in near real time. Elastic, the company behind it, sold support, hosted services and extra features on top. Its public offering tested whether that open source model could carry a large public company.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Shay Banon began writing search software while building a recipe search tool for his wife, who was training as a chef. He released Elasticsearch as open source in 2010, and it spread quickly among developers. In 2012 he and his co-founders formed a company around it. The bet was that free software would win the users, and that companies would pay for help running it at scale."
+        "heading": "Free Software as the Bait",
+        "body": "Shay Banon began writing search software while building a recipe search tool for his wife, who was training as a chef. He released Elasticsearch as open source in 2010, and developers passed it around fast. In 2012 Banon and his co-founders formed a company around it. Their bet came in two halves. Free software would win the users. Companies that ran it at scale would then pay for help running it."
       },
       {
-        "heading": "Searching the Stars",
-        "body": "Elastic priced at $36 a share in October 2018, and the stock nearly doubled on its first day. The company kept growing as logs, security and observability became its main markets. It later changed its license to stop cloud providers from offering Elasticsearch as their own service. Elastic remains a public company with headquarters split between the Netherlands and California."
+        "heading": "Fencing Out the Cloud Giants",
+        "body": "Elastic priced at $36 a share in October 2018, and the stock nearly doubled on its first day. Growth kept coming as logs, security and observability became its main markets. Cloud providers had started to offer Elasticsearch as their own service. Elastic changed its license to stop them. The company remains public, with its headquarters split between the Netherlands and California, and trades on the New York Stock Exchange."
       }
     ],
     "cover": {
@@ -84,17 +84,17 @@
     "founded": null,
     "hq": null,
     "fate": "Still public (NASDAQ: UPWK)",
-    "tagline": "A Workshop Without Walls",
-    "dek": "An online marketplace that connects businesses with freelance workers for software, design, writing and other remote projects.",
-    "lede": "Upwork is the online marketplace where companies hire freelancers for projects of every size. A business posts a job, freelancers around the world send proposals, and Upwork handles contracts and payment. It was formed from the merger of Elance and oDesk, two pioneers of online freelance work. When it went public in 2018, many people already worked remotely for some of their income, and Upwork was the largest market for that kind of work.",
+    "tagline": "Two Rivals, One Hiring Hall",
+    "dek": "Upwork let businesses hire skilled freelancers anywhere in the world, with contracts and payment handled for them.",
+    "lede": "Upwork began as two rivals, Elance and oDesk, that merged and became the largest online market for freelance work. A business posted a job. Freelancers around the world sent proposals. Upwork handled the contract and the payment. When the company went public in 2018, many people already earned part of their income working remotely. Stephane Kasriel, chief executive since 2015, took the combined company to the market as the biggest name in the field.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Elance and oDesk each started from the same idea. Skilled work does not need to happen in the same building as the client. Elance launched in 1999, and oDesk followed a few years later with tools to track remote work hours. The two rivals merged in 2013 and took the name Upwork in 2015. The combined company bet that trust, payments and reviews in one place would bring both sides back again."
+        "heading": "Work Without the Building",
+        "body": "Elance and oDesk started from the same idea: skilled work does not need to happen in the client's building. Elance launched in 1999. oDesk followed a few years later with tools that tracked remote work hours. The two rivals merged in 2013 and took the name Upwork in 2015. The combined company bet that trust, payments and reviews in one place would keep both sides coming back."
       },
       {
-        "heading": "Hired by the Hour",
-        "body": "Upwork priced its shares at $15 in October 2018 and opened well above that price. The company spent the following years shifting toward larger business clients and higher fees. Remote work became normal during the 2020 pandemic, which brought new attention to the marketplace. Upwork remains a public company and one of the best known names in freelance work. Its chief executive at the offering, Stephane Kasriel, had led the company since 2015."
+        "heading": "Remote Work Goes Normal",
+        "body": "Upwork priced its shares at $15 in October 2018 and opened well above that price. Over the following years it shifted toward larger business clients and higher fees. Then the 2020 pandemic made remote work normal, and the marketplace drew new attention. Upwork remains a public company and one of the best known names in freelance work. Its shares trade on Nasdaq under the ticker UPWK."
       }
     ],
     "cover": {
@@ -119,17 +119,17 @@
     "founded": 1999,
     "hq": "San Mateo, CA",
     "fate": "Renamed Momentive; taken private by STG, 2023 ($1.5B)",
-    "tagline": "Asking the Whole World",
-    "dek": "Online survey software that let anyone write a questionnaire, send it out and see the answers come back in charts.",
-    "lede": "SurveyMonkey made asking questions cheap. Anyone with a browser could build a survey, send a link and watch the answers arrive. Students, small businesses and Fortune 500 companies all used it, and its name became a generic word for an online poll. The company filed as SVMK Inc. in 2018, after years as one of Silicon Valley's best known private companies. It hoped to show that a freemium tool could also sell to large enterprises.",
+    "tagline": "The Monkey Behind Every Poll",
+    "dek": "SurveyMonkey let anyone write a survey, send a link and watch the answers come back in charts.",
+    "lede": "SurveyMonkey grew for a decade with almost no outside money, and its name became a generic word for an online poll. Anyone with a browser could build a survey, send a link and watch the answers arrive. Students, small businesses and Fortune 500 companies all used it. The company filed as SVMK Inc. in 2018, after years as one of Silicon Valley's best known private companies. It hoped to prove that a freemium tool could also sell to large enterprises.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Ryan Finley started SurveyMonkey in 1999 as a simple tool for building online surveys. His brother Chris joined him, and the company grew for a decade with almost no outside money. Investors bought it in 2009, and Dave Goldberg led it until his death in 2015. The bet was that millions of small paying users could support a large, durable software business."
+        "heading": "Ten Years Without Investors",
+        "body": "Ryan Finley started SurveyMonkey in 1999 as a simple tool for building online surveys. His brother Chris joined him, and the two grew the company for ten years with almost no outside money. Investors bought it in 2009. Dave Goldberg led it from then until his death in 2015. The bet was that millions of small paying users could carry a large, durable software business."
       },
       {
-        "heading": "The Answers Come In",
-        "body": "SVMK priced at $12 a share in September 2018 and rose strongly on its first day. The company renamed itself Momentive Global in 2021 to stress its enterprise products. A planned merger with Zendesk fell apart after shareholders objected. In 2023 the private equity firm STG bought the company for about $1.5 billion and took it private. Zander Lurie was chief executive at the time of the offering."
+        "heading": "A Merger Shareholders Refused",
+        "body": "SVMK priced at $12 a share in September 2018 and jumped on its first day. Zander Lurie was chief executive. In 2021 the company renamed itself Momentive Global to stress its enterprise products. A planned merger with Zendesk then fell apart after shareholders objected. In 2023 the private equity firm STG bought the company for about $1.5 billion and took it private."
       }
     ],
     "cover": {
@@ -155,17 +155,17 @@
     "founded": 2006,
     "hq": "San Francisco, CA",
     "fate": "Acquired by Bending Spoons, 2026 (~$500M)",
-    "tagline": "Every Night a Festival",
-    "dek": "A self-service ticketing platform for concerts, classes, conferences and community events, large and small.",
-    "lede": "Eventbrite gave every event organizer a box office. A yoga teacher, a club promoter or a conference planner could set up a page, sell tickets and check guests in at the door. The company made money from small fees on each ticket. It filed to go public in 2018, after a decade of steady growth and a recent purchase of the European ticketing company Ticketfly. Live events were booming, and Eventbrite served the long tail of organizers.",
+    "tagline": "A Box Office for Everyone",
+    "dek": "Eventbrite let anyone running an event, from a yoga class to a conference, sell tickets online.",
+    "lede": "Eventbrite gave a yoga teacher the same box office as a conference planner. Organizers set up a page, sold tickets and checked guests in at the door, and Eventbrite took a small fee on each ticket. It filed to go public in 2018, after a decade of steady growth and its recent purchase of Ticketfly, a ticketing company for music venues. Live events were booming. Eventbrite served the long tail of small organizers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Julia Hartz, Kevin Hartz and Renaud Visage started Eventbrite in 2006. At the time, ticketing was controlled by a few large companies that served arenas, not neighborhood venues. The founders bet that the internet made it possible to serve millions of small events with the same software. Julia Hartz later became chief executive and led the company through its public offering."
+        "heading": "Ticketing Beyond the Arena",
+        "body": "Julia Hartz, Kevin Hartz and Renaud Visage started Eventbrite in 2006. Back then a few large companies controlled ticketing, and they served arenas. Neighborhood venues were left out. The founders bet that the internet made it possible to serve millions of small events with the same software. Julia Hartz later became chief executive, and she led the company through its public offering."
       },
       {
-        "heading": "Lights Over the River",
-        "body": "Eventbrite priced at $23 a share in September 2018 and jumped on its first day. The 2020 pandemic halted live events and hit the business hard, and the company cut staff to survive. It rebuilt slowly as events returned. In late 2025 the Italian software group Bending Spoons agreed to buy Eventbrite for about $500 million in cash, and the deal closed in 2026."
+        "heading": "When the Events Stopped",
+        "body": "Eventbrite priced at $23 a share in September 2018 and jumped on its first day. Then the 2020 pandemic halted live events. The business took a hard hit, and the company cut staff to survive. It rebuilt slowly as events returned. In late 2025 the Italian software group Bending Spoons agreed to buy Eventbrite for about $500 million in cash. The deal closed in 2026."
       }
     ],
     "cover": {
@@ -189,17 +189,17 @@
     "founded": 2004,
     "hq": "Seattle, WA",
     "fate": "Taken private by Vista Equity Partners, 2022 ($8.4B)",
-    "tagline": "Rendering Unto Caesar",
-    "dek": "Cloud software that calculates sales tax and handles tax compliance for businesses selling across many states and countries.",
-    "lede": "Avalara automated one of the dullest and most painful jobs in commerce. A business that sold in many places had to know thousands of different sales tax rates and rules. Avalara's software looked up the right tax for each sale, filed returns and kept records. The company filed to go public in 2018, just as the Supreme Court weighed the Wayfair case, which would let states tax online sellers with no local presence.",
+    "tagline": "Days Before the Wayfair Ruling",
+    "dek": "Avalara worked out the sales tax on every sale and filed the returns, so businesses did not have to.",
+    "lede": "Avalara went public in June 2018, and days later the Supreme Court made its product essential. The company automated one of the dullest, most painful jobs in commerce. A business that sold in many places had to track thousands of sales tax rates and rules. Avalara's software looked up the right tax for each sale, filed the returns and kept the records. The court's Wayfair case would decide whether states could tax online sellers with no local presence.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Avalara began in 2004 as a small team on Bainbridge Island, near Seattle. Scott McFarlane and his co-founders saw that sales tax software was mostly built for large companies and was hard to use. They bet that a cloud service could plug into shopping carts and accounting tools and do the work for businesses of any size. The more complicated tax rules became, the more valuable the service was."
+        "heading": "Tax Software on Bainbridge Island",
+        "body": "Avalara began in 2004 as a small team on Bainbridge Island, near Seattle. Scott McFarlane and his co-founders saw that sales tax software was mostly built for large companies, and it was hard to use. They bet that a cloud service could plug into shopping carts and accounting tools and do the work for a business of any size. Every new tax rule made the service more valuable."
       },
       {
-        "heading": "A Ruling Arrives",
-        "body": "Avalara priced at $24 a share in June 2018. Days later the Supreme Court decided South Dakota v. Wayfair, which let states require online sellers to collect sales tax. The ruling made Avalara's product essential for many more businesses, and the stock climbed for years. In 2022 Vista Equity Partners bought the company for about $8.4 billion and took it private."
+        "heading": "South Dakota v. Wayfair",
+        "body": "Avalara priced at $24 a share in June 2018. Days later the Supreme Court decided South Dakota v. Wayfair. The ruling let states require online sellers to collect sales tax, even with no local presence. Many more businesses suddenly needed what Avalara sold, and the stock climbed for years. In 2022 Vista Equity Partners bought the company for about $8.4 billion and took it private."
       }
     ],
     "cover": {
@@ -223,17 +223,17 @@
     "founded": 2006,
     "hq": "Atlanta, GA",
     "fate": "Acquired by Goldman Sachs, 2022 ($2.2B)",
-    "tagline": "Loans Under an Open Sky",
-    "dek": "A lending platform that let contractors and medical offices offer customers instant financing through partner banks.",
-    "lede": "GreenSky made consumer loans at the point of sale. A homeowner buying a new roof or kitchen could apply on a contractor's phone and get a loan decision in seconds. Partner banks funded the loans, and GreenSky ran the technology and collected fees. When it filed to go public in 2018, fintech lenders were popular with investors, and GreenSky was one of the most profitable among them.",
+    "tagline": "A Loan on the Contractor's Phone",
+    "dek": "GreenSky let contractors and medical offices offer customers instant loans, funded by partner banks.",
+    "lede": "A homeowner buying a new roof or kitchen could apply for a loan on the contractor's phone and get a decision in seconds. That was GreenSky. Partner banks funded the loans, and GreenSky ran the technology and collected fees. When it filed to go public in 2018, fintech lenders were popular with investors. GreenSky was one of the most profitable among them, and it kept the loans off its own books.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "David Zalik founded GreenSky in Atlanta in 2006. He had built and sold a software business before, and he saw that home improvement contractors lost sales when customers could not pay up front. The bet was to give merchants a simple financing tool and leave the lending itself to banks. That approach kept the loans off GreenSky's own books and let the company grow quickly with little capital."
+        "heading": "Leave the Lending to Banks",
+        "body": "David Zalik founded GreenSky in Atlanta in 2006. He had already built and sold a software business. He saw home improvement contractors losing sales when customers could not pay up front. His bet was to give merchants a simple financing tool and leave the lending itself to banks. That kept the loans off GreenSky's books, so the company could grow fast with little capital."
       },
       {
-        "heading": "Clouds Gather",
-        "body": "GreenSky priced at $23 a share in May 2018, but the stock fell soon after. Investors worried about rising funding costs and the company's reliance on a few bank partners. Shares traded far below the offering price for most of its public life. In 2022 Goldman Sachs bought GreenSky for about $2.2 billion to grow its consumer lending business, then agreed to sell it the next year."
+        "heading": "Below the Offering Price",
+        "body": "GreenSky priced at $23 a share in May 2018, and the stock fell soon after. Investors worried about rising funding costs and the company's reliance on a few bank partners. Shares traded far below the offering price for most of its public life. In 2022 Goldman Sachs bought GreenSky for about $2.2 billion to grow its consumer lending business. The next year Goldman agreed to sell it."
       }
     ],
     "cover": {
@@ -260,17 +260,17 @@
     "founded": 2004,
     "hq": "Farmington, UT",
     "fate": "Taken private by Vista Equity Partners, 2021 ($3.5B)",
-    "tagline": "Many Ways of Seeing",
-    "dek": "An online learning platform that taught software developers and IT staff new technical skills through video courses.",
-    "lede": "Pluralsight sold technology skills by subscription. Its library held thousands of video courses on programming languages, cloud platforms and security, taught by working experts. Companies bought seats for their engineering teams to keep up with fast-changing tools. When Pluralsight filed to go public in 2018, every business was becoming a software business, and the shortage of skilled developers was a common complaint.",
+    "tagline": "Trainers Who Left the Classroom",
+    "dek": "Pluralsight taught developers and IT staff new technical skills through a library of expert video courses.",
+    "lede": "Pluralsight started with four trainers teaching developers in person, then moved the whole business online. By 2018 its library held thousands of video courses on programming languages, cloud platforms and security, taught by working experts. Companies bought seats for their engineering teams to keep up with fast-changing tools. When Pluralsight filed to go public that year, every business was becoming a software business. The shortage of skilled developers was a common complaint.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Aaron Skonnard and three fellow trainers started Pluralsight in 2004 as a classroom training company. They taught developers in person, which was costly and hard to scale. In 2008 they moved the whole business online and began recording courses. The bet was that a large catalog of expert video, sold as a subscription, could reach far more learners than any classroom."
+        "heading": "Four Trainers Go Online",
+        "body": "Aaron Skonnard and three fellow trainers started Pluralsight in 2004 as a classroom training company. Teaching developers in person was costly and hard to scale. In 2008 they moved the whole business online and began recording courses. Their bet was that a large catalog of expert video, sold by subscription, could reach far more learners than any classroom. The company was based in Farmington, Utah."
       },
       {
-        "heading": "Out of Utah",
-        "body": "Pluralsight priced at $15 a share in May 2018 and gained on its first day. The company grew its business sales and added skill assessments and analytics for managers. Growth slowed, and the stock never held its early highs. In 2021 Vista Equity Partners bought Pluralsight for about $3.5 billion and took it private. Aaron Skonnard led the company as chief executive throughout its public years."
+        "heading": "Skill Scores, Then a Buyout",
+        "body": "Pluralsight priced at $15 a share in May 2018 and rose on its first day. It grew its business sales and added skill assessments and analytics for managers. Then growth slowed, and the stock never held its early highs. Aaron Skonnard ran the company as chief executive through all its public years. In 2021 Vista Equity Partners bought Pluralsight for about $3.5 billion and took it private."
       }
     ],
     "cover": {
@@ -295,17 +295,17 @@
     "founded": 2007,
     "hq": "San Francisco, CA",
     "fate": "Still public (NASDAQ: DBX)",
-    "tagline": "Every File, Everywhere",
-    "dek": "A cloud storage service that kept files in sync across computers and phones and let people share them easily.",
-    "lede": "Dropbox made files follow their owners. Put a document in a special folder, and it appeared on every other computer and phone you used. That simple trick won hundreds of millions of users, most of them on free plans. By the time Dropbox filed to go public in 2018, it was one of the largest private tech companies of its era. The question was whether enough of those users would pay.",
+    "tagline": "The Forgotten USB Drive",
+    "dek": "Dropbox put your files on every computer and phone you owned, and made sharing them easy.",
+    "lede": "Dropbox exists because Drew Houston forgot his USB drive on a bus trip. His fix was a special folder. Put a document in it, and the document appeared on every other computer and phone you used. That simple trick won hundreds of millions of users, most of them on free plans. When Dropbox filed to go public in 2018, it was one of the largest private tech companies of its era. The question was whether enough of those users would pay.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Drew Houston started Dropbox in 2007 after forgetting his USB drive on a bus trip. He and Arash Ferdowsi joined Y Combinator and built a product that hid all the hard parts of syncing. A short demo video spread widely and filled a waiting list. Their bet was that a free product people loved would turn enough of them into paying subscribers to build a real business."
+        "heading": "A Demo Video, a Waitlist",
+        "body": "Houston started Dropbox in 2007. He and Arash Ferdowsi joined Y Combinator and built a product that hid all the hard parts of keeping files in sync. A short demo video spread widely and filled a waiting list. Their bet was simple. People would love a free product, and enough of them would pay for more space to build a real business."
       },
       {
-        "heading": "Through the Shower",
-        "body": "Dropbox priced at $21 a share in March 2018, above its expected range, and the stock jumped on its first day. Before the offering, it had moved most of its storage off Amazon's cloud and onto its own servers to cut costs. Growth slowed in later years as rivals bundled storage with other software. Dropbox remains a public company and is still led by Drew Houston."
+        "heading": "Leaving Amazon's Cloud",
+        "body": "Dropbox priced at $21 a share in March 2018, above its expected range, and the stock jumped on its first day. Before the offering, it had moved most of its storage off Amazon's cloud and onto its own servers to cut costs. In later years growth slowed as rivals bundled storage with other software. Dropbox remains a public company, still led by Drew Houston."
       }
     ],
     "cover": {
@@ -330,17 +330,17 @@
     "founded": 1999,
     "hq": "Raleigh, NC",
     "fate": "Still public (NASDAQ: BAND)",
-    "tagline": "Wires Strung Across the Country",
-    "dek": "A communications platform that gives software companies phone numbers, calling, texting and 911 services through simple APIs.",
-    "lede": "Bandwidth sells the plumbing behind modern calling and texting. Software companies use its APIs to place calls, send messages and connect emergency 911 service, all running on Bandwidth's own nationwide network. Many people have used it without seeing its name. When it filed to go public in 2017, cloud communications was a crowded field, but Bandwidth was unusual because it owned much of its network.",
+    "tagline": "Owning the Wires Behind the Apps",
+    "dek": "Bandwidth gave software companies phone numbers, calling, texting and 911 service through simple code.",
+    "lede": "Bandwidth's customers came to include Microsoft, Google and Zoom, yet most people who used its network never saw its name. It sells the plumbing behind modern calling and texting. Software companies use its APIs to place calls, send messages and connect emergency 911 service. When it filed to go public in 2017, cloud communications was a crowded field. Bandwidth stood apart because it owned much of its own nationwide network.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "David Morken and Henry Kaestner started the company in North Carolina in 1999, first selling internet connections. Over time they built a voice network and won large customers that needed reliable phone service in software. The bet was that owning the network, rather than renting it, would give better quality and lower cost. The company stayed in Raleigh and grew without much venture money."
+        "heading": "Raleigh, Without Much Venture Money",
+        "body": "David Morken and Henry Kaestner started the company in North Carolina in 1999, first selling internet connections. Over time they built a voice network and won large customers that needed reliable phone service inside their software. Their bet was that owning the network, instead of renting it, would bring better quality and lower costs. The company stayed in Raleigh and grew without much venture money."
       },
       {
-        "heading": "Building the Network",
-        "body": "Bandwidth priced at $20 a share in November 2017. The company grew as video meetings, contact centers and messaging apps moved to the cloud. It bought the European carrier Voxbone in 2020 to expand overseas. Demand surged during the pandemic and later cooled. Bandwidth remains a public company in Raleigh. Its customers came to include Microsoft, Google and Zoom. David Morken stayed on as chief executive."
+        "heading": "Buying a European Carrier",
+        "body": "Bandwidth priced at $20 a share in November 2017. It grew as video meetings, contact centers and messaging apps moved to the cloud. In 2020 it bought Voxbone, a European carrier, to expand overseas. Demand surged during the pandemic, as so much of life moved onto calls, and later cooled. Bandwidth remains a public company in Raleigh, and David Morken stayed on as chief executive."
       }
     ],
     "cover": {
@@ -367,17 +367,17 @@
     "founded": 2000,
     "hq": "San Jose, CA",
     "fate": "Taken private by Advent International, 2020",
-    "tagline": "The Sentinel at the Gate",
-    "dek": "Network security software that finds every device connected to a network and controls what each one can reach.",
-    "lede": "Forescout answered a basic question that many networks could not: what is plugged in right now. Its software spotted laptops, phones, printers, cameras and factory machines as they joined, without needing an agent installed on each one. It then applied rules to block or isolate risky devices. When Forescout filed to go public in 2017, internet-connected devices were multiplying in offices, hospitals and plants.",
+    "tagline": "What Is Plugged In Right Now",
+    "dek": "Forescout showed companies every device on their network and kept risky ones away from everything else.",
+    "lede": "Many big networks could not answer a basic question: what is plugged in right now. Forescout could. Its software spotted laptops, phones, printers, cameras and factory machines as they joined, without an agent installed on any of them. Then it applied rules to block or isolate the risky ones. When Forescout filed to go public in 2017, internet-connected devices were multiplying in offices, hospitals and plants, and few companies knew how many they had.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Forescout was founded in Israel in 2000 by a group of researchers and engineers led by Professor Hezy Yeshurun. Its early product focused on stopping network attacks. Over time it shifted toward visibility, on the view that a company cannot protect devices it does not know about. The company moved its headquarters to San Jose and kept research in Tel Aviv."
+        "heading": "Researchers from Israel",
+        "body": "Forescout was founded in Israel in 2000 by a group of researchers and engineers led by Professor Hezy Yeshurun. Its early product focused on stopping network attacks. Over time it shifted toward visibility. The thinking was plain: a company cannot protect devices it does not know about. Forescout later moved its headquarters to San Jose, California, and kept its research in Tel Aviv."
       },
       {
-        "heading": "Watching the Pass",
-        "body": "Forescout priced at $22 a share in October 2017. It grew by selling to large enterprises and government agencies. In 2020 Advent International agreed to buy the company. The two sides fought over the deal during the pandemic, then settled on a lower price, and Forescout became private later that year. Its customers included hospitals, factories and government agencies, where unmanaged devices were a growing worry."
+        "heading": "A Buyout Fought Over",
+        "body": "Forescout priced at $22 a share in October 2017. It grew by selling to large enterprises and government agencies, and to hospitals and factories, where unmanaged devices were a growing worry. In 2020 Advent International agreed to buy the company. The two sides fought over the deal during the pandemic, then settled on a lower price. Forescout became private later that year."
       }
     ],
     "cover": {
@@ -401,17 +401,17 @@
     "founded": 2002,
     "hq": "Los Gatos, CA",
     "fate": "Still public (NASDAQ: ROKU)",
-    "tagline": "The Sixth River",
-    "dek": "Maker of streaming players and a TV operating system that brings Netflix and other apps to the living room.",
-    "lede": "Roku put streaming on the television. Its small boxes and sticks plugged into a TV and showed apps from Netflix, Hulu and hundreds of others. Later, TV makers built Roku's software right into their sets. When Roku filed to go public in 2017, cord cutting was well underway, and the company was starting to earn more from advertising and platform fees than from hardware.",
+    "tagline": "His Sixth Company",
+    "dek": "Roku made streaming on the TV easy, first with small boxes, then with software built into sets.",
+    "lede": "Roku means six in Japanese, because it was the sixth company Anthony Wood had started. Its small boxes and sticks plugged into a TV and showed apps from Netflix, Hulu and hundreds of others. Later, TV makers built Roku's software right into their sets. When Roku filed to go public in 2017, cord cutting was well underway. The company was starting to earn more from advertising and platform fees than from hardware.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Anthony Wood founded Roku in 2002. He had earlier invented an early digital video recorder. The name means six in Japanese, because Roku was the sixth company he had started. Its first streaming box, in 2008, was built with Netflix. The bet was that a neutral home screen would win viewers, and that owning that screen would be worth more than selling devices."
+        "heading": "A Box Built With Netflix",
+        "body": "Anthony Wood founded Roku in 2002. He had already invented an early digital video recorder. Roku's first streaming box arrived in 2008, built with Netflix. The bet was that a neutral home screen would win viewers. Roku would sit between the viewer and every streaming service and favor none of them. Owning that screen would be worth more than selling the devices."
       },
       {
-        "heading": "On the Home Screen",
-        "body": "Roku priced at $14 a share in September 2017 and soared on its first day of trading. The stock rose many times over during the streaming boom of 2020, then fell back. The company kept adding active accounts and building its ad business. Roku remains a public company and is still led by its founder. Its software now runs inside many of the TV sets sold in the United States."
+        "heading": "Ads on the Home Screen",
+        "body": "Roku priced at $14 a share in September 2017 and soared on its first day of trading. During the streaming boom of 2020 the stock rose many times over, then fell back. The company kept adding active accounts and building its ad business. Its software now runs inside many of the TV sets sold in the United States. Roku remains public, still led by its founder."
       }
     ],
     "cover": {
@@ -436,17 +436,17 @@
     "founded": 2004,
     "hq": "Seattle, WA",
     "fate": "Acquired by Rocket Companies, 2025 ($1.75B)",
-    "tagline": "Swimming Against the Current",
-    "dek": "A real estate brokerage that paired a home search website with salaried agents and lower commissions.",
-    "lede": "Redfin tried to rebuild the real estate agent around technology. Its website showed listings with maps and data, and its own salaried agents helped people buy and sell for lower fees. Most brokerages paid agents by commission and treated software as an afterthought. When Redfin filed to go public in 2017, the housing market was strong, and the company was one of the few online brokerages that had lasted.",
+    "tagline": "Salaried Agents, Smaller Fees",
+    "dek": "Redfin let people buy and sell homes with salaried agents, honest data and lower commissions.",
+    "lede": "Redfin paid its real estate agents a salary and asked customers to review them, in an industry built on commissions. Its website showed listings with maps and data, and its own agents worked with people buying and selling for lower fees. Most brokerages treated software as an afterthought. When Redfin filed to go public in 2017, the housing market was strong. Redfin was one of the few online brokerages that had lasted.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "David Eraker and Michael Dougherty started Redfin in Seattle in 2004 as a map-based home search site. Glenn Kelman joined as chief executive soon after and turned it into a full brokerage. The bet was that customers wanted honest data and lower costs, and that employees with salaries and reviews would serve them better than independent agents chasing commissions. Glenn Kelman led the company for about two decades."
+        "heading": "From Map Site to Brokerage",
+        "body": "David Eraker and Michael Dougherty started Redfin in Seattle in 2004 as a map-based home search site. Glenn Kelman joined as chief executive soon after and turned it into a full brokerage. He led the company for about two decades. The bet was that customers wanted honest data and lower costs, and that salaried, reviewed employees would serve them better than independent agents chasing commissions."
       },
       {
-        "heading": "The Market Turns",
-        "body": "Redfin priced at $15 a share in July 2017 and rose on its first day. It later tried buying and reselling homes directly, then shut that business in 2022 as rates rose. The housing slowdown hit revenue and the stock. In 2025 Rocket Companies, the mortgage lender, bought Redfin in an all-stock deal valued at about $1.75 billion. The Redfin brand continues under Rocket."
+        "heading": "Rising Rates, Then Rocket",
+        "body": "Redfin priced at $15 a share in July 2017 and rose on its first day. It later tried buying and reselling homes itself, then shut that business in 2022 as interest rates rose. The housing slowdown hit revenue and the stock. In 2025 Rocket Companies, the mortgage lender, bought Redfin in an all-stock deal valued at about $1.75 billion. The Redfin brand lives on under Rocket."
       }
     ],
     "cover": {
@@ -470,17 +470,17 @@
     "founded": 2008,
     "hq": "Mountain View, CA",
     "fate": "Bankrupt, 2018 (assets sold to DataDirect Networks)",
-    "tagline": "Warehouses on the Water",
-    "dek": "Maker of storage systems built for virtual machines, letting IT teams manage data per application instead of per disk.",
-    "lede": "Tintri built storage hardware for the age of virtual machines. Older storage systems thought in terms of disks and volumes. Tintri's systems understood each virtual machine, so administrators could see and tune performance for each application. By the time Tintri filed to go public in 2017, the storage market was moving fast toward flash, cloud services and larger rivals with deep pockets.",
+    "tagline": "Storage That Knew Each Machine",
+    "dek": "Tintri made storage that understood virtual machines, so IT teams could tune each application on its own.",
+    "lede": "Tintri filed for bankruptcy about a year after it went public. The company built storage hardware for the age of virtual machines. Older systems thought in disks and volumes. Tintri's systems understood each virtual machine, so administrators could see and tune performance one application at a time. By the time Tintri filed to go public in 2017, storage was moving fast toward flash and cloud services, and its rivals were larger, with deep pockets.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Kieran Harty, a former VMware engineering leader, founded Tintri in 2008 with a small team of storage engineers. They saw that virtualization had changed how data centers worked, but storage had not caught up. Their bet was that storage designed around virtual machines would be simpler to run and faster to fix. The company raised large venture rounds and won hundreds of enterprise customers."
+        "heading": "A VMware Veteran's Fix",
+        "body": "Kieran Harty, a former VMware engineering leader, founded Tintri in 2008 with a small team of storage engineers. Virtualization had changed how data centers worked, and storage had not caught up. Their bet was that storage designed around virtual machines would be simpler to run and faster to fix. Tintri raised large venture rounds and won hundreds of enterprise customers."
       },
       {
-        "heading": "A Hard Landing",
-        "body": "Tintri cut its price range and priced at $7 a share in June 2017, well below its early hopes. The stock fell soon after. Losses were heavy and cash ran short as competition grew. In July 2018, about a year after its offering, Tintri filed for bankruptcy. DataDirect Networks bought its main assets and kept the product alive. The collapse came quickly for a company that had raised so much venture money."
+        "heading": "Twelve Months to Bankruptcy",
+        "body": "Tintri cut its price range and priced at $7 a share in June 2017, well below its early hopes. The stock fell soon after. Losses were heavy, competition grew and cash ran short. For a company that had raised so much venture money, the fall came fast. In July 2018, about a year after its offering, Tintri filed for bankruptcy. DataDirect Networks bought its main assets and kept the product alive."
       }
     ],
     "cover": {
@@ -506,17 +506,17 @@
     "founded": 2012,
     "hq": "New York, NY",
     "fate": "Acquired by Wonder Group, 2023 ($103M)",
-    "tagline": "Dinner in a Box",
-    "dek": "A meal kit service that shipped boxes of measured ingredients and recipe cards so customers could cook at home.",
-    "lede": "Blue Apron mailed dinner. Each week a box arrived with fresh ingredients in exact amounts and illustrated recipe cards. Customers cooked the meal themselves and skipped the grocery store. The company led a wave of meal kit startups. When it filed to go public in June 2017, Amazon had just agreed to buy Whole Foods, and investors suddenly worried about competition in food.",
+    "tagline": "Dinner Arrives in a Box",
+    "dek": "Blue Apron shipped measured ingredients and recipe cards so people could cook dinner at home without shopping.",
+    "lede": "Blue Apron went public in the same month Amazon agreed to buy Whole Foods, and investors suddenly worried about competition in food. The company mailed dinner. Each week a box arrived with fresh ingredients in exact amounts and illustrated recipe cards. Customers cooked the meal themselves and skipped the grocery store. When Blue Apron filed to go public in June 2017, it led a wave of meal kit startups.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Matt Salzberg, Ilia Papas and Matt Wadiak started Blue Apron in New York in 2012. Wadiak was a chef, and the founders wanted to make cooking at home easier and less wasteful. They built their own warehouses and supply chain to buy food directly from farms. The bet was that a subscription would keep customers cooking week after week. Meal kits looked like a fresh answer to the daily question of dinner."
+        "heading": "A Chef's Supply Chain",
+        "body": "Matt Salzberg, Ilia Papas and Matt Wadiak started Blue Apron in New York in 2012. Wadiak was a chef. The founders wanted to make cooking at home easier and less wasteful. They built their own warehouses and supply chain to buy food directly from farms. Their bet was that a subscription would keep customers cooking week after week and answer the daily question of dinner."
       },
       {
-        "heading": "Cooling on the Counter",
-        "body": "Blue Apron cut its price range and priced at $10 a share in late June 2017. The stock fell steadily as customers canceled and marketing costs stayed high. The company did a reverse stock split and changed leaders several times. In 2023 Wonder Group, the food hall and delivery startup, bought Blue Apron for about $103 million. Under Wonder, Blue Apron kept selling meal kits."
+        "heading": "Customers Cancel, Wonder Buys",
+        "body": "Blue Apron cut its price range and priced at $10 a share in late June 2017. The stock fell steadily as customers canceled and marketing costs stayed high. The company did a reverse stock split and changed leaders several times. In 2023 Wonder Group, the food hall and delivery startup, bought Blue Apron for about $103 million. Blue Apron kept selling meal kits under Wonder."
       }
     ],
     "cover": {
@@ -542,17 +542,17 @@
     "founded": 2012,
     "hq": "Tempe, AZ",
     "fate": "Still public (NYSE: CVNA)",
-    "tagline": "The Car Comes to You",
-    "dek": "An online used car dealer that sells, finances and delivers cars, famous for its coin-operated car vending towers.",
-    "lede": "Carvana sold used cars on the internet. Buyers browsed photos, arranged financing and signed papers online, then had the car delivered or picked it up from a tall glass vending tower. A seven-day return policy replaced the test drive. When Carvana filed to go public in 2017, nearly all used cars still changed hands at traditional lots, and few people believed buyers would skip the test drive.",
+    "tagline": "A Vending Machine for Cars",
+    "dek": "Carvana let people buy a used car online, finance it and have it delivered to their door.",
+    "lede": "Carvana sold used cars out of coin-operated glass vending towers. Buyers browsed photos, arranged financing and signed papers online. Then they had the car delivered or picked it up from a tower. A seven-day return policy replaced the test drive. When Carvana filed to go public in 2017, nearly all used cars still changed hands at traditional lots. Few people believed buyers would skip the test drive.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Carvana started in 2012 inside DriveTime, a used car dealer run by the Garcia family in Arizona. Ernie Garcia III, Ryan Keeton and Ben Huston built it as a separate online business. The bet was that the worst parts of buying a car, the haggling and the paperwork, could be replaced by software. The car vending machine was a symbol of that idea."
+        "heading": "Born Inside DriveTime",
+        "body": "Carvana started in 2012 inside DriveTime, a used car dealer run by the Garcia family in Arizona. Ernie Garcia III, Ryan Keeton and Ben Huston built it as a separate online business. Their bet was that software could replace the worst parts of buying a car, the haggling and the paperwork. The car vending machine became the symbol of that idea."
       },
       {
-        "heading": "A Wild Ride",
-        "body": "Carvana priced at $15 a share in April 2017 and fell on its first day. The stock then rose many times over as sales grew. In 2022 it bought the auction business ADESA's physical sites, but high rates and debt pushed the company near the edge, and the stock collapsed. Carvana later restructured its debt, returned to profit and recovered. It remains public."
+        "heading": "Near the Edge and Back",
+        "body": "Carvana priced at $15 a share in April 2017 and fell on its first day. Then the stock rose many times over as sales grew. In 2022 it bought the physical sites of ADESA's auction business. High rates and heavy debt pushed the company near the edge, and the stock collapsed. Carvana restructured its debt, returned to profit and recovered. It remains public."
       }
     ],
     "cover": {
@@ -574,17 +574,17 @@
     "founded": null,
     "hq": "New York, NY",
     "fate": "Taken private by BC Partners, 2019 ($2.1B)",
-    "tagline": "A Fortress on the Hill",
-    "dek": "An IT services firm that designs, installs and manages networks, data centers, cloud systems and security for midsize companies.",
-    "lede": "Presidio helped companies build and run their technology. Its engineers designed networks, installed data center gear, moved workloads to the cloud and managed security. Much of its revenue came from reselling equipment from partners such as Cisco, with services wrapped around it. When Presidio filed to go public in 2017, it was a large but quiet business serving midsize companies across the United States.",
+    "tagline": "Cisco Gear, Wrapped in Engineers",
+    "dek": "Presidio designed, installed and ran the networks, data centers, cloud systems and security of midsize companies.",
+    "lede": "Presidio made much of its money reselling equipment from partners such as Cisco, then wrapping its own engineers around the boxes. Those engineers designed networks, installed data center gear, moved workloads to the cloud and managed security. The customers were midsize companies across the United States. When Presidio filed to go public in 2017, it was a large but quiet business. Apollo, the private equity firm, had bought it two years earlier.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Presidio grew through acquisitions of regional IT service firms. Private equity firm Apollo bought the company in 2015 and prepared it for a public offering. The bet was that midsize businesses needed one trusted partner to handle complex technology, and that the shift to cloud and security would create steady demand for skilled engineers. Its engineers held deep certifications with major vendors such as Cisco."
+        "heading": "Built From Regional Firms",
+        "body": "Presidio grew by buying regional IT service firms. The private equity firm Apollo bought the company in 2015 and prepared it for a public offering. The bet was that midsize businesses needed one trusted partner to handle complex technology. The shift to cloud and security would create steady demand for skilled engineers. Presidio's engineers held deep certifications with major vendors such as Cisco."
       },
       {
-        "heading": "Holding the Ground",
-        "body": "Presidio priced at $14 a share in March 2017, below its expected range. The stock traded in a narrow band in the years that followed. In 2019 BC Partners agreed to buy the company for about $2.1 billion, including debt. Presidio became private again and continued to operate as an IT services provider. It continued to serve customers across the United States under its new owner."
+        "heading": "Below Range, Then BC Partners",
+        "body": "Presidio priced at $14 a share in March 2017, below its expected range. The stock traded in a narrow band in the years that followed. In 2019 BC Partners agreed to buy the company for about $2.1 billion, including debt. Presidio became private again. It kept running as an IT services provider for customers across the United States, with its headquarters in New York."
       }
     ],
     "cover": {
@@ -609,17 +609,17 @@
     "founded": 2011,
     "hq": "Venice, CA",
     "fate": "Still public (NYSE: SNAP)",
-    "tagline": "The Ghost in the Phone",
-    "dek": "Maker of Snapchat, the camera app known for disappearing photos, Stories and augmented reality lenses.",
-    "lede": "Snap built Snapchat, the app that made photos vanish. Young people used it to talk in pictures rather than text, and its Stories format was soon copied across the industry. The company called itself a camera company and sold ads between friends' posts. When Snap filed to go public in 2017, it was the largest tech offering since Alibaba, and it offered public shareholders no voting rights.",
+    "tagline": "Photos That Disappear",
+    "dek": "Snapchat let young people talk in pictures that vanished, and its Stories format spread across the industry.",
+    "lede": "Snap went public in 2017 and gave its new shareholders no voting rights at all. It was the largest tech offering since Alibaba. The company built Snapchat, the app that made photos vanish. Young people used it to talk in pictures instead of text, and rivals soon copied its Stories format. Snap called itself a camera company. It made its money selling ads between friends' posts.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Evan Spiegel and Bobby Murphy started the app in 2011 while Spiegel was a student at Stanford. Its ghost logo hinted at messages that disappeared after viewing. The bet was that people wanted a place to share casual moments without a permanent record. That idea set Snapchat apart from Facebook, and Spiegel turned down an offer from Facebook to buy the company in 2013."
+        "heading": "Turning Down Facebook",
+        "body": "Evan Spiegel and Bobby Murphy started the app in 2011, while Spiegel was a student at Stanford. Its ghost logo hinted at messages that disappeared after viewing. The bet was that people wanted a place to share casual moments without a permanent record. That set Snapchat apart from Facebook. In 2013 Facebook offered to buy the company, and Spiegel turned it down."
       },
       {
-        "heading": "From the Venice Boardwalk",
-        "body": "Snap priced at $17 a share in March 2017 and rose sharply on its first day. The stock soon fell as Instagram copied Stories and user growth slowed. Snap rebuilt its Android app, invested in augmented reality and launched Spectacles glasses. The share price swung widely over the years. Snap remains a public company led by its founders. Its daily users later grew to several hundred million people."
+        "heading": "Instagram Copies Stories",
+        "body": "Snap priced at $17 a share in March 2017 and jumped on its first day. The stock soon fell as Instagram copied Stories and user growth slowed. Snap rebuilt its Android app, invested in augmented reality and launched Spectacles glasses. The share price swung widely over the years. Its daily users later grew to several hundred million people. Snap remains public, led by its founders."
       }
     ],
     "cover": {
@@ -644,17 +644,17 @@
     "founded": 2006,
     "hq": "Fremont, CA",
     "fate": "Acquired by ON Semiconductor, 2019 ($1.07B)",
-    "tagline": "Signals Through the Air",
-    "dek": "A chip designer that made high-speed Wi-Fi chipsets for home routers, gateways and set-top boxes.",
-    "lede": "Quantenna designed the chips that carry Wi-Fi through a house. Its chipsets used many antennas at once to send more data and reach farther. Cable and telecom companies put them in the gateways and set-top boxes they gave to customers. When Quantenna filed to go public in 2016, video streaming was pushing home networks hard, and faster Wi-Fi had become a selling point.",
+    "tagline": "Video Through the Walls",
+    "dek": "Quantenna made the fast Wi-Fi chips inside the gateways and set-top boxes cable companies gave customers.",
+    "lede": "Quantenna bet that Wi-Fi could carry high-definition video through the walls of a house and replace the cables. Its chipsets used many antennas at once to send more data and reach farther. Cable and telecom companies put them in the gateways and set-top boxes they handed to customers. When Quantenna filed to go public in 2016, video streaming was pushing home networks hard. Faster Wi-Fi had become a selling point.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Behrooz Rezvani and Stanford professor Andrea Goldsmith founded Quantenna in 2006. Goldsmith was an expert in wireless theory, and the company focused early on an antenna method called MIMO. The bet was that Wi-Fi could become good enough to stream high-definition video through walls, replacing cables. Quantenna shipped some of the first chips for each new Wi-Fi standard. Its chips reached homes through gear sold by service providers."
+        "heading": "A Stanford Professor's Antennas",
+        "body": "Behrooz Rezvani and Stanford professor Andrea Goldsmith founded Quantenna in 2006. Goldsmith was an expert in wireless theory. Early on, the company focused on an antenna method called MIMO, which uses several antennas at once. Quantenna shipped some of the first chips for each new Wi-Fi standard. Its chips reached homes inside the gear that service providers gave their customers."
       },
       {
-        "heading": "Bought by a Bigger Chipmaker",
-        "body": "Quantenna priced at $16 a share in October 2016. The company grew with the arrival of faster Wi-Fi standards and won major service provider customers. In 2019 ON Semiconductor bought Quantenna for about $1.07 billion in cash, adding Wi-Fi to its line of chips. Service providers around the world used its chips in gateways and extenders. The deal gave ON Semiconductor a foothold in home and enterprise wireless."
+        "heading": "Bought by ON Semiconductor",
+        "body": "Quantenna priced at $16 a share in October 2016. It grew with the arrival of faster Wi-Fi standards and won major service provider customers around the world, which used its chips in gateways and extenders. In 2019 ON Semiconductor bought Quantenna for about $1.07 billion in cash. The deal added Wi-Fi to ON's line of chips and gave it a foothold in home and enterprise wireless."
       }
     ],
     "cover": {
@@ -679,17 +679,17 @@
     "founded": 2009,
     "hq": "Ventura, CA",
     "fate": "Still public (NASDAQ: TTD)",
-    "tagline": "Bidding on the Floor",
-    "dek": "A self-service software platform that lets ad buyers bid on digital ad space across websites, apps and streaming TV.",
-    "lede": "The Trade Desk gave advertising agencies a trading screen. Its software let buyers bid for ad space across thousands of websites, apps and video services in real time. Unlike Google and Facebook, it did not own any media of its own, so it pitched itself as a neutral tool for buyers. When it filed to go public in 2016, ad tech stocks had fallen out of favor after several weak offerings.",
+    "tagline": "A Trading Screen for Ads",
+    "dek": "The Trade Desk let ad buyers bid for space across websites, apps and streaming TV from one screen.",
+    "lede": "The Trade Desk turned buying ads into something like trading stocks. Its software let agencies bid for ad space across thousands of websites, apps and video services in real time. Google and Facebook owned their own media. The Trade Desk owned none, so it pitched itself as a neutral tool that worked only for buyers. When it filed to go public in 2016, ad tech stocks had fallen out of favor after several weak offerings.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Jeff Green and Dave Pickles founded The Trade Desk in Ventura, California, in 2009. Green had earlier started AdECN, an ad exchange that Microsoft bought. The two saw that online advertising was turning into a market much like stock trading. They bet that buyers would want an independent platform that worked only for them, with no conflict from selling ads."
+        "heading": "A Second Exchange Founder",
+        "body": "Jeff Green and Dave Pickles founded The Trade Desk in Ventura, California, in 2009. Green had already started AdECN, an ad exchange that Microsoft bought. The two saw online advertising turning into a market much like stock trading. They bet that buyers would want an independent platform that worked only for them, with no conflict from selling ads. Its customers became mostly ad agencies and large brands."
       },
       {
-        "heading": "Up From the Floor",
-        "body": "The Trade Desk priced at $18 a share in September 2016 and rose strongly on its first day. Unlike many ad tech peers, it was already profitable. The stock climbed for years as connected TV advertising grew. It remains a public company led by Jeff Green. Its customers are mostly ad agencies and large brands. The company has stayed independent and kept its focus on serving ad buyers."
+        "heading": "Profitable, Then Connected TV",
+        "body": "The Trade Desk priced at $18 a share in September 2016 and jumped on its first day. Unlike many ad tech peers, it was already profitable. The stock climbed for years as connected TV advertising grew. The company has stayed independent and kept its focus on serving ad buyers. It remains a public company led by Jeff Green, and its shares trade on Nasdaq."
       }
     ],
     "cover": {
@@ -711,17 +711,17 @@
     "founded": 1999,
     "hq": "Atlanta, GA",
     "fate": "Acquired by Sophos, 2025 (~$859M)",
-    "tagline": "Armor for the Network",
-    "dek": "A managed security firm that watched clients' networks around the clock and responded to cyberattacks.",
-    "lede": "SecureWorks watched over other companies' networks. Its analysts monitored alerts around the clock, hunted for intruders and helped clients respond when attacks happened. Dell bought the company in 2011 and later spun off a small piece of it in a public offering. When SecureWorks filed in 2016, data breaches were front page news, but the tech offering market had nearly frozen.",
+    "tagline": "Renting Expert Defenders",
+    "dek": "SecureWorks watched clients' networks around the clock and stepped in when attackers got through.",
+    "lede": "SecureWorks was the first tech company to go public in 2016, and it priced below its target range. Its analysts watched other companies' networks around the clock, hunted for intruders and stepped in when attacks happened. Dell had bought the company in 2011 and sold only a small piece of it in the offering. Data breaches were front page news, but the tech offering market had nearly frozen.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "SecureWorks began in Atlanta in 1999 and grew by selling security monitoring to banks and other firms that could not staff their own security teams. Its counter threat unit became known for research on hacking groups. The bet was that most companies would rather rent expert defenders than build them in-house. Dell saw the business as a way to add security to its enterprise offerings."
+        "heading": "A Threat Unit in Atlanta",
+        "body": "SecureWorks began in Atlanta in 1999. It sold security monitoring to banks and other firms that could not staff their own security teams. Its counter threat unit became known for research on hacking groups. The bet was that most companies would rather rent expert defenders than build their own teams in-house. Dell saw the business as a way to add security to its enterprise offerings."
       },
       {
-        "heading": "Under Dell's Wing",
-        "body": "SecureWorks priced at $14 a share in April 2016, below its target range, in the first tech offering of the year. Dell kept most of the shares and voting control. The company later shifted toward its own extended detection and response software. In 2025 the British security firm Sophos completed its purchase of SecureWorks for about $859 million. Dell remained the majority owner until the sale."
+        "heading": "Dell Lets Go to Sophos",
+        "body": "SecureWorks priced at $14 a share in April 2016, below its target range. Dell kept most of the shares and voting control, and it stayed the majority owner for the rest of SecureWorks' public life. The company later shifted toward its own extended detection and response software. In 2025 the British security firm Sophos completed its purchase of SecureWorks for about $859 million."
       }
     ],
     "cover": {
@@ -746,17 +746,17 @@
     "founded": 2008,
     "hq": "Salt Lake City, UT",
     "fate": "Acquired by KKR, 2024 ($4.8B)",
-    "tagline": "A Fresh Canvas for the Classroom",
-    "dek": "Maker of Canvas, a cloud learning management system used by universities and school districts to run courses online.",
-    "lede": "Instructure made Canvas, the software where teachers post assignments and students turn them in. Universities and school districts used it to run courses, grade work and share materials online. It competed with older systems that teachers often found clumsy. When Instructure filed to go public in 2015, Canvas was winning many campuses away from Blackboard, the long-time leader. Its growth among schools had been fast.",
+    "tagline": "Grad Students Take On Blackboard",
+    "dek": "Canvas gave teachers and students one simple place online to post, turn in and grade coursework.",
+    "lede": "Two graduate students at Brigham Young University built Canvas because the software schools used was clumsy and slow to improve. Teachers post assignments in it, and students turn them in. Universities and school districts use it to run courses, grade work and share materials. When Instructure filed to go public in 2015, Canvas was growing fast and winning campuses away from Blackboard, the long-time leader.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Brian Whitmer and Devlin Daley started Instructure in 2008 while they were graduate students at Brigham Young University. They believed the tools schools used were hard to use and slow to improve. The bet was that a modern, open, cloud-based product would win over teachers and students first, and that schools would follow. Canvas launched in 2011 with an open source version."
+        "heading": "Open Source Out of BYU",
+        "body": "Brian Whitmer and Devlin Daley started Instructure in 2008 while they were graduate students at Brigham Young University. They believed the tools schools used were hard to use and slow to improve. Their bet was that a modern, open, cloud-based product would win over teachers and students first, and the schools would follow. Canvas launched in 2011, with an open source version alongside it."
       },
       {
-        "heading": "Many Owners, One Canvas",
-        "body": "Instructure priced at $16 a share in November 2015. Canvas kept gaining schools, though the company also built a corporate training product. Thoma Bravo took Instructure private in 2020, and it returned to the public market in 2021. In 2024 KKR bought the company for about $4.8 billion, and it became private again. Canvas remains one of the most widely used learning systems in American higher education."
+        "heading": "Private, Public, Private Again",
+        "body": "Instructure priced at $16 a share in November 2015. Canvas kept adding schools, and the company also built a corporate training product. Thoma Bravo took Instructure private in 2020. It returned to the public market in 2021. In 2024 KKR bought the company for about $4.8 billion, and it went private again. Canvas remains one of the most widely used learning systems in American higher education."
       }
     ],
     "cover": {
@@ -782,17 +782,17 @@
     "founded": 2000,
     "hq": "Boston, MA",
     "fate": "Still public (NASDAQ: RPD)",
-    "tagline": "Running the Rapids",
-    "dek": "A security software company that helps businesses find weak spots in their systems and detect attackers.",
-    "lede": "Rapid7 helped companies see where they were exposed. Its software scanned networks for weak spots, tested defenses and later watched for signs of an attack. It also backed Metasploit, a widely used open source tool for testing security. When Rapid7 filed to go public in 2015, major breaches had pushed security to the top of company agendas. Companies had more systems to defend each year.",
+    "tagline": "Thinking Like the Attacker",
+    "dek": "Rapid7 showed companies the weak spots in their systems and watched for attackers trying to use them.",
+    "lede": "Rapid7 bought Metasploit, a widely used open source tool for testing security, and won a large following among researchers. Its own software scanned networks for weak spots, tested defenses and later watched for signs of an attack. When Rapid7 filed to go public in 2015, major breaches had pushed security to the top of company agendas. Companies had more systems to defend each year.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Rapid7 was founded in Boston in 2000 and began with vulnerability scanning. In 2009 it bought the Metasploit project, which brought it close to the community of security researchers. The bet was that defenders needed the same insight as attackers, delivered in software that IT teams could use daily. The company later moved its products to the cloud. That purchase gave Rapid7 a large following."
+        "heading": "Buying Metasploit",
+        "body": "Rapid7 was founded in Boston in 2000 and began with vulnerability scanning. In 2009 it bought the Metasploit project, which brought it close to the community of security researchers. The bet was that defenders needed the same insight as attackers, delivered in software that IT teams could use every day. The company later moved its products to the cloud, where customers could run them without their own servers."
       },
       {
-        "heading": "After the Offering",
-        "body": "Rapid7 priced at $16 a share in July 2015 and rose on its first day. It expanded into detection and response and sold more of its products as cloud subscriptions. The company grew steadily, though profit came slowly. Rapid7 remains a public company with its headquarters in Boston. Corey Thomas led the company as chief executive through most of its public years. In 2026 it bought Kenzo Security, a small AI security startup."
+        "heading": "Subscriptions and AI Agents",
+        "body": "Rapid7 priced at $16 a share in July 2015 and rose on its first day. It expanded into detection and response and sold more of its products as cloud subscriptions. The company grew steadily, though profit came slowly. Corey Thomas led it as chief executive through most of its public years. Rapid7 remains public, based in Boston. In March 2026 it bought Kenzo Security, a startup that uses AI agents to investigate security alerts."
       }
     ],
     "cover": {
@@ -816,17 +816,17 @@
     "founded": 2005,
     "hq": "San Jose, CA",
     "fate": "Taken private by Vista Equity Partners, 2017 ($564M)",
-    "tagline": "Measured to the Penny",
-    "dek": "Cloud software that calculates sales commissions and helps companies design pay plans for their sales teams.",
-    "lede": "Xactly worked out what salespeople should be paid. Many companies still tracked commissions in spreadsheets, which led to errors and disputes. Xactly's cloud software calculated pay automatically, showed reps their earnings and gave managers data on which plans worked. When it filed to go public in 2015, it was one of a wave of cloud companies selling to specific business departments.",
+    "tagline": "Getting the Commission Check Right",
+    "dek": "Xactly worked out what salespeople were owed, so reps trusted their pay and managers knew which plans worked.",
+    "lede": "Xactly existed because companies kept getting their salespeople's pay wrong. Many still tracked commissions in spreadsheets, which led to errors and disputes. Xactly's cloud software calculated pay automatically, showed reps their earnings and gave managers data on which plans worked. When it filed to go public in 2015, it was one of a wave of cloud companies that each sold to a single business department. Xactly's department was sales.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Christopher Cabrera founded Xactly in 2005 after years in sales leadership. He had seen how much time and trust was lost to commission mistakes. The bet was that a cloud service could make pay accurate and clear, and that the data it collected across many companies would become valuable on its own. Xactly called this incentive compensation management. It sold to companies of many sizes."
+        "heading": "A Sales Leader's Grievance",
+        "body": "Christopher Cabrera founded Xactly in 2005 after years in sales leadership. He had seen how much time and trust companies lost to commission mistakes. His bet was that a cloud service could make pay accurate and clear. The data it gathered across many companies would then become valuable on its own. Xactly called this incentive compensation management and sold it to companies of many sizes."
       },
       {
-        "heading": "A Short Public Life",
-        "body": "Xactly priced at $8 a share in June 2015, below its expected range. The stock traded quietly for two years as the company grew. In 2017 Vista Equity Partners bought Xactly for about $564 million and took it private. Under Vista, Xactly continued as a private company focused on sales pay, planning and forecasting. The deal was one of several in which Vista bought small public software firms in that period."
+        "heading": "Two Quiet Public Years",
+        "body": "Xactly priced at $8 a share in June 2015, below its expected range. The stock traded quietly for two years as the company grew. In 2017 Vista Equity Partners bought Xactly for about $564 million and took it private. It was one of several small public software firms Vista bought in that period. Xactly kept going as a private company focused on sales pay, planning and forecasting."
       }
     ],
     "cover": {
@@ -848,17 +848,17 @@
     "founded": 1968,
     "hq": "Chicago, IL",
     "fate": "Still public (NYSE: TRU)",
-    "tagline": "Keeping Score in Chicago",
-    "dek": "One of the three major U.S. credit bureaus, collecting and selling consumer credit data to lenders and businesses.",
-    "lede": "TransUnion keeps records of how people borrow and repay. Lenders use its credit reports to decide who gets a card, a car loan or a mortgage. It is one of three national credit bureaus in the United States, alongside Equifax and Experian. When TransUnion filed in 2015, it had been owned by private equity for years and was returning to the public market as a data and analytics company.",
+    "tagline": "Born From a Railcar Company",
+    "dek": "TransUnion tracks how hundreds of millions of people borrow and repay, and sells that record to lenders.",
+    "lede": "TransUnion started as the parent of a railcar leasing business. Today it keeps records of how people borrow and repay. Lenders use its credit reports to decide who gets a card, a car loan or a mortgage. It is one of three national credit bureaus in the United States, alongside Equifax and Experian. When TransUnion filed in 2015, private equity had owned it for years. It was returning to the public market as a data and analytics company.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "TransUnion began in 1968 as a holding company for a railcar leasing business. A year later it bought a Chicago credit bureau, and the credit business grew into its main line of work. The bet was that credit files, gathered on a national scale and kept up to date, would become essential to lending. Computers made that possible. Over time it gathered files on hundreds of millions of people."
+        "heading": "A Chicago Credit Bureau",
+        "body": "TransUnion began in 1968 as a holding company for a railcar leasing business. A year later it bought a Chicago credit bureau, and credit grew into its main line of work. The bet was that credit files, gathered on a national scale and kept up to date, would become essential to lending. Computers made that possible. Over time TransUnion gathered files on hundreds of millions of people."
       },
       {
-        "heading": "Back to the Market",
-        "body": "TransUnion priced at $22.50 a share in June 2015. Advent and Goldman Sachs had taken it private in 2012. As a public company it bought data firms, including Neustar in 2021, and expanded overseas. TransUnion remains a public company with headquarters in Chicago. Its data is now used for fraud prevention, marketing and identity checks, as well as lending. Like its rivals, it faces close scrutiny from regulators."
+        "heading": "Fraud, Identity and Neustar",
+        "body": "TransUnion priced at $22.50 a share in June 2015. Advent and Goldman Sachs had bought it in 2012. As a public company it bought data firms, including Neustar in 2021, and expanded overseas. Its data now goes into fraud prevention, marketing and identity checks as well as lending. Like its rivals, it faces close scrutiny from regulators. TransUnion remains public, with headquarters in Chicago."
       }
     ],
     "cover": {
@@ -885,17 +885,17 @@
     "founded": 2005,
     "hq": "Brooklyn, NY",
     "fate": "Still public (NYSE: ETSY)",
-    "tagline": "Spun by Hand",
-    "dek": "An online marketplace for handmade goods, vintage items and craft supplies, sold by independent makers.",
-    "lede": "Etsy built a marketplace for things made by hand. Knitters, jewelers, potters and vintage sellers set up shops, and buyers came looking for items they could not find in big stores. The company also stood out for its focus on its sellers and its social mission. When Etsy filed to go public in 2015, it was a certified B Corporation, an unusual status for a public company.",
+    "tagline": "A Market for the Handmade",
+    "dek": "Etsy gave knitters, potters and vintage sellers their own shops, and buyers a place to find them.",
+    "lede": "Etsy went public as a certified B Corporation, a status almost no public company held. It ran a marketplace for things made by hand. Knitters, jewelers, potters and vintage sellers set up shops, and buyers came looking for items they could not find in big stores. The company stood out for its focus on its sellers and its social mission. It filed to go public in 2015, ten years after it started in Brooklyn.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Rob Kalin started Etsy in Brooklyn in 2005 with Chris Maguire and Haim Schoppik, and Jared Tarbell soon joined. Kalin was a craftsman and saw that eBay did not serve makers well. The bet was that handmade goods deserved their own market, with a warmer feel and lower fees. Etsy grew slowly at first, then fast, as millions of sellers joined."
+        "heading": "A Craftsman Versus eBay",
+        "body": "Rob Kalin started Etsy in Brooklyn in 2005 with Chris Maguire and Haim Schoppik, and Jared Tarbell soon joined. Kalin was a craftsman, and he saw that eBay served makers poorly. His bet was that handmade goods deserved their own market, with a warmer feel and lower fees. Etsy grew slowly at first. Then millions of sellers joined, and it grew fast."
       },
       {
-        "heading": "Selling the Thread",
-        "body": "Etsy priced at $16 a share in April 2015 and rose sharply on its first day. The stock then fell as growth slowed and new leaders cut costs. Sales boomed in 2020 when sellers made face masks during the pandemic. Etsy later dropped its B Corp status and moved its listing to the New York Stock Exchange in 2025. Josh Silverman led much of that turnaround."
+        "heading": "Face Masks, Then the NYSE",
+        "body": "Etsy priced at $16 a share in April 2015 and jumped on its first day. The stock then fell as growth slowed and new leaders cut costs. Josh Silverman led much of the turnaround. Etsy later dropped its B Corp status. Sales boomed in 2020 when sellers made face masks during the pandemic. In October 2025 Etsy moved its stock listing from Nasdaq to the New York Stock Exchange."
       }
     ],
     "cover": {
@@ -919,17 +919,17 @@
     "founded": 1997,
     "hq": "Scottsdale, AZ",
     "fate": "Still public (NYSE: GDDY)",
-    "tagline": "Gods at the Go Board",
-    "dek": "The largest domain name registrar, also selling web hosting, website builders and tools for small businesses.",
-    "lede": "GoDaddy sold the internet's addresses. Millions of small businesses bought their domain names there, then added hosting, email and website tools. For years it was known for loud Super Bowl ads more than for its products. When GoDaddy filed to go public in 2015, a new leadership team was trying to change its image and focus on small business owners.",
+    "tagline": "Super Bowl Ads and Domain Names",
+    "dek": "GoDaddy sold millions of small businesses their web address, then the hosting, email and site tools to use it.",
+    "lede": "For years GoDaddy was better known for loud Super Bowl ads than for anything it sold. What it sold was the internet's addresses. Millions of small businesses bought their domain names there, then added hosting, email and website tools. When GoDaddy filed to go public in 2015, a new leadership team under Blake Irving was trying to change that image. It wanted the company known for serving small business owners.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Bob Parsons started the company in 1997 as Jomax Technologies, after selling his accounting software business. He renamed it GoDaddy in 1999, a name chosen partly because it was memorable. The bet was that the growing web would need cheap, simple domain names and hosting for everyone. Bold marketing and low prices made GoDaddy the biggest registrar. Its customer support ran around the clock."
+        "heading": "Jomax Becomes GoDaddy",
+        "body": "Bob Parsons started the company in 1997 as Jomax Technologies, after he sold his accounting software business. He renamed it GoDaddy in 1999, partly because the name was easy to remember. The bet was that the growing web would need cheap, simple domain names and hosting for everyone. Bold marketing, low prices and support around the clock made GoDaddy the biggest registrar."
       },
       {
-        "heading": "A New Image",
-        "body": "GoDaddy priced at $20 a share in April 2015, years after an earlier attempt to go public was withdrawn. KKR, Silver Lake and other investors had bought control in 2011. As a public company GoDaddy dropped its old ad style and built more software for small businesses. It remains public. Blake Irving was chief executive at the time of the offering. The company later bought several hosting businesses abroad."
+        "heading": "The Second Try Works",
+        "body": "GoDaddy priced at $20 a share in April 2015. Years earlier it had withdrawn an attempt to go public. KKR, Silver Lake and other investors bought control in 2011. As a public company GoDaddy dropped its old ad style and built more software for small businesses. It later bought several hosting businesses abroad. GoDaddy remains public on the New York Stock Exchange."
       }
     ],
     "cover": {
@@ -956,17 +956,17 @@
     "founded": 2005,
     "hq": "Los Altos, CA",
     "fate": "Still public (NYSE: BOX)",
-    "tagline": "Shipping Content Safely",
-    "dek": "Cloud content management for businesses, letting teams store, share and secure files with strong controls.",
-    "lede": "Box helped companies move their files to the cloud. It offered storage and sharing like consumer services, but with the security, permissions and audit trails that large firms needed. Its customers included banks, drug makers and government agencies. When Box filed to go public in 2014, it was famous for heavy spending on sales and growing losses, and the offering was delayed into 2015.",
+    "tagline": "Files Safe Enough for Banks",
+    "dek": "Box let big companies keep their files in the cloud without scaring their security teams.",
+    "lede": "Box was famous for two things when it filed to go public in 2014: heavy spending on sales and growing losses. The offering was delayed into 2015. The product moved company files to the cloud. It offered storage and sharing like consumer services, plus the security, permissions and audit trails that large firms needed. Its customers included banks, drug makers and government agencies.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Aaron Levie and Dylan Smith started Box in 2005 while in college, with help from friends Jeff Queisser and Sam Ghods. Dallas billionaire Mark Cuban was an early investor. The company first targeted consumers, then shifted to businesses. The bet was that companies would trust the cloud with sensitive files if a vendor made it safe and simple. Levie became chief executive."
+        "heading": "College Kids and Mark Cuban",
+        "body": "Aaron Levie and Dylan Smith started Box in 2005 while in college, with help from friends Jeff Queisser and Sam Ghods. Dallas billionaire Mark Cuban was an early investor. The company first targeted consumers, then shifted to businesses. Its bet was that companies would trust the cloud with sensitive files if a vendor made it safe and simple. Levie became chief executive."
       },
       {
-        "heading": "Down at the Wharf",
-        "body": "Box priced at $14 a share in January 2015 and rose strongly on its first day. The company then worked for years to cut losses and turn a profit. It survived a challenge from an activist investor in 2021 and later added AI features. Box remains a public company led by Aaron Levie. Its customers include many of the largest companies in the world."
+        "heading": "Surviving an Activist",
+        "body": "Box priced at $14 a share in January 2015 and jumped on its first day. Then it worked for years to cut losses and turn a profit. In 2021 it survived a challenge from an activist investor, and it later added AI features. Its customers include many of the largest companies in the world. Box remains a public company led by Aaron Levie."
       }
     ],
     "cover": {
@@ -990,17 +990,17 @@
     "founded": 2006,
     "hq": "New York, NY",
     "fate": "Acquired by Enova, 2020 (~$90M)",
-    "tagline": "All Hands on Deck",
-    "dek": "An online lender that used data and software to make fast, short-term loans to small businesses.",
-    "lede": "OnDeck lent money to small businesses online. Instead of a long bank process, an owner could apply in minutes and get funds within a day. OnDeck judged credit using data from bank accounts, sales and payments. When it filed to go public in late 2014, online lending was a hot topic, and OnDeck was one of the first such lenders to reach the public market.",
+    "tagline": "A Business Loan by Tomorrow",
+    "dek": "OnDeck lent small businesses money online, with an answer in minutes and the cash within a day.",
+    "lede": "OnDeck could size up a small business from its bank account and lend it money within a day. An owner applied online in minutes instead of sitting through a long bank process. OnDeck judged credit with data from bank accounts, sales and payments. When it filed to go public in late 2014, online lending was a hot topic. OnDeck was one of the first such lenders to reach the public market.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Mitch Jacobs founded OnDeck in New York in 2006. He had run small businesses himself and found that banks often ignored them. The bet was that a business's daily cash flow told more about its credit than old-fashioned paperwork. OnDeck built its own scoring system and grew through brokers and partnerships with banks. Its loans were often short term, with daily or weekly payments."
+        "heading": "Cash Flow Over Paperwork",
+        "body": "Mitch Jacobs founded OnDeck in New York in 2006. He had run small businesses himself and found that banks often ignored them. His bet was that a business's daily cash flow said more about its credit than old-fashioned paperwork. OnDeck built its own scoring system and grew through brokers and partnerships with banks. Its loans were often short term, repaid daily or weekly."
       },
       {
-        "heading": "Rough Seas",
-        "body": "OnDeck priced at $20 a share in December 2014 and rose on its first day. The stock then fell for years as funding costs and loan losses mattered more than growth. The 2020 pandemic hit small businesses hard. Later that year Enova International bought OnDeck for about $90 million, far below its debut value. OnDeck continued as a brand inside Enova."
+        "heading": "Sold for $90 Million",
+        "body": "OnDeck priced at $20 a share in December 2014 and rose on its first day. Then the stock fell for years as funding costs and loan losses began to matter more than growth. The 2020 pandemic hit small businesses hard. Later that year Enova International bought OnDeck for about $90 million, far below its debut value. OnDeck continued as a brand inside Enova."
       }
     ],
     "cover": {
@@ -1022,17 +1022,17 @@
     "founded": null,
     "hq": "Brookfield, WI",
     "fate": "Taken private by Francisco Partners, 2018",
-    "tagline": "A Bridge to Coverage",
-    "dek": "Web-based software that helped insurers and exchanges sell health insurance plans and help shoppers compare them.",
-    "lede": "Connecture built software for buying health insurance online. Insurers, brokers and state exchanges used its tools to show plans, compare prices and enroll customers. The Affordable Care Act had just opened public exchanges, and the market for online health insurance shopping was growing fast. Connecture filed to go public in 2014, at the end of the first full enrollment season.",
+    "tagline": "Shopping for Health Plans Online",
+    "dek": "Connecture let insurers and state exchanges show health plans online, so shoppers could compare prices and enroll.",
+    "lede": "Connecture filed to go public in 2014, at the end of the first full enrollment season under the Affordable Care Act. The law had just opened public exchanges, and shopping for health insurance online was growing fast. Insurers, brokers and state exchanges used Connecture's software to show plans, compare prices and enroll customers. The company had spent years building those tools, and it saw a much larger role ahead.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Connecture was based in the Milwaukee area and spent years building quoting and enrollment software for health insurers. As health reform pushed more people to shop for their own coverage, the company saw a larger role. The bet was that buying a plan would become a retail experience, and that insurers and exchanges would need software to support it. It sold to insurers across the country."
+        "heading": "Health Reform Opens a Door",
+        "body": "Connecture was based in the Milwaukee area. It spent years building quoting and enrollment software for health insurers. Then health reform pushed more people to shop for their own coverage. The company bet that buying a plan would become a retail experience, and that insurers and exchanges would need software to support it. It sold that software to insurers across the country."
       },
       {
-        "heading": "After the Bell",
-        "body": "Connecture priced at $8 a share in December 2014, below its target range. The stock fell as some large customers left and losses grew. Francisco Partners invested in the company in 2016, then agreed to take it private in 2017 for a small fraction of its offering value. The deal closed in early 2018. Its stock had traded on Nasdaq for about three years."
+        "heading": "Customers Leave, Francisco Arrives",
+        "body": "Connecture priced at $8 a share in December 2014, below its target range. The stock fell as some large customers left and losses grew. Francisco Partners invested in the company in 2016. In 2017 it agreed to take Connecture private for a small fraction of its offering value, and the deal closed in early 2018. The stock had traded on Nasdaq for about three years."
       }
     ],
     "cover": {
@@ -1056,17 +1056,17 @@
     "founded": 2006,
     "hq": "San Francisco, CA",
     "fate": "Still public (NYSE: LC)",
-    "tagline": "The Moneylender's Stage",
-    "dek": "A peer-to-peer lending marketplace that matched borrowers seeking personal loans with investors, later a bank.",
-    "lede": "LendingClub let ordinary people lend to each other. Borrowers applied online for personal loans, often to pay off credit cards, and investors funded those loans in small pieces. The company earned fees in the middle. When it filed to go public in 2014, it was the largest such marketplace in the United States and a symbol of fintech's promise to bypass banks.",
+    "tagline": "Strangers Lending to Strangers",
+    "dek": "LendingClub let ordinary investors fund other people's personal loans online, often loans to pay off credit cards.",
+    "lede": "LendingClub launched as an app on Facebook and ended up owning a bank. In between, it let ordinary people lend to each other. Borrowers applied online for personal loans, often to pay off credit cards, and investors funded those loans in small pieces. LendingClub earned fees in the middle. When it filed to go public in 2014, it was the largest such marketplace in the United States and a symbol of fintech's promise to bypass banks.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Renaud Laplanche founded LendingClub in 2006. It first launched as an app on Facebook. Laplanche believed banks charged too much on credit cards and paid savers too little. The bet was that an online marketplace could cut out the middle and give both sides a better deal. Over time large institutions became the main investors on the platform. It grew quickly."
+        "heading": "Cutting Out the Middle",
+        "body": "Renaud Laplanche founded LendingClub in 2006. It first launched as an app on Facebook. Laplanche believed banks charged too much on credit cards and paid savers too little. His bet was that an online marketplace could cut out the middle and give both sides a better deal. It grew quickly. Over time large institutions became the main investors on the platform."
       },
       {
-        "heading": "From Club to Bank",
-        "body": "LendingClub priced at $15 a share in December 2014 and jumped on its first day. In 2016 a scandal over loan sales forced Laplanche to resign, and the stock fell hard. The company later bought Radius Bank in 2021 and became a bank itself. LendingClub remains a public company. Scott Sanborn took over as chief executive after Laplanche left. As a bank, LendingClub can hold loans and take deposits."
+        "heading": "A Scandal, Then a Bank",
+        "body": "LendingClub priced at $15 a share in December 2014 and jumped on its first day. In 2016 a scandal over loan sales forced Laplanche to resign, and the stock fell hard. Scott Sanborn took over as chief executive. In 2021 the company bought Radius Bank and became a bank itself, so it could hold loans and take deposits. LendingClub remains a public company."
       }
     ],
     "cover": {
@@ -1091,17 +1091,17 @@
     "founded": 2002,
     "hq": "Boston, MA",
     "fate": "Still public (NYSE: W)",
-    "tagline": "A Room of One's Own",
-    "dek": "An online retailer of furniture and home goods, offering a huge catalog shipped mostly from suppliers' warehouses.",
-    "lede": "Wayfair sold furniture on the internet. Its site offered millions of products, from sofas to light fixtures, and most of them shipped straight from suppliers. People had long doubted that customers would buy bulky furniture without seeing it. When Wayfair filed to go public in 2014, its sales were growing fast, but it was spending heavily on advertising and losing money.",
+    "tagline": "Hundreds of Little Websites",
+    "dek": "Wayfair sold furniture and home goods online from a huge catalog, shipped mostly from suppliers' warehouses.",
+    "lede": "Wayfair began as hundreds of small websites selling things like racks and bar stools. By 2014 it was one online store with millions of products, from sofas to light fixtures, most shipped straight from suppliers. People had long doubted that customers would buy bulky furniture without seeing it. When Wayfair filed to go public that year, its sales were growing fast. It was also spending heavily on advertising and losing money.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Niraj Shah and Steve Conine started the business in 2002 as CSN Stores. They ran hundreds of small websites selling things like racks and bar stools. In 2011 they merged the sites under the Wayfair name. The bet was that a single giant online store for the home could beat furniture showrooms on choice and price, while suppliers handled the stock."
+        "heading": "CSN Stores Becomes Wayfair",
+        "body": "Niraj Shah and Steve Conine started the business in 2002 as CSN Stores. They ran hundreds of small websites, each selling a narrow kind of product. In 2011 they merged the sites under the Wayfair name. Their bet was that one giant online store for the home could beat furniture showrooms on choice and price. Suppliers would hold the stock and ship it."
       },
       {
-        "heading": "Furnishing the Future",
-        "body": "Wayfair priced at $29 a share in October 2014 and rose on its first day. Sales soared during the 2020 pandemic as people improved their homes, then fell back. The company cut staff and opened its first large physical stores. Wayfair remains a public company led by its founders. It also built its own delivery network for large items. Niraj Shah remained chief executive."
+        "heading": "Boom Years and Real Stores",
+        "body": "Wayfair priced at $29 a share in October 2014 and rose on its first day. It built its own delivery network for large items. Sales soared during the 2020 pandemic as people fixed up their homes, then fell back. The company cut staff and opened its first large physical stores. Wayfair remains a public company led by its founders, with Niraj Shah as chief executive."
       }
     ],
     "cover": {
@@ -1126,17 +1126,17 @@
     "founded": 2004,
     "hq": "Chicago, IL",
     "fate": "Acquired by Just Eat Takeaway, 2021 ($7.3B); sold to Wonder, 2024",
-    "tagline": "What's for Dinner",
-    "dek": "An online food ordering marketplace that connected hungry diners with local restaurants for takeout and delivery.",
-    "lede": "Grubhub put restaurant menus online. Diners searched for nearby restaurants, ordered, and paid on the web or an app, and the restaurant handled the delivery at first. Grubhub earned a commission on each order. When it filed to go public in 2014, it had recently merged with Seamless, its New York rival, and it was the leading online food ordering service in the United States.",
+    "tagline": "Tired of Paper Takeout Menus",
+    "dek": "Grubhub let hungry people order takeout from local restaurants online, without hunting for a paper menu.",
+    "lede": "Grubhub started because Matt Maloney was tired of hunting for paper takeout menus. It put restaurant menus online. Diners searched nearby restaurants, then ordered and paid on the web or an app, and at first the restaurant handled delivery. Grubhub earned a commission on each order. When it filed to go public in 2014, it had just merged with Seamless, its New York rival. It was the leading online food ordering service in the United States.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Matt Maloney and Mike Evans started Grubhub in Chicago in 2004. Maloney was tired of hunting for paper takeout menus. The bet was that an online directory of menus with easy ordering would become the default way to get takeout. Merging with Seamless in 2013 combined the strongest positions in New York and Chicago. The company kept its headquarters in Chicago."
+        "heading": "Chicago Meets Seamless",
+        "body": "Matt Maloney and Mike Evans started Grubhub in Chicago in 2004. Their bet was that an online directory of menus with easy ordering would become the default way to get takeout. Grubhub would route hungry people to restaurants and take a commission, while the restaurants did the cooking and delivery. In 2013 it merged with Seamless, which joined the strongest positions in New York and Chicago. The company kept its headquarters in Chicago."
       },
       {
-        "heading": "Delivery Wars",
-        "body": "Grubhub priced at $26 a share in April 2014 and rose on its first day. Rivals such as DoorDash and Uber Eats then raced in with their own couriers, and Grubhub lost share. In 2021 Just Eat Takeaway bought the company for about $7.3 billion. Three years later it sold Grubhub to Wonder at a far lower value. Wonder kept the Grubhub name."
+        "heading": "DoorDash Brings Couriers",
+        "body": "Grubhub priced at $26 a share in April 2014 and rose on its first day. Then rivals such as DoorDash and Uber Eats raced in with their own couriers, and Grubhub lost share. In 2021 Just Eat Takeaway bought the company for about $7.3 billion. Three years later it sold Grubhub to Wonder at a far lower value. Wonder kept the Grubhub name."
       }
     ],
     "cover": {
@@ -1161,17 +1161,17 @@
     "founded": 2002,
     "hq": "New York, NY",
     "fate": "Acquired by j2 Global (Ziff Davis), 2016 ($465M)",
-    "tagline": "The Physician at Home",
-    "dek": "A digital health publisher running consumer and medical websites and selling marketing to drug makers.",
-    "lede": "Everyday Health ran a network of health websites and apps for consumers and doctors. Readers came for advice on diet, illness and medicine, and pharmaceutical companies paid to reach them. The company also partnered with known names in health media. When it filed to go public in 2014, its earlier attempt in 2011 had been shelved, and health information online was becoming big business.",
+    "tagline": "Diet Plans to Drug Ads",
+    "dek": "Everyday Health gave readers health advice online and gave drug makers a way to reach patients and doctors.",
+    "lede": "Everyday Health shelved its first attempt to go public in 2011 and came back three years later. By then it ran a network of health websites and apps for consumers and doctors. Readers came for advice on diet, illness and medicine. Pharmaceutical companies paid to reach them. The company also partnered with well-known names in health media. When it filed again in 2014, health information online was becoming big business.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Ben Wolin and Mike Keriakos founded the business in 2002 as Waterfront Media. Its early successes included online diet programs. Over time it bought and built sites into a large health network and renamed itself Everyday Health. The bet was that health content and tools could draw a big audience and that drug makers would pay to reach both patients and doctors."
+        "heading": "It Started as Waterfront Media",
+        "body": "Ben Wolin and Mike Keriakos founded the business in 2002 as Waterfront Media. Its early hits included online diet programs. Over time it bought and built sites into a large health network and renamed itself Everyday Health. The bet was that health content and tools could draw a big audience. Drug makers would then pay to reach both patients and doctors."
       },
       {
-        "heading": "Two Years Public",
-        "body": "Everyday Health priced at $14 a share in March 2014. It added more services for doctors and grew revenue, but the stock stayed near its offering price. In 2016 j2 Global, now Ziff Davis, bought the company for about $465 million. Everyday Health became a core part of its digital media group. Its sites continued to publish under the Everyday Health name."
+        "heading": "Two Years, Then j2",
+        "body": "Everyday Health priced at $14 a share in March 2014. It added more services for doctors and grew revenue, but the stock stayed near its offering price. In 2016 j2 Global, now Ziff Davis, bought the company for about $465 million. Everyday Health became a core part of its digital media group. Its sites kept publishing under the Everyday Health name."
       }
     ],
     "cover": {
@@ -1195,17 +1195,17 @@
     "founded": 1998,
     "hq": "Mountain View, CA",
     "fate": "Renamed Quotient; acquired by Neptune Retail Solutions, 2023",
-    "tagline": "A Bargain in the Shop Window",
-    "dek": "A digital coupon and promotions company that helped consumer brands and grocers deliver discounts online and in stores.",
-    "lede": "Coupons.com moved the Sunday coupon onto the web. Shoppers printed or loaded discounts from its site and partner retailers, and consumer brands paid for each coupon redeemed. It later added digital promotions on grocery store loyalty cards. When it filed to go public in 2014, it was one of the oldest consumer internet companies still growing, and its debut drew strong demand.",
+    "tagline": "The Sunday Coupon Goes Digital",
+    "dek": "Coupons.com gave shoppers digital discounts from big brands, online and on grocery store loyalty cards.",
+    "lede": "Coupons.com was one of the oldest consumer internet companies still growing when it filed to go public in 2014. It had survived the dot-com crash by moving the Sunday coupon onto the web. Shoppers printed discounts or loaded them from its site and partner retailers, and consumer brands paid for each coupon redeemed. Later it put digital promotions onto grocery store loyalty cards. Its debut drew strong demand.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Steven Boal founded the company in 1998. He saw that the paper coupon business was huge but wasteful, and that the internet could aim offers at the right shoppers. The company survived the dot-com crash and built partnerships with major brands and grocery chains. The bet was that promotions would become digital, measurable and personal. Many households already clipped coupons each week."
+        "heading": "Aiming Offers at Shoppers",
+        "body": "Steven Boal founded the company in 1998. Many households already clipped coupons each week. Boal saw that the paper coupon business was huge but wasteful, and that the internet could aim offers at the right shoppers. The company survived the dot-com crash and built partnerships with major brands and grocery chains. The bet was that promotions would become digital, measurable and personal."
       },
       {
-        "heading": "A New Name",
-        "body": "Coupons.com priced at $16 a share in March 2014 and soared on its first day. The stock then fell back as growth slowed. In 2015 the company renamed itself Quotient Technology to reflect its wider promotions business. In 2023 Neptune Retail Solutions bought Quotient and took it private. Its digital promotions ran through major grocery chains. Steven Boal led the company for most of its public life."
+        "heading": "Quotient, Then Neptune",
+        "body": "Coupons.com priced at $16 a share in March 2014 and soared on its first day. The stock then fell back as growth slowed. In 2015 the company renamed itself Quotient Technology to reflect its wider promotions business, which ran through major grocery chains. Steven Boal led it for most of its public life. In 2023 Neptune Retail Solutions bought Quotient and took it private."
       }
     ],
     "cover": {
@@ -1230,17 +1230,17 @@
     "founded": 2007,
     "hq": "Pleasanton, CA",
     "fate": "Still public (NYSE: VEEV)",
-    "tagline": "A Cloud for the Life Sciences",
-    "dek": "Cloud software built only for drug makers and life sciences firms, covering sales, clinical trials and regulatory work.",
-    "lede": "Veeva Systems sold cloud software to one industry, life sciences. Its first product helped drug company sales reps track visits to doctors, built on top of Salesforce. It then built its own platform for clinical, quality and regulatory content. When Veeva filed to go public in 2013, it was unusual for a young cloud company: it was already profitable. That was rare.",
+    "tagline": "Software for One Industry Only",
+    "dek": "Veeva built cloud software for drug makers alone, covering sales calls, clinical trials and regulatory work.",
+    "lede": "Veeva was already profitable when it filed to go public in 2013, a rare thing for a young cloud company. It sold software to one industry: life sciences. Its first product, built on top of Salesforce, tracked drug company sales reps' visits to doctors. Then Veeva built its own platform for clinical, quality and regulatory content. It had needed only a small amount of outside capital to get there.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Peter Gassner, a former Salesforce executive, and Matt Wallach founded Veeva in 2007. They believed that a narrow industry focus would let them build deeper products than general software vendors could. The bet was that pharmaceutical companies would pay well for software that fit their regulated world. Veeva also used a small amount of outside capital. It kept that single-industry focus."
+        "heading": "A Salesforce Veteran Narrows In",
+        "body": "Peter Gassner, a former Salesforce executive, and Matt Wallach founded Veeva in 2007. They believed a narrow industry focus would let them build deeper products than general software vendors could. Their bet was that pharmaceutical companies would pay well for software that fit their regulated world. Veeva used only a small amount of outside capital. It kept that single-industry focus."
       },
       {
-        "heading": "Steady Growth",
-        "body": "Veeva priced at $20 a share in October 2013 and rose sharply on its first day. The company kept growing and stayed profitable. In 2021 it became a public benefit corporation, one of the first large public companies to do so. Veeva later moved its customer software off Salesforce onto its own platform. It remains public. Peter Gassner remains chief executive."
+        "heading": "Leaving Salesforce Behind",
+        "body": "Veeva priced at $20 a share in October 2013 and jumped on its first day. It kept growing and stayed profitable. In 2021 it became a public benefit corporation, one of the first large public companies to do so. Veeva later moved its customer software off Salesforce and onto its own platform. Peter Gassner remains chief executive, and Veeva remains public."
       }
     ],
     "cover": {
@@ -1265,17 +1265,17 @@
     "founded": 1999,
     "hq": "Belmont, CA",
     "fate": "Still public (NYSE: RNG)",
-    "tagline": "The Evening Bell",
-    "dek": "A cloud phone system for businesses, adding video meetings, messaging and contact center tools over time.",
-    "lede": "RingCentral moved the office phone system into the cloud. Instead of buying hardware, a business paid a monthly fee for phone numbers, extensions and voicemail that worked on desk phones, computers and smartphones. It later added messaging, video and contact center software. When it filed to go public in 2013, small and midsize companies were switching to cloud services, and phone systems were next.",
+    "tagline": "Phone Systems Without the Wiring",
+    "dek": "RingCentral let businesses run their phone system from the cloud for a monthly fee, with no hardware.",
+    "lede": "RingCentral started out offering online fax and phone features to small offices. The bigger bet was a whole office phone system that ran over the internet. Instead of buying hardware, a business paid a monthly fee for phone numbers, extensions and voicemail that worked on desk phones, computers and smartphones. When RingCentral filed to go public in 2013, small and midsize companies were moving to cloud services. Phone systems were next.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Vlad Shmunis and Vlad Vendrow started RingCentral in 1999. Their early service offered online fax and phone features for small offices. The bet was that a full phone system could run over the internet, with no switches or wiring in the office. The company grew steadily through the 2000s and moved toward larger customers. Its headquarters were in Belmont, California."
+        "heading": "Two Vlads in Belmont",
+        "body": "Vlad Shmunis and Vlad Vendrow started RingCentral in 1999, with headquarters in Belmont, California. Their early service offered online fax and phone features for small offices. The bet was that a full phone system could run over the internet, with no switches or wiring anywhere in the office. The company grew steadily through the 2000s and moved toward larger customers."
       },
       {
-        "heading": "Ringing Out",
-        "body": "RingCentral priced at $13 a share in September 2013 and rose on its first day. It grew quickly and formed partnerships with large telecom companies. The stock soared in 2020 as remote work spread, then fell back. Founder Vlad Shmunis stepped down as chief executive in 2023. RingCentral remains a public company. It also partnered with other communications companies to reach more customers."
+        "heading": "Telecom Partners and Remote Work",
+        "body": "RingCentral priced at $13 a share in September 2013 and rose on its first day. It grew quickly and formed partnerships with large telecom companies to reach more customers. It also added messaging, video and contact center software. The stock soared in 2020 as remote work spread, then fell back. Founder Vlad Shmunis stepped down as chief executive in 2023. RingCentral remains a public company."
       }
     ],
     "cover": {
@@ -1301,17 +1301,17 @@
     "founded": 2008,
     "hq": "Redwood City, CA",
     "fate": "Acquired by Sizmek, 2017 ($145M)",
-    "tagline": "A Comet Across the Sky",
-    "dek": "An ad tech firm that used machine learning to buy and place display ads online in real time.",
-    "lede": "Rocket Fuel used software to buy online ads. Its systems looked at many signals about each ad slot and decided in real time whether to bid. Advertisers paid it to run campaigns that hit their goals. When Rocket Fuel filed to go public in 2013, the market for automated ad buying was growing fast, and the company was growing with it.",
+    "tagline": "Lit Fast, Burned Out",
+    "dek": "Rocket Fuel used machine learning to decide, in real time, which online ads to buy for advertisers.",
+    "lede": "Rocket Fuel nearly doubled on its first day of trading, and investors who bought at the offering later lost most of their money. The company used software to buy online ads. Its systems weighed many signals about each ad slot and decided in real time whether to bid. Advertisers paid it to run campaigns that hit their goals. When it filed to go public in 2013, automated ad buying was growing fast, and so was Rocket Fuel.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "George John, Richard Frankel and Abhinav Gupta founded Rocket Fuel in 2008. Several of the founders had worked at Yahoo. They believed artificial intelligence could make ad buying much more efficient than people working by hand. The company's rocket theme ran through its offices and brand. The bet was that better algorithms would win the most valuable ad spending. It grew fast."
+        "heading": "Yahoo Alumni and Algorithms",
+        "body": "George John, Richard Frankel and Abhinav Gupta founded Rocket Fuel in 2008. Several of the founders had worked at Yahoo. They believed artificial intelligence could buy ads far more efficiently than people working by hand. Their bet was that better algorithms would win the most valuable ad spending. A rocket theme ran through the company's offices and brand. It grew fast."
       },
       {
-        "heading": "Burning Out",
-        "body": "Rocket Fuel priced at $29 a share in September 2013 and nearly doubled on its first day. The stock fell over the next years as competition grew and margins shrank. Its purchase of [x+1] in 2014 added debt and complexity. In 2017 Sizmek bought Rocket Fuel for about $145 million. Sizmek itself filed for bankruptcy in 2019. Investors who bought at the offering lost most of their money."
+        "heading": "Sold to Sizmek",
+        "body": "Rocket Fuel priced at $29 a share in September 2013 and nearly doubled on its first day. Over the next few years the stock fell as competition grew and margins shrank. Its 2014 purchase of [x+1] added debt and complexity. In 2017 Sizmek bought Rocket Fuel for about $145 million, and offering-day buyers were left with a small part of what they paid. Sizmek itself filed for bankruptcy in 2019."
       }
     ],
     "cover": {
@@ -1335,17 +1335,17 @@
     "founded": 1984,
     "hq": "Vernon Hills, IL",
     "fate": "Still public (NASDAQ: CDW)",
-    "tagline": "Freight for the Office",
-    "dek": "A large reseller of computers, software and IT services to businesses, schools, hospitals and governments.",
-    "lede": "CDW sells technology to organizations. A company, school or hospital can buy laptops, servers, software licenses and networking gear from CDW, often with setup and support included. Its account managers act as trusted buyers for customers who lack big IT staff. When CDW filed in 2013, it was returning to the public market after a leveraged buyout in 2007. Customers include businesses of every size.",
+    "tagline": "Used Computers From the Kitchen",
+    "dek": "CDW sells computers, software and IT services to businesses, schools, hospitals and governments without big IT staffs.",
+    "lede": "CDW started with Michael Krasny selling used computers through classified ads from his kitchen. The name stood for Computer Discount Warehouse. By 2013 a company, school or hospital could buy laptops, servers, software licenses and networking gear from CDW, often with setup and support included. Its account managers acted as trusted buyers for customers without big IT staffs. When CDW filed that year, it was returning to the public market after a 2007 leveraged buyout.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Michael Krasny started CDW in 1984 by selling used computers through classified ads from his kitchen. The name stood for Computer Discount Warehouse. He built a catalog and phone sales business that grew quickly in the 1990s. The bet was that businesses wanted a reliable place to buy all their technology, with expert advice and fast delivery. Krasny led the company for many years."
+        "heading": "Computer Discount Warehouse",
+        "body": "Michael Krasny started CDW in 1984. He sold used computers through classified ads, working from his kitchen. He built a catalog and phone sales business that grew quickly in the 1990s. The bet was that businesses wanted one reliable place to buy all their technology, with expert advice and fast delivery. Krasny led the company for many years. Its customers came to include businesses of every size."
       },
       {
-        "heading": "Back on the Board",
-        "body": "CDW priced at $17 a share in June 2013. Madison Dearborn and Providence Equity had bought the company in 2007 and loaded it with debt. As a public company CDW paid down that debt and grew through cloud, security and services. It became a steady performer among tech stocks and remains public. Its headquarters later moved to Lincolnshire, Illinois. It has paid a dividend since 2013."
+        "heading": "Paying Down the Buyout Debt",
+        "body": "CDW priced at $17 a share in June 2013. Madison Dearborn and Providence Equity had bought the company in 2007 and loaded it with debt. As a public company CDW paid down that debt and grew through cloud, security and services. It became a steady performer among tech stocks and has paid a dividend since 2013. Its headquarters later moved to Lincolnshire, Illinois. CDW remains public."
       }
     ],
     "cover": {
@@ -1367,17 +1367,17 @@
     "founded": 1991,
     "hq": "Itasca, IL",
     "fate": "Still public (NASDAQ: GOGO)",
-    "tagline": "Wi-Fi Above the Waves",
-    "dek": "A provider of in-flight internet and connectivity services for airlines and business aircraft.",
-    "lede": "Gogo brought the internet onto airplanes. Its air-to-ground network of cell towers let passengers on U.S. flights use Wi-Fi for a fee. Airlines installed the gear, and Gogo shared revenue with them. When Gogo filed to go public in 2013, it was the leader in in-flight internet, but satellite rivals promised faster service. Getting online in the air was still a novelty for many travelers.",
+    "tagline": "Cell Towers Aimed at the Sky",
+    "dek": "Gogo let airline passengers get online in the air, then turned to serving private and business jets.",
+    "lede": "Gogo built a network of cell towers on the ground that talked to airplanes overhead. Passengers on U.S. flights could pay for Wi-Fi in the air. Airlines installed the gear, and Gogo shared revenue with them. When Gogo filed to go public in 2013, it led in-flight internet, and getting online in the air was still a novelty for many travelers. Satellite rivals, though, promised faster service.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Gogo began in 1991 as Aircell, which made phones for private planes. In 2006 it won the auction for air-to-ground radio spectrum, which let it build its own network for commercial jets. The bet was that travelers would pay to stay online in the air. Gogo launched its service in 2008 with American Airlines. Its network covered the continental United States."
+        "heading": "Aircell Wins the Airwaves",
+        "body": "Gogo began in 1991 as Aircell, which made phones for private planes. In 2006 it won the auction for air-to-ground radio spectrum. That let it build its own network for commercial jets across the continental United States. The bet was that travelers would pay to stay online in the air. Gogo launched its service in 2008 on American Airlines flights."
       },
       {
-        "heading": "Turbulence",
-        "body": "Gogo priced at $17 a share in June 2013. The stock rose, then fell as airlines moved to satellite service. In 2020 Gogo sold its commercial airline business to Intelsat and focused on business aviation. The company remains public and serves private jets. Gogo moved its headquarters to Colorado. In 2024 it bought Satcom Direct to add satellite service for business jets."
+        "heading": "Back to Private Jets",
+        "body": "Gogo priced at $17 a share in June 2013. The stock rose, then fell as airlines moved to satellite service. In 2020 Gogo sold its commercial airline business to Intelsat and focused on business aviation. It moved its headquarters to Colorado. In 2024 it bought Satcom Direct to add satellite service for business jets. Gogo remains public and serves private jets."
       }
     ],
     "cover": {
@@ -1402,17 +1402,17 @@
     "founded": 2004,
     "hq": "Norwalk, CT",
     "fate": "Acquired by Priceline Group, 2013 ($1.8B)",
-    "tagline": "A Canoe on Still Water",
-    "dek": "A travel search engine that compared flights, hotels and rental cars across hundreds of booking sites.",
-    "lede": "KAYAK searched travel sites so travelers did not have to. A single query showed flights, hotels and rental cars from airlines, booking sites and hotel chains side by side. KAYAK earned money when users clicked through to book and from ads. It filed to go public in late 2010 but waited until 2012 to list, and by then it was one of the best known travel brands online.",
+    "tagline": "Every Travel Site, One Search",
+    "dek": "KAYAK let travelers compare flights, hotels and rental cars from hundreds of booking sites in one search.",
+    "lede": "KAYAK filed to go public in late 2010, then waited until 2012 to list. A few months after it finally did, Priceline agreed to buy it. The product searched travel sites so travelers did not have to. A single query showed flights, hotels and rental cars from airlines, booking sites and hotel chains side by side. KAYAK earned money from ads and when users clicked through to book. It was one of the best known travel brands online.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Steve Hafner and Paul English founded KAYAK in 2004. Both had earlier worked on travel and consumer sites. They believed travel shopping was too slow and scattered, and that clean, fast search would win. The bet was to stay a search engine and not book trips itself, which kept it neutral among sellers. Its clean design drew many loyal users."
+        "heading": "Staying Out of Booking",
+        "body": "Steve Hafner and Paul English founded KAYAK in 2004. Both had earlier worked on travel and consumer sites. They believed travel shopping was too slow and scattered, and that clean, fast search would win. Their bet was to stay a search engine and leave the booking to others, which kept KAYAK neutral among sellers. Its clean design drew many loyal users."
       },
       {
-        "heading": "Bought Before Long",
-        "body": "KAYAK priced at $26 a share in July 2012 and rose on its first day. Only a few months later, Priceline agreed to buy the company for about $1.8 billion. The deal closed in 2013. KAYAK continued as a separate brand inside Priceline, now Booking Holdings. Steve Hafner stayed on to lead KAYAK for years after the sale. The brand is still widely used to compare travel prices."
+        "heading": "Public for a Few Months",
+        "body": "KAYAK priced at $26 a share in July 2012 and rose on its first day. Only a few months later, Priceline agreed to buy the company for about $1.8 billion. The deal closed in 2013. KAYAK continued as a separate brand inside Priceline, now Booking Holdings. Steve Hafner stayed on to lead it for years after the sale. Travelers still use KAYAK to compare prices."
       }
     ],
     "cover": {
@@ -1436,17 +1436,17 @@
     "founded": 2004,
     "hq": "Santa Clara, CA",
     "fate": "Still public (NYSE: NOW)",
-    "tagline": "The Clock Is Running",
-    "dek": "Cloud workflow software that started with IT help desks and grew into a platform for running work across companies.",
-    "lede": "ServiceNow modernized the IT help desk. When something broke, employees filed a ticket in its cloud software, and IT staff tracked the fix. The company sold this as a subscription and built a platform that customers could extend. When it filed to go public in 2012, large companies were starting to trust cloud software with core work, and ServiceNow was growing quickly.",
+    "tagline": "From IT Tickets to Everything",
+    "dek": "ServiceNow gave companies one cloud platform to track IT fixes, then HR, customer service and security work.",
+    "lede": "ServiceNow began as a cloud help desk for IT tickets and grew into one of the largest software makers in the world. When something broke, an employee filed a ticket in its software, and IT staff tracked the fix. The company sold this as a subscription on a platform customers could extend. When ServiceNow filed to go public in 2012, large companies were starting to trust cloud software with core work. Frank Slootman was chief executive.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Fred Luddy founded the company in San Diego in 2004 as Glidesoft. He had been chief technology officer at Peregrine Systems, a maker of IT management software. He wanted to build a platform that made it easy to create business workflows. The bet was that IT service management was a good first use, and that the same platform could handle much more."
+        "heading": "Glidesoft in San Diego",
+        "body": "Fred Luddy founded the company in San Diego in 2004 as Glidesoft. He had been chief technology officer at Peregrine Systems, a maker of IT management software. He wanted a platform that made it easy to build business workflows. His bet was that IT service management made a good first use, and that the same platform could later handle much more of a company's work."
       },
       {
-        "heading": "After the Bell",
-        "body": "ServiceNow priced at $18 a share in June 2012 and rose on its first day. It grew far beyond IT into human resources, customer service and security work. Its value climbed into the hundreds of billions. ServiceNow remains a public company and one of the largest software makers. Frank Slootman led the company at the time of its offering. Later chief executive Bill McDermott pushed it further into AI."
+        "heading": "Far Beyond IT",
+        "body": "ServiceNow priced at $18 a share in June 2012 and rose on its first day. It grew far beyond IT, into human resources, customer service and security work. Its value climbed into the hundreds of billions of dollars. Later chief executive Bill McDermott pushed it further into AI. ServiceNow remains a public company and one of the largest software makers in the world."
       }
     ],
     "cover": {
@@ -1474,17 +1474,17 @@
     "founded": 2004,
     "hq": "Menlo Park, CA",
     "fate": "Still public as Meta Platforms (NASDAQ: META)",
-    "tagline": "Faces in the Pages",
-    "dek": "The social network that connected friends and family online, and later grew to own Instagram and WhatsApp.",
-    "lede": "Facebook connected people online. Users shared photos, news and messages with friends, and the News Feed kept them coming back. By 2012 it had about 900 million users and was moving fast to earn money from mobile ads. Its public offering was one of the most anticipated in history and one of the largest. It valued the company at more than $100 billion.",
+    "tagline": "Real Names, Real Friends",
+    "dek": "Facebook connected people with their real friends and family online, and later bought Instagram and WhatsApp.",
+    "lede": "Facebook's public offering was one of the most anticipated in history, and Nasdaq's systems stumbled on the first day. It was also one of the largest offerings ever, valuing the company at more than $100 billion. By 2012 about 900 million people used Facebook to share photos, news and messages with friends, and the News Feed kept them coming back. The company was moving fast to make money from mobile ads.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Mark Zuckerberg launched the site in his Harvard dorm room in 2004 with roommates and classmates. It spread to other colleges, then to everyone. Zuckerberg turned down offers to sell. The bet was that real identity and real friends would make a social network more valuable than anonymous ones. That idea gave Facebook a huge, loyal audience. Facebook opened to everyone in 2006."
+        "heading": "A Harvard Dorm Room",
+        "body": "Mark Zuckerberg launched the site from his Harvard dorm room in 2004 with roommates and classmates. It spread to other colleges, and in 2006 it opened to everyone. Zuckerberg turned down offers to sell. His bet was that real identity and real friends would make a social network more valuable than anonymous ones. That idea won Facebook a huge, loyal audience."
       },
       {
-        "heading": "A Shaky Debut",
-        "body": "Facebook priced at $38 a share in May 2012. Technical glitches at Nasdaq marred the first day, and the stock barely held its price. Shares then fell by about half that year. Facebook bought Instagram and WhatsApp and moved to mobile ads, which brought rapid growth. In 2021 it renamed itself Meta Platforms. Mark Zuckerberg still leads the company. Its users now number in the billions."
+        "heading": "Glitches at Nasdaq",
+        "body": "Facebook priced at $38 a share in May 2012. Technical glitches at Nasdaq marred the first day, and the stock barely held its price. Shares fell by about half that year. Then Facebook bought Instagram and WhatsApp and moved to mobile ads, and growth took off. In 2021 it renamed itself Meta Platforms. Mark Zuckerberg still leads the company, and its users now number in the billions."
       }
     ],
     "cover": {
@@ -1508,17 +1508,17 @@
     "founded": 1999,
     "hq": "Santa Clara, CA",
     "fate": "Taken private by Vista Equity Partners, 2016 ($1.6B)",
-    "tagline": "A Light for the Harbor",
-    "dek": "Maker of network appliances and software that manage the DNS, DHCP and IP addresses networks rely on.",
-    "lede": "Infoblox managed the core services of a network. Every device needs an address, and every name like a web address needs to be turned into a number. Infoblox sold appliances and software that handled these jobs, called DNS, DHCP and IP address management. When it filed to go public in 2012, networks were growing more complex, and many companies still tracked addresses in spreadsheets.",
+    "tagline": "Every Device Needs an Address",
+    "dek": "Infoblox made the boxes and software that give every device on a network its address and name.",
+    "lede": "Many companies still tracked their network addresses in spreadsheets when Infoblox filed to go public in 2012. Infoblox sold them a better way. Every device on a network needs an address, and every name like a web address needs to be turned into a number. Infoblox's appliances and software handled those jobs, known as DNS, DHCP and IP address management. Networks were growing more complex each year, with more devices to track.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Stuart Bailey founded Infoblox in Chicago in 1999. He saw that these basic network services were usually built from free software and maintained by hand. The bet was that a dedicated appliance would make them easier to run and more reliable. The company later moved its headquarters to Silicon Valley. Its customers included large enterprises, service providers and government agencies."
+        "heading": "A Box for Network Basics",
+        "body": "Stuart Bailey founded Infoblox in Chicago in 1999. He saw that these basic network services were usually built from free software and maintained by hand. His bet was that a dedicated appliance would make them easier to run and more reliable. The company later moved its headquarters to Silicon Valley. Its customers included large enterprises, service providers and government agencies."
       },
       {
-        "heading": "Into Private Hands",
-        "body": "Infoblox priced at $16 a share in April 2012 and rose on its first day. It added security products built on its DNS knowledge. Growth slowed in later years. In 2016 Vista Equity Partners bought the company for about $1.6 billion and took it private. Its DNS security tools became a growing part of the business. Infoblox continues as a private company focused on networking and security."
+        "heading": "DNS Turns to Security",
+        "body": "Infoblox priced at $16 a share in April 2012 and rose on its first day. It added security products built on its knowledge of DNS, and those tools became a growing part of the business. Growth slowed in later years. In 2016 Vista Equity Partners bought the company for about $1.6 billion and took it private. Infoblox continues as a private company focused on networking and security."
       }
     ],
     "cover": {
@@ -1542,17 +1542,17 @@
     "founded": 2002,
     "hq": "Sunnyvale, CA",
     "fate": "Taken private by Thoma Bravo, 2021 ($12.3B)",
-    "tagline": "Reading Every Letter",
-    "dek": "Email security software that blocks spam, phishing and malware and protects sensitive data in corporate inboxes.",
-    "lede": "Proofpoint protected corporate email. Its software screened messages for spam, phishing and malware, and helped companies keep sensitive data from leaking out. Email was the most common way attackers reached employees. When Proofpoint filed to go public in 2012, it was moving its products to the cloud and adding archiving and compliance tools. Phishing attacks were growing more common. Email remained the main tool of business.",
+    "tagline": "A Netscape CTO Versus Spam",
+    "dek": "Proofpoint kept spam, phishing and malware out of company inboxes, and kept sensitive data from leaking out.",
+    "lede": "Proofpoint's founder had been the chief technology officer at Netscape, and he started the company while spam was flooding inboxes. Proofpoint protected corporate email. Its software screened messages for spam, phishing and malware, and kept sensitive data from leaking out. Email was the most common way attackers reached employees. When Proofpoint filed to go public in 2012, it was moving its products to the cloud and adding archiving and compliance tools.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Eric Hahn founded Proofpoint in 2002. He had been chief technology officer at Netscape. Spam was flooding inboxes, and companies needed a better filter. The bet was that email would stay at the center of business, and that the attacks against it would keep getting more targeted and costly. Gary Steele became chief executive in its first year and led it for many years."
+        "heading": "Betting Email Would Last",
+        "body": "Eric Hahn founded Proofpoint in 2002. Spam was flooding inboxes, and companies needed a better filter. Gary Steele became chief executive in the company's first year and led it for many years. The bet was that email would stay at the center of business. Attacks against it would keep getting more targeted and more costly. Phishing attacks were already growing more common."
       },
       {
-        "heading": "Guarding the Inbox",
-        "body": "Proofpoint priced at $13 a share in April 2012. It grew steadily as phishing became the main way into companies. The stock rose for years. In 2021 Thoma Bravo bought Proofpoint for about $12.3 billion, one of the largest software buyouts of that period. It bought several smaller security companies along the way. Under private ownership Proofpoint kept buying companies and widening its products."
+        "heading": "A $12.3 Billion Buyout",
+        "body": "Proofpoint priced at $13 a share in April 2012. It grew steadily as phishing became the main way into companies, and it bought several smaller security firms along the way. The stock rose for years. In 2021 Thoma Bravo bought Proofpoint for about $12.3 billion, one of the largest software buyouts of that period. Under private ownership Proofpoint kept buying companies and widening its products."
       }
     ],
     "cover": {
@@ -1577,17 +1577,17 @@
     "founded": 1999,
     "hq": "San Mateo, CA",
     "fate": "Acquired by Snapfish, 2018 (~$25M)",
-    "tagline": "Songs from the Café",
-    "dek": "An online shop for custom printed products such as T-shirts, mugs and posters, made on demand.",
-    "lede": "CafePress let anyone sell T-shirts, mugs and posters with their own designs. A user uploaded art, and CafePress printed each item when someone ordered it. That meant no inventory for sellers. The site hosted millions of small shops and became known for gifts, slogans and fan merchandise. When it filed to go public in 2012, it was one of the pioneers of print on demand.",
+    "tagline": "Your Design on a Mug",
+    "dek": "CafePress let anyone sell T-shirts, mugs and posters with their own designs, printed only when ordered.",
+    "lede": "CafePress let anyone open a shop without owning a single T-shirt. A user uploaded art, and CafePress printed the shirt, mug or poster only when someone ordered it. Sellers carried no inventory. The site hosted millions of small shops and became known for gifts, slogans and fan merchandise. When it filed to go public in 2012, it was one of the earliest print on demand companies, thirteen years old.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Fred Durham and Maheesh Jain founded CafePress in 1999. They saw that digital printing could make single items cheaply. The bet was that people would pay a premium for custom products, and that a marketplace of designers would fill the catalog. The company grew through the 2000s and moved much of its production to Kentucky. Shop owners earned a share of each sale."
+        "heading": "Printing in Kentucky",
+        "body": "Fred Durham and Maheesh Jain founded CafePress in 1999. They saw that digital printing could make single items cheaply. Their bet was that people would pay a premium for custom products, and that a marketplace of designers would fill the catalog. Shop owners earned a share of each sale. The company grew through the 2000s and moved much of its production to Kentucky."
       },
       {
-        "heading": "Fading Ink",
-        "body": "CafePress priced at $19 a share in March 2012. Its stock fell soon after as competition from sites like Etsy and Zazzle grew. The company sold off several businesses to focus on its core. In 2018 Snapfish bought CafePress for about $25 million. Many former shop owners moved to other print on demand sites. Under Snapfish, CafePress continued to sell custom products online."
+        "heading": "Etsy and Zazzle Close In",
+        "body": "CafePress priced at $19 a share in March 2012. Its stock fell soon after as competition from sites like Etsy and Zazzle grew. The company sold off several businesses to focus on its core. Many shop owners moved to other print on demand sites. In 2018 Snapfish bought CafePress for about $25 million and kept it selling custom products online."
       }
     ],
     "cover": {
@@ -1611,17 +1611,17 @@
     "founded": 2006,
     "hq": "Baltimore, MD",
     "fate": "Acquired by AOL, 2015 ($238M)",
-    "tagline": "The Poster on the Wall",
-    "dek": "A mobile advertising network that placed ads in apps and mobile websites for brands and app developers.",
-    "lede": "Millennial Media sold ads on phones. It connected advertisers with apps and mobile websites and used data to target the right users. Smartphones were spreading fast, but advertisers had only begun to shift budgets to mobile. When it filed to go public in 2012, it was one of the largest independent mobile ad networks, competing with Google and Apple. Its timing was early.",
+    "tagline": "Phone Ads Before the iPhone",
+    "dek": "Millennial Media placed ads for brands inside phone apps and mobile websites, using data to target users.",
+    "lede": "Millennial Media started selling ads on phones in Baltimore in 2006, before the iPhone existed. It connected advertisers with apps and mobile websites and used data to reach the right users. Smartphones were spreading fast, but advertisers had only begun to move their budgets to mobile. When it filed to go public in 2012, Millennial was one of the largest independent mobile ad networks. Its rivals were Google and Apple.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Paul Palmieri co-founded Millennial Media in Baltimore in 2006, before the iPhone. The company bet that the phone would become a major ad medium, and that an independent network could gather enough apps to matter. It grew as smartphones spread and as app makers looked for ways to earn money. It built tools for app developers to place ads inside their apps."
+        "heading": "Betting on the Phone Early",
+        "body": "Paul Palmieri co-founded Millennial Media in Baltimore in 2006, before the iPhone. The company bet that the phone would become a major ad medium, and that an independent network could gather enough apps to matter. It built tools that let app developers place ads inside their apps. Millennial grew as smartphones spread and app makers looked for ways to earn money."
       },
       {
-        "heading": "Sold to AOL",
-        "body": "Millennial Media priced at $13 a share in March 2012 and jumped on its first day. Competition from Facebook and Google soon squeezed its business. It bought Jumptap in 2013 to add scale. In 2015 AOL bought Millennial Media for about $238 million. AOL, then owned by Verizon, folded it into its own advertising business. The Millennial Media name faded soon after."
+        "heading": "Folded Into AOL",
+        "body": "Millennial Media priced at $13 a share in March 2012 and jumped on its first day. Competition from Facebook and Google soon squeezed its business. It bought Jumptap in 2013 to add scale. In 2015 AOL bought Millennial Media for about $238 million. AOL, then owned by Verizon, folded it into its own advertising business, and the Millennial Media name faded soon after."
       }
     ],
     "cover": {
@@ -1645,17 +1645,17 @@
     "founded": 2004,
     "hq": "Burlington, MA",
     "fate": "Acquired by Salesforce, 2016 ($2.8B)",
-    "tagline": "The Merchant's Street",
-    "dek": "Cloud e-commerce software that ran online stores for retail and consumer brands.",
-    "lede": "Demandware ran online stores for big brands. Retailers used its cloud software to build sites, manage products and process orders without running their own servers. It charged a share of the sales that passed through. When Demandware filed to go public in 2012, many retailers still ran older e-commerce software in their own data centers. Online shopping was growing quickly.",
+    "tagline": "Online Stores for Rent",
+    "dek": "Demandware ran the online stores of big retail and consumer brands from the cloud, for a cut of sales.",
+    "lede": "Demandware charged retailers a share of every sale that passed through the online stores it ran for them. It did well only when they did. Big brands used its cloud software to build sites, manage products and process orders without running their own servers. When Demandware filed to go public in 2012, many retailers still ran older e-commerce software in their own data centers. Online shopping was growing quickly.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Stephan Schambach founded Demandware in 2004. He had earlier founded Intershop, a German e-commerce software company. The bet was that retailers would rather rent a fully managed store in the cloud than build and maintain their own systems. Tying its fees to customer sales aligned Demandware with the retailers it served. Its customers included apparel, footwear and consumer brands. The company was based near Boston."
+        "heading": "Intershop's Founder Tries Again",
+        "body": "Stephan Schambach founded Demandware near Boston in 2004. He had earlier founded Intershop, a German e-commerce software company. His bet was that retailers would rather rent a fully managed store in the cloud than build and maintain their own systems. Tying fees to customer sales lined Demandware up with the retailers it served. Its customers included apparel, footwear and consumer brands."
       },
       {
-        "heading": "Bought by Salesforce",
-        "body": "Demandware priced at $16 a share in March 2012 and rose strongly on its first day. It grew as more retailers moved to the cloud. In 2016 Salesforce bought Demandware for about $2.8 billion, and it became Salesforce Commerce Cloud. The deal was one of the largest Salesforce had made at the time. Retailers continued to use the platform under its new name."
+        "heading": "Becoming Commerce Cloud",
+        "body": "Demandware priced at $16 a share in March 2012 and jumped on its first day. It grew as more retailers moved to the cloud. In 2016 Salesforce bought Demandware for about $2.8 billion, one of the largest deals Salesforce had made to that point. Demandware became Salesforce Commerce Cloud. Retailers kept using the platform under its new name, now part of the Salesforce product line."
       }
     ],
     "cover": {
@@ -1680,17 +1680,17 @@
     "founded": 2004,
     "hq": "San Francisco, CA",
     "fate": "Still public (NYSE: YELP)",
-    "tagline": "Everyone's a Critic",
-    "dek": "A website and app where people review local businesses such as restaurants, salons and plumbers.",
-    "lede": "Yelp turned word of mouth into a website. People wrote reviews of restaurants, dentists, mechanics and more, and others read them before choosing where to go. Local businesses paid for ads and enhanced listings. When Yelp filed to go public in 2012, it had tens of millions of reviews, and its biggest rival was Google. Smartphones made it easy to check reviews on the spot.",
+    "tagline": "The Reviews Nobody Planned",
+    "dek": "Yelp let people read and write reviews of local businesses, from restaurants and salons to plumbers.",
+    "lede": "Yelp began as an email tool for asking friends for recommendations. Users liked writing reviews more, so reviews became the product. People rated restaurants, dentists, mechanics and more, and others read them before choosing where to go. Local businesses paid for ads and enhanced listings. When Yelp filed to go public in 2012, it had tens of millions of reviews, and smartphones made them easy to check on the spot. Its biggest rival was Google.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Jeremy Stoppelman and Russel Simmons founded Yelp in 2004. Both had worked at PayPal. The original idea was an email system for asking friends for recommendations, but users liked writing reviews more. The bet was that honest reviews from ordinary people would become the main guide for local decisions. The site started in San Francisco and spread city by city."
+        "heading": "Two PayPal Alumni",
+        "body": "Jeremy Stoppelman and Russel Simmons founded Yelp in 2004. Both had worked at PayPal. Their first idea was an email system for asking friends for recommendations. Users liked writing reviews more, and the founders followed them. The bet was that honest reviews from ordinary people would become the main guide for local decisions. The site started in San Francisco and spread city by city."
       },
       {
-        "heading": "After the Bell",
-        "body": "Yelp priced at $15 a share in March 2012 and jumped on its first day. It kept growing as people searched for local businesses on phones. Yelp fought with Google over search results and with businesses over its review filter. It remains a public company. Its business came to rely on ads from local businesses and on services such as restaurant waitlists. Jeremy Stoppelman led the company as chief executive."
+        "heading": "Fighting Google Over Search",
+        "body": "Yelp priced at $15 a share in March 2012 and jumped on its first day. It kept growing as people searched for local businesses on their phones. Yelp fought with Google over search results and with businesses over its review filter. Its revenue came to rely on ads from local businesses and on services such as restaurant waitlists. Jeremy Stoppelman led it as chief executive, and Yelp remains public."
       }
     ],
     "cover": {
@@ -1714,17 +1714,17 @@
     "founded": 2005,
     "hq": "Austin, TX",
     "fate": "Taken private by Marlin Equity Partners, 2018 ($521M)",
-    "tagline": "Voices from the Bazaar",
-    "dek": "Software that collects and displays customer ratings and reviews on retail and brand websites.",
-    "lede": "Bazaarvoice powered the reviews on other companies' websites. Retailers and brands used its software to collect ratings and comments from customers and display them next to products. Reviews helped shoppers decide and gave companies feedback. When Bazaarvoice filed to go public in 2012, it served many of the biggest retailers and brands. Online shoppers had come to expect reviews on product pages.",
+    "tagline": "Reviews on Someone Else's Site",
+    "dek": "Bazaarvoice collected customer ratings and reviews and showed them on retail and brand websites.",
+    "lede": "Bazaarvoice bought its main rival soon after going public, and the Justice Department sued to undo the deal. The company powered the reviews on other companies' websites. Retailers and brands used its software to collect ratings and comments and display them next to products. When Bazaarvoice filed to go public in 2012, it served many of the biggest retailers and brands. Online shoppers had come to expect reviews on product pages.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Brett Hurt founded Bazaarvoice in Austin in 2005. He had earlier built an analytics company. He believed that customer voices could sell products better than marketing copy. The bet was that every online store would need reviews and that a shared network could serve them all. Its network let brands share reviews with the retailers that sold their products. That sharing became an important feature."
+        "heading": "A Network of Shared Reviews",
+        "body": "Brett Hurt founded Bazaarvoice in Austin in 2005. He had earlier built an analytics company. He believed customer voices could sell products better than marketing copy. His bet was that every online store would need reviews, and that one shared network could serve them all. That network let brands share reviews with the retailers that sold their products. Reviews guided shoppers and gave companies feedback."
       },
       {
-        "heading": "A Legal Fight",
-        "body": "Bazaarvoice priced at $12 a share in February 2012 and rose on its first day. Soon after, it bought PowerReviews, its main rival, and the Justice Department sued. A court ruled against the deal, and Bazaarvoice had to sell PowerReviews. In 2018 Marlin Equity Partners bought the company for about $521 million. It continues to operate as a private company in Austin."
+        "heading": "The PowerReviews Lawsuit",
+        "body": "Bazaarvoice priced at $12 a share in February 2012 and rose on its first day. Soon after, it bought PowerReviews, its main rival, and the Justice Department sued. A court ruled against the deal, and Bazaarvoice had to sell PowerReviews. In 2018 Marlin Equity Partners bought the company for about $521 million. Bazaarvoice continues as a private company in Austin."
       }
     ],
     "cover": {
@@ -1746,17 +1746,17 @@
     "founded": 1998,
     "hq": "Buffalo, NY",
     "fate": "Taken private by Centre Lane Partners, 2021",
-    "tagline": "Out of Buffalo",
-    "dek": "Provider of white-label web portals, email and login services for cable companies and internet providers.",
-    "lede": "Synacor built websites and services that other companies put their names on. Cable and telecom firms used its software for their customer home pages, email and logins. Synacor made money from ads and search on those pages. When it filed to go public in 2012, it was one of the few tech companies of its size based in Buffalo. It was a quiet business.",
+    "tagline": "Portals Under Other Names",
+    "dek": "Synacor built the home pages, email and logins that cable and internet companies gave customers under their own brands.",
+    "lede": "Synacor was one of the few tech companies of its size based in Buffalo, New York, and its work carried other companies' names. Cable and telecom firms used its software for their customer home pages, email and logins. Subscribers saw their provider's brand. Synacor made money from ads and search on those pages. It was a quiet business, and it filed to go public in 2012, fourteen years after its founding.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Synacor was founded in Buffalo in 1998. It grew by serving internet providers who wanted their own branded portals without building them. The bet was that these companies would rather partner than build, and that the portals would draw enough users to earn steady ad revenue. Its early customers included regional cable and telecom firms. The company also offered login tools that let subscribers reach online video."
+        "heading": "Partner Instead of Build",
+        "body": "Synacor was founded in Buffalo in 1998. It grew by serving internet providers that wanted their own branded portals without building them. Its early customers included regional cable and telecom firms. The bet was that these companies would rather partner than build, and that the portals would draw enough users to earn steady ad revenue. Synacor also offered login tools that let subscribers reach online video."
       },
       {
-        "heading": "A Long Road",
-        "body": "Synacor priced at $5 a share in February 2012. The company later bought Zimbra email software to widen its products. Revenue fell as customers changed their portal strategies. In 2021 Centre Lane Partners bought Synacor and took it private. Its email platform was used by many providers around the world. Under private ownership, Synacor continued to serve internet providers. The deal ended nine years as a public company."
+        "heading": "Buying Zimbra",
+        "body": "Synacor priced at $5 a share in February 2012. It later bought Zimbra email software to widen its products, and many providers around the world came to use that email platform. Revenue fell as customers changed their portal strategies. In 2021 Centre Lane Partners bought Synacor and took it private, ending nine years as a public company. Synacor continued to serve internet providers."
       }
     ],
     "cover": {
@@ -1780,17 +1780,17 @@
     "founded": 2007,
     "hq": "San Francisco, CA",
     "fate": "Acquired by Take-Two Interactive, 2022 ($12.7B)",
-    "tagline": "Games Around the Table",
-    "dek": "A social game maker behind FarmVille and Zynga Poker, and later a major mobile games publisher.",
-    "lede": "Zynga made games for Facebook. Titles such as FarmVille and Zynga Poker drew tens of millions of players who invited their friends to join. Most games were free, and money came from players buying virtual goods. When it filed to go public in 2011, Zynga was the largest social game maker in the world. Social games were a new category.",
+    "tagline": "Named After a Bulldog",
+    "dek": "Zynga made free social games like FarmVille and Zynga Poker, then became a major mobile game publisher.",
+    "lede": "Zynga was named after Mark Pincus's bulldog, and its games once filled Facebook. FarmVille and Zynga Poker drew tens of millions of players, who invited their friends to join. Most games were free. The money came from players buying virtual goods. When it filed to go public in 2011, Zynga was the largest social game maker in the world, in a category that was still new.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Mark Pincus founded Zynga in 2007 and named it after his bulldog. He saw that Facebook's platform could spread games among friends quickly. The bet was that simple, free games played in short sessions would attract a mass audience, and that a small share of players would pay. Zynga Poker was one of its first hits. FarmVille followed in 2009."
+        "heading": "Games That Spread Through Friends",
+        "body": "Mark Pincus founded Zynga in San Francisco in 2007. He saw that Facebook's platform could spread games among friends quickly. His bet was that simple, free games played in short sessions would attract a mass audience, and that a small share of players would pay for extras. Zynga Poker was one of its first big hits on Facebook. FarmVille followed in 2009."
       },
       {
-        "heading": "After the Bell",
-        "body": "Zynga priced at $10 a share in December 2011 and fell below that on its first day. As Facebook changed its rules and players moved to phones, Zynga struggled. It later rebuilt as a mobile game publisher through acquisitions. In 2022 Take-Two Interactive bought Zynga for about $12.7 billion. Its mobile hits included Words With Friends. Take-Two kept Zynga as its mobile games label."
+        "heading": "From Facebook to Phones",
+        "body": "Zynga priced at $10 a share in December 2011 and fell below that on its first day. Facebook changed its rules and players moved to phones, and Zynga struggled. It rebuilt itself as a mobile game publisher through acquisitions, and its mobile hits included Words With Friends. In 2022 Take-Two Interactive bought Zynga for about $12.7 billion. Take-Two kept Zynga as its mobile games label."
       }
     ],
     "cover": {

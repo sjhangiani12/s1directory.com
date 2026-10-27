@@ -3,7 +3,7 @@
 Run from the repo root:  .venv/bin/python site-src/build.py [--covers]
 --covers re-renders every cover image (otherwise only missing ones are made).
 """
-import glob, html, json, os, re, shutil, sys
+import glob, html, json, math, os, re, shutil, sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "tools"))
@@ -50,10 +50,6 @@ def rgba(hx, a):
     return f"rgba({r},{g},{b},{a})"
 
 
-def tags(b):
-    dec = f"{b['dt'].year // 10 * 10}s"
-    return f"{dec} {slugify(b['space'])}"
-
 
 def slugify(s):
     return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
@@ -76,6 +72,20 @@ def cover_html(b, size="sm", lazy=True, cls="cover"):
     )
 
 
+def leaf_html(b):
+    """The first page under each cover: a miniature of a real S-1 title page."""
+    return (
+        f'<div class="leaf" aria-hidden="true"><small>United States<br>Securities and Exchange Commission</small>'
+        f'<b>Form S-1</b><small>Registration Statement<br>under the Securities Act of 1933</small>'
+        f'<i>{e(b["name"])}</i><small class="foot">{b["dt"].year}</small></div>'
+    )
+
+
+def book_html(b, size="sm", lazy=True):
+    """A flat cover on a hinge, with the title page underneath."""
+    return f'<div class="bk">{leaf_html(b)}<div class="hinge">{cover_html(b, size=size, lazy=lazy)}</div></div>'
+
+
 def book3d_html(b):
     c = b["cover"]
     return (
@@ -83,17 +93,38 @@ def book3d_html(b):
         f'<div class="rot"><div class="lift">'
         f'<div class="face top"></div>'
         f'<div class="face spine" style="background:{c["accent"]}"><span class="t">{e(b["display"])}<small>{e(b["ticker"])}</small></span><span class="yr">{b["dt"].year}</span></div>'
-        f'<div class="face front" style="background-image:url(/covers/sm/{b["slug"]}.jpg)"></div>'
+        f'<div class="face page">{leaf_html(b)}</div>'
+        f'<div class="hinge3d"><div class="face front" style="background-image:url(/covers/sm/{b["slug"]}.jpg)"></div>'
+        f'<div class="face inside" style="background:{c["paper"]}"></div></div>'
         f"</div></div></a>"
     )
 
 
-LOGO = (
-    '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#1b1a18"/>'
-    '<g fill="none" stroke="#f1efeb" stroke-width="1.6" stroke-linecap="round">'
-    '<path d="M20 13.5c-2.6-1.9-5.8-2.3-9-1.6v14.5c3.2-.7 6.4-.3 9 1.6 2.6-1.9 5.8-2.3 9-1.6V11.9c-3.2-.7-6.4-.3-9 1.6z"/>'
-    '<path d="M20 13.5V28"/></g></svg>'
-)
+def halftone_mark(step=3.4, rmax=2.3, R=19.2):
+    """The logo: a halftone sphere lit from the top left, dots on a 45-degree screen like the covers."""
+    c = math.cos(math.pi / 4)
+    lx, ly, lz = -0.5, -0.55, 0.67
+    dots, n = [], int(40 / step) + 4
+    for i in range(-n, n + 1):
+        for j in range(-n, n + 1):
+            x, y = 20 + (i - j) * c * step, 20 + (i + j) * c * step
+            d = math.hypot(x - 20, y - 20)
+            if d >= R + step:
+                continue
+            d = min(d, R)
+            nx, ny, nz = (x - 20) / R, (y - 20) / R, math.sqrt(max(0, 1 - (d / R) ** 2))
+            r = rmax * min(1, 1 - max(0, nx * lx + ny * ly + nz * lz))
+            if r > 0.05:
+                dots.append((x + y, f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{r:.2f}" style="--i:{{i}}"/>'))
+    return (f'<defs><clipPath id="hm"><circle cx="20" cy="20" r="{R}"/></clipPath></defs>'
+            f'<g clip-path="url(#hm)">{"".join(d.format(i=k) for k, (_, d) in enumerate(sorted(dots)))}</g>')
+
+
+MARK = halftone_mark()
+LOGO = f'<svg viewBox="0 0 40 40" fill="currentColor" aria-hidden="true">{MARK}</svg>'
+FAVICON = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">'
+           '<style>g{fill:#1b1a18}@media (prefers-color-scheme:dark){g{fill:#ece8e1}}</style>'
+           f'{MARK}</svg>')
 
 
 def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/", og_image="/covers/amazon-com-inc.jpg"):
@@ -106,6 +137,8 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>try{{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}}catch(e){{}}try{{if(sessionStorage.getItem("seen"))document.documentElement.classList.add("seen");else sessionStorage.setItem("seen","1")}}catch(e){{}}</script>
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{SITE}{canonical}">
@@ -124,30 +157,25 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
 <nav class="nav">
   <a class="mark" href="/">{LOGO}<span>S1 Directory</span></a>
   <div class="links">{links}</div>
-  <div class="right"><a href="https://github.com/sjhangiani12/s1directory.com">GitHub</a></div>
+  <div class="right"><a class="gh" href="https://github.com/sjhangiani12/s1directory.com">GitHub</a><button class="theme" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"/></svg></button></div>
 </nav>
 {body}
-<footer><span>S1 Directory &middot; The founding documents of the internet.</span><span>Filings from <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. Cover art from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> (CC0).</span></footer>
+<footer><span>S1 Directory &middot; A library of tech S-1s.</span><span>Filings from <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. Cover art from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> (CC0).</span></footer>
 <script src="/assets/app.js?v={VERSION}" defer></script>
 </body>
 </html>
 """
 
 
-def filters_html(books, top_n=5):
-    counts = {}
-    for b in books:
-        counts[b["space"]] = counts.get(b["space"], 0) + 1
-    spaces = sorted(counts, key=lambda s: -counts[s])[:top_n]
-    pills = ['<button class="pill" data-f="all" aria-pressed="true">All S-1s</button>']
-    pills += [f'<button class="pill" data-f="{d}" aria-pressed="false">{d}</button>' for d in ("1990s", "2000s", "2010s")]
-    pills += [f'<button class="pill" data-f="{slugify(s)}" aria-pressed="false">{e(s)}</button>' for s in spaces]
-    pills.append('<input class="search" type="search" placeholder="Search companies, tickers&hellip;" aria-label="Search">')
-    return f'<div class="pills">{"".join(pills)}</div>'
+def norm(t):
+    """Lowercase and drop punctuation so "e-Bay", "eBay" and "ebay" all match. Kept in step with norm() in app.js."""
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]+", "", t.lower().replace("-", "").replace(".", ""))).strip()
 
 
 def qstr(b):
-    return e(" ".join([b["display"], b["name"], b["ticker"], b["space"] or "", str(b["dt"].year)]).lower())
+    parts = [b["display"], b["name"], b["ticker"] or "", b["space"] or "", str(b["dt"].year),
+             " ".join(b.get("founders") or []), b.get("hq") or "", b.get("dek") or ""]
+    return e(norm(" ".join(parts)))
 
 
 def build_home(books):
@@ -155,33 +183,34 @@ def build_home(books):
     shelf = [by[s] for s in SHELF if s in by]
     shelf += [b for b in books if b not in shelf][: max(0, 26 - len(shelf))]
     cards = "".join(
-        f'<a class="card" href="/s1/{b["slug"]}/" data-filter-item data-tags="{tags(b)}" data-q="{qstr(b)}">'
-        f'{cover_html(b)}<div class="meta"><b>{e(b["display"])}</b><span>{e(b["space"])} &middot; {b["dt"].year}</span></div></a>'
+        f'<a class="card" href="/s1/{b["slug"]}/" data-filter-item data-q="{qstr(b)}">'
+        f'{book_html(b)}<div class="meta"><b>{e(b["display"])}</b><span>{e(b["space"])} &middot; {b["dt"].year}</span></div></a>'
         for b in books
     )
     years = f'{min(b["dt"].year for b in books)}&ndash;{max(b["dt"].year for b in books)}'
     body = f"""
 <header class="hero">
-  <h1 class="rise">The <em>Everyone Round</em></h1>
-  <p class="rise d1">An IPO is the one round anyone can join. These are the S-1s that opened the door, bound and shelved.</p>
+  <div class="eyebrow rise">A library of tech S-1s &middot; {years}</div>
+  <h1 class="rise">The <em>Opening Bell</em></h1>
+  <p class="rise d1">Before the bell rings, a tech company has to tell the world everything. These are the S-1s they filed.</p>
 </header>
 <section class="shelf rise d2" aria-label="Featured S-1s">
   <div class="shelf-track">{"".join(book3d_html(b) for b in shelf)}</div>
 </section>
 <section class="wrap" id="library">
   <div class="head"><h2>The Library</h2><div class="brace">&#123; {len(books)} S-1 filings, {years} &#125;</div></div>
-  {filters_html(books)}
+  <div class="pills solo"><input class="search" type="search" placeholder="Search {len(books)} companies, tickers, founders, years&hellip;" aria-label="Search the library"></div>
   <div class="grid">{cards}</div>
-  <div class="empty">No S-1s match that search.</div>
+  <div class="empty">No S-1s match. Try a ticker, like AMZN.</div>
 </section>
 """
-    return page("S1 Directory — The founding documents of the internet", body,
-                f"A library of {len(books)} S-1 filings from the companies that built the internet, {html.unescape(years)}.")
+    return page("S1 Directory — A library of tech S-1s", body,
+                f"A library of {len(books)} tech IPO filings, {html.unescape(years)}. Each one is bound as a book, with a short essay and a link to the original S-1.")
 
 
 def build_directory(books):
     rows = "".join(
-        f'<div class="row" data-filter-item data-tags="{tags(b)}" data-q="{qstr(b)}">'
+        f'<div class="row" data-filter-item data-q="{qstr(b)}">'
         f'<div class="nm"><img src="/covers/sm/{b["slug"]}.jpg" alt="" loading="lazy" width="38" height="51">'
         f'<span><a href="/s1/{b["slug"]}/">{e(b["display"])}</a> <small>({e(b["ticker"])})</small></span></div>'
         f'<div class="dk">{e(b["dek"])}</div>'
@@ -191,14 +220,14 @@ def build_directory(books):
     )
     body = f"""
 <section class="wrap">
-  <div class="head"><h1>The Directory</h1><div class="brace">&#123; Every filing, from {books[-1]["display"]} to {books[0]["display"]} &#125;</div></div>
-  {filters_html(books)}
+  <div class="head"><h1>The Directory</h1><div class="brace">&#123; {len(books)} tech IPOs, newest first &#125;</div></div>
+  <div class="pills solo"><input class="search" type="search" placeholder="Search {len(books)} companies, tickers, founders, years&hellip;" aria-label="Search the directory"></div>
   <div class="list">{rows}</div>
-  <div class="empty">No S-1s match that search.</div>
-  <button class="more">See more</button>
+  <div class="empty">No S-1s match. Try a ticker, like AMZN.</div>
+  <button class="more">Show 30 more</button>
 </section>
 """
-    return page("Directory — S1 Directory", body, "Every S-1 in the library, with links to the original filing on SEC EDGAR.",
+    return page("Directory — S1 Directory", body, f"All {len(books)} S-1s in the library, newest first, each linked to the original filing on SEC EDGAR.",
                 current="Directory", body_attrs='data-page-size="30"', canonical="/directory/")
 
 
@@ -245,7 +274,7 @@ def build_article(b, prev, nxt):
     </article>
     <nav class="pager">{pager}</nav>
   </main>
-  <aside class="r"><div class="sticky">{cover_html(b, size="lg", lazy=False)}
+  <aside class="r"><div class="sticky">{book_html(b, size="lg", lazy=False)}
     <a class="cta" href="{e(b["s1"])}" target="_blank" rel="noopener">Read the original S-1 &rarr;</a></div></aside>
 </div>
 """
@@ -254,11 +283,13 @@ def build_article(b, prev, nxt):
 
 
 def build_about(books):
+    years = f'{min(b["dt"].year for b in books)}&ndash;{max(b["dt"].year for b in books)}'
     body = f"""
 <section class="about">
-  <h1>About</h1>
-  <p>An S-1 is the document a company files with the SEC before it goes public. It is the most honest thing most companies ever write about themselves: what they do, how they make money, and what could go wrong.</p>
-  <p>S1 Directory collects {len(books)} of them, from the companies that built the commercial internet. Each one is bound as a book, with a cover made from a public-domain artwork chosen for its story.</p>
+  <h1>The most honest thing a company writes</h1>
+  <p>An S-1 is the filing a company sends the SEC before its IPO. It says what the company does, how it makes money, and what could sink it. Lawyers check every line, because investors can sue over a false one. That makes it the most honest thing most companies ever write about themselves.</p>
+  <p>S1 Directory collects {len(books)} of them, from tech companies that went public between {min(b["dt"].year for b in books)} and {max(b["dt"].year for b in books)}. Each one is bound as a book, with a short essay and a cover made from a public-domain artwork picked for the company's story.</p>
+  <p>Start with <a href="/s1/amazon-com-inc/">Amazon's</a>, filed in 1997, when it still called itself Earth's Biggest Bookstore. Or browse <a href="/directory/">the whole directory</a>.</p>
   <p>Filings link to the original documents on <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. IPO dates and offer prices come from the <a href="https://site.warrington.ufl.edu/ritter/ipo-data/">Jay Ritter IPO dataset</a> and sec-api.io. Cover art comes from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> open access collection (CC0). The company essays are short summaries. If you spot an error, <a href="https://github.com/sjhangiani12/s1directory.com/issues">open an issue</a>.</p>
 </section>
 """
@@ -308,7 +339,7 @@ if __name__ == "__main__":
     os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
     for f in ("style.css", "app.js", "PaperMono.woff2", "PaperMono-OFL.txt"):
         shutil.copy(os.path.join(SRC, "static", f), os.path.join(ROOT, "assets", f))
-    open(os.path.join(ROOT, "assets/favicon.svg"), "w").write(LOGO.replace('aria-hidden="true"', 'xmlns="http://www.w3.org/2000/svg"'))
+    open(os.path.join(ROOT, "assets/favicon.svg"), "w").write(FAVICON)
     write("index.html", build_home(books))
     write("directory/index.html", build_directory(books))
     write("about/index.html", build_about(books))

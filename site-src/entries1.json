@@ -10,17 +10,17 @@
     "founded": 2005,
     "hq": "Boston, MA",
     "fate": "Acquired by OpenText, 2019 ($1.42B)",
-    "tagline": "A Fortress for the Family Photos",
-    "dek": "Online backup for home computers and small businesses, sold for a flat yearly fee and pitched hard on talk radio.",
-    "lede": "Carbonite sold peace of mind. For a flat yearly price, its software quietly copied everything on a home computer to servers in a data center, so a dead hard drive or a stolen laptop no longer meant lost photos and tax returns. By the summer of 2011 broadband was everywhere, the cloud was a household word, and Carbonite had become one of the most familiar voices on American talk radio, selling backup to people who had never thought about it.",
+    "tagline": "Backup Sold on Talk Radio",
+    "dek": "Carbonite let ordinary people stop worrying about a dead hard drive, for one flat yearly price.",
+    "lede": "Carbonite became one of the most familiar voices on American talk radio by selling something most listeners had never thought to buy: backup. For a flat yearly price, its software copied everything on a home computer to servers in a data center. A dead hard drive or a stolen laptop no longer meant lost photos and tax returns. By the summer of 2011, broadband was everywhere and the cloud was a household word.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "David Friend and Jeff Flowers, serial founders from the Boston tech scene, bet that ordinary people would pay a small subscription to never think about backup again. Most consumers had no backup at all. Carbonite made it automatic and unlimited, and spent heavily on radio and podcast ads to reach people who would never read a tech review. Later it added plans for small businesses, which proved to be the steadier customers."
+        "heading": "Ads for Non-Techies",
+        "body": "David Friend and Jeff Flowers were serial founders from the Boston tech scene. They bet that ordinary people would pay a small subscription to never think about backup again. Most consumers had no backup at all. Carbonite made it automatic and unlimited. Then it spent heavily on radio and podcast ads to reach people who would never read a tech review. Later it added plans for small businesses, and those customers proved steadier."
       },
       {
-        "heading": "Into the Vault",
-        "body": "Carbonite priced its IPO at $10 a share in August 2011, in a jittery market, and traded unevenly for years as consumer growth slowed. The company shifted toward business customers and bought several rivals, including Webroot in 2019. Later that year OpenText agreed to acquire Carbonite for about $1.42 billion, folding the backup pioneer into a large enterprise software group."
+        "heading": "From Living Rooms to Webroot",
+        "body": "Carbonite priced its IPO at $10 a share in August 2011, in a jittery market. The stock traded unevenly for years as consumer growth slowed. So the company turned toward business customers and bought several rivals. The biggest name among them was Webroot, in 2019. Later that same year, OpenText agreed to buy Carbonite for about $1.42 billion and folded it into its enterprise software group."
       }
     ],
     "cover": {
@@ -45,17 +45,17 @@
     "founded": 2004,
     "hq": "Seattle, WA",
     "fate": "Still public (NASDAQ: Z)",
-    "tagline": "Every House Has a Number",
-    "dek": "A real estate website that put an estimated value on nearly every home in America and made house hunting a hobby.",
-    "lede": "Zillow opened the front door of the American housing market. Its site showed listings, sales histories and a computed value, the Zestimate, for tens of millions of homes, including ones not for sale. When it filed to go public in 2011, housing was still deep in the wreckage of the financial crisis. Yet people kept looking, often at their own homes and their neighbors', and Zillow had become one of the most visited real estate sites in the country.",
+    "tagline": "A Price Tag on Every House",
+    "dek": "Zillow let anyone see what a home was worth, including their own and their neighbor's.",
+    "lede": "Zillow put a number on nearly every home in America, including the ones nobody was selling. That number, the Zestimate, sat beside listings and sales histories for tens of millions of homes. When Zillow filed to go public in 2011, housing was still deep in the wreckage of the financial crisis. People kept looking anyway, often at their own homes and their neighbors'. Zillow had become one of the most visited real estate sites in the country.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Rich Barton had already turned travel booking into a consumer product at Expedia. With Lloyd Frink he bet that real estate data, long held close by agents and listing services, could be opened up to everyone. The Zestimate, launched in 2006, was the hook: a free, instant and sometimes argued-over number for any address. Zillow made its money from agents and advertisers who wanted to reach all those curious browsers."
+        "heading": "From Expedia to Housing",
+        "body": "Rich Barton had already turned travel booking into a consumer product at Expedia. With Lloyd Frink, he bet that real estate data could be opened up to everyone. Agents and listing services had long held it close. The Zestimate, launched in 2006, was the hook: a free, instant number for any address, and one people loved to argue over. Zillow made its money from agents and advertisers who wanted to reach all those curious browsers."
       },
       {
-        "heading": "The Road to the Bell",
-        "body": "Zillow priced its IPO at $20 a share in July 2011 and traded well above that on its first day. It bought rival Trulia in 2015 and became the dominant home search site in the United States. A move into buying and flipping homes directly, Zillow Offers, ended in 2021 with large losses. The company returned to its roots as a marketplace and remains publicly traded."
+        "heading": "Trulia, Then a Costly Detour",
+        "body": "Zillow priced its IPO at $20 a share in July 2011 and traded well above that on its first day. In 2015 it bought its rival Trulia and became the dominant home search site in the United States. Then it tried buying and flipping homes itself. That business, Zillow Offers, ended in 2021 with large losses. Zillow went back to running a marketplace, and it remains publicly traded."
       }
     ],
     "cover": {
@@ -80,17 +80,17 @@
     "founded": 2005,
     "hq": "Austin, TX",
     "fate": "Acquired by Expedia, 2015 ($3.9B)",
-    "tagline": "A Cottage for Every Season",
-    "dek": "An online marketplace for vacation rentals, connecting travelers with owners of beach houses, cabins and condos.",
-    "lede": "HomeAway gathered the scattered world of vacation rentals into one place. Before it, renting a beach house meant classified ads, phone calls and word of mouth. HomeAway bought up listing sites such as VRBO and charged owners to advertise their homes to travelers. When it filed in 2011, Airbnb was still a young startup, and HomeAway was the largest vacation rental marketplace in the world.",
+    "tagline": "The Beach House Roll-Up",
+    "dek": "HomeAway let families find a beach house or a cabin for the week without a stack of classified ads.",
+    "lede": "HomeAway built the world's largest vacation rental marketplace mostly by buying other people's websites. Before it, renting a beach house meant classified ads, phone calls and word of mouth. HomeAway bought up listing sites such as VRBO and gathered them in one place. Owners paid to advertise their homes, and travelers browsed for free. When it filed to go public in 2011, Airbnb was still a young startup.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Brian Sharples and Carl Shepherd started in Austin in 2005 with a roll-up plan. They raised a large amount of venture money early and used it to buy established rental sites in the United States and Europe, including VRBO. The business model was simple: owners paid a yearly subscription to list their properties, and travelers browsed for free. The scale of its listings drew travelers, and travelers drew more owners."
+        "heading": "An Austin Shopping Spree",
+        "body": "Brian Sharples and Carl Shepherd started in Austin in 2005 with a roll-up plan. They raised a large amount of venture money early. They spent it on established rental sites in the United States and Europe, including VRBO. The model was simple. Owners paid a yearly subscription to list their properties, and travelers searched for free. More listings drew more travelers, and more travelers drew more owners."
       },
       {
-        "heading": "After the Offering",
-        "body": "HomeAway priced its IPO at $27 a share in June 2011 and closed its first day well above that. Over the next few years it began to charge travelers a booking fee as Airbnb grew into a serious rival. In 2015 Expedia bought HomeAway for about $3.9 billion. The business later took the name of one of its oldest pieces, Vrbo."
+        "heading": "Renamed for Vrbo",
+        "body": "HomeAway priced its IPO at $27 a share in June 2011 and closed its first day well above that. Over the next few years, Airbnb grew into a serious rival. HomeAway answered by charging travelers a booking fee. In 2015 Expedia bought HomeAway for about $3.9 billion. The business later took the name of one of the oldest sites it had bought: Vrbo."
       }
     ],
     "cover": {
@@ -118,17 +118,17 @@
     "founded": 2002,
     "hq": "Mountain View, CA",
     "fate": "Acquired by Microsoft, 2016 ($26.2B)",
-    "tagline": "The Bridge Between Colleagues",
-    "dek": "The professional social network, where people kept an online résumé and recruiters came looking for them.",
-    "lede": "LinkedIn turned the business card and the résumé into a living network. Members kept an online profile of their career and connected with colleagues, and recruiters paid to search that map of the working world. By 2011 it had more than 100 million members. It was the first major American social network to go public, a year ahead of Facebook, and the market treated its listing as a test of the whole social media wave.",
+    "tagline": "The Résumé That Never Sleeps",
+    "dek": "LinkedIn let people keep their résumé online, so the next job could come looking for them.",
+    "lede": "LinkedIn went public a year ahead of Facebook, and Wall Street treated its listing as a test of the whole social media wave. It was the first major American social network to sell shares. Its members kept an online record of their careers and connected with colleagues. Recruiters paid to search that map of the working world. By 2011 LinkedIn had more than 100 million members.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Reid Hoffman, an early PayPal executive, started LinkedIn with a small group of friends from SocialNet and PayPal, and launched it in 2003. The bet was that professionals would put their real identities and work histories online if the network helped them get jobs and deals. LinkedIn made money three ways: recruiting tools, advertising and premium subscriptions. The recruiting business became the engine."
+        "heading": "Friends From PayPal",
+        "body": "Reid Hoffman, an early PayPal executive, started LinkedIn with a small group of friends from SocialNet and PayPal. They launched it in 2003. The bet was that professionals would put their real names and work histories online if the network got them jobs and deals. LinkedIn made money three ways: recruiting tools, advertising and premium subscriptions. Recruiting became the engine that drove the rest."
       },
       {
-        "heading": "The Road to the Bell",
-        "body": "LinkedIn priced its shares at $45 in May 2011 and listed on the New York Stock Exchange. The stock more than doubled on its first day of trading. The company grew steadily as a public company and bought Lynda.com in 2015. In 2016 Microsoft acquired LinkedIn for $26.2 billion, its largest purchase at the time, and kept it running as an independent brand."
+        "heading": "Microsoft's Biggest Check",
+        "body": "LinkedIn priced its shares at $45 in May 2011 and listed on the New York Stock Exchange. The stock more than doubled on its first day of trading. LinkedIn grew steadily as a public company and bought Lynda.com in 2015. A year later, Microsoft bought LinkedIn for $26.2 billion, its largest purchase up to then. Microsoft kept LinkedIn running as an independent brand."
       }
     ],
     "cover": {
@@ -152,17 +152,17 @@
     "founded": 2001,
     "hq": "Los Angeles, CA",
     "fate": "Taken private by Digital Colony, 2021",
-    "tagline": "Signals on the Wind",
-    "dek": "Wi-Fi in airports, then wireless networks for stadiums, military bases and buildings.",
-    "lede": "Boingo was the name on the screen when a traveler opened a laptop at the gate. The company ran paid Wi-Fi in many of the busiest airports in the United States and resold access to hotspots around the world. By 2011, smartphones were changing the business. Boingo was also building cellular antenna systems inside airports and stadiums, so that phone carriers could serve the crowds there.",
+    "tagline": "The Name at the Airport Gate",
+    "dek": "Boingo got travelers online at the airport gate, then built wireless networks for stadiums and military bases.",
+    "lede": "When a traveler opened a laptop at an airport gate, the name on the screen was often Boingo. The company ran paid Wi-Fi in many of the busiest airports in the United States and resold access to hotspots around the world. By 2011 smartphones were changing the business. Boingo was also building cellular antenna systems inside airports and stadiums, so phone carriers could serve the crowds there.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Sky Dayton, who had founded the internet provider EarthLink, started Boingo in 2001, when public Wi-Fi was new and scattered. His bet was that one account could work across thousands of hotspots, the way a phone worked across cell towers. Boingo won long contracts to run the networks in major airports, which gave it steady and defensible positions. Roaming deals with other hotspot operators let Boingo customers log in far beyond its own locations."
+        "heading": "After EarthLink, One Login",
+        "body": "Sky Dayton had founded the internet provider EarthLink. He started Boingo in 2001, when public Wi-Fi was new and scattered. His bet was that one account could work across thousands of hotspots, the way a phone worked across cell towers. Boingo won long contracts to run the networks in major airports. Roaming deals with other hotspot operators let its customers log in far beyond its own locations."
       },
       {
-        "heading": "After the Offering",
-        "body": "Boingo priced its IPO at $13.50 a share in May 2011. Free Wi-Fi spread through airports and coffee shops, so the company leaned into building wireless infrastructure for venues, carriers and military bases. In 2021 it was acquired by an investment group led by Digital Colony and taken private. Its long airport contracts and military base networks gave it steady revenue, even as consumer Wi-Fi fees faded."
+        "heading": "When Wi-Fi Went Free",
+        "body": "Boingo priced its IPO at $13.50 a share in May 2011. Then free Wi-Fi spread through airports and coffee shops. The company leaned into building wireless infrastructure for venues, carriers and military bases. Its long airport contracts and base networks kept revenue steady as consumer Wi-Fi fees faded. In 2021 an investment group led by Digital Colony bought Boingo and took it private."
       }
     ],
     "cover": {
@@ -187,17 +187,17 @@
     "founded": 1997,
     "hq": "Pleasanton, CA",
     "fate": "Acquired by Intercontinental Exchange, 2020 ($11B)",
-    "tagline": "The Door to Every Mortgage",
-    "dek": "Software that mortgage lenders used to take a home loan from application to closing.",
-    "lede": "Ellie Mae built the software behind the American mortgage. Its Encompass system let lenders and brokers take in an application, check it, price it and close it, while its network connected them to the appraisers, credit bureaus and investors involved in every loan. It filed to go public in 2011, while the housing market was still recovering, and few investors wanted anything to do with mortgages.",
+    "tagline": "The Mortgage Leaves the Fax Machine",
+    "dek": "Ellie Mae let lenders close home loans in software instead of by fax and courier.",
+    "lede": "Ellie Mae went public in 2011 with a business built on mortgages, at a moment when few investors wanted anything to do with them. Housing was still recovering from the crash. Ellie Mae's software sat behind the loan. Its Encompass system let lenders and brokers take in an application, check it, price it and close it. Its network connected them to the appraisers, credit bureaus and investors involved in every loan.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Sig Anderman and Limin Hu started the company in 1997, when a mortgage still traveled by fax and courier. They bet that loan origination could move onto a single shared platform, and that lenders would pay per loan for it. Ellie Mae grew by selling Encompass to small and midsize lenders, then to larger ones as regulation made careful records essential."
+        "heading": "Loans by Fax and Courier",
+        "body": "Sig Anderman and Limin Hu started the company in 1997, when a mortgage still traveled by fax and courier. They bet that loan origination could move onto one shared platform. Lenders would pay per loan to use it. Ellie Mae won its first customers among small and midsize lenders. Larger lenders signed on later, as regulation made careful records essential."
       },
       {
-        "heading": "After the Offering",
-        "body": "Ellie Mae priced its IPO at $6 a share in April 2011, below its planned range, and listed on the NYSE Amex exchange. As refinancing and new rules drove lenders to its software, the stock rose many times over. Thoma Bravo took the company private in 2019 for about $3.7 billion. In 2020 Intercontinental Exchange bought it for about $11 billion."
+        "heading": "From $6 to $11 Billion",
+        "body": "Ellie Mae priced its IPO at $6 a share in April 2011, below its planned range. It listed on the NYSE Amex exchange. Then refinancing and new rules drove lenders to its software, and the stock rose many times over. Thoma Bravo took the company private in 2019 for about $3.7 billion. A year later, Intercontinental Exchange bought Ellie Mae for about $11 billion."
       }
     ],
     "cover": {
@@ -221,17 +221,17 @@
     "founded": 1999,
     "hq": "Bedminster, NJ",
     "fate": "Acquired by StoneX, 2020",
-    "tagline": "Every Currency, Every Hour",
-    "dek": "An online broker for retail foreign exchange trading, best known for its FOREX.com platform.",
-    "lede": "GAIN Capital opened the currency market to individual traders. Through FOREX.com and other platforms, customers could trade dollars, euros and yen from home, with leverage, around the clock. By late 2010 retail forex was a fast-growing and lightly understood corner of finance. New American rules were just beginning to cap leverage and tighten oversight. Most of its customers were individuals trading from home, drawn by low minimums and round-the-clock markets.",
+    "tagline": "Forex From the Living Room",
+    "dek": "GAIN Capital let ordinary people trade dollars, euros and yen from home, at any hour.",
+    "lede": "GAIN Capital let people trade the world's currencies from a home computer, with borrowed money, around the clock. Through FOREX.com and other platforms, customers bet on dollars, euros and yen with low minimums. By late 2010, retail forex was a fast-growing corner of finance that few people understood. New American rules were just starting to cap leverage and tighten oversight. GAIN was one of the largest brokers in the field.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Mark Galant founded GAIN in 1999 with a simple idea: the professional foreign exchange market could be packaged for individuals online. The company acted as the counterparty to many customer trades and earned money from spreads. It grew in the United States, then expanded into the United Kingdom, Japan and other markets. Retail forex was young and loosely regulated when GAIN started, and the company grew into one of the largest brokers in the field."
+        "heading": "A Trading Floor, Repackaged",
+        "body": "Mark Galant founded GAIN in 1999 with a simple idea. The professional foreign exchange market could be packaged for individuals online. GAIN took the other side of many customer trades and earned money from the spread between buying and selling prices. Retail forex was young and loosely regulated. GAIN grew in the United States, then expanded into the United Kingdom, Japan and other markets."
       },
       {
-        "heading": "After the Offering",
-        "body": "GAIN priced its IPO at $9 a share in December 2010 and listed on the New York Stock Exchange. It bought rivals including GFT and City Index, but tighter regulation and low currency volatility weighed on the business. In 2020 it was acquired by INTL FCStone, which renamed itself StoneX. Its share price spent most of the decade below the offering price, and the sale to StoneX ended its run as a public company."
+        "heading": "A Decade Under $9",
+        "body": "GAIN priced its IPO at $9 a share in December 2010 and listed on the New York Stock Exchange. To grow, it bought rivals including GFT and City Index. Tighter regulation and calm currency markets weighed on the business. Its shares spent most of the next decade below the offering price. In 2020 INTL FCStone bought GAIN and renamed itself StoneX."
       }
     ],
     "cover": {
@@ -255,17 +255,17 @@
     "founded": 1999,
     "hq": "Chicago, IL",
     "fate": "Taken private by Bain Capital, 2024 ($4.5B)",
-    "tagline": "Tending the Long Harvest",
-    "dek": "A software and investment platform that independent financial advisers used to manage their clients' money.",
-    "lede": "Envestnet worked behind the financial adviser's desk. Its platform let advisers open accounts, build portfolios from many managers, rebalance them and report to clients, all in one place. As more advisers left big brokerages to go independent, they needed the tools those firms had provided. Envestnet filed to go public in the summer of 2010, as markets were recovering from the crisis.",
+    "tagline": "Brokerage Tools for Independent Advisers",
+    "dek": "Envestnet gave independent financial advisers the tools the big brokerages had, so they could compete on their own.",
+    "lede": "Envestnet built the back office for financial advisers who quit the big brokerages. Its platform let an adviser open accounts, build portfolios from many outside managers, rebalance them and report to clients, all in one place. Those were the tools the big firms had always provided. As more advisers went independent, they needed someone else to supply them. Envestnet filed to go public in the summer of 2010, as markets recovered from the crisis.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Judson Bergman started Envestnet in 1999 with a bet on the independent adviser. He saw that wealth management was moving toward fee-based accounts and away from commissions, and that advisers would pay for technology that made it run. Envestnet charged a small fee on the assets on its platform, so it grew as markets and its adviser base grew. Its open architecture let advisers choose from many outside money managers, which set it apart from captive brokerage platforms."
+        "heading": "Fees Over Commissions",
+        "body": "Judson Bergman started Envestnet in 1999 with a bet on the independent adviser. He saw wealth management moving away from commissions and toward fee-based accounts. Advisers would pay for technology that made those accounts run. Envestnet charged a small fee on the assets on its platform, so it grew as markets and its adviser base grew. Its open design let advisers pick from many outside money managers, which set it apart from captive brokerage platforms."
       },
       {
-        "heading": "After the Offering",
-        "body": "Envestnet priced its IPO at $9 a share in July 2010 and listed on the New York Stock Exchange. It grew through acquisitions, including the data business Yodlee in 2015, and assets on its platform rose into the trillions of dollars. In 2024 Bain Capital took the company private in a deal valued at about $4.5 billion. The Yodlee deal gave Envestnet a large store of financial account data, which it sold to banks and fintech companies."
+        "heading": "Yodlee and the Data Trove",
+        "body": "Envestnet priced its IPO at $9 a share in July 2010 and listed on the New York Stock Exchange. It grew through acquisitions. One was the data business Yodlee, in 2015, which brought a large store of financial account data that Envestnet sold to banks and fintech companies. Assets on its platform rose into the trillions of dollars. In 2024 Bain Capital took Envestnet private in a deal valued at about $4.5 billion."
       }
     ],
     "cover": {
@@ -290,17 +290,17 @@
     "founded": 2004,
     "hq": "Woodland Hills, CA",
     "fate": "Acquired by Gannett, 2016 ($156M)",
-    "tagline": "Main Street Goes Online",
-    "dek": "Online marketing for small local businesses, sold door to door by a large field sales force.",
-    "lede": "ReachLocal sold the internet to Main Street. Plumbers, dentists and restaurants knew they needed customers to find them on Google, but few knew how to buy search ads. ReachLocal's salespeople signed them up, then its software spread their budgets across search engines and tracked the calls that came back. In 2010 the company was growing fast across the United States and abroad.",
+    "tagline": "Search Ads for the Plumber",
+    "dek": "ReachLocal got plumbers, dentists and restaurants found on Google without making them learn how search ads work.",
+    "lede": "ReachLocal sent a large sales force door to door to sell Google ads to plumbers, dentists and restaurants. These owners knew their customers searched online. Few of them knew how to buy a search ad. ReachLocal's salespeople signed them up. Its software then spread each budget across search engines and tracked the calls that came back. In 2010 the company was growing fast across the United States and abroad.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Zorik Gordon and Michael Kline founded ReachLocal in 2004. They bet that small businesses would pay a premium to have someone else handle online advertising for them. The company built a large sales force and its own technology for managing campaigns. It earned its margin on the difference between what clients paid and the cost of the media it bought. Its pitch was simple: a business owner paid one monthly budget, and ReachLocal handled the rest."
+        "heading": "One Budget, No Homework",
+        "body": "Zorik Gordon and Michael Kline founded ReachLocal in 2004. They bet that small businesses would pay a premium to hand their online advertising to someone else. The pitch was simple: the owner paid one monthly budget, and ReachLocal handled the rest. The company built a large sales force and its own campaign software. It earned its margin on the gap between what clients paid and what the media cost."
       },
       {
-        "heading": "After the Offering",
-        "body": "ReachLocal priced its IPO at $13 a share in May 2010. Over time, small businesses found cheaper ways to advertise, and the costly sales model became a burden. Revenue fell and the stock sank far below its offering price. In 2016 Gannett, the newspaper publisher, bought ReachLocal for about $156 million. Its decline mirrored a broader shift, as Google and Facebook made self-serve advertising easy for even the smallest shops."
+        "heading": "When Ads Went Self-Serve",
+        "body": "ReachLocal priced its IPO at $13 a share in May 2010. Over time, Google and Facebook made self-serve advertising easy for even the smallest shops. Small businesses found cheaper ways to advertise, and the costly sales force became a burden. Revenue fell, and the stock sank far below its offering price. In 2016 the newspaper publisher Gannett bought ReachLocal for about $156 million."
       }
     ],
     "cover": {
@@ -324,17 +324,17 @@
     "founded": 1999,
     "hq": "Austin, TX",
     "fate": "Acquired by Blackbaud, 2012 ($275M)",
-    "tagline": "Gathering the Many to Give",
-    "dek": "Online fundraising, email and donor management software for nonprofit organizations.",
-    "lede": "Convio helped charities raise money on the internet. Its hosted software ran donation pages, email campaigns, event registrations and donor databases for nonprofits of every size, from local food banks to national health charities. By 2010 online giving was growing every year, and charities were learning to treat their websites as a front door for supporters. Its customers ranged from small community groups to some of the largest charities in the country.",
+    "tagline": "Charity Walks, Run Online",
+    "dek": "Convio let charities collect donations, send email and stay close to supporters over the internet.",
+    "lede": "Convio's signature product let people sign up for a charity walk or run and raise money from their friends online. That was one piece of a larger hosted service. Convio ran donation pages, email campaigns, event registrations and donor databases for nonprofits, from local food banks to national health charities. By 2010 online giving grew every year. Charities were learning to treat their websites as a front door for supporters.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Convio started in Austin in 1999 with a bet that nonprofits would need the same online tools that retailers were adopting, but could not build them alone. It sold its software as a subscription service, years before that model was common. Charity walks and runs, where participants raise money from friends online, became one of its signature products. Its tools also helped charities keep in touch with donors between campaigns, through email newsletters and online advocacy."
+        "heading": "Retail Tools for Food Banks",
+        "body": "Convio started in Austin in 1999. Its bet was that nonprofits would need the same online tools retailers were adopting, and could not build them alone. It sold its software as a subscription service, years before that model was common. Beyond the charity walks, its tools let groups keep in touch with donors between campaigns, through email newsletters and online advocacy."
       },
       {
-        "heading": "After the Offering",
-        "body": "Convio priced its IPO at $9 a share in April 2010. It grew modestly as a public company in a market led by Blackbaud, the larger nonprofit software maker. In 2012 Blackbaud agreed to buy Convio for about $275 million and combined the two product lines. Blackbaud kept parts of the Convio platform, which became the basis of its Luminate products for large nonprofits. The deal joined the two best-known names in nonprofit software."
+        "heading": "Folded Into Luminate",
+        "body": "Convio priced its IPO at $9 a share in April 2010. It grew modestly as a public company in a market led by Blackbaud, the larger nonprofit software maker. In 2012 Blackbaud agreed to buy Convio for about $275 million. The deal joined the two best-known names in nonprofit software. Blackbaud kept parts of the Convio platform, and they became the base of its Luminate products for large nonprofits."
       }
     ],
     "cover": {
@@ -360,17 +360,17 @@
     "founded": 1996,
     "hq": "Palo Alto, CA",
     "fate": "Taken private by Hellman & Friedman, 2018 ($3B)",
-    "tagline": "A Steady Engine for Retirement",
-    "dek": "Online investment advice and managed accounts for workers saving in 401(k) plans.",
-    "lede": "Financial Engines brought Nobel-prize finance to the office 401(k). It offered workers advice on how to invest their retirement savings and, for a fee, would manage those accounts for them. It sold through employers and plan providers rather than directly to the public. When it filed in early 2010, the crisis had just wiped out much of many workers' savings, and the case for professional help felt urgent.",
+    "tagline": "A Nobel Laureate's 401(k) Advice",
+    "dek": "Financial Engines told workers how to invest their 401(k) savings, and for a fee managed the money itself.",
+    "lede": "Financial Engines had a Nobel Prize winner among its founders, and it sold his kind of finance to people saving in a 401(k). Workers got advice on how to invest their retirement money. For a fee, the company would manage those accounts for them. It sold through employers and plan providers instead of directly to the public. When it filed in early 2010, the crisis had just wiped out much of many workers' savings.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "William Sharpe, who won the Nobel Prize in economics in 1990, co-founded the company in 1996 with securities law professor Joseph Grundfest and venture capitalist Craig Johnson. Their bet was that rigorous portfolio models could be delivered cheaply over the internet to millions of ordinary savers. The Pension Protection Act of 2006, which encouraged automatic advice in retirement plans, opened the door wider."
+        "heading": "Portfolio Theory for Everyone",
+        "body": "William Sharpe won the Nobel Prize in economics in 1990. In 1996 he co-founded the company with securities law professor Joseph Grundfest and venture capitalist Craig Johnson. Their bet was that rigorous portfolio models could reach millions of ordinary savers cheaply over the internet. Then Congress opened the door wider. The Pension Protection Act of 2006 encouraged automatic advice in retirement plans."
       },
       {
-        "heading": "The Road to the Bell",
-        "body": "Financial Engines priced its IPO at $12 a share in March 2010, one of the first technology offerings after the crisis, and rose sharply on its first day. Assets under its management grew for years. In 2018 Hellman & Friedman bought the company for about $3 billion and merged it with Edelman Financial. The combined firm brought together online advice for workplace savers and in-person planning for wealthier clients."
+        "heading": "First Out After the Crash",
+        "body": "Financial Engines priced its IPO at $12 a share in March 2010. It was one of the first technology offerings after the crisis, and the stock rose sharply on its first day. Assets under its management grew for years. In 2018 Hellman & Friedman bought the company for about $3 billion and merged it with Edelman Financial. The combined firm paired online advice for workplace savers with in-person planning for wealthier clients."
       }
     ],
     "cover": {
@@ -395,17 +395,17 @@
     "founded": 1999,
     "hq": "Foster City, CA",
     "fate": "Still public (NASDAQ: QNST)",
-    "tagline": "Where the Customer Meets the Road",
-    "dek": "Performance marketing that found customers for colleges, insurers and lenders and was paid by the lead.",
-    "lede": "QuinStreet sold customers, not ad space. It ran websites and campaigns that drew in people shopping for a degree, an insurance policy or a loan, then passed their interest to schools and companies that paid per qualified lead or click. In early 2010 its biggest market was for-profit education, which was booming as unemployed adults went back to school. Few consumers knew its name, though many had filled out one of its forms.",
+    "tagline": "Paid by the Lead",
+    "dek": "QuinStreet found people shopping for a degree, a policy or a loan, and sold their interest to companies.",
+    "lede": "Few consumers knew QuinStreet's name, but many had filled out one of its forms. It ran websites and campaigns that drew in people shopping for a degree, an insurance policy or a loan. Then it passed their interest to schools and companies, which paid per qualified lead or click. In early 2010 its biggest market was for-profit education. That industry was booming as unemployed adults went back to school.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Doug Valenti and Bronwyn Syiek founded QuinStreet in 1999. Their bet was that advertisers would rather pay for results than for impressions, and that a company could earn a margin by matching high-intent shoppers to buyers. QuinStreet built and bought content sites in its chosen fields and invested in the data needed to price each lead. Advertisers liked that they paid only for results, and QuinStreet carried the risk of turning ad spending into qualified leads."
+        "heading": "Results Over Impressions",
+        "body": "Doug Valenti and Bronwyn Syiek founded QuinStreet in 1999. Their bet was that advertisers would rather pay for results than for impressions. A company could earn a margin by matching high-intent shoppers to buyers. QuinStreet built and bought content sites in its chosen fields. It invested in the data needed to price each lead. Advertisers paid only for results, and QuinStreet carried the risk of turning ad spending into qualified leads."
       },
       {
-        "heading": "After the Offering",
-        "body": "QuinStreet priced its IPO at $15 a share in February 2010. New federal rules on for-profit colleges soon cut into its largest business, and the stock fell. The company shifted toward insurance and financial services, where demand grew. It remains publicly traded on the Nasdaq. Its model, paid for results rather than for attention, stayed much the same through the changes in its markets."
+        "heading": "From Colleges to Insurance",
+        "body": "QuinStreet priced its IPO at $15 a share in February 2010. New federal rules on for-profit colleges soon cut into its largest business, and the stock fell. The company shifted toward insurance and financial services, where demand grew. Through all the changes, its model stayed much the same: advertisers still paid for results. QuinStreet remains publicly traded on the Nasdaq."
       }
     ],
     "cover": {
@@ -430,17 +430,17 @@
     "founded": 1983,
     "hq": "Provo, UT",
     "fate": "Taken private by Permira, 2012 ($1.6B)",
-    "tagline": "The Roots Beneath the Branches",
-    "dek": "A subscription website of digitized historical records where families traced their genealogy online.",
-    "lede": "Ancestry.com put the archive in the living room. It digitized billions of records, such as census rolls, ship manifests and military files, and sold subscriptions to people building their family trees. It filed to go public in late 2009, during a deep recession, with steadily rising subscribers and a popular television tie-in, Who Do You Think You Are? Many subscribers stayed for years, adding branches as new records came online.",
+    "tagline": "Census Rolls in the Living Room",
+    "dek": "Ancestry let families trace their roots from home, using billions of scanned historical records.",
+    "lede": "Ancestry.com scanned billions of census rolls, ship manifests and military files so people could hunt for their great-grandparents from the couch. Then it sold subscriptions to anyone building a family tree. It filed to go public in 2009, during a deep recession, and its subscriber count was still rising. Many subscribers stayed for years. They kept adding branches to their trees as new records came online.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "The company's roots go back to a genealogy publisher in Utah, a state with a deep tradition of family history research. Its bet was that the hobby of genealogy could become a mass market if the records were searchable from home. Ancestry spent years and large sums scanning and indexing records, which gave it a collection rivals could not easily copy."
+        "heading": "A Utah Hobby Goes National",
+        "body": "The company's roots go back to a genealogy publisher in Utah, a state with a deep tradition of family history research. Its bet was that genealogy could become a mass market if the records were searchable from home. Ancestry spent years and large sums scanning and indexing records. Every page it added made the collection harder to copy. Rivals could not easily match it."
       },
       {
-        "heading": "After the Offering",
-        "body": "Ancestry priced its IPO at $13.50 a share in November 2009. Subscribers kept growing, and the company began selling DNA tests that would later become a major business. In 2012 a group led by Permira took Ancestry private for about $1.6 billion. Blackstone bought the company in 2020. AncestryDNA, launched in 2012, sold millions of saliva kits and linked customers to relatives they had never met."
+        "heading": "Spit in a Tube",
+        "body": "Ancestry priced its IPO at $13.50 a share in November 2009. In 2010 NBC began airing Who Do You Think You Are?, a show Ancestry sponsored. Subscribers kept growing. In 2012 the company launched AncestryDNA, which sold millions of saliva kits and linked customers to relatives they had never met. That same year a group led by Permira took Ancestry private for about $1.6 billion. Blackstone bought the company in 2020."
       }
     ],
     "cover": {
@@ -464,17 +464,17 @@
     "founded": 1994,
     "hq": "Boca Raton, FL",
     "fate": "Acquired by Kroger, 2014 ($280M)",
-    "tagline": "An Orchard Delivered by Mail",
-    "dek": "An online store for vitamins, supplements and natural products, many sold under its own brands.",
-    "lede": "Vitacost sold vitamins and health products online at low prices. Alongside national brands, it made and sold its own lines of supplements, which gave it better margins. It shipped from its own warehouses to customers across the country. It went public in September 2009, a time when few retailers were growing and online shopping kept gaining ground. Customers liked its deep discounts and wide range of brands that local stores did not carry.",
+    "tagline": "Discount Vitamins by Mail",
+    "dek": "Vitacost sold vitamins and supplements online for less than the health food store down the street.",
+    "lede": "Vitacost made many of the supplements it sold, and that fattened its margins. It sold vitamins and health products online at low prices, alongside national brands. It shipped from its own warehouses to customers across the country. Shoppers liked the deep discounts and the brands their local stores did not carry. Vitacost went public in September 2009, when few retailers were growing and online shopping kept gaining ground.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Wayne Gorsek founded the business in 1994 as a catalog company. He bet that customers who bought supplements regularly would shop by price and convenience, and that a direct seller could beat the markup of health food stores. Vitacost moved online early and invested in its own manufacturing. Free shipping thresholds and frequent coupons kept customers reordering every few months."
+        "heading": "A Catalog That Went Online",
+        "body": "Wayne Gorsek founded the business in 1994 as a catalog company. He bet that people who bought supplements regularly would shop by price and convenience. A direct seller, he reasoned, could beat the markup of health food stores. Vitacost moved online early and invested in its own manufacturing. Free shipping thresholds and frequent coupons kept customers reordering every few months."
       },
       {
-        "heading": "After the Offering",
-        "body": "Vitacost priced its IPO at $12 a share in September 2009. Its years as a public company were difficult, with management turnover, accounting questions and losses. In 2014 the grocery chain Kroger bought Vitacost for about $280 million to strengthen its online health business. Kroger kept Vitacost running as an online store and used its warehouses and know-how to ship health products to its own shoppers."
+        "heading": "Kroger Buys the Warehouses",
+        "body": "Vitacost priced its IPO at $12 a share in September 2009. Its years as a public company were hard, with management turnover, accounting questions and losses. In 2014 the grocery chain Kroger bought Vitacost for about $280 million to build up its online health business. Kroger kept Vitacost running as an online store. It used Vitacost's warehouses and know-how to ship health products to its own shoppers."
       }
     ],
     "cover": {
@@ -498,17 +498,17 @@
     "founded": 1998,
     "hq": "San Francisco, CA",
     "fate": "Acquired by Priceline, 2014 ($2.6B)",
-    "tagline": "A Table Waiting for You",
-    "dek": "Online restaurant reservations for diners and table management software for restaurants.",
-    "lede": "OpenTable let diners book a restaurant table online in seconds. Behind that simple service was a computer system that sat at the host stand of thousands of restaurants, managing seating and reservations. Restaurants paid a monthly fee for the system and a small charge for each diner the website sent. It went public in May 2009, in the depths of the recession, when restaurants were hurting and few tech companies dared to list.",
+    "tagline": "Three Hours to Book Dinner",
+    "dek": "OpenTable let diners book a restaurant table online in seconds, at any hour.",
+    "lede": "Chuck Templeton's wife once spent about three and a half hours on the phone trying to book a dinner reservation. OpenTable was his answer. Diners could book a table online in seconds. Behind that simple service sat a computer system at the host stand of thousands of restaurants, managing seating and reservations. Restaurants paid a monthly fee for the system and a small charge for each diner the website sent.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Chuck Templeton founded the company in 1998 after struggling to book a dinner reservation by phone. The bet was that both sides needed help: diners wanted to book at any hour, and restaurants wanted to fill seats and know their guests. OpenTable spent years installing its system restaurant by restaurant, city by city, before the network effects took hold. Its early markets were San Francisco and a handful of other big cities."
+        "heading": "Restaurant by Restaurant",
+        "body": "Templeton founded the company in 1998. The bet was that both sides needed help. Diners wanted to book at any hour, and restaurants wanted to fill seats and know their guests. OpenTable started in San Francisco and a handful of other big cities. It spent years installing its system one restaurant at a time, city by city. Only then did the network effects take hold."
       },
       {
-        "heading": "The Road to the Bell",
-        "body": "OpenTable priced its IPO at $20 a share in May 2009 and rose sharply on its first day, a bright spot in a grim market. The company expanded to more cities and to mobile booking. In 2014 Priceline, now Booking Holdings, bought OpenTable for about $2.6 billion. The deal gave Priceline a foothold in dining, and OpenTable kept growing in cities around the world."
+        "heading": "A Bright Spot in 2009",
+        "body": "OpenTable priced its IPO at $20 a share in May 2009, in the depths of the recession. Restaurants were hurting, and few tech companies dared to list. The stock rose sharply on its first day. OpenTable expanded to more cities and to mobile booking. In 2014 Priceline, now Booking Holdings, bought OpenTable for about $2.6 billion, and OpenTable kept growing in cities around the world."
       }
     ],
     "cover": {
@@ -533,17 +533,17 @@
     "founded": 1999,
     "hq": "Austin, TX",
     "fate": "Taken private by Turn/River Capital, 2025 ($4.4B)",
-    "tagline": "Watching Which Way the Wind Blows",
-    "dek": "Network and systems monitoring software sold online to IT administrators at low prices.",
-    "lede": "SolarWinds made tools for the people who keep networks running. Its software watched routers, servers and applications and warned administrators when something went wrong. It sold differently from most enterprise software: no large sales force, just downloadable trials, low prices and a strong online community. It filed to go public in 2009, one of the few tech listings of that bleak year.",
+    "tagline": "Cheap Tools From Tulsa",
+    "dek": "SolarWinds sold IT administrators cheap, downloadable tools that warned them when their networks broke.",
+    "lede": "SolarWinds sold enterprise software with no large sales force. It offered downloadable trials, low prices and a strong online community instead. Its tools were for the people who keep networks running. The software watched routers, servers and applications and warned administrators when something went wrong. SolarWinds filed to go public in 2009, one of the few tech listings of that bleak year.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Donald Yonce and his son David started the company in Tulsa, Oklahoma, in 1999. Their bet was that IT staff would buy practical, affordable tools themselves, without long sales cycles. They built a loyal following through free tools and online forums, and the company later moved its headquarters to Austin. Its prices were low enough that an administrator could often buy without asking a committee."
+        "heading": "Father and Son in Tulsa",
+        "body": "Donald Yonce and his son David started the company in Tulsa, Oklahoma, in 1999. Their bet was that IT staff would buy practical, affordable tools themselves, without long sales cycles. Prices were low enough that an administrator could often buy without asking a committee. The Yonces built a loyal following through free tools and online forums. The company later moved its headquarters to Austin."
       },
       {
-        "heading": "After the Offering",
-        "body": "SolarWinds priced its IPO at $12.50 a share in May 2009. Silver Lake and Thoma Bravo took it private in 2016 and listed it again in 2018. In 2020 hackers compromised its Orion software in one of the most serious cyberattacks in American history. In 2025 Turn/River Capital took the company private for about $4.4 billion. Through all of it, its products stayed a fixture in IT departments."
+        "heading": "Orion and the Hack",
+        "body": "SolarWinds priced its IPO at $12.50 a share in May 2009. Silver Lake and Thoma Bravo took it private in 2016, and it listed again in 2018. In 2020 hackers compromised its Orion software in one of the most serious cyberattacks in American history. Its products stayed a fixture in IT departments anyway. In 2025 Turn/River Capital took the company private for about $4.4 billion."
       }
     ],
     "cover": {
@@ -569,17 +569,17 @@
     "founded": 1998,
     "hq": "San Antonio, TX",
     "fate": "Taken private by Apollo, 2016 ($4.3B); relisted 2020 (NASDAQ: RXT)",
-    "tagline": "Servers Under the Moonlight",
-    "dek": "Managed web hosting and, later, cloud computing, sold on the promise of 'Fanatical Support.'",
-    "lede": "Rackspace ran other companies' servers and answered the phone when they broke. Customers rented dedicated machines in Rackspace data centers and paid extra for a team that managed them day and night. The company called this 'Fanatical Support' and built its culture around it. When it went public in August 2008, the financial system was weeks from collapse, and Amazon's new cloud was beginning to change what hosting meant.",
+    "tagline": "Fanatical Support for Rented Servers",
+    "dek": "Rackspace ran companies' servers for them and answered the phone, day or night, when something broke.",
+    "lede": "Rackspace built its whole company around a promise it called Fanatical Support. Customers rented dedicated machines in Rackspace data centers. They paid extra for a team that managed those machines day and night and answered the phone when they broke. When Rackspace went public in August 2008, the financial system was weeks from collapse. Amazon's new cloud was also starting to change what hosting meant.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Three Trinity University students, Richard Yoo, Dirk Elmendorf and Pat Condon, started the company in San Antonio in 1998, and investor Graham Weston soon joined to lead it. The bet was that most businesses did not want to run their own servers, and that service, not hardware, would set a hosting company apart. Rackspace grew quickly by serving small and midsize businesses that had no IT staff."
+        "heading": "Three Students in San Antonio",
+        "body": "Three Trinity University students, Richard Yoo, Dirk Elmendorf and Pat Condon, started the company in San Antonio in 1998. Investor Graham Weston soon joined to lead it. Their bet was that most businesses did not want to run their own servers. Service would set a hosting company apart from its rivals. Rackspace grew quickly by serving small and midsize businesses that had no IT staff."
       },
       {
-        "heading": "After the Offering",
-        "body": "Rackspace priced its IPO at $12.50 a share in August 2008 on the New York Stock Exchange. It launched a cloud business and co-founded the OpenStack project with NASA in 2010. Competition from Amazon, Microsoft and Google squeezed it, and Apollo took it private in 2016 for about $4.3 billion. It returned to the public market in 2020. Today it mostly helps customers run workloads on the big public clouds."
+        "heading": "OpenStack, Apollo and Back",
+        "body": "Rackspace priced its IPO at $12.50 a share in August 2008 on the New York Stock Exchange. It launched a cloud business, and in 2010 it co-founded the OpenStack project with NASA. Competition from Amazon, Microsoft and Google squeezed it. Apollo took Rackspace private in 2016 for about $4.3 billion, and it returned to the public market in 2020. Today it mostly helps customers run workloads on the big public clouds."
       }
     ],
     "cover": {
@@ -603,17 +603,17 @@
     "founded": 1998,
     "hq": "San Mateo, CA",
     "fate": "Acquired by Oracle, 2016 ($9.3B)",
-    "tagline": "Running the Business in the Clouds",
-    "dek": "Accounting and business management software delivered over the internet to growing companies.",
-    "lede": "NetSuite put a company's books in the browser. Its software handled accounting, orders, inventory and customer records in a single system, hosted on its own servers and sold by subscription. In 2007, enterprise software still mostly meant installing large packages on company computers. NetSuite was one of the first to show that the core financial system of a business could live in the cloud.",
+    "tagline": "Larry Ellison's Bet on the Cloud",
+    "dek": "NetSuite let growing companies run their books, orders and inventory in a web browser.",
+    "lede": "NetSuite went public under the one-letter ticker N, with Larry Ellison's money behind it. Its software handled a company's accounting, orders, inventory and customer records in one system, hosted on NetSuite's servers and sold by subscription. In 2007, enterprise software still mostly meant installing large packages on company computers. NetSuite was one of the first to show that a business's core financial system could live in the cloud.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Evan Goldberg, a former Oracle executive, founded the company in 1998 with backing from Larry Ellison. The bet was that small and midsize businesses would trade the cost and hassle of installed software for one integrated online service. NetSuite spent years building out its product while the market for cloud software slowly matured. Ellison's backing gave the young company money and credibility while it waited for the market."
+        "heading": "An Oracle Veteran Leaves Home",
+        "body": "Evan Goldberg, a former Oracle executive, founded the company in 1998 with backing from Larry Ellison. The bet was that small and midsize businesses would trade the cost and hassle of installed software for one integrated online service. NetSuite spent years building its product while the market for cloud software slowly matured. Ellison's backing gave the young company money and credibility while it waited."
       },
       {
-        "heading": "The Road to the Bell",
-        "body": "NetSuite priced its IPO at $26 a share in December 2007 on the New York Stock Exchange, under the ticker N. The stock fell hard in the 2008 crash. Growth returned as cloud software won acceptance. In 2016 Oracle bought NetSuite for about $9.3 billion. By then NetSuite served thousands of midsize businesses, and the deal made Oracle a major player in cloud business software."
+        "heading": "Back Home to Oracle",
+        "body": "NetSuite priced its IPO at $26 a share in December 2007 on the New York Stock Exchange. The stock fell hard in the 2008 crash. Then cloud software won acceptance, and growth returned. By 2016 NetSuite served thousands of midsize businesses. That year Oracle bought NetSuite for about $9.3 billion, and the deal made Oracle a major player in cloud software for running a business."
       }
     ],
     "cover": {
@@ -637,17 +637,17 @@
     "founded": 2000,
     "hq": "Herndon, VA",
     "fate": "Still public as Stride (NYSE: LRN)",
-    "tagline": "The Schoolroom at the Kitchen Table",
-    "dek": "Online curriculum and full-time virtual public schools for kindergarten through high school students.",
-    "lede": "K12 brought public school into the home. It created an online curriculum and ran virtual charter schools for states and districts, so students could take a full course load from a computer at home with certified teachers on the other end. When it went public in December 2007, online learning was still unfamiliar to most parents, and the idea of a public company running schools drew sharp debate.",
+    "tagline": "Public School at the Kitchen Table",
+    "dek": "K12 let kids take a full public school course load from home, with certified teachers online.",
+    "lede": "K12 ran public schools that students attended from their kitchen tables. It built an online curriculum and ran virtual charter schools for states and districts. Students took a full course load from a computer at home, with certified teachers on the other end. When K12 went public in December 2007, online learning was still unfamiliar to most parents. The idea of a public company running schools drew sharp debate.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Ron Packard, a former banker and McKinsey consultant, founded K12 in 2000 with backing from Knowledge Universe, and former Education Secretary William Bennett was its first chairman. The bet was that families wanted more choice in schooling, and that a strong online curriculum could serve students anywhere. K12 earned most of its revenue from public funds that followed students to its schools."
+        "heading": "A Banker and Bill Bennett",
+        "body": "Ron Packard, a former banker and McKinsey consultant, founded K12 in 2000 with backing from Knowledge Universe. Former Education Secretary William Bennett was its first chairman. The bet was that families wanted more choice in schooling, and that a strong online curriculum could serve students anywhere. K12 earned most of its revenue from public funds that followed students to its schools."
       },
       {
-        "heading": "After the Offering",
-        "body": "K12 priced its IPO at $18 a share in December 2007 on the New York Stock Exchange. Enrollment grew for years, along with criticism of student results at some of its schools. In 2020 the company renamed itself Stride, and the pandemic sent enrollment sharply higher. It remains publicly traded under its original ticker. Its business now spans online public schools, private online schools and career training programs."
+        "heading": "The Pandemic Enrollment Surge",
+        "body": "K12 priced its IPO at $18 a share in December 2007 on the New York Stock Exchange. Enrollment grew for years, and so did criticism of student results at some of its schools. In 2020 the company renamed itself Stride, and the pandemic sent enrollment sharply higher. Its business now spans online public schools, private online schools and career training. It still trades under its original ticker, LRN."
       }
     ],
     "cover": {
@@ -672,17 +672,17 @@
     "founded": 1998,
     "hq": "El Segundo, CA",
     "fate": "Taken private by Hellman & Friedman, 2010",
-    "tagline": "A Street of Many Shops",
-    "dek": "A collection of niche websites and online communities, from car buying to travel forums to legal directories.",
-    "lede": "Internet Brands was a company of many websites. It began as CarsDirect, a site for buying a car online, then bought and built hundreds of focused sites and communities on cars, home improvement, travel, health and law. Each was small, but together they drew a large audience and steady advertising. It went public in November 2007, just before the financial crisis.",
+    "tagline": "Hundreds of Hobby Sites, One Company",
+    "dek": "Internet Brands ran hundreds of small websites and forums, each built for one loyal crowd.",
+    "lede": "Internet Brands started as a website for buying a car and ended up owning WebMD. In between, it bought and built hundreds of focused sites and communities on cars, home improvement, travel, health and law. Each one was small. Together they drew a large audience and steady advertising. The company began as CarsDirect, and it went public in November 2007, just before the financial crisis.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "CarsDirect was started at Bill Gross's Idealab in 1998, with Scott Painter, as one of the early bets that people would buy big-ticket items online. When that market proved hard, the company changed course. It began buying established enthusiast sites and forums cheaply, then ran them on shared technology and sold advertising across the network. The model worked because each site already had a loyal, specific audience."
+        "heading": "When CarsDirect Changed Course",
+        "body": "CarsDirect was started at Bill Gross's Idealab in 1998, with Scott Painter. It was one of the early bets that people would buy big-ticket items online. When that market proved hard, the company changed course. It began buying established enthusiast sites and forums cheaply. Then it ran them on shared technology and sold advertising across the network. Each site already had a loyal, specific audience."
       },
       {
-        "heading": "After the Offering",
-        "body": "Internet Brands priced its IPO at $8 a share in November 2007 on the Nasdaq. In 2010 Hellman & Friedman bought the company for about $640 million. KKR later acquired it, and in 2017 Internet Brands bought WebMD, another company in this directory. The company kept growing by buying communities and specialist sites, and the WebMD deal made it a major force in online health."
+        "heading": "The Buyer of WebMD",
+        "body": "Internet Brands priced its IPO at $8 a share in November 2007 on the Nasdaq, below its planned range of $10 to $12. In 2010 Hellman & Friedman bought the company for about $640 million. KKR later acquired it. The company kept growing by buying communities and specialist sites. In 2017 Internet Brands bought WebMD, another company in this directory, and became a major force in online health."
       }
     ],
     "cover": {
@@ -706,17 +706,17 @@
     "founded": 1991,
     "hq": "Charles Town, WV",
     "fate": "Still public (NASDAQ: APEI)",
-    "tagline": "Lessons in Uniform",
-    "dek": "An online university system that began by teaching active-duty military personnel.",
-    "lede": "American Public Education ran an online university built for people in uniform. Its American Military University and American Public University offered degrees that soldiers, sailors and veterans could complete from anywhere, often paid for by military tuition assistance. When it filed in 2007, for-profit online colleges were growing fast, and APEI stood out for its low tuition and its military focus.",
+    "tagline": "A University for Soldiers",
+    "dek": "American Public Education let soldiers and veterans earn a degree online from wherever they were posted.",
+    "lede": "American Public Education kept its prices close to the military's tuition assistance cap, which made it an easy choice for people in uniform. Its American Military University and American Public University offered degrees that soldiers, sailors and veterans could finish from anywhere. When it filed in 2007, for-profit online colleges were growing fast. APEI stood out for its low tuition and its military focus.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "James Etter, a retired Marine officer, founded American Military University in 1991. The bet was that service members, who move often and deploy far from campus, needed a university that went with them. The school kept its prices close to the military's tuition assistance cap, which made it an easy choice for many students. Its admissions were open and courses started every month, which suited students on shifting military schedules."
+        "heading": "A Marine's Mobile Campus",
+        "body": "James Etter, a retired Marine officer, founded American Military University in 1991. His bet was simple. Service members move often and deploy far from campus, so they needed a university that went with them. The school kept its admissions open and taught online. Military tuition assistance often paid for the degrees. Courses started every month, which suited students on shifting military schedules."
       },
       {
-        "heading": "After the Offering",
-        "body": "APEI priced its IPO at $20 a share in November 2007 on the Nasdaq, and the stock rose strongly in its early years. Enrollment later slowed as for-profit education faced tighter federal rules. The company expanded into nursing education through acquisitions and remains publicly traded. The American Public University System remains its core, and it serves many civilian students alongside service members."
+        "heading": "Nursing and Civilians",
+        "body": "APEI priced its IPO at $20 a share in November 2007 on the Nasdaq, and the stock climbed in its early years. Enrollment later slowed as for-profit education faced tighter federal rules. The company expanded into nursing education through acquisitions. The American Public University System remains its core, and it now serves many civilian students alongside service members. APEI remains publicly traded on the Nasdaq."
       }
     ],
     "cover": {
@@ -738,17 +738,17 @@
     "founded": 2000,
     "hq": "Bedford, MA",
     "fate": "Acquired by Genesys, 2013 ($100M)",
-    "tagline": "The Bell That Calls You Back",
-    "dek": "Hosted software for automated outbound calls, texts and emails, used for collections and customer reminders.",
-    "lede": "SoundBite ran the automated messages companies send to their customers. Banks, utilities, retailers and collection agencies used its hosted system to place reminder calls, payment notices and alerts by voice, text and email. It sold the service over the internet, so clients needed no equipment of their own. It filed to go public in 2007, when hosted software was still a new way to sell.",
+    "tagline": "The Payment Reminder Machine",
+    "dek": "SoundBite let banks and utilities send reminder calls, texts and emails without owning any call center equipment.",
+    "lede": "When a bank, utility or collection agency called to remind someone about a payment, the call often came from SoundBite. Its hosted system placed reminder calls, payment notices and alerts by voice, text and email. Clients needed no equipment of their own, because SoundBite sold the service over the internet. It filed to go public in 2007, when hosted software was still a new way to sell.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "SoundBite started in 2000 with a bet that outbound customer contact could move from call center hardware to a hosted service. Its first big market was collections, where reaching more people at the right time had a direct value. It later added more channels and pitched its service for friendlier messages, such as appointment reminders and fraud alerts. Clients paid by usage, so revenue rose with each campaign they ran."
+        "heading": "Collections First",
+        "body": "SoundBite started in 2000 with a bet that outbound customer contact could move from call center hardware to a hosted service. Its first big market was collections. There, reaching more people at the right time had a direct value. It later added more channels and pitched friendlier uses, such as appointment reminders and fraud alerts. Clients paid by usage, so revenue rose with each campaign they ran."
       },
       {
-        "heading": "After the Offering",
-        "body": "SoundBite priced its IPO at $8 a share in November 2007, weeks before the financial crisis began to bite. Its stock stayed low for most of its time as a public company. In 2013 Genesys, the contact center software maker, bought SoundBite for about $100 million. Genesys folded SoundBite's outbound tools into its larger contact center platform, giving clients one place to handle calls in both directions."
+        "heading": "Into Genesys",
+        "body": "SoundBite priced its IPO at $8 a share in November 2007, weeks before the financial crisis began to bite. Its stock stayed low for most of its life as a public company. In 2013 Genesys, the contact center software maker, bought SoundBite for about $100 million. Genesys folded SoundBite's outbound tools into its larger platform. Clients could then handle calls in both directions in one place."
       }
     ],
     "cover": {
@@ -770,17 +770,17 @@
     "founded": 1996,
     "hq": "Mexico City, Mexico",
     "fate": "Delisted from the NYSE, 2014",
-    "tagline": "A New Line Across Mexico",
-    "dek": "A Mexican telephone, internet and cable company that competed with Telmex in local service.",
-    "lede": "Maxcom was a challenger in Mexican telecom. It offered local phone, internet and later pay television to homes and small businesses in Mexico City, Puebla and other cities, in a market long dominated by Telmex. It listed its shares on the New York Stock Exchange in 2007, when emerging markets were in favor and investors were looking for growth in Latin America.",
+    "tagline": "Taking On Telmex",
+    "dek": "Maxcom gave Mexican homes and small businesses an alternative to Telmex for phone, internet and TV.",
+    "lede": "Maxcom picked a fight with Telmex, the company that had long dominated Mexican telecom. It sold local phone service, internet and later pay television to homes and small businesses in Mexico City, Puebla and other cities. It built its own lines and fiber to do it. Maxcom listed its shares on the New York Stock Exchange in 2007. Emerging markets were in favor, and investors were hunting for growth in Latin America.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Maxcom was founded in 1996, after Mexico opened local telephone service to competition. The bet was that a nimble new carrier could win customers from a slow incumbent by building modern networks in selected cities and bundling services. It invested heavily in its own lines and fiber. Like many challengers, it faced the hard economics of building physical networks street by street."
+        "heading": "When Mexico Opened the Lines",
+        "body": "Maxcom was founded in 1996, after Mexico opened local telephone service to competition. The bet was that a nimble new carrier could win customers from a slow incumbent. It would build modern networks in selected cities and bundle its services. Maxcom invested heavily in its own lines and fiber. Like many challengers, it faced the hard economics of building physical networks street by street."
       },
       {
-        "heading": "After the Offering",
-        "body": "Maxcom priced its New York listing at $17.50 per American depositary share in October 2007. The financial crisis and fierce competition hurt the business, and the company went through debt troubles and restructuring. It delisted from the New York Stock Exchange in 2014. Its shares continued to trade in Mexico and over the counter in the United States after that. The company never matched the growth its 2007 investors had hoped for."
+        "heading": "Debt, Then Delisting",
+        "body": "Maxcom priced its New York listing at $17.50 per American depositary share in October 2007. The financial crisis and fierce competition hurt the business. The company went through debt troubles and a restructuring. In 2014 it delisted from the New York Stock Exchange, and its board cited low trading volume in the United States. Its shares kept trading in Mexico, and over the counter in the United States."
       }
     ],
     "cover": {
@@ -804,17 +804,17 @@
     "founded": 1995,
     "hq": "Waltham, MA",
     "fate": "Acquired by Endurance International, 2016 ($1.1B)",
-    "tagline": "Letters to the Regulars",
-    "dek": "Email marketing software for small businesses and nonprofits, with templates, mailing lists and coaching.",
-    "lede": "Constant Contact taught small businesses to send email newsletters. Its online service gave a florist, a dentist or a church easy templates, a place to keep a mailing list and reports on who opened each message. The company backed this with seminars and phone coaching across the country. By 2007 it had tens of thousands of customers paying monthly. Its customers were mostly very small organizations.",
+    "tagline": "Newsletters for the Florist",
+    "dek": "Constant Contact let a florist, a dentist or a church send a good-looking email newsletter without hiring help.",
+    "lede": "Constant Contact taught small businesses to send email newsletters, and it did much of the teaching in person. Its online service gave a florist, a dentist or a church easy templates, a home for a mailing list and reports on who opened each message. The company backed this with seminars and phone coaching across the country. By 2007 it had tens of thousands of customers paying monthly. Most were tiny organizations.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Randy Parker founded the company in 1995 as Roving Software. The bet was that small organizations wanted to keep in touch with their customers but lacked the skills of big marketers. Gail Goodman, who became chief executive in 1999, focused the company on email marketing and built its sales engine around free trials and radio ads. Customer service and education became central to how it sold."
+        "heading": "Roving Software Finds Email",
+        "body": "Randy Parker founded the company in 1995 as Roving Software. The bet was that small organizations wanted to keep in touch with their customers but lacked the skills of big marketers. Gail Goodman became chief executive in 1999 and focused the company on email marketing. She built its sales engine around free trials and radio ads. Customer service and education became central to how it sold."
       },
       {
-        "heading": "After the Offering",
-        "body": "Constant Contact priced its IPO at $16 a share in October 2007 on the Nasdaq. It added social media and event tools and kept growing through the downturn. In 2016 Endurance International Group bought the company for about $1.1 billion. Endurance kept Constant Contact as a separate brand, and it later became a separate company again under private equity ownership."
+        "heading": "Endurance, Then Independence",
+        "body": "Constant Contact priced its IPO at $16 a share in October 2007 on the Nasdaq. It added tools for social media and events, and it kept growing through the downturn. In 2016 Endurance International Group bought the company for about $1.1 billion. Endurance kept Constant Contact as a separate brand. Later, under private equity owners, Constant Contact became a separate company again."
       }
     ],
     "cover": {
@@ -839,17 +839,17 @@
     "founded": 1999,
     "hq": "Buenos Aires, Argentina",
     "fate": "Still public (NASDAQ: MELI)",
-    "tagline": "The Road to the Great Market",
-    "dek": "Latin America's largest online marketplace, later its largest e-commerce and payments company.",
-    "lede": "MercadoLibre built the marketplace of Latin America. Its site let people in Argentina, Brazil, Mexico and other countries buy and sell new and used goods online, and its payment service, MercadoPago, helped them trust strangers with their money. When it went public in August 2007, it was one of very few Latin American internet companies to list in New York.",
+    "tagline": "The Deal That Kept eBay Out",
+    "dek": "MercadoLibre let people across Latin America buy and sell online and trust strangers with their money.",
+    "lede": "eBay bought a stake in MercadoLibre and agreed to stay out of Latin America, leaving the region to a startup from Buenos Aires. MercadoLibre let people in Argentina, Brazil, Mexico and other countries buy and sell new and used goods online. Its payment service, MercadoPago, let them trust strangers with their money. When it went public in August 2007, it was one of the few Latin American internet companies to list in New York.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Marcos Galperin started MercadoLibre in 1999 while studying at Stanford Business School, and launched it in Buenos Aires with Hernán Kazah. The bet was that e-commerce in Latin America needed a local champion that understood its markets, currencies and logistics. In 2001 eBay bought a stake in the company and agreed to stay out of the region. The company later moved its base to Montevideo, Uruguay."
+        "heading": "A Stanford Business Plan",
+        "body": "Marcos Galperin started MercadoLibre in 1999 while studying at Stanford Business School. He launched it in Buenos Aires with Hernán Kazah. The bet was that e-commerce in Latin America needed a local champion that understood its markets, currencies and logistics. eBay's stake came two years later, in 2001, along with its promise to stay out of the region. The company later moved its base to Montevideo, Uruguay."
       },
       {
-        "heading": "After the Offering",
-        "body": "MercadoLibre priced its IPO at $18 a share in August 2007 on the Nasdaq. It built its own shipping network and turned MercadoPago into a major fintech business. It became one of the most valuable companies in Latin America and remains publicly traded. Its fintech arm now offers digital wallets, loans and payments across the region, far beyond its marketplace."
+        "heading": "Bigger Than the Marketplace",
+        "body": "MercadoLibre priced its IPO at $18 a share in August 2007 on the Nasdaq. It built its own shipping network and turned MercadoPago into a major fintech business. That arm now offers digital wallets, loans and payments to people across the region, far beyond the marketplace. MercadoLibre became one of the most valuable companies in Latin America, and it remains publicly traded on the Nasdaq."
       }
     ],
     "cover": {
@@ -871,17 +871,17 @@
     "founded": 1995,
     "hq": "Irvine, CA",
     "fate": "Acquired by US Investigations Services, 2008",
-    "tagline": "The Watchful Eye at the Door",
-    "dek": "Online background checks and employment screening for large employers.",
-    "lede": "HireRight checked people's pasts before they started a new job. Employers ordered criminal, education, employment and drug screens through its website, and HireRight gathered the results from courts and records across the country and abroad. It worked mostly for large companies that hired in volume. When it filed in 2007, background screening had become standard practice in American hiring. Its customers included many Fortune 500 companies.",
+    "tagline": "A Background Check in One Click",
+    "dek": "HireRight let big employers check a job candidate's record with a click instead of a stack of paperwork.",
+    "lede": "Many Fortune 500 companies ran their new hires past HireRight before the first day of work. Employers ordered criminal, education, employment and drug screens through its website. HireRight then gathered the results from courts and records across the country and abroad. Most of its clients were large companies that hired in volume. When it filed in 2007, background screening had become standard practice in American hiring.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "HireRight was founded in 1995 with a bet that the slow, paper-based business of employment screening could move onto the internet. It built software that plugged into employers' hiring systems, so a check could start with a click and the results could flow straight back. That integration helped it win large corporate accounts. International checks became a strength as global companies screened candidates in many countries."
+        "heading": "Plugged Into the Hiring System",
+        "body": "HireRight was founded in 1995. Its bet was that the slow, paper-based business of employment screening could move onto the internet. It built software that plugged into employers' hiring systems. A check could start with a click, and the results could flow straight back. That integration won it large corporate accounts. International checks became a strength as global companies screened candidates in many countries."
       },
       {
-        "heading": "After the Offering",
-        "body": "HireRight priced its IPO at $15 a share in August 2007 on the Nasdaq. Its time as a public company was short. In 2008 US Investigations Services, a large provider of government background checks, bought HireRight for $19.75 a share in cash. The HireRight name lived on. It later returned to the public market as a separate company and was taken private again."
+        "heading": "A Year on the Nasdaq",
+        "body": "HireRight priced its IPO at $15 a share in August 2007 on the Nasdaq. Its time as a public company was short. In 2008 US Investigations Services, a large provider of government background checks, bought HireRight for $19.75 a share in cash. The HireRight name lived on. It later returned to the public market as a separate company, then was taken private again."
       }
     ],
     "cover": {
@@ -905,17 +905,17 @@
     "founded": 1887,
     "hq": "Woburn, MA",
     "fate": "Taken private by HGGC, 2019 ($825M)",
-    "tagline": "The Letters Behind Every Word",
-    "dek": "A type foundry and font licensing business whose typefaces ran inside printers, phones and software.",
-    "lede": "Monotype owned many of the letters the world reads. Its library included famous typefaces such as Helvetica and Times New Roman, and it licensed fonts and font technology to the makers of printers, phones, cars and software. In 2007 most people never saw its name, but its type appeared on billions of screens and pages. Its fonts were built into many of the laser printers in offices around the world.",
+    "tagline": "The Company Behind Helvetica",
+    "dek": "Monotype licensed the fonts that printers, phones, cars and software used to put words on screens and pages.",
+    "lede": "Monotype began with a machine that cast metal type one letter at a time. By 2007 it owned many of the letters the world reads, including Helvetica and Times New Roman. It licensed fonts and font technology to the makers of printers, phones, cars and software. Most people never saw its name. Its type appeared on billions of screens and pages, and its fonts were built into many office laser printers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Monotype traces its roots to the 1880s, when Tolbert Lanston invented a machine that cast metal type one letter at a time. The company survived the move from hot metal to photo type to digital fonts by holding on to its library and its craft. Its modern bet was that fonts were intellectual property that device makers would license, one unit at a time."
+        "heading": "From Hot Metal to Pixels",
+        "body": "Tolbert Lanston invented the Monotype machine in the 1880s. The company survived the move from hot metal to photo type to digital fonts by holding on to its library and its craft. Its modern bet was that fonts were intellectual property. Device makers would license them, one unit at a time. In 2006 it bought Linotype, the German type house whose library included Helvetica."
       },
       {
-        "heading": "After the Offering",
-        "body": "Monotype Imaging priced its IPO at $12 a share in July 2007 on the Nasdaq. It bought Linotype, Fonts.com and other type libraries, and built a large business licensing fonts to brands and developers. In 2019 the private equity firm HGGC took Monotype private for about $825 million. Its fonts are still licensed to device makers, software companies and global brands."
+        "heading": "Fonts for Brands",
+        "body": "Monotype Imaging priced its IPO at $12 a share in July 2007 on the Nasdaq. It bought more type libraries, including Ascender in 2010. It built a large business licensing fonts to brands and developers, and sold them through its Fonts.com site. In 2019 the private equity firm HGGC took Monotype private for about $825 million. Its fonts are still licensed to device makers, software companies and global brands."
       }
     ],
     "cover": {
@@ -937,17 +937,17 @@
     "founded": 1999,
     "hq": "Chicago, IL",
     "fate": "Acquired by Expedia, 2015 ($1.6B)",
-    "tagline": "A Comet Across the Booking Sky",
-    "dek": "An online travel agency for flights, hotels and packages, first created by the major U.S. airlines.",
-    "lede": "Orbitz sold flights, hotels and vacation packages online. The site began as a project of the major American airlines, which wanted their own answer to Expedia and Travelocity. By 2007 Orbitz Worldwide also included ebookers in Europe and HotelClub in Asia Pacific, and it was one of the largest online travel companies in the world. Its name was familiar to a generation of travelers.",
+    "tagline": "The Airlines' Own Travel Agent",
+    "dek": "Orbitz let travelers compare fares and book flights, hotels and packages in one fast search.",
+    "lede": "Orbitz started as a project of five big American airlines that wanted their own answer to Expedia and Travelocity. The site sold flights, hotels and vacation packages online. By 2007 Orbitz Worldwide also included ebookers in Europe and HotelClub in Asia Pacific. It was one of the largest online travel companies in the world, and a generation of travelers knew its name.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Five big airlines formed the company in 1999 and launched the site in 2001. Their bet was that the airlines together could sell their own tickets online more cheaply than through outside agents. Orbitz won customers with a fast search engine and a clear display of fares. Travelport, owned by Blackstone, bought it in 2004 and later spun it out."
+        "heading": "Five Airlines, One Website",
+        "body": "The airlines formed the company in 1999 and launched the site in 2001. Their bet was that, together, they could sell their own tickets online more cheaply than through outside agents. Orbitz won customers with a fast search engine and a clear display of fares. Cendant bought Orbitz in 2004. In 2006 Blackstone bought Cendant's travel arm, Travelport, which later spun Orbitz Worldwide out to the public."
       },
       {
-        "heading": "After the Offering",
-        "body": "Orbitz Worldwide priced its IPO at $15 a share in July 2007 on the New York Stock Exchange. The recession and heavy debt soon pressed on the business, and the stock fell far below its offering price. In 2015 Expedia bought Orbitz for about $1.6 billion. Orbitz kept running as a separate brand within Expedia Group, alongside Travelocity and CheapTickets."
+        "heading": "Bought by Its Old Rival",
+        "body": "Orbitz Worldwide priced its IPO at $15 a share in July 2007 on the New York Stock Exchange. The recession and heavy debt soon pressed on the business, and the stock fell far below its offering price. In 2015 Expedia bought Orbitz for about $1.6 billion. The airlines' answer to Expedia now belonged to Expedia. Orbitz kept running as a separate brand there, alongside Travelocity and CheapTickets."
       }
     ],
     "cover": {
@@ -969,17 +969,17 @@
     "founded": 1990,
     "hq": "New York, NY",
     "fate": "Still public as DHI Group (NYSE: DHX)",
-    "tagline": "A Roll of the Dice for Talent",
-    "dek": "Online job boards for technology professionals and other specialist fields.",
-    "lede": "Dice was where technology workers looked for jobs. Its job board listed openings for programmers, engineers and IT staff, and employers paid to post jobs and search its database of résumés. By 2007 Dice Holdings also owned boards for finance and energy professionals. It filed as the tech job market was strong and hiring was brisk. Its audience was narrow, but highly sought after.",
+    "tagline": "The Job Board for Programmers",
+    "dek": "Dice let tech workers find their next job, and let employers search for the résumés they needed.",
+    "lede": "Dice started as an electronic bulletin board for computer contractors, years before the web. By 2007 it was where technology workers looked for jobs. Its board listed openings for programmers, engineers and IT staff. Employers paid to post jobs and search its database of résumés, and job seekers used the site free. Dice Holdings also owned boards for finance and energy professionals. It filed to go public as tech hiring was brisk.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Dice began in 1990 as an electronic bulletin board for computer contractors, years before the web. The bet was that specialists wanted a place built for their field, not a general job board. That focus let Dice charge employers more, because its audience was hard to reach any other way. Dice charged employers for job postings and résumé searches, while job seekers used the site free."
+        "heading": "A Narrow, Valuable Crowd",
+        "body": "Dice began in 1990, when its users dialed in to a bulletin board instead of browsing a website. The bet was that specialists wanted a job board built for their field. Programmers, engineers and IT staff came to Dice to look for work, and recruiters followed them there. That audience was hard to reach any other way. So Dice could charge employers more for job postings and résumé searches."
       },
       {
-        "heading": "After the Offering",
-        "body": "Dice Holdings priced its IPO at $13 a share in July 2007 on the New York Stock Exchange. Its business rose and fell with tech hiring, and LinkedIn became a strong rival for recruiters' budgets. The company renamed itself DHI Group and remains publicly traded. It later sold its finance and energy boards and returned its focus to technology careers."
+        "heading": "LinkedIn Arrives",
+        "body": "Dice Holdings priced its IPO at $13 a share in July 2007 on the New York Stock Exchange. Its business rose and fell with tech hiring. LinkedIn became a strong rival for recruiters' budgets. The company renamed itself DHI Group. It later sold its finance and energy boards and returned its focus to technology careers. DHI Group remains publicly traded on the New York Stock Exchange."
       }
     ],
     "cover": {
@@ -1004,17 +1004,17 @@
     "founded": 1999,
     "hq": "Reston, VA",
     "fate": "Still public (NASDAQ: SCOR)",
-    "tagline": "Surveying the Digital Crowd",
-    "dek": "Measurement of internet audiences and online behavior, used by publishers and advertisers.",
-    "lede": "Comscore measured who was doing what online. It recruited a large panel of internet users who agreed to have their browsing tracked, and sold the resulting data to websites, advertisers and investors. Its monthly rankings of the most visited sites became a standard reference. In 2007 online advertising was growing fast, and buyers wanted numbers they could trust. Its data also fed investor research on internet companies.",
+    "tagline": "TV Ratings for the Internet",
+    "dek": "Comscore told websites and advertisers how many people visited, and what those people did online.",
+    "lede": "Comscore recruited a large panel of internet users who agreed to let it track their browsing. It sold the resulting data to websites, advertisers and investors. Its monthly rankings of the most visited sites became a standard reference, and its data fed investor research on internet companies. In 2007 online advertising was growing fast. Buyers wanted numbers they could trust.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Gian Fulgoni and Magid Abraham, veterans of the market research firm Information Resources, founded Comscore in 1999. Their bet was that the internet needed a ratings system like television had, but based on far richer data about behavior. They built the panel first and then sold subscriptions to the reports. The panel let Comscore see not just traffic, but what people bought and searched for."
+        "heading": "Watching the Panel Shop",
+        "body": "Gian Fulgoni and Magid Abraham, veterans of the market research firm Information Resources, founded Comscore in 1999. Their bet was that the internet needed a ratings system like television had, built on much richer data about behavior. They built the panel first and then sold subscriptions to the reports. The panel showed Comscore more than traffic. It saw what people bought and searched for."
       },
       {
-        "heading": "After the Offering",
-        "body": "Comscore priced its IPO at $16.50 a share in June 2007 on the Nasdaq. In 2016 it merged with Rentrak to measure television too. Accounting problems led to its delisting in 2018 and a restatement, after which it returned to the Nasdaq. It remains publicly traded. Its business now centers on measuring audiences across television, streaming and digital media platforms."
+        "heading": "Delisted, Then Back",
+        "body": "Comscore priced its IPO at $16.50 a share in June 2007 on the Nasdaq. In 2016 it merged with Rentrak to measure television too. Accounting problems led to its delisting in 2018 and a restatement. It later returned to the Nasdaq, where it still trades. Its business now centers on measuring audiences across television, streaming and digital media, for advertisers and the media companies that sell to them."
       }
     ],
     "cover": {
@@ -1039,17 +1039,17 @@
     "founded": 2001,
     "hq": "Tempe, AZ",
     "fate": "Became Edgio, 2022; bankrupt 2024",
-    "tagline": "Every Stream in the Spotlight",
-    "dek": "A content delivery network that carried video, downloads and web pages for large media and tech companies.",
-    "lede": "Limelight Networks moved the internet's heaviest files. It ran a global network of servers that delivered video streams, software downloads and web pages quickly to users around the world. Its customers included major media and technology companies. In 2007 online video was exploding, and Limelight was the main challenger to Akamai, the leader in content delivery. Its customers ranged from video sites to software and game companies.",
+    "tagline": "Akamai's Hungry Challenger",
+    "dek": "Limelight delivered video streams, downloads and web pages fast to people anywhere in the world.",
+    "lede": "Akamai sued Limelight Networks for patent infringement a year before Limelight went public. The two were fighting over the same ground. Limelight ran a global network of servers that moved the internet's heaviest files: video streams, software downloads and web pages. Its customers ranged from video sites to software and game companies. In 2007 online video was exploding, and Limelight was the main challenger to Akamai, the leader in content delivery.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Limelight was founded in Arizona in 2001. Its bet was that a new network, built with large data centers and its own fiber links, could deliver rich media more cheaply than older designs. The company won big video customers early and grew quickly alongside them. It focused on video and large files, where speed and capacity mattered most. That focus brought fast growth, along with a few very large customers that made up much of its revenue."
+        "heading": "Built for Big Files",
+        "body": "Limelight was founded in Arizona in 2001. Its bet was that a new network, built with large data centers and its own fiber links, could deliver rich media more cheaply than older designs. It focused on video and large files, where speed and capacity mattered most. The company won big video customers early and grew quickly alongside them. A few large customers made up much of its revenue."
       },
       {
-        "heading": "After the Offering",
-        "body": "Limelight priced its IPO at $15 a share in June 2007 on the Nasdaq. A patent lawsuit from Akamai, filed in 2006, dragged on for years. Pricing pressure kept profits thin. In 2022 Limelight bought Yahoo's Edgecast and renamed itself Edgio, which filed for bankruptcy in 2024. Through all of it, the company never matched the scale or profits of its larger rival."
+        "heading": "Edgecast, Edgio, Bankruptcy",
+        "body": "Limelight priced its IPO at $15 a share in June 2007 on the Nasdaq, as online video took off. Akamai's lawsuit, filed in 2006, dragged on for years. Pricing pressure kept profits thin, and Limelight never matched the scale or profits of its larger rival. In 2022 Limelight bought Yahoo's Edgecast and renamed itself Edgio. Edgio filed for bankruptcy in 2024."
       }
     ],
     "cover": {
@@ -1074,17 +1074,17 @@
     "founded": 1999,
     "hq": "Newton, MA",
     "fate": "Merged with Informa Tech, 2024; still public (NASDAQ: TTGT)",
-    "tagline": "Aiming at the Buyer",
-    "dek": "Online publications for technology buyers, paid for by vendors seeking sales leads.",
-    "lede": "TechTarget published websites for people who buy technology at work. Its many sites covered storage, security, networking and other topics in depth, and readers registered to download white papers and research. Technology vendors paid TechTarget to reach those readers and to receive leads on who was researching a purchase. In 2007 trade magazines were losing ground, and TechTarget's online model was taking their place.",
+    "tagline": "Leads From White Papers",
+    "dek": "TechTarget gave IT buyers free research, and told tech vendors who was reading it.",
+    "lede": "TechTarget gave away white papers and research, then told technology vendors who had downloaded them. Its many sites covered storage, security, networking and other topics in depth for people who buy technology at work. Readers registered to download. Vendors paid TechTarget to reach those readers and to receive leads on who was researching a purchase. In 2007 trade magazines were losing ground, and TechTarget's online model was taking their place.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Greg Strakosch and Don Hawk founded TechTarget in 1999. Their bet was that specialized content could attract IT professionals at the moment they were researching purchases, and that vendors would pay well to know who they were. The company built dozens of focused sites, each a target for a narrow group of buyers. Readers got free content, and vendors paid to reach them."
+        "heading": "Catching Buyers Mid-Search",
+        "body": "Greg Strakosch and Don Hawk founded TechTarget in 1999. Their bet was that specialized content could attract IT professionals at the moment they were researching purchases. Vendors would pay well to know who those readers were. The company built dozens of focused sites, each aimed at a narrow group of buyers. Readers got free content, and vendors paid to reach them."
       },
       {
-        "heading": "After the Offering",
-        "body": "TechTarget priced its IPO at $13 a share in May 2007 on the Nasdaq. It shifted further toward selling data on buying intent. In 2024 it combined with Informa Tech's digital businesses, and the new company, majority owned by Informa, kept the TechTarget name and listing. Its sites still serve IT buyers, and its data on who is researching what remains its main product."
+        "heading": "Informa Takes Control",
+        "body": "TechTarget priced its IPO at $13 a share in May 2007 on the Nasdaq. Over time it shifted further toward selling data on buying intent. In 2024 it combined with Informa Tech's digital businesses. The new company, majority owned by Informa, kept the TechTarget name and listing. Its sites still serve IT buyers, and its data on who is researching what remains its main product."
       }
     ],
     "cover": {
@@ -1106,17 +1106,17 @@
     "founded": null,
     "hq": "San Jose, CA",
     "fate": "Merged with Dialogic, 2010",
-    "tagline": "Wiring the Voice Network",
-    "dek": "Equipment and software that let telephone carriers move voice calls onto internet-based networks.",
-    "lede": "Veraz Networks sold gear that helped telephone companies move calls onto internet technology. Its switches, media gateways and voice compression products let carriers handle voice traffic over IP networks, cutting costs and adding services. Its customers were mostly phone carriers outside the United States. In 2007 carriers worldwide were in the middle of this long shift. Few consumers knew its name, but many international calls ran through equipment like it.",
+    "tagline": "Squeezing Calls Onto the Internet",
+    "dek": "Veraz Networks sold phone carriers the gear to carry voice calls over the internet for less.",
+    "lede": "Veraz Networks sold gear that squeezed voice calls into less bandwidth, and carriers in emerging markets prized it. Its switches, media gateways and voice compression products let phone companies carry calls over internet networks, cutting costs and adding services. Most of its customers were carriers outside the United States. In 2007 carriers worldwide were in the middle of this long shift. Few consumers knew the Veraz name.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Veraz bet that telephone carriers would replace their old circuit switches with software-based equipment for internet calling. It combined that with voice compression technology, which carriers in developing markets valued for saving scarce bandwidth. The company had close ties to ECI Telecom, which owned a large stake. Its products were especially popular with carriers in emerging markets, where bandwidth was costly. Its main rivals were much larger equipment makers."
+        "heading": "Saving Scarce Bandwidth",
+        "body": "Veraz bet that telephone carriers would replace their old circuit switches with software-based equipment for internet calling. It paired that switching gear with voice compression technology, which fit more calls into the same lines. Carriers in emerging markets valued it because bandwidth there was costly. The company had close ties to ECI Telecom, which owned a large stake. Its main rivals were much larger equipment makers."
       },
       {
-        "heading": "After the Offering",
-        "body": "Veraz priced its IPO at $8 a share in April 2007 on the Nasdaq. Competition from larger equipment makers and the 2008 downturn hurt sales. In 2010 Veraz merged with Dialogic, a communications technology company, and the combined business took the Dialogic name. The merger was in effect a reverse acquisition, with Dialogic's owners holding most of the combined company."
+        "heading": "Merged Into Dialogic",
+        "body": "Veraz priced its IPO at $8 a share in April 2007 on the Nasdaq, below its planned range of $10 to $12. ECI sold part of its stake in the offering. Competition from larger equipment makers and the 2008 downturn hurt sales. In 2010 Veraz merged with Dialogic, a communications technology company. The deal was in effect a reverse acquisition: Dialogic's owners held most of the combined company, which took the Dialogic name."
       }
     ],
     "cover": {
@@ -1141,17 +1141,17 @@
     "founded": 2002,
     "hq": "Sunnyvale, CA",
     "fate": "Acquired by Hewlett-Packard, 2015 ($3B)",
-    "tagline": "An Island Without Wires",
-    "dek": "Enterprise Wi-Fi networks for offices, campuses and hospitals, managed from central controllers.",
-    "lede": "Aruba Networks built the Wi-Fi inside large organizations. Its access points and central controllers let a university, hospital or corporate campus run thousands of wireless connections securely from one place. In 2007 laptops had made Wi-Fi a must, and the first iPhone was months away. Companies were deciding that wireless, not cables, would be how people connected at work. Hospitals, schools and offices were early customers.",
+    "tagline": "Wi-Fi for the Whole Campus",
+    "dek": "Aruba let hospitals, universities and offices run thousands of secure Wi-Fi connections from one place.",
+    "lede": "Aruba Networks went public months before the first iPhone, just as companies were deciding that wireless would be how people connected at work. Its access points and central controllers let a university, hospital or corporate campus run thousands of wireless connections securely from one place. Laptops had already made Wi-Fi a must. Hospitals, schools and offices were among its early customers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Keerti Melkote and Pankaj Manglik founded Aruba in 2002. Their bet was that enterprise Wi-Fi needed central management and security, not standalone access points scattered around a building. Aruba competed directly with Cisco, which dominated networking, and won customers that needed large, mobile and secure wireless networks. Its design put the intelligence in a central controller, which made large networks easier to secure and manage."
+        "heading": "Brains in the Controller",
+        "body": "Keerti Melkote and Pankaj Manglik founded Aruba in 2002. Their bet was that enterprise Wi-Fi needed central management and security. Scattered standalone access points would not do. Aruba put the intelligence in a central controller, which made large networks easier to secure and manage. It competed directly with Cisco, which dominated networking. It won customers that needed large, mobile and secure wireless networks."
       },
       {
-        "heading": "After the Offering",
-        "body": "Aruba priced its IPO at $11 a share in March 2007 on the Nasdaq. Smartphones and tablets soon flooded offices and campuses, and demand for its gear grew. In 2015 Hewlett-Packard bought Aruba for about $3 billion, and the Aruba name lived on as HP's networking brand. By then it had grown into a leading rival to Cisco in enterprise wireless networks. The Aruba brand remains at the center of HP's networking business."
+        "heading": "HP Keeps the Name",
+        "body": "Aruba priced its IPO at $11 a share in March 2007 on the Nasdaq. Smartphones and tablets soon flooded offices and campuses, and demand for its gear grew. By 2015 Aruba had become a leading rival to Cisco in enterprise wireless. That year Hewlett-Packard bought Aruba for about $3 billion. The Aruba name lived on as HP's networking brand, and it remains at the center of HP's networking business."
       }
     ],
     "cover": {
@@ -1173,17 +1173,17 @@
     "founded": 1995,
     "hq": "Carson, CA",
     "fate": "Still public as CarParts.com (NASDAQ: PRTS)",
-    "tagline": "Every Part for Every Car",
-    "dek": "An online retailer of aftermarket car parts and accessories, sold through its own websites and marketplaces.",
-    "lede": "U.S. Auto Parts sold replacement car parts online. Bumpers, headlights, mirrors and engine parts for thousands of makes and models were listed across its websites and on eBay, often at prices well below dealers and repair shops. It shipped from its own warehouses and sourced many products directly from manufacturers in Asia. It went public in early 2007, as do-it-yourself buyers were moving online.",
+    "tagline": "Bumpers and Headlights by Mail",
+    "dek": "U.S. Auto Parts sold replacement car parts online for well below what dealers and repair shops charged.",
+    "lede": "U.S. Auto Parts bought many of its bumpers, headlights and mirrors directly from manufacturers in Asia, then sold them online for well below dealer prices. Its websites and eBay listings covered parts for thousands of makes and models, from mirrors to engine parts. It shipped from its own warehouses. The company went public in early 2007, as do-it-yourself buyers were moving online.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "The company started in 1995 selling auto parts, and moved its business onto the internet. The bet was that car owners and small repair shops would buy parts online if the catalog was deep and the price was right. Matching the right part to the right vehicle was hard, and U.S. Auto Parts built its catalog data to solve it."
+        "heading": "Matching Part to Car",
+        "body": "The company started in 1995 selling auto parts, and it moved its business onto the internet. The bet was that car owners and small repair shops would buy parts online if the catalog was deep and the price was right. The hard part was matching the right part to the right vehicle. U.S. Auto Parts built its own catalog data to solve it."
       },
       {
-        "heading": "After the Offering",
-        "body": "U.S. Auto Parts priced its IPO at $10 a share in February 2007 on the Nasdaq. Search engine changes and competition hurt its traffic in the years that followed, and the stock spent long stretches at low levels. The company renamed itself CarParts.com in 2020 and remains publicly traded. The company later invested in new distribution centers to ship parts faster across the country."
+        "heading": "Renamed CarParts.com",
+        "body": "U.S. Auto Parts priced its IPO at $10 a share in February 2007 on the Nasdaq. In the years that followed, search engine changes and competition hurt its traffic. The stock spent long stretches at low levels. The company later invested in new distribution centers to ship parts faster across the country. In 2020 it renamed itself CarParts.com, and it remains publicly traded."
       }
     ],
     "cover": {
@@ -1207,17 +1207,17 @@
     "founded": 1991,
     "hq": "Minneapolis, MN",
     "fate": "Merged with Strayer Education, 2018",
-    "tagline": "Guided by a Northern Star",
-    "dek": "An online university for working adults, focused on graduate degrees in business, education, psychology and health.",
-    "lede": "Capella University taught working adults entirely online. Most of its students were mid-career and pursuing master's and doctoral degrees in fields like business, education, psychology and nursing. It was regionally accredited, which mattered to employers and students alike. When it went public in November 2006, online higher education was growing fast and drawing new investor interest. Its students came from every state and many countries.",
+    "tagline": "Doctorates Without a Campus",
+    "dek": "Capella let working adults earn master's and doctoral degrees online, on their own schedule.",
+    "lede": "Capella University was founded by a former chief executive of the toy company Tonka, and it taught working adults entirely online. Most students were mid-career and pursuing master's and doctoral degrees in business, education, psychology and nursing. Capella was regionally accredited, which mattered to employers and students alike. When it went public in November 2006, online higher education was growing fast and drawing new investor interest.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Stephen Shank, a former chief executive of the toy company Tonka, founded Capella in 1991 as The Graduate School of America. The bet was that adults with jobs and families would pursue advanced degrees if they could study on their own schedule. Capella built its programs online from the start, rather than adapting a campus model. It later added competency-based programs that let students move at their own pace."
+        "heading": "The Graduate School of America",
+        "body": "Stephen Shank founded Capella in 1991 as The Graduate School of America. The bet was that adults with jobs and families would pursue advanced degrees if they could study on their own schedule. Capella built its programs online from the start instead of adapting a campus model. It later added competency-based programs that let students move at their own pace."
       },
       {
-        "heading": "After the Offering",
-        "body": "Capella priced its IPO at $20 a share in November 2006 on the Nasdaq. Enrollment grew for several years, then slowed under tighter federal rules for for-profit schools. In 2018 Capella merged with Strayer Education, and the combined company became Strategic Education. Capella University continues to operate as part of Strategic Education, alongside Strayer University. It remains one of the largest online universities in the country."
+        "heading": "Merged With Strayer",
+        "body": "Capella priced its IPO at $20 a share in November 2006 on the Nasdaq. Enrollment grew for several years, then slowed under tighter federal rules for for-profit schools. In 2018 Capella merged with Strayer Education, and the combined company became Strategic Education. Capella University still operates alongside Strayer University. It remains one of the largest online universities in the country, with students from every state and many countries."
       }
     ],
     "cover": {
@@ -1242,17 +1242,17 @@
     "founded": 2000,
     "hq": "Burlington, MA",
     "fate": "Acquired by Oracle, 2013 ($2.1B)",
-    "tagline": "At the Summit of the Network",
-    "dek": "Session border controllers that secured and routed internet voice and video calls between carriers.",
-    "lede": "Acme Packet made the gatekeepers of internet calling. Its session border controllers sat at the edges of carrier and enterprise networks, connecting voice and video calls between them, enforcing security and keeping the quality high. In 2006 telephone companies were moving their networks onto internet technology, and every border between networks needed a guard. Its main customers were telephone carriers and cable operators.",
+    "tagline": "Border Guards for Internet Calls",
+    "dek": "Acme Packet made the boxes that let internet phone calls pass safely between carriers' networks.",
+    "lede": "Every time an internet phone call crossed from one network into another, it needed a guard at the border. Acme Packet made those guards. Its session border controllers sat at the edges of carrier and enterprise networks. They connected voice and video calls, enforced security and kept quality high. In 2006 telephone companies were moving their networks onto internet technology. Its main customers were telephone carriers and cable operators.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Andy Ory and Patrick MeLampy, who had worked together at earlier networking companies, founded Acme Packet in 2000. Their bet was that internet calling would need a dedicated device at each network border, and that carriers would pay for one built for the job. It became the leader in a category it helped define. Those early relationships with major carriers set the stage for rapid growth."
+        "heading": "Built for One Job",
+        "body": "Andy Ory and Patrick MeLampy had worked together at earlier networking companies. They founded Acme Packet in 2000. Their bet was that internet calling would need a dedicated device at each network border, and that carriers would pay for one built for the job. Early relationships with major carriers set up rapid growth. Acme Packet became the leader in a category it had defined."
       },
       {
-        "heading": "After the Offering",
-        "body": "Acme Packet priced its IPO at $9.50 a share in October 2006 on the Nasdaq. It was profitable and grew quickly as carriers and large businesses adopted internet calling. In 2013 Oracle bought Acme Packet for about $2.1 billion. Oracle used the business as the base of its communications unit, selling the same products to carriers and large enterprises. Its products remain in use in many carrier networks."
+        "heading": "Oracle's Communications Base",
+        "body": "Acme Packet priced its IPO at $9.50 a share in October 2006 on the Nasdaq. It was profitable and grew quickly as carriers and large businesses adopted internet calling. In 2013 Oracle bought Acme Packet for about $2.1 billion. Oracle made the business the base of its communications unit, selling the same products to carriers and large enterprises. Those products remain in use in many carrier networks."
       }
     ],
     "cover": {
@@ -1274,17 +1274,17 @@
     "founded": 1997,
     "hq": "Mountain View, CA",
     "fate": "Still public (NASDAQ: EHTH)",
-    "tagline": "Shelter from the Storm",
-    "dek": "An online marketplace for buying health insurance, later focused on Medicare plans.",
-    "lede": "eHealth let people shop for health insurance online. Its site, eHealthInsurance.com, showed plans from many insurers side by side, so individuals, families and small businesses could compare prices and coverage before they bought. The company was paid commissions by insurers. In 2006 most Americans got insurance through work, and those buying on their own had few easy ways to compare.",
+    "tagline": "Health Plans Side by Side",
+    "dek": "eHealth let people who bought their own health insurance compare plans and prices online.",
+    "lede": "People who bought their own health insurance had few easy ways to compare plans until eHealth put them side by side. Its site, eHealthInsurance.com, showed plans from many insurers, so individuals, families and small businesses could weigh prices and coverage before buying. Insurers paid eHealth commissions on each sale. When it went public in 2006, most Americans still got their insurance through work.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "eHealth started in 1997 with a bet that buying health insurance, a confusing and paper-heavy process, could work like other online shopping. It became a licensed broker in every state and built tools to quote and apply for plans online. Its customers were mostly people who bought insurance for themselves, such as the self-employed. Insurers paid it commissions for the policies it sold, much as they paid traditional agents."
+        "heading": "A Broker in Every State",
+        "body": "eHealth started in 1997 with a bet that buying health insurance, a confusing and paper-heavy process, could work like other online shopping. It became a licensed broker in every state and built tools to quote and apply for plans online. Most of its customers bought insurance for themselves, such as the self-employed. Insurers paid it commissions for each policy, the same way they paid traditional agents."
       },
       {
-        "heading": "After the Offering",
-        "body": "eHealth priced its IPO at $14 a share in October 2006 on the Nasdaq. The Affordable Care Act and its public exchanges later changed the individual market. eHealth turned toward Medicare plans for older Americans, which became most of its business. It remains publicly traded. Its Medicare business grew quickly as baby boomers aged into the program, though rising marketing costs and changing commissions made profits uneven."
+        "heading": "The Medicare Turn",
+        "body": "eHealth priced its IPO at $14 a share in October 2006 on the Nasdaq. The Affordable Care Act and its public exchanges later changed the individual market. eHealth turned toward Medicare plans for older Americans. That business grew quickly as baby boomers aged into the program, and it became most of eHealth's revenue. Rising marketing costs and changing commissions made profits uneven. eHealth remains publicly traded."
       }
     ],
     "cover": {
@@ -1309,17 +1309,17 @@
     "founded": 1999,
     "hq": "Redwood City, CA",
     "fate": "Taken private by Apollo, 2019 ($2.7B)",
-    "tagline": "Pictures Given Wings",
-    "dek": "Online photo printing and personalized photo books, cards and gifts.",
-    "lede": "Shutterfly turned digital photos into things you could hold. As cameras went digital, people stopped printing film, and their pictures piled up on hard drives. Shutterfly let them upload photos, store them free and order prints, photo books, cards and calendars, made in its own plants. By 2006 photo books and holiday cards were its fastest-growing products. Its customers were mostly families saving their memories.",
+    "tagline": "Photo Books From the Hard Drive",
+    "dek": "Shutterfly turned the digital photos piling up on people's computers into prints, books and holiday cards.",
+    "lede": "Shutterfly's busiest weeks came each December, when holiday cards and photo gifts drove a large share of the year's sales. As cameras went digital, people stopped printing film, and their pictures piled up on hard drives. Shutterfly let them upload photos, store them free and order prints, photo books, cards and calendars, made in its own plants. By 2006 photo books and holiday cards were its fastest-growing products.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Shutterfly was founded in 1999 with backing from Netscape co-founder Jim Clark, and Eva Manolis was among its founders. The bet was that digital photography would create a large market for high-quality printed products. Shutterfly ran its own manufacturing to control quality, and it treated free storage as a way to keep customers coming back. Free unlimited photo storage was part of its offer from early on."
+        "heading": "Backed by Jim Clark",
+        "body": "Shutterfly was founded in 1999 with backing from Netscape co-founder Jim Clark, and Eva Manolis was among its founders. The bet was that digital photography would create a large market for high-quality printed products. Shutterfly ran its own manufacturing to control quality. Free unlimited photo storage was part of its offer from early on, and it kept customers coming back to order."
       },
       {
-        "heading": "After the Offering",
-        "body": "Shutterfly priced its IPO at $15 a share in September 2006 on the Nasdaq. It bought Tiny Prints and the school photo company Lifetouch, and its holiday season became a major retail event. In 2019 Apollo took Shutterfly private for about $2.7 billion. Its busiest weeks came each December, when holiday cards and photo gifts drove a large share of the year's sales."
+        "heading": "Tiny Prints and Lifetouch",
+        "body": "Shutterfly priced its IPO at $15 a share in September 2006 on the Nasdaq, with photo books and holiday cards leading its growth. Its customers were mostly families saving their memories. The company grew by buying other businesses, including Tiny Prints and, later, the school photo company Lifetouch. Its holiday season became a major retail event. In 2019 Apollo took Shutterfly private for about $2.7 billion."
       }
     ],
     "cover": {
@@ -1341,17 +1341,17 @@
     "founded": 1996,
     "hq": "Oceanport, NJ",
     "fate": "Still public (NASDAQ: CVLT)",
-    "tagline": "The Vaults Beneath the City",
-    "dek": "Data backup, recovery and management software for businesses, built on a single unified platform.",
-    "lede": "CommVault protected the data of large organizations. Its software backed up, archived and recovered data across servers and storage systems, all from one platform and one index. Many rivals sold separate tools for each task. In 2006 corporate data was growing fast, and new rules required businesses to keep and find their records. Its customers included many large enterprises and public agencies.",
+    "tagline": "Backup Born at Bell Labs",
+    "dek": "CommVault let big organizations back up, archive and recover all their data from one system.",
+    "lede": "CommVault's software kept one index of everything a company had saved, while many rivals sold a separate tool for each job. It backed up, archived and recovered data across servers and storage systems, all from one platform. Its customers included many large enterprises and public agencies. In 2006 corporate data was growing fast, and new rules required businesses to keep their records and find them on demand.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "CommVault grew out of a data management group at Bell Labs and became an independent company in 1996. Its bet was that companies would want one integrated system for every kind of data protection, instead of a patchwork. It sold mainly through partners such as Dell and storage resellers. Its single code base and shared index set it apart from rivals that stitched together products from acquisitions."
+        "heading": "Out of Bell Labs",
+        "body": "CommVault grew out of a data management group at Bell Labs and became an independent company in 1996. Its bet was that companies would want one integrated system for every kind of data protection instead of a patchwork. It sold mainly through partners such as Dell and storage resellers. Its single code base set it apart from rivals that stitched together products from acquisitions."
       },
       {
-        "heading": "After the Offering",
-        "body": "CommVault priced its IPO at $14.50 a share in September 2006 on the Nasdaq. It grew into one of the leading backup software companies. Later it moved its products to the cloud and added protection against ransomware. It remains publicly traded. Its customers include large enterprises and government agencies around the world. Many of them first bought its software for basic backup and later used it for archiving and compliance."
+        "heading": "From Backup to Ransomware",
+        "body": "CommVault priced its IPO at $14.50 a share in September 2006 on the Nasdaq. It grew into one of the leading backup software companies. Many customers first bought it for basic backup, then used it for archiving and compliance. Later CommVault moved its products to the cloud and added protection against ransomware. It serves large enterprises and government agencies around the world, and it remains publicly traded on the Nasdaq."
       }
     ],
     "cover": {
@@ -1376,17 +1376,17 @@
     "founded": 2002,
     "hq": "San Francisco, CA",
     "fate": "Taken private by Thoma Bravo, 2015 ($3.6B)",
-    "tagline": "Clear Water Over Stone",
-    "dek": "Network appliances that sped up applications running over wide area networks between offices.",
-    "lede": "Riverbed made far-away offices feel close. Its Steelhead appliances sat at each end of a company's wide area network and cut the data crossing it, so files and applications opened quickly in branch offices. In 2006 companies were pulling servers back into central data centers to save money, and slow links to remote offices had become a daily complaint. Its customers ranged from law firms to global manufacturers.",
+    "tagline": "Making Branch Offices Feel Close",
+    "dek": "Riverbed made files and applications open quickly in branch offices far from the company's data center.",
+    "lede": "Riverbed made far-away offices feel close. Its Steelhead appliances sat at each end of a company's wide area network and cut the data crossing it. Files and applications opened quickly in branch offices. In 2006 companies were pulling servers back into central data centers to save money. Slow links to remote offices had become a daily complaint, and Riverbed's customers ranged from law firms to global manufacturers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Jerry Kennelly and Steve McCanne, a computer scientist known for internet video research, founded Riverbed in 2002. Their bet was that smarter software, not more bandwidth, could fix slow networks. Riverbed combined data deduplication and protocol tricks in a box that was easy to install, and sales grew quickly. Customers often saw results in days, which made the boxes an easy sale."
+        "heading": "Smarter Software Over Bandwidth",
+        "body": "Jerry Kennelly and Steve McCanne founded Riverbed in 2002. McCanne was a computer scientist known for research on internet video. Their bet was that smarter software could fix slow networks without more bandwidth. Riverbed combined data deduplication and protocol tricks in a box that was easy to install. Customers often saw results in days, which made the boxes an easy sale, and revenue grew quickly."
       },
       {
-        "heading": "After the Offering",
-        "body": "Riverbed priced its IPO at $9.75 a share in September 2006 on the Nasdaq and soon traded well above it. It led the WAN optimization market for years. As applications moved to the cloud, growth slowed, and in 2015 Thoma Bravo took Riverbed private for about $3.6 billion. It went through a debt restructuring in 2021, and still sells network performance tools."
+        "heading": "Thoma Bravo and a Restructuring",
+        "body": "Riverbed priced its IPO at $9.75 a share in September 2006 on the Nasdaq and soon traded well above it. It led the WAN optimization market for years. As applications moved to the cloud, growth slowed. In 2015 Thoma Bravo took Riverbed private for about $3.6 billion. It went through a debt restructuring in 2021, and it still sells network performance tools."
       }
     ],
     "cover": {
@@ -1411,17 +1411,17 @@
     "founded": 1996,
     "hq": "Orem, UT",
     "fate": "Acquired by Adobe, 2009 ($1.8B)",
-    "tagline": "The Eye That Sees Every Click",
-    "dek": "Web analytics software that showed companies how visitors used their websites.",
-    "lede": "Omniture showed companies what happened on their websites. Its SiteCatalyst service tracked every page view and click, so marketers could see where visitors came from, what they did and what they bought. It sold to large retailers and media companies by subscription. In 2006 online sales were booming, and measuring them had become a job for serious software. Its customers included many of the largest retailers online.",
+    "tagline": "Every Click, Counted",
+    "dek": "Omniture showed online stores where their visitors came from, what they did and what they bought.",
+    "lede": "Omniture watched every page view and click on many of the largest retail websites in the country. Its SiteCatalyst service showed marketers where visitors came from, what they did and what they bought. Large retailers and media companies paid for it by subscription. In 2006 online sales were booming. Measuring them had become a job for serious software, and Omniture was ready to go public.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Josh James and John Pestana, two young Utah entrepreneurs, founded the company in 1996. Their bet was that businesses would want detailed, real-time data on their online customers, and would pay for it as a hosted service. Omniture won large clients and later added tools for testing and targeting. Its customers paid by volume, so its revenue grew as their websites grew."
+        "heading": "Two Founders in Utah",
+        "body": "Josh James and John Pestana, two young Utah entrepreneurs, founded the company in 1996. Their bet was that businesses would want detailed, real-time data on their online customers. They would pay for it as a hosted service. Omniture won large clients and later added tools for testing and targeting. Customers paid by volume, so Omniture's revenue grew as their websites grew."
       },
       {
-        "heading": "After the Offering",
-        "body": "Omniture priced its IPO at $6.50 a share in June 2006 on the Nasdaq. It grew quickly and bought several rivals, including WebSideStory and Visual Sciences. In 2009 Adobe bought Omniture for about $1.8 billion, and its software became the core of Adobe's marketing business. Omniture's analytics live on today as Adobe Analytics, part of its Experience Cloud. The deal set Adobe on the road to its large marketing software business."
+        "heading": "Now Adobe Analytics",
+        "body": "Omniture priced its IPO at $6.50 a share in June 2006 on the Nasdaq. It grew quickly and bought rivals. The biggest was Visual Sciences, the company once called WebSideStory, in a deal worth about $394 million that closed in early 2008. In 2009 Adobe bought Omniture for about $1.8 billion. Its software became the core of Adobe's marketing business and lives on today as Adobe Analytics."
       }
     ],
     "cover": {
@@ -1445,17 +1445,17 @@
     "founded": 1995,
     "hq": "San Francisco, CA",
     "fate": "Acquired by CoStar, 2012 ($860M)",
-    "tagline": "A Tower on Every Corner",
-    "dek": "An online marketplace for listing and finding commercial real estate for sale or lease.",
-    "lede": "LoopNet was the listings site for commercial property. Brokers posted offices, shops, warehouses and apartment buildings for sale or lease, and buyers and tenants searched them free or with premium memberships. It became the largest marketplace of its kind in the United States. When it went public in 2006, commercial real estate was booming. It also offered data on property sales and comparables.",
+    "tagline": "Listings for Offices and Warehouses",
+    "dek": "LoopNet let brokers, buyers and tenants find offices, shops and warehouses for sale or lease online.",
+    "lede": "LoopNet let commercial brokers list properties for free, and that is how it became the largest marketplace of its kind in the United States. Brokers posted offices, shops, warehouses and apartment buildings for sale or lease. Buyers and tenants searched them free or with premium memberships. LoopNet also sold data on property sales and comparables. When it went public in 2006, commercial real estate was booming.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Dennis DeAndre started LoopNet in San Francisco in 1995. The bet was that commercial real estate, a business of private networks and printed flyers, would move its listings online. LoopNet let brokers list for free and charged the heaviest users for premium features, which grew a large base of listings quickly. Its free listings drew the scale that rivals could not match."
+        "heading": "Out of the Flyer Business",
+        "body": "Dennis DeAndre started LoopNet in San Francisco in 1995. The bet was that commercial real estate, a business of private networks and printed flyers, would move its listings online. Free listings drew brokers in fast. LoopNet then charged its heaviest users, the people who listed and searched the most, for premium features. That model built a base of listings that rivals could not match."
       },
       {
-        "heading": "After the Offering",
-        "body": "LoopNet priced its IPO at $12 a share in June 2006 on the Nasdaq. It stayed profitable through the property downturn of 2008 and 2009. In 2012 CoStar, the commercial property data company, bought LoopNet for about $860 million after regulators approved the deal. LoopNet continues to run as a CoStar brand, and its listings remain a standard stop for commercial property searches."
+        "heading": "CoStar Wins Approval",
+        "body": "LoopNet priced its IPO at $12 a share in June 2006 on the Nasdaq. It stayed profitable through the property downturn of 2008 and 2009. In 2012 CoStar, the commercial property data company, bought LoopNet for about $860 million after regulators approved the deal. LoopNet still runs as a CoStar brand. Its listings remain a standard stop for anyone searching for commercial property."
       }
     ],
     "cover": {
@@ -1479,17 +1479,17 @@
     "founded": 2001,
     "hq": "Holmdel, NJ",
     "fate": "Acquired by Ericsson, 2022 ($6.2B)",
-    "tagline": "Setting Sail on a New Line",
-    "dek": "Home phone service over broadband internet, sold at a flat monthly price.",
-    "lede": "Vonage turned the home phone into an internet service. Customers plugged a small adapter into their broadband connection and kept a regular phone number, with unlimited calling across the country for a flat monthly fee. Its ads were everywhere, and by 2006 it had more than a million and a half subscribers. It was the best-known challenger to the old phone companies, and the cable companies were coming for the same customers.",
+    "tagline": "The Phone Plugged Into Broadband",
+    "dek": "Vonage let people keep their phone number and call anywhere in the country for one flat monthly fee.",
+    "lede": "Vonage offered some of its own customers shares in its IPO, and the stock fell on its first day. Those customers were angry. They had signed up for a simple idea. They plugged a small adapter into their broadband connection, kept a regular phone number and got unlimited calling across the country for a flat monthly fee. Vonage's ads were everywhere. By 2006 it had more than a million and a half subscribers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Jeffrey Citron, a former electronic trading entrepreneur, started Vonage in 2001. The bet was that broadband homes would drop expensive landline plans for internet calling if it felt just like a normal phone. Vonage spent heavily on marketing to win customers fast, and it lost a lot of money doing so. Its price, a flat monthly fee for unlimited calls, undercut traditional phone plans by a wide margin."
+        "heading": "A Trader's Phone Company",
+        "body": "Jeffrey Citron, a former electronic trading entrepreneur, started Vonage in 2001. The bet was that broadband homes would drop expensive landline plans for internet calling if it felt like a normal phone. Its flat monthly fee for unlimited calls undercut traditional phone plans by a wide margin. Vonage spent heavily on marketing to win customers fast, and it lost a lot of money doing so."
       },
       {
-        "heading": "After the Offering",
-        "body": "Vonage priced its IPO at $17 a share in May 2006 on the New York Stock Exchange. The stock fell on its first day and kept falling, and customers who had been offered shares in the deal were angry. Patent suits from Verizon added to its trouble. Vonage later rebuilt itself around business communications, and Ericsson bought it in 2022 for about $6.2 billion."
+        "heading": "From Homes to Business",
+        "body": "Vonage priced its IPO at $17 a share in May 2006 on the New York Stock Exchange. It was the best-known challenger to the old phone companies. The stock kept falling after its first day. Patent suits from Verizon added to its trouble, and the cable companies were coming for the same customers. Vonage later rebuilt itself around business communications. In 2022 Ericsson bought it for about $6.2 billion."
       }
     ],
     "cover": {
@@ -1513,17 +1513,17 @@
     "founded": 1999,
     "hq": "Washington, DC",
     "fate": "Still public (NASDAQ: LQDT)",
-    "tagline": "Going Once, Going Twice",
-    "dek": "Online auction marketplaces for surplus and returned goods from governments and large companies.",
-    "lede": "Liquidity Services sold what others no longer needed. It ran online auctions for surplus and returned goods, from excess inventory at big retailers to used vehicles and equipment from government agencies. Its biggest early contract was selling U.S. military surplus. When it filed in 2006, it was turning a dusty corner of commerce into a steady online business. Buyers ranged from small resellers to large exporters.",
+    "tagline": "Selling the Military's Surplus",
+    "dek": "Liquidity Services sold surplus and returned goods online, from retailers' extra stock to government vehicles.",
+    "lede": "Liquidity Services won its biggest early contract by selling off U.S. military surplus. It ran online auctions for goods others no longer needed, from excess inventory at big retailers to used vehicles and equipment from government agencies. Much of that surplus had gone to slow local auctions or to scrap. Buyers ranged from small resellers to large exporters. When it filed in 2006, Liquidity Services was turning a dusty corner of commerce into a steady online business.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "William Angrick founded the company in 1999. The bet was that surplus goods, usually sold in slow local auctions or scrapped, would fetch better prices online in front of many more buyers. Liquidity Services won large contracts with the Defense Department and built sites such as Liquidation.com and GovDeals. Its sellers paid a share of each sale, so the company earned more as prices rose."
+        "heading": "Better Prices Than Scrap",
+        "body": "William Angrick founded the company in 1999. The bet was that surplus goods would fetch better prices online, in front of many more buyers. Liquidity Services won large contracts with the Defense Department. It built sites such as Liquidation.com and GovDeals, where buyers bid against each other. Its sellers paid a share of each sale, so the company earned more as prices rose."
       },
       {
-        "heading": "After the Offering",
-        "body": "Liquidity Services priced its IPO at $10 a share in February 2006 on the Nasdaq. It grew for years on its military surplus contracts, then lost some of them, and the stock swung widely. The company refocused on retail returns and government surplus. It remains publicly traded. Its marketplaces still handle large volumes of surplus goods from public agencies and retailers."
+        "heading": "When the Contracts Shrank",
+        "body": "Liquidity Services priced its IPO at $10 a share in February 2006 on the Nasdaq. It grew for years on its military surplus contracts. Then it lost some of them, and the stock swung widely. The company refocused on retail returns and government surplus. Its marketplaces still handle large volumes of goods from public agencies and retailers, and it remains publicly traded on the Nasdaq."
       }
     ],
     "cover": {
@@ -1547,16 +1547,16 @@
     "founded": 2001,
     "hq": "Coeur d'Alene, ID",
     "fate": "Acquired by Virtual Radiologic, 2010 ($170M)",
-    "tagline": "Eyes Open While America Sleeps",
-    "dek": "Overnight radiology reading for U.S. hospitals, done by American doctors working in daytime abroad.",
-    "lede": "NightHawk Radiology read X-rays and CT scans while American radiologists slept. Hospitals sent their overnight emergency images over the internet to U.S.-trained, U.S.-licensed radiologists working in Sydney and Zurich, where it was daytime. Reports came back in minutes. In 2006 emergency rooms were scanning more patients than ever, and small radiology groups struggled to cover every night. Its doctors worked days abroad and read scans for hospitals across the country.",
+    "tagline": "Reading X-Rays While America Sleeps",
+    "dek": "NightHawk let small radiology groups sleep through the night while doctors abroad read their emergency scans.",
+    "lede": "NightHawk Radiology read America's overnight X-rays and CT scans from Sydney and Zurich, where it was daytime. Hospitals sent their emergency images over the internet to U.S.-trained, U.S.-licensed radiologists working there. Reports came back in minutes. In 2006 emergency rooms were scanning more patients than ever. Small radiology groups struggled to cover every night, and NightHawk covered those nights for them.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Paul Berger, a radiologist in Idaho, co-founded NightHawk in 2001. The bet was that time zones could solve the overnight staffing problem, and that radiology groups would gladly pay to give their doctors a full night's sleep. The company handled licensing and credentials across many states, which was the hard part. Its radiologists held licenses in many states at once."
+        "heading": "An Idaho Radiologist's Idea",
+        "body": "Paul Berger, a radiologist in Idaho, co-founded NightHawk in 2001. The bet was that time zones could solve the overnight staffing problem. Radiology groups would gladly pay to give their doctors a full night's sleep. The hard part was paperwork. NightHawk handled licensing and credentials across many states, so each of its radiologists held licenses in many states at once."
       },
       {
-        "heading": "After the Offering",
+        "heading": "Merged Into vRad",
         "body": "NightHawk priced its IPO at $16 a share in February 2006 on the Nasdaq. Competition and pricing pressure grew, and many radiology groups began to cover nights themselves. In 2010 Virtual Radiologic bought NightHawk for about $170 million. The combined company, under the vRad name, became the largest teleradiology provider in the United States. Its overnight model is now standard practice in American hospitals."
       }
     ],
@@ -1579,17 +1579,17 @@
     "founded": 1998,
     "hq": "Wayne, PA",
     "fate": "Acquired by Navteq, 2007 ($179M)",
-    "tagline": "Reading the Flow of the City",
-    "dek": "Real-time traffic information gathered from road sensors and delivered to drivers, broadcasters and navigation systems.",
-    "lede": "Traffic.com told drivers where the jams were. It installed its own sensors along major roads in dozens of American cities, combined that data with other sources and sent live traffic reports to radio and TV stations, websites, phones and in-car navigation. In early 2006 GPS devices were spreading fast, and live traffic was the feature everyone wanted next. Its reports reached millions of listeners each day.",
+    "tagline": "Sensors on the Highway",
+    "dek": "Traffic.com told drivers where the jams were, live, on the radio, the web and the car's navigation screen.",
+    "lede": "Traffic.com installed its own sensors along major roads in dozens of American cities to find out where the jams were. It combined that data with other sources and sent live traffic reports to radio and TV stations, websites, phones and in-car navigation. Its reports reached millions of listeners each day. In early 2006 GPS devices were spreading fast. Live traffic was the feature drivers wanted next.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Traffic.com began in 1998 with a bet that accurate, real-time traffic data would be valuable to many outlets at once. Building its own sensor network gave it data rivals did not have. It earned money from licensing that data and from selling advertising in the traffic reports it produced for broadcasters. Selling the same data many times over was the core of its plan."
+        "heading": "One Dataset, Many Buyers",
+        "body": "Traffic.com began in 1998 with a bet that accurate, real-time traffic data would be valuable to many outlets at once. Its own sensor network gave it data rivals did not have. It earned money from licensing that data. It also sold advertising in the traffic reports it produced for broadcasters. Selling the same data many times over was the core of its plan."
       },
       {
-        "heading": "After the Offering",
-        "body": "Traffic.com priced its IPO at $12 a share in January 2006 on the Nasdaq. The company struggled to turn its costly sensor network into a profit. Within a year Navteq, the digital map maker, agreed to buy it, and the deal closed in 2007 at about $179 million. Navteq, later bought by Nokia, folded its traffic data into the maps used by car navigation systems."
+        "heading": "Into Navteq's Maps",
+        "body": "Traffic.com priced its IPO at $12 a share in January 2006 on the Nasdaq. The company struggled to turn its costly sensor network into a profit. Within a year Navteq, the digital map maker, agreed to buy it. The deal closed in 2007 at about $179 million. Navteq, later bought by Nokia, folded the traffic data into the maps used by car navigation systems."
       }
     ],
     "cover": {
@@ -1611,17 +1611,17 @@
     "founded": 2001,
     "hq": "Lake Success, NY",
     "fate": "Acquired by Cox Automotive, 2015 ($4B)",
-    "tagline": "Off to the Races",
-    "dek": "An online network linking car dealers with auto lenders, plus software to run the dealership.",
-    "lede": "DealerTrack connected car dealers to the banks that financed their customers. Before it, a dealer faxed a buyer's credit application to lenders one at a time. DealerTrack's network let the dealer send it to many lenders at once and get answers back in minutes. By 2005 a large share of American franchised dealers used it, and the company was selling more software to run the rest of the dealership.",
+    "tagline": "Car Loans Without the Fax",
+    "dek": "DealerTrack let car dealers send a buyer's credit application to many lenders at once and hear back in minutes.",
+    "lede": "Before DealerTrack, a car dealer faxed a buyer's credit application to lenders one at a time and waited. DealerTrack's network let the dealer send it to many lenders at once and get answers back in minutes. By 2005 a large share of American franchised dealers used it. DealerTrack was now selling more software to run the rest of the dealership.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "DealerTrack was formed in 2001 with backing from several large auto lenders. The bet was that a neutral online network for credit applications would speed up car sales for everyone. Lenders paid a fee for each application, and dealers signed on because the system was simple and saved time on the showroom floor. Its scale soon became an advantage, since every new lender made the network more useful to dealers."
+        "heading": "Backed by the Lenders",
+        "body": "DealerTrack was formed in 2001 with backing from several large auto lenders. The bet was that a neutral online network for credit applications would speed up car sales for everyone. Lenders paid a fee for each application. Dealers signed on because the system was simple and saved time on the showroom floor. Every new lender made the network more useful to dealers, so scale became an advantage."
       },
       {
-        "heading": "After the Offering",
-        "body": "DealerTrack priced its IPO at $17 a share in December 2005 on the Nasdaq. It grew through many acquisitions, adding dealer management systems, compliance tools and Dealer.com. In 2015 Cox Automotive bought DealerTrack for about $4 billion. Cox combined it with brands such as Autotrader and Kelley Blue Book, building one of the largest companies in automotive software. Many dealers still use its tools today."
+        "heading": "Joining Autotrader and Kelley",
+        "body": "DealerTrack priced its IPO at $17 a share in December 2005 on the Nasdaq, as it pushed beyond credit applications. It grew through many acquisitions, adding dealer management systems, compliance tools and Dealer.com. In 2015 Cox Automotive bought DealerTrack for about $4 billion. Cox combined it with brands such as Autotrader and Kelley Blue Book, building one of the largest companies in automotive software."
       }
     ],
     "cover": {
@@ -1646,17 +1646,17 @@
     "founded": 1992,
     "hq": "Lanham, MD",
     "fate": "Taken private by GTCR, 2014 ($446M)",
-    "tagline": "A Beacon for the Message",
-    "dek": "Online public relations software for managing media lists, press releases and news monitoring.",
-    "lede": "Vocus gave public relations teams their software. Its online service kept databases of journalists and outlets, sent press releases, tracked news coverage and measured results, all in a web browser. It sold to corporations, agencies and government offices by subscription. In 2005, PR work still ran largely on phone calls and spreadsheets, and the move to online tools was just starting.",
+    "tagline": "Press Lists in the Browser",
+    "dek": "Vocus gave public relations teams one place online to find reporters, send releases and track coverage.",
+    "lede": "Public relations work still ran largely on phone calls and spreadsheets when Vocus moved it into a web browser. Its online service kept databases of journalists and outlets, sent press releases, tracked news coverage and measured results. Corporations, agencies and government offices paid for it by subscription, which made its revenue steady and predictable. Vocus filed to go public in 2005, as the move to online tools was just starting.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Rick Rudman and Bob Lentz founded the company in 1992. They bet that public relations, a craft run on personal contacts, would adopt software for its daily work. Vocus moved to a hosted subscription model early, and later bought PRWeb, the online press release service. Its customers ranged from small agencies to large corporations and government offices. Subscriptions made its revenue steady and predictable."
+        "heading": "Rolodex to Database",
+        "body": "Rick Rudman and Bob Lentz founded the company in 1992. They bet that public relations, a craft run on personal contacts and phone calls, would adopt software for its daily work. Vocus moved early to a hosted model and sold it by subscription. Later it bought PRWeb, the online press release service. Its customers ranged from small agencies to large corporations and government offices."
       },
       {
-        "heading": "After the Offering",
-        "body": "Vocus priced its IPO at $9 a share in December 2005 on the Nasdaq. It grew steadily and added marketing tools for small businesses, with mixed results. In 2014 the private equity firm GTCR took Vocus private for about $446 million and combined it with Cision. The combined company kept the Cision name and became one of the largest providers of public relations software in the world."
+        "heading": "Folded Into Cision",
+        "body": "Vocus priced its IPO at $9 a share in December 2005 on the Nasdaq. It grew steadily and added marketing tools for small businesses, with mixed results. In 2014 the private equity firm GTCR took Vocus private for about $446 million and combined it with Cision. The combined company kept the Cision name. It became one of the largest providers of public relations software in the world."
       }
     ],
     "cover": {
@@ -1680,17 +1680,17 @@
     "founded": 1998,
     "hq": "New York, NY",
     "fate": "Acquired by Internet Brands (KKR), 2017 ($2.8B)",
-    "tagline": "The Doctor Will See You Online",
-    "dek": "The leading consumer health information website, funded by advertising from drug makers and health companies.",
-    "lede": "WebMD was where Americans went to look up their symptoms. Its site explained conditions, drugs and treatments in plain language, and its sister site Medscape served doctors. Pharmaceutical and health companies paid to advertise to these readers. In 2005 the company was a unit of Emdeon, the former Healtheon/WebMD, and this offering sold a minority stake in its online health business.",
+    "tagline": "Looking Up Your Symptoms",
+    "dek": "WebMD explained conditions, drugs and treatments in plain language to anyone who searched their symptoms.",
+    "lede": "When WebMD Health went public in 2005, it was a unit of Emdeon, the company once called Healtheon/WebMD, and the offering sold only a minority stake. By then its site was where Americans went to look up their symptoms. It explained conditions, drugs and treatments in plain language. Its sister site, Medscape, served doctors. Drug makers and health companies paid to advertise to both audiences.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "WebMD came out of the dot-com era, when Jeff Arnold founded it in 1998 and it merged with Jim Clark's Healtheon. The early dream was to wire the whole health care system. What lasted was simpler: a trusted source of health information for consumers, paid for by advertising and sponsorships. Its consumer site and Medscape together gave it reach to both patients and doctors."
+        "heading": "What Survived the Dot-Com Dream",
+        "body": "WebMD came out of the dot-com era. Jeff Arnold founded it in 1998, and it soon merged with Jim Clark's Healtheon. The early dream was to wire the whole health care system. What lasted was simpler: a trusted source of health information for consumers, paid for by advertising and sponsorships. The consumer site and Medscape together gave it reach to both patients and doctors."
       },
       {
-        "heading": "After the Offering",
-        "body": "WebMD Health priced its IPO at $17.50 a share in September 2005 on the Nasdaq. It later became fully independent of its parent and stayed the top health site for years. In 2017 Internet Brands, owned by KKR, bought WebMD for about $2.8 billion. The site remains one of the most visited health information sources in the United States. Its brand is still widely known."
+        "heading": "The Internet Brands Deal",
+        "body": "WebMD Health priced its IPO at $17.50 a share in September 2005 on the Nasdaq. It later became fully independent of its parent and stayed the top health site for years. In 2017 Internet Brands, another company in this directory and by then owned by KKR, bought WebMD for about $2.8 billion. The site remains one of the most visited health information sources in the United States."
       }
     ],
     "cover": {
@@ -1712,17 +1712,17 @@
     "founded": null,
     "hq": "Atlanta, GA",
     "fate": "Acquired by Concur, 2013",
-    "tagline": "Behind Every Ticket",
-    "dek": "Transaction processing, data and reservation technology for travel agencies and corporate travel programs.",
-    "lede": "TRX worked behind the scenes of business travel. It processed bookings and transactions for travel agencies and corporate travel managers, provided reservation and customer support services, and offered data tools that showed companies how their employees traveled. In 2005 online booking was spreading, and travel agencies were outsourcing more of their back-office work. Its customers included large travel agencies and corporations.",
+    "tagline": "The Back Office of Business Travel",
+    "dek": "TRX handled the routine work behind business trips, so travel agencies and corporations did not have to.",
+    "lede": "TRX tried to go public in 2001, pulled the deal when markets turned, and finally listed in 2005. It worked behind the scenes of business travel. TRX processed bookings and transactions for travel agencies and corporate travel managers, and it ran reservation and customer support services. Its data tools showed companies how their employees traveled. By 2005 online booking was spreading, and travel agencies were outsourcing more of their back-office work.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "TRX bet that travel agencies and corporations would hand off the routine, high-volume work of processing travel to a specialist. It combined hosted technology with call centers and processing staff. Over time it put more weight on travel data, helping companies track spending and negotiate with airlines and hotels. Its corporate travel data business showed companies where their money went and where they could save."
+        "heading": "Call Centers and Data",
+        "body": "TRX bet that travel agencies and corporations would hand off the routine, high-volume work of processing travel to a specialist. It combined hosted technology with call centers and processing staff. Over time it put more weight on travel data. Its corporate data business showed companies where their travel money went and where they could save. That data also gave them leverage to negotiate with airlines and hotels."
       },
       {
-        "heading": "After the Offering",
-        "body": "TRX priced its IPO at $9 a share in September 2005 on the Nasdaq. It spent several years as a small public company while it shifted toward travel data. In 2013 Concur, the travel and expense software maker, acquired TRX. Concur, which SAP bought the following year, folded TRX's travel data tools into its own corporate travel products. Its data tools lived on inside Concur."
+        "heading": "Absorbed by Concur",
+        "body": "TRX priced its IPO at $9 a share in September 2005 on the Nasdaq, below the $11 to $13 range it first planned. It spent several years as a small public company while it shifted toward travel data. In 2013 Concur, the travel and expense software maker, acquired TRX. Concur folded TRX's travel data tools into its own corporate travel products. SAP bought Concur the following year."
       }
     ],
     "cover": {
@@ -1744,17 +1744,17 @@
     "founded": 1996,
     "hq": "Minneapolis, MN",
     "fate": "Acquired by Integra Telecom, 2007 ($710M)",
-    "tagline": "Flying in Formation",
-    "dek": "A regional phone and internet carrier serving small and midsize businesses in the western United States.",
-    "lede": "Eschelon Telecom sold phone lines, internet access and phone systems to small and midsize businesses. It operated in cities across the West and Midwest, from Minneapolis to Seattle and Phoenix, competing with the large regional Bell company. It filed to go public in 2005, after the telecom crash had wiped out many of its peers. Its customers were mostly small and midsize businesses in growing cities.",
+    "tagline": "A Survivor of the Telecom Crash",
+    "dek": "Eschelon gave small businesses in the West and Midwest one local provider for phones and internet.",
+    "lede": "Eschelon Telecom filed to go public in 2005, after the telecom crash had wiped out many of its peers. It sold phone lines, internet access and phone systems to small and midsize businesses. It operated in cities across the West and Midwest, from Minneapolis to Seattle and Phoenix. In each of them, it competed with the large regional Bell company for the same customers.",
     "sections": [
       {
-        "heading": "The Original Bet",
-        "body": "Eschelon began in 1996, soon after the Telecommunications Act opened local phone markets to competition. Its bet was that small businesses wanted one local provider with good service for all their communications. It leased parts of the incumbent's network and bundled phone equipment with its lines. Like many competitive carriers of its era, it depended on access rules that regulators could change."
+        "heading": "Opened by the Telecom Act",
+        "body": "Eschelon began in 1996, soon after the Telecommunications Act opened local phone markets to competition. Its bet was that small businesses wanted one local provider with good service for all their communications. Eschelon leased parts of the incumbent's network instead of building every line itself. It bundled phone equipment with its lines. Like many competitive carriers of its era, it depended on access rules that regulators could change."
       },
       {
-        "heading": "After the Offering",
-        "body": "Eschelon priced its IPO at $14 a share in August 2005 on the Nasdaq. It grew through acquisitions of smaller carriers. In 2007 Integra Telecom bought Eschelon for about $710 million, including debt. The merger made Integra one of the largest competitive carriers in the western United States. The Eschelon name faded as its customers and networks were folded into Integra."
+        "heading": "Bought by Integra",
+        "body": "Eschelon priced its IPO at $14 a share in August 2005 on the Nasdaq, below its planned range of $15 to $17. It grew through acquisitions of smaller carriers. In 2007 Integra Telecom bought Eschelon for about $710 million, including debt. The merger made Integra one of the largest competitive carriers in the western United States. The Eschelon name faded as its customers and networks moved into Integra."
       }
     ],
     "cover": {
