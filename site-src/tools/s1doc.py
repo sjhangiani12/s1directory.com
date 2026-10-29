@@ -95,6 +95,14 @@ def text_to_html(text):
             out.append(f'<h2 id="{hid}">{html_escape(title(joined))}</h2>')
         else:
             out.append("<p>" + html_escape(re.sub(r"\s+", " ", joined)) + "</p>")
+    joined = []
+    for o in out:
+        prev = joined[-1] if joined else ""
+        if prev.startswith("<p>") and o.startswith("<p>") and len(prev) > 27 and not ENDS.search(prev[3:-4]):
+            joined[-1] = prev[:-4] + " " + o[3:]
+        else:
+            joined.append(o)
+    out = joined
     start = trim_toc(toc)
     if start is not toc and start:
         cut = out.index(next(o for o in out if f'id="{start[0][0]}"' in o))
@@ -274,8 +282,11 @@ def html_to_clean(raw, base_url):
     for el in body.find_all(["p", "div"]):
         if el.find(["p", "div", "table", "h2"]):
             continue
-        text = re.sub(r"\s+", " ", el.get_text(" ", strip=True))
+        tight = re.sub(r"\s+", " ", el.get_text("")).strip()
+        text = tight if " " in tight or len(tight) < 25 else re.sub(r"\s+", " ", el.get_text(" ", strip=True))
         if not (3 <= len(text) < 110) or text.endswith((".", ",", ";", ":")) or PAGE_NO.match(text):
+            continue
+        if re.sub(r"[^a-z]", "", text.lower()) == "tableofcontents":  # a page stamp, never a section
             continue
         if is_bold(el):
             level = 2 if text.upper() == text and re.search(r"[A-Z]{3}", text) else 3
@@ -313,6 +324,18 @@ def html_to_clean(raw, base_url):
         t["loading"] = "lazy"
     for t in body.find_all("table"):
         clean_table(t)
+    for t in body.find_all("table"):
+        if t.parent is None:
+            continue
+        rows = t.find_all("tr")
+        if rows and all(len(r.find_all(["td", "th"], recursive=False)) <= 1 for r in rows):
+            for cell in t.find_all(["td", "th"]):
+                cell.unwrap()
+            for r in t.find_all("tr"):
+                r.unwrap()
+            for x in t.find_all(["tbody", "thead", "tfoot"]):
+                x.unwrap()
+            t.unwrap()
     for t in body.find_all(["p", "div"]):
         text = t.get_text(" ", strip=True)
         if (not text and not t.find("img")) or PAGE_NO.match(text or "x"):
@@ -329,9 +352,33 @@ def html_to_clean(raw, base_url):
     # running page headers ("Table of Contents" back-links) and headings repeated under their own title
     flat = lambda el: re.sub(r"[^a-z0-9]", "", el.get_text().lower())
     toc_ids = {t[0] for t in (doc_toc or toc)}
-    for el in body.find_all(["h2", "h3", "p"]):
-        if el.parent is not None and flat(el) == "tableofcontents" and el.get("id") not in toc_ids:
+    for el in body.find_all(True):
+        if el.parent is None or el.name in ("table", "tr") or el.get("id") in toc_ids:
+            continue
+        if flat(el) == "tableofcontents" and not el.find(id=lambda i: i in toc_ids):
+            parent = el.parent
             el.decompose()
+            # drop wrappers the stamp leaves empty (e.g. <h5><a>Table of Contents</a></h5>)
+            while parent is not None and parent is not body and parent.name not in ("table", "td", "tr") \
+                    and not parent.get_text(strip=True) and not parent.find("img"):
+                up = parent.parent
+                parent.decompose()
+                parent = up
+    for t in body.find_all(["h1", "h4", "h5", "h6"]):
+        t.name = "h3"
+    # typesetter metadata between pages (e.g. ZEQ.=1,SEQ=6,...,FOLIO='1') and empty page anchors
+    for node in body.find_all(string=re.compile(r"\bSEQ=\d+.*(?:FOLIO|CHK)=|\bZEQ\.=")):
+        node.extract()
+    for a in body.find_all("a"):
+        if a.parent is not None and not a.get_text(strip=True) and not a.find("img") and a.get("id") not in toc_ids:
+            a.decompose()
+    for br in body.find_all("br"):  # page-break gaps between blocks
+        prev = br.find_previous_sibling()
+        if br.parent is body or (prev is not None and prev.name == "br"):
+            br.decompose()
+    for t in body.find_all(["p", "h2", "h3"]):
+        if t.parent is not None and not t.get_text(strip=True) and not t.find("img") and t.get("id") not in toc_ids:
+            t.decompose()
     for h in body.find_all("h2"):
         nxt = h.find_next_sibling()
         while nxt is not None and nxt.name in ("h3", "p") and flat(nxt) == flat(h):
