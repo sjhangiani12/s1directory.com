@@ -3,7 +3,7 @@
 Run from the repo root:  .venv/bin/python site-src/build.py [--covers]
 --covers re-renders every cover image (otherwise only missing ones are made).
 """
-import glob, hashlib, html, json, math, os, re, shutil, sys
+import glob, gzip, hashlib, html, json, math, os, re, shutil, sys
 from datetime import datetime
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "tools"))
@@ -132,7 +132,7 @@ FAVICON = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">'
            f'{MARK}</svg>')
 
 
-def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/", og_image="/covers/amazon-com-inc.jpg"):
+def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/", og_image="/covers/amazon-com-inc.jpg", ld=None):
     nav_items = [("Library", "/#library"), ("Directory", "/directory/"), ("About", "/about/")]
     links = "".join(
         f'<a href="{href}"{" aria-current=page" if name == current else ""}>{name}</a>' for name, href in nav_items
@@ -151,6 +151,9 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:image" content="{SITE}{og_image}">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="{"article" if ld else "website"}">
+<meta property="og:url" content="{SITE}{canonical}">
+<meta property="og:site_name" content="S1 Directory">{"" if not ld else chr(10) + '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace("</", "<\\/") + "</script>"}
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -238,6 +241,39 @@ def build_directory(books):
                 current="Directory", body_attrs='data-page-size="30"', canonical="/directory/")
 
 
+def ipo_phrase(b):
+    d = f"{b['dt']:%B} {b['dt'].day}, {b['dt'].year}"
+    return f"its {d} IPO at ${b['price']:.2f} a share" if b.get("price") else f"its IPO (S-1 filed {d})"
+
+
+def book_ld(b, kind):
+    """schema.org data so search engines know this page is a company's S-1."""
+    url = f"{SITE}/s1/{b['slug']}/" + ("read/" if kind == "read" else "")
+    org = {"@type": "Organization", "name": b["name"], "alternateName": b["display"]}
+    if b.get("ticker"):
+        org["tickerSymbol"] = b["ticker"]
+    if b.get("founded"):
+        org["foundingDate"] = str(b["founded"])
+    if b.get("founders"):
+        org["founder"] = [{"@type": "Person", "name": n} for n in b["founders"]]
+    crumbs = {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "S1 Directory", "item": f"{SITE}/"},
+        {"@type": "ListItem", "position": 2, "name": "Directory", "item": f"{SITE}/directory/"},
+        {"@type": "ListItem", "position": 3, "name": f"{b['display']} S-1", "item": f"{SITE}/s1/{b['slug']}/"}]}
+    if kind == "read":
+        crumbs["itemListElement"].append({"@type": "ListItem", "position": 4, "name": "Read the S-1", "item": url})
+        doc = {"@type": "DigitalDocument", "name": f"{b['display']} Form S-1 registration statement", "url": url,
+               "about": org, "dateCreated": f"{b['dt']:%Y-%m-%d}", "isBasedOn": b["s1"], "inLanguage": "en"}
+        if pdf_url(b):
+            doc["encoding"] = {"@type": "MediaObject", "contentUrl": pdf_url(b), "encodingFormat": "application/pdf"}
+        return {"@context": "https://schema.org", "@graph": [doc, crumbs]}
+    art = {"@type": "Article", "headline": f"{b['display']} S-1: {b['tagline']}", "description": b["dek"], "url": url,
+           "image": f"{SITE}/covers/{b['slug']}.jpg", "about": org, "datePublished": f"{b['dt']:%Y-%m-%d}",
+           "author": {"@type": "Person", "name": "Sharan Jhangiani", "url": "https://sharanjhangiani.com"},
+           "publisher": {"@type": "Organization", "name": "S1 Directory", "url": f"{SITE}/"}}
+    return {"@context": "https://schema.org", "@graph": [art, crumbs]}
+
+
 def build_article(b, prev, nxt):
     c = b["cover"]
     dl = [("Space", e(b["space"]))]
@@ -273,7 +309,7 @@ def build_article(b, prev, nxt):
 
     body = f"""
 <div class="doc">
-  <aside class="l"><h1>{e(b["display"])}</h1><dl>{dl_html}</dl></aside>
+  <aside class="l"><h1>{e(b["display"])} <span class="h1s">S-1</span></h1><dl>{dl_html}</dl></aside>
   <main>
     <div class="ttl"><h2>{e(b["tagline"])}</h2>
       <div class="polaroids" aria-hidden="true"><div style="background-image:url(/covers/art/{b['slug']}.jpg)"></div><div style="background-image:url(/covers/sm/{b['slug']}.jpg)"></div><div style="background-image:url(/covers/crop/{b['slug']}.jpg)"></div></div>
@@ -290,8 +326,9 @@ def build_article(b, prev, nxt):
     <a class="cta" href="{read_url(b)}"{ext(b)}>{read_label(b)} &rarr;</a>{f'<a class="cta pdf" href="{pdf_url(b)}" download>Download PDF &darr;</a>' if pdf_url(b) else ""}</div></aside>
 </div>
 """
-    return page(f"{b['display']} S-1 ({b['dt'].year}) — S1 Directory", body, b["dek"], body_cls="article",
-                canonical=f"/s1/{b['slug']}/", og_image=f"/covers/{b['slug']}.jpg")
+    return page(f"{b['display']} S-1 Filing ({b['dt'].year} IPO) | S1 Directory", body,
+                f"{b['display']}'s S-1 (S1) filing for {ipo_phrase(b)}. {b['dek']} Read the full prospectus or download the PDF.",
+                body_cls="article", canonical=f"/s1/{b['slug']}/", og_image=f"/covers/{b['slug']}.jpg", ld=book_ld(b, "book"))
 
 
 _PDFS = None
@@ -333,6 +370,31 @@ def ext(b):
     return "" if has_reader(b) else ' target="_blank" rel="noopener"'
 
 
+def reader_excerpt(b, limit=24000):
+    """The prospectus summary as static HTML, so the S-1 text is in the page source (the script swaps in the
+    full filing). Data tables are left out; the cut falls at a paragraph end."""
+    doc = json.load(gzip.open(os.path.join(ROOT, "s1", b["slug"], "s1.json.gz"), "rt", encoding="utf-8"))
+    html, toc = doc["html"], doc.get("toc") or []
+    start = 0
+    for hid, label, _ in toc:
+        if re.search(r"summary", label, re.I):
+            m = re.search(rf'<h2 id="{re.escape(hid)}"', html)
+            if m:
+                start = m.start()
+                break
+    else:
+        first = next((m.start() for m in re.finditer(r'<h2 id="', html)), 0)
+        start = first
+    nxt = re.search(r'<h2 id="', html[start + 10:])
+    end = start + 10 + nxt.start() if nxt else len(html)
+    chunk = re.sub(r"<table.*?</table>", "", html[start:end], flags=re.S)
+    chunk = re.sub(r'<p class="cv">.*?</p>', "", chunk, flags=re.S)
+    if len(chunk) > limit:
+        cut = chunk.rfind("</p>", 0, limit)
+        chunk = chunk[:cut + 4] if cut > 0 else ""
+    return f'<div class="rpre">{chunk}</div>' if chunk.strip() else ""
+
+
 def build_reader(b):
     """The S-1 itself, set for reading. The filing text loads from s1.json.gz next to the book page."""
     body = f"""
@@ -350,15 +412,16 @@ def build_reader(b):
       <div class="rmeta">{"Priced" if b.get("price") else "Filed"} {b["dt"]:%B} {b["dt"].day}, {b["dt"].year}{f" &middot; ${b['price']:.2f} a share" if b.get('price') else ""} &middot; <a href="{e(b['s1'])}" target="_blank" rel="noopener">Original on SEC EDGAR</a>{f' &middot; <a href="{pdf_url(b)}" download>PDF</a>' if pdf_url(b) else ""}</div>
     </header>
     <button class="rlegal" type="button" aria-pressed="true" hidden>Hide legal boilerplate</button>
-    <article class="rdoc"><div class="rload"><span></span>Unbinding the filing&hellip;</div></article>
+    <article class="rdoc">{reader_excerpt(b)}<div class="rload"><span></span>Unbinding the full filing&hellip;</div></article>
   </main>
   <button class="rtoc-btn" type="button" aria-label="Contents">Contents</button>
   <button class="rtop" type="button" aria-label="Back to top">&uarr;</button>
 </div>
 """
-    return page(f"{b['display']} S-1 — read the filing — S1 Directory", body,
-                f"Read {b['display']}'s S-1, the filing it made before its {b['dt'].year} IPO.",
-                body_cls="read", canonical=f"/s1/{b['slug']}/read/", og_image=f"/covers/{b['slug']}.jpg")
+    return page(f"{b['display']} S-1: Read the Full IPO Prospectus ({b['dt'].year}) | S1 Directory", body,
+                f"Read {b['display']}'s full S-1 (S1) registration statement, filed for {ipo_phrase(b)}, in a clean reader "
+                f"with a table of contents{', or download the PDF' if pdf_url(b) else ''}.",
+                body_cls="read", canonical=f"/s1/{b['slug']}/read/", og_image=f"/covers/{b['slug']}.jpg", ld=book_ld(b, "read"))
 
 
 def build_about(books):
@@ -427,7 +490,10 @@ if __name__ == "__main__":
         write(f"s1/{b['slug']}/index.html", build_article(b, books[i - 1] if i else None, books[i + 1] if i + 1 < len(books) else None))
         if has_reader(b):
             write(f"s1/{b['slug']}/read/index.html", build_reader(b))
-    urls = ["/", "/directory/", "/about/"] + [f"/s1/{b['slug']}/" for b in books]
+    today = datetime.now().strftime("%Y-%m-%d")
+    urls = ["/", "/directory/", "/about/"] + [f"/s1/{b['slug']}/" for b in books] \
+        + [f"/s1/{b['slug']}/read/" for b in books if has_reader(b)]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-          + "".join(f"<url><loc>{SITE}{u}</loc></url>" for u in urls) + "</urlset>\n")
+          + "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>" for u in urls) + "</urlset>\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
     print("built", len(books), "pages")
