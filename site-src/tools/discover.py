@@ -8,6 +8,10 @@ filed before it (so it was not public yet), and is not a SPAC or already in the 
   python site-src/tools/discover.py --since 2018-10-13 --until 2019-12-31
   python site-src/tools/discover.py --write             # also append the results to filings.json
 
+It also finds first-time S-1 / F-1 registrations (companies that filed but have not priced yet,
+like Anthropic in Oct 2026). Those are written with price null and the S-1 filing date. On each
+run, unpriced filings get their 424B4 date and price once the IPO prices.
+
 Prints the candidates as JSON. The writer still decides if each one belongs (see ROUTINE.md).
 """
 import argparse
@@ -96,11 +100,11 @@ def clean_name(s):
     return re.sub(r"[,.]", "", s).replace("  ", " ").strip()
 
 
-def search_424b4(since, until):
+def search_424b4(since, until, forms="424B4"):
     hits, start = [], 0
     while True:
         r = get("https://efts.sec.gov/LATEST/search-index",
-                params={"forms": "424B4", "startdt": since, "enddt": until, "from": start}).json()
+                params={"forms": forms, "startdt": since, "enddt": until, "from": start}).json()
         page = r["hits"]["hits"]
         hits += page
         start += len(page)
@@ -208,7 +212,9 @@ def main():
     known_slugs = {f["slug"] for f in known}
     if os.path.exists(SKIPPED):
         known_ciks |= {str(int(c)) for c in json.load(open(SKIPPED))}
-    since = a.since or (datetime.strptime(max(f["date"] for f in known), "%Y%m%d") + timedelta(days=1)).date().isoformat()
+    # a week of overlap with the newest priced IPO: known CIKs are skipped, so nothing repeats
+    newest = max(f["date"] for f in known if f.get("price"))
+    since = a.since or (datetime.strptime(newest, "%Y%m%d") - timedelta(days=7)).date().isoformat()
     print(f"searching 424B4 filings {since} .. {a.until}", file=sys.stderr)
 
     # first 424B4 per company, tech sector codes only
@@ -263,7 +269,56 @@ def main():
             if done % 25 == 0:
                 print(f"  . {done}/{len(todo)} checked, {len(out)} kept", file=sys.stderr, flush=True)
 
+    # first-time S-1 / F-1 filers in tech: on file, not priced yet
+    filed = []
+    for h in sorted(search_424b4(since, a.until, "S-1,F-1"), key=lambda h: h["_source"]["file_date"]):
+        cik = h["_source"]["ciks"][0]
+        if cik in seen or (h["_source"].get("sics") or [""])[0] not in TECH_SIC or str(int(cik)) in known_ciks:
+            continue
+        seen.add(cik)
+        filed.append(h)
+
+    def check_filed(h):
+        s = h["_source"]
+        cik, fdate = s["ciks"][0], s["file_date"]
+        sub, rows = all_filings(cik)
+        if any(f in ANNUAL or f.startswith("424B") for f, d, _ in rows) or (sub.get("tickers") or []):
+            return None  # already public, or a follow-on registration
+        acc = h["_id"].split(":")[0]
+        name = clean_name(sub.get("name") or s["display_names"][0])
+        return {"name": name, "slug": slugify(name), "date": fdate.replace("-", ""), "sic": s["sics"][0],
+                "ticker": None, "price": None, "cik": str(int(cik)), "sic_description": sub.get("sicDescription"),
+                "s1": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{acc}-index.htm"}
+
+    with ThreadPoolExecutor(6) as pool:
+        for r in pool.map(check_filed, filed):
+            if r and r["slug"] not in known_slugs:
+                out.append(r)
+                print(f"  + S-1 filed: {r['name']} {r['date']} sic {r['sic']}", file=sys.stderr, flush=True)
+
+    # filings that were on file but unpriced: take the 424B4 date, price and ticker once it exists
+    priced = 0
+    for f in known:
+        m = re.search(r"/data/(\d+)/", f.get("s1", ""))
+        if f.get("price") or not m:
+            continue
+        sub, rows = all_filings(m.group(1).zfill(10))
+        b4 = sorted((d, acc) for form, d, acc in rows if form == "424B4")
+        if not b4:
+            continue
+        d, acc = b4[0]
+        recent = sub["filings"]["recent"]
+        doc = (recent["primaryDocument"][recent["accessionNumber"].index(acc)]
+               if acc in recent["accessionNumber"] else f"{acc}.txt")
+        price, _ = offer_terms(m.group(1), acc, doc)
+        if price:
+            f.update(date=d.replace("-", ""), price=price, ticker=(sub.get("tickers") or [f.get("ticker")])[0])
+            priced += 1
+            print(f"  $ priced: {f['name']} {d} ${price}", file=sys.stderr, flush=True)
+
     print(json.dumps(out, indent=2))
+    if a.write and priced and not out:
+        json.dump(known, open(FILINGS, "w"), indent=1)
     if a.write and out:
         keep = ("name", "slug", "date", "sic", "ticker", "price", "s1")
         known += [{k: x[k] for k in keep} for x in out]

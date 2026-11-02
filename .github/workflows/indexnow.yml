@@ -1,0 +1,30 @@
+# Tell Bing, Yandex and other IndexNow engines about new or changed book pages after each deploy.
+name: IndexNow
+on:
+  push:
+    branches: [master]
+    paths: ["s1/**/index.html"]
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Wait for GitHub Pages to publish
+        run: sleep 120
+      - name: Submit changed URLs
+        run: |
+          python3 - <<'PY'
+          import json, subprocess, urllib.request
+          files = subprocess.run(["git", "diff", "--name-only", "HEAD~1", "HEAD", "--", "s1/"],
+                                 capture_output=True, text=True).stdout.split()
+          urls = sorted({"https://www.s1directory.com/" + f.removesuffix("index.html") for f in files if f.endswith("index.html")})
+          print(len(urls), "urls")
+          if urls:
+              body = json.dumps({"host": "www.s1directory.com", "key": "6744289fa8b790a96d12acc298cf4bf8",
+                                 "keyLocation": "https://www.s1directory.com/6744289fa8b790a96d12acc298cf4bf8.txt",
+                                 "urlList": urls + ["https://www.s1directory.com/", "https://www.s1directory.com/sitemap.xml"]}).encode()
+              req = urllib.request.Request("https://api.indexnow.org/indexnow", body, {"Content-Type": "application/json"})
+              print("IndexNow:", urllib.request.urlopen(req).status)
+          PY

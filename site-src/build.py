@@ -339,8 +339,9 @@ def pdf_url(b):
     global _PDFS
     if _PDFS is None:
         _PDFS = set()
-        for name in ("uploaded.txt", "live.txt"):  # live.txt: PDFs already on R2 from an earlier print
-            path = os.path.join(SRC, ".pdf-cache", name)
+        # pdfs.txt is committed so cloud builds keep the links; the .pdf-cache logs are local only
+        for path in (os.path.join(SRC, "pdfs.txt"), os.path.join(SRC, ".pdf-cache", "uploaded.txt"),
+                     os.path.join(SRC, ".pdf-cache", "live.txt")):
             if os.path.exists(path):
                 _PDFS |= set(open(path).read().split())
     return f"https://files.s1directory.com/{b['slug']}.pdf" if b["slug"] in _PDFS else None
@@ -471,7 +472,9 @@ def write(rel, text):
     open(p, "w").write(text)
 
 
-VERSION = datetime.now().strftime("%Y%m%d%H%M")
+# content hash of the CSS and JS: pages change only when the assets do, so weekly PRs stay small
+VERSION = hashlib.sha1(b"".join(open(os.path.join(SRC, "static", f), "rb").read()
+                                for f in ("style.css", "app.js"))).hexdigest()[:10]
 
 if __name__ == "__main__":
     books = load()

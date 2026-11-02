@@ -16,8 +16,11 @@ git checkout -b ipos/$(date +%Y-%m-%d)
 .venv/bin/python site-src/tools/discover.py --write
 ```
 
-This finds 424B4 prospectuses on EDGAR since the newest filing in `filings.json`, keeps first-time
-tech IPOs, and appends them to `filings.json`. Then list the queue (oldest first, at most 20 a run):
+This finds 424B4 prospectuses (priced IPOs) and first-time S-1 / F-1 filings (on file, not priced yet)
+on EDGAR, keeps tech companies, and appends them to `filings.json`. A filed-but-unpriced company gets
+`price: null` and its S-1 date; the site shows it as "S-1 filed · not yet priced". When an unpriced
+company later prices, discovery updates its date, price and ticker in place. If that happens, update
+the `fate` and any "not yet priced" wording in its entry too. Then list the queue (oldest first, at most 20 a run):
 
 ```
 .venv/bin/python site-src/tools/pending.py --limit 20
@@ -30,7 +33,9 @@ If the queue is empty, stop. Do not open a pull request.
 The directory is for real tech and internet companies a reader would care about. For each pending filing:
 
 - **Keep** venture-backed or well-known tech companies, and any company with real press coverage of its IPO.
-- **Skip** shell companies, SPACs, tiny microcaps (roughly under $40M raised), Chinese/HK holding-company
+- An S-1 filer belongs only if it is a company people will search for (real press coverage, known
+  investors, or a large raise). Most S-1 filers are tiny shells: skip them.
+- **Skip** shell companies, SPACs, ETFs and trusts, tiny microcaps (roughly under $40M raised), Chinese/HK holding-company
   microcaps, crypto-mining shells, and companies that are not tech.
 
 For each skip: remove it from `filings.json` and add it to `site-src/skipped.json` as
@@ -51,7 +56,18 @@ file, `site-src/entries-YYYY-MM-DD.json` (today's date).
   and pick only image_ids that are not in that list.
 - Check each cover image downloads: `curl -s -o /dev/null -w "%{http_code}" "https://www.artic.edu/iiif/2/<image_id>/full/843,/0/default.jpg"` must print 200.
 
-## 5. Build and check
+## 5. Build the S-1 readers
+
+```
+.venv/bin/python site-src/tools/readers.py
+.venv/bin/python site-src/tools/qa_readers.py <new slugs>
+```
+
+This converts each new S-1 into `s1/<slug>/s1.json.gz` for the on-site reader. A conversion failure
+is fine (the page links to EDGAR); list it in the PR body. Do not make PDFs: Sharan prints and uploads
+those from a laptop with `tools/pdfs.py --upload`, because R2 needs a Cloudflare login.
+
+## 6. Build and check
 
 ```
 .venv/bin/python site-src/build.py
@@ -60,7 +76,7 @@ file, `site-src/entries-YYYY-MM-DD.json` (today's date).
 The output must say `built N pages` with N equal to the old count plus the new entries. Fix any errors.
 Open two or three of the new `s1/<slug>/index.html` pages and check that the essay and cover are present.
 
-## 6. Open the pull request
+## 7. Open the pull request
 
 Commit everything (the new entries, `filings.json`, `skipped.json`, and the generated site files),
 push the branch, and open a pull request against `master`:
@@ -69,4 +85,5 @@ push the branch, and open a pull request against `master`:
 - Body: a table of the new books (name, ticker, IPO date, price, cover artwork), then the skipped
   companies with reasons, then any fact you could not confirm.
 
-Do not merge it. Sharan reviews and merges.
+Do not merge it. Sharan reviews and merges. On merge, `.github/workflows/indexnow.yml` sends the
+new pages to IndexNow.

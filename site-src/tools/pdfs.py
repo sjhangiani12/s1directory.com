@@ -108,6 +108,8 @@ def main(args):
                     failed.append(f"upload {slug}: {err}")
                 else:
                     log.write(slug + "\n"); log.flush()
+                    with open(os.path.join(SRC, "pdfs.txt"), "a") as tracked:  # committed list the build reads
+                        tracked.write(slug + "\n")
                 if i % 25 == 0:
                     print(f"  {i}/{len(todo)} uploaded", flush=True)
     print(f"finished, {len(failed)} failed", flush=True)
