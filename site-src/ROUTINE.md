@@ -1,7 +1,8 @@
 # Weekly routine: add new IPOs to S1 Directory
 
-A scheduled Claude Code routine follows these steps. The goal is one pull request a week with the
-new books, ready for Sharan to review. Never push to `master`: a push to `master` deploys the live site.
+A scheduled Claude Code routine follows these steps every week. It publishes the new books itself:
+a push to `master` deploys the live site. It falls back to a pull request only when something needs a
+human (see step 7). Never force-push, and never rewrite history on `master`.
 
 ## 1. Set up
 
@@ -76,14 +77,27 @@ those from a laptop with `tools/pdfs.py --upload`, because R2 needs a Cloudflare
 The output must say `built N pages` with N equal to the old count plus the new entries. Fix any errors.
 Open two or three of the new `s1/<slug>/index.html` pages and check that the essay and cover are present.
 
-## 7. Open the pull request
+## 7. Publish, or ask for review
 
-Commit everything (the new entries, `filings.json`, `skipped.json`, and the generated site files),
-push the branch, and open a pull request against `master`:
+Commit everything (the new entries, `filings.json`, `skipped.json`, and the generated site files)
+with the message `Add N new IPOs (<first name>, <second name>, …)`. The body lists the new books
+(name, ticker, IPO date, price) and the skipped companies with reasons.
 
-- Title: `Add N new IPOs (<first name>, <second name>, …)`
-- Body: a table of the new books (name, ticker, IPO date, price, cover artwork), then the skipped
-  companies with reasons, then any fact you could not confirm.
+**Publish** (merge the branch into `master` and push `master`) only when all of these are true:
 
-Do not merge it. Sharan reviews and merges. On merge, `.github/workflows/indexnow.yml` sends the
-new pages to IndexNow.
+- `build.py` finished without errors, and the page count went up by exactly the number of new entries.
+- Every new book has a cover image that downloaded, and an essay with every field from the brief.
+- You confirmed each kept company's IPO date and price (or "S-1 filed, not priced") from EDGAR or
+  a reliable news source. You found no conflicting facts.
+- No existing book's entry changed, except a price update for a filing that priced.
+
+Before the push, run `git pull --rebase origin master` and build again if anything came in.
+
+**Open a pull request instead** (push the branch, PR against `master`, do not merge) when any check
+fails or you are unsure about a fact. Put the reason at the top of the PR body.
+
+If the only changes are new skips in `skipped.json`, publish them with the message
+`Skip N EDGAR filers (no new IPOs this week)`. If nothing changed at all, stop.
+
+After a push to `master`, `.github/workflows/indexnow.yml` sends the new pages to IndexNow.
+New books have no PDF until someone runs `tools/pdfs.py --upload` on a laptop. The reader works without it.
