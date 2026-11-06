@@ -132,6 +132,10 @@ FAVICON = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">'
            f'{MARK}</svg>')
 
 
+# "Brought to you by Cura" on every page. A followed link with descriptive anchor text, for SEO and to send readers to Cura.
+CURA_LINK = '<a href="https://cura.inc/" title="Cura: portfolio management on autopilot for venture funds">Cura</a>'
+
+
 def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/", og_image="/covers/amazon-com-inc.jpg", ld=None):
     nav_items = [("Library", "/#library"), ("Directory", "/directory/"), ("About", "/about/")]
     links = "".join(
@@ -169,7 +173,7 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
   <div class="right"><a class="gh" href="https://github.com/sjhangiani12/s1directory.com">GitHub</a><button class="theme" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"/></svg></button></div>
 </nav>
 {body}
-<footer><span>Made by <a class="by" href="https://sharanjhangiani.com">Sharan Jhangiani</a> &middot; <a href="https://x.com/sjhangiani12" rel="me">X</a> &middot; <a href="https://linkedin.com/in/sharanjhangiani" rel="me">LinkedIn</a></span><span>Filings from <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. Cover art from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> (CC0). Design inspired by <a href="https://chapterone.com">Chapter One</a>.</span></footer>
+<footer><span>Made by <a class="by" href="https://sharanjhangiani.com">Sharan Jhangiani</a> &middot; <a href="https://x.com/sjhangiani12" rel="me">X</a> &middot; <a href="https://linkedin.com/in/sharanjhangiani" rel="me">LinkedIn</a></span><span class="cura">Brought to you by {CURA_LINK}</span><span>Filings from <a href="https://www.sec.gov/edgar">SEC EDGAR</a>. Cover art from the <a href="https://www.artic.edu/open-access">Art Institute of Chicago</a> (CC0). Design inspired by <a href="https://chapterone.com">Chapter One</a>.</span></footer>
 <script src="/assets/app.js?v={VERSION}" defer></script>
 </body>
 </html>
@@ -405,6 +409,7 @@ def build_reader(b):
     <a class="rbook" href="/s1/{b['slug']}/">{book_html(b)}<span><b>{e(b['display'])}</b><small>Back to the book</small></span></a>
     <div class="rtoc-h">Contents</div>
     <nav class="rtoc-list"></nav>
+    <div class="rcura">Brought to you by {CURA_LINK}</div>
   </aside>
   <main class="rmain">
     <header class="rhead">

@@ -367,6 +367,10 @@ footer { padding: 90px var(--gutter) 40px; display: flex; justify-content: space
 footer a:hover { color: var(--ink); }
 footer a.by { color: var(--ink); font: italic 400 16px/1 var(--serif); letter-spacing: -.005em; }
 footer a { text-underline-offset: 3px; }
+footer .cura a { color: var(--ink-2); }
+.rcura { margin-top: 28px; font-size: 11.5px; color: var(--ink-3); }
+.rcura a { color: var(--ink-2); text-underline-offset: 3px; }
+.rcura a:hover { color: var(--ink); }
 
 /* entrance */
 
