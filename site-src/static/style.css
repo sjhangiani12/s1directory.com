@@ -73,6 +73,10 @@ img { display: block; max-width: 100%; }
 .nav .mark { display: flex; align-items: center; gap: 12px; font: 400 24px/1 var(--serif); letter-spacing: -.01em; }
 .nav .mark svg { width: 34px; height: 34px; flex: none; color: var(--ink); transition: transform .6s var(--ease); }
 .nav .mark:hover svg { transform: rotate(-20deg); }
+.nav .brand { position: relative; justify-self: start; }
+.nav .bycura { position: absolute; left: 46px; top: 100%; margin-top: -5px; white-space: nowrap; font-size: 10.5px; letter-spacing: .02em; color: var(--ink-3); }
+.nav .bycura a { color: var(--ink-2); text-underline-offset: 3px; transition: color .2s var(--ease); }
+.nav .bycura a:hover { color: var(--ink); text-decoration: underline; }
 .nav .links { display: flex; gap: clamp(18px, 3.4vw, 50px); font-size: 13.5px; color: var(--ink-2); }
 .nav .links a, .nav .right a { transition: color .2s var(--ease); }
 .nav .links a:hover, .nav .right a:hover { color: var(--ink); }
@@ -89,6 +93,7 @@ img { display: block; max-width: 100%; }
   .nav .links { justify-self: end; gap: 18px; font-size: 14px; }
   .nav .right .gh { display: none; }
   .nav .mark span { display: none; }
+  .nav .bycura { display: none; }
 }
 
 /* ---------- hero ---------- */

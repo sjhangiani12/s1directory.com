@@ -168,7 +168,7 @@ def page(title, body, desc, current="", body_cls="", body_attrs="", canonical="/
 </head>
 <body class="{body_cls}" {body_attrs}>
 <nav class="nav">
-  <a class="mark" href="/">{LOGO}<span>S1 Directory</span></a>
+  <div class="brand"><a class="mark" href="/">{LOGO}<span>S1 Directory</span></a><span class="bycura">Brought to you by {CURA_LINK}</span></div>
   <div class="links">{links}</div>
   <div class="right"><a class="gh" href="https://github.com/sjhangiani12/s1directory.com">GitHub</a><button class="theme" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"/></svg></button></div>
 </nav>
